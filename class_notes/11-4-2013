@@ -12,8 +12,12 @@ door code: 0041
 bathroom-code: 3140#
 
 
+
+
 SOFTWARE
-	tlk.io/dato6 -- talk to Tas...
+	Install py and Libraries
+		https://github.com/dzorlu/GADS/wiki/Guide-to-Installing-Machine-Learning-Libraries-in-Python
+	tlk.io/dato6 -- talk to class...
 	schoology
 	https://generalassemb.ly/online online courses for GA
 	psykit learn

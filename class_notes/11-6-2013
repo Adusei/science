@@ -1,0 +1,74 @@
+
+
+acquire --> parse --> filter --> mine --> represent -->refine --> interact
+^ this works in a circle... iterative process
+
+
+What is big data >
+
+1. o(n^2) algorithm feasible?: small data
+	-- > all of the possible outcomes... if i can wait around for this its small
+	-- > n = number of records in your data set
+	-- > n^2 is a quadritic (ex. loop with in a loop)
+2. fits on one machine: medium data
+3. doesnt fit on one machine: big dat
+
+
+What is Machine Learning?
+
+	Generalization ant Representation
+
+	Supervised problems: making predictions
+	un supervives problems: defining structure
+
+	You must have information about the target variable for supervies
+	You know the dependent variables.. if you don't know the
+
+  							continuous               categorical
+--------------------------------------------------------
+|supervised   |Regression             | classification  |
+|unsupervised |Dimension Reduction    | clustering      |
+--------------------------------------------------------
+
+
+Dimension Reduction 
+	-> matrix reductions to map high dimensional data into lower dimensional feature space
+  -> usually w sparse data sets..
+
+Goal of machine learning Generalization (supervised) and Representation (Unsupervised)
+
+Regression Vs. Classification
+	- classification -> trying to bucket a values
+	- regression -> trying to predict a value
+	- dimension reduction 
+		-> continuous and unsupervised 
+		-> 
+
+	Feature Space:
+		- were does the data live?
+		- dbtable with 3 columns has 3 dimensions (this is the feature space)
+			 -- > recor
+
+
+UNIX HELP
+- man
+- cntl-l: wipes out screen
+- create alias for  ls -alG (ll)
+- install tmux (multiple bash screens)
+- download wget
+- ^ matches beggining of str 
+- # matches end
+- see more here: https://github.com/dzorlu/GADS/wiki/UNIX-Command-Line-Tools---Introduction-to-Data-Science
+	-- > COMPLETE THIS FOR NEXT TIME!
+
+
+Things to check out
+	--> iris data set
+  --> menu meters
+   ---> core-utils (gcut)
+	
+
+Questions for Self:
+-- 
+-- what is a vector...
+-- what is a regression...
