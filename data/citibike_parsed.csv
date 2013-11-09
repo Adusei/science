@@ -1,332 +1,332 @@
-id,stationName,availableDocks,totalDocks,latitude,longitude,statusValue,availableBikes,stAddress1,city,postalCode,location,pct_available
-72,W 52 St & 11 Ave,31,39,40.76727216,-73.99392888,In Service,8,W 52 St & 11 Ave,,,,0.20512820512820512
-79,Franklin St & W Broadway,2,33,40.71911552,-74.00666661,In Service,31,Franklin St & W Broadway,,,,0.9393939393939394
-82,St James Pl & Pearl St,23,26,40.71117416,-74.00016545,In Service,3,St James Pl & Pearl St,,,,0.11538461538461539
-83,Atlantic Ave & Fort Greene Pl,53,62,40.68382604,-73.97632328,In Service,9,Atlantic Ave & Fort Greene Pl,,,,0.14516129032258066
-116,W 17 St & 8 Ave,16,39,40.74177603,-74.00149746,In Service,23,W 17 St & 8 Ave,,,,0.5897435897435898
-119,Park Ave & St Edwards St,12,19,40.69608941,-73.97803415,In Service,7,Park Ave & St Edwards St,,,,0.3684210526315789
-120,Lexington Ave & Classon Ave,19,19,40.68676793,-73.95928168,In Service,0,Lexington Ave & Classon Ave,,,,0.0
-127,Barrow St & Hudson St,21,31,40.73172428,-74.00674436,In Service,10,Barrow St & Hudson St,,,,0.3225806451612903
-128,MacDougal St & Prince St,8,30,40.72710258,-74.00297088,In Service,22,MacDougal St & Prince St,,,,0.7333333333333333
-137,E 56 St & Madison Ave,30,46,40.761628,-73.972924,In Service,16,E 56 St & Madison Ave,,,,0.34782608695652173
-143,Clinton St & Joralemon St,14,24,40.69239502,-73.99337909,In Service,10,Clinton St & Joralemon St,,,,0.4166666666666667
-144,Nassau St & Navy St,6,19,40.69839895,-73.98068914,In Service,13,Nassau St & Navy St,,,,0.6842105263157895
-146,Hudson St & Reade St,31,39,40.71625008,-74.0091059,In Service,8,Hudson St & Reade St,,,,0.20512820512820512
-147,Greenwich St & Warren St,12,33,40.71542197,-74.01121978,In Service,21,Greenwich St & Warren St,,,,0.6363636363636364
-150,E 2 St & Avenue C,31,31,40.7208736,-73.98085795,In Service,0,E 2 St & Avenue C,,,,0.0
-151,Cleveland Pl & Spring St,11,33,40.7218158,-73.99720307,In Service,22,Cleveland Pl & Spring St,,,,0.6666666666666666
-152,Warren St & Church St,3,29,40.71473993,-74.00910627,In Service,26,Warren St & Church St,,,,0.896551724137931
-153,E 40 St & 5 Ave,10,55,40.752062307,-73.9816324043,In Service,45,E 40 St & 5 Ave,,,,0.8181818181818182
-157,Henry St & Atlantic Ave,10,23,40.69089272,-73.99612349,In Service,13,Henry St & Atlantic Ave,,,,0.5652173913043478
-160,E 37 St & Lexington Ave,25,26,40.748238,-73.978311,In Service,1,E 37 St & Lexington Ave,,,,0.038461538461538464
-161,LaGuardia Pl & W 3 St,12,35,40.72917025,-73.99810231,In Service,23,LaGuardia Pl & W 3 St,,,,0.6571428571428571
-164,E 47 St & 2 Ave,46,47,40.75323098,-73.97032517,In Service,1,E 47 St & 2 Ave,,,,0.02127659574468085
-167,E 39 St & 3 Ave,39,45,40.7489006,-73.97604882,In Service,6,E 39 St & 3 Ave,,,,0.13333333333333333
-168,W 18 St & 6 Ave,6,47,40.73971301,-73.99456405,In Service,41,W 18 St & 6 Ave,,,,0.8723404255319149
-173,Broadway & W 49 St,23,51,40.76064679,-73.98442659,In Service,28,Broadway & W 49 St,,,,0.5490196078431373
-174,E 25 St & 1 Ave,25,30,40.7381765,-73.97738662,In Service,5,E 25 St & 1 Ave,,,,0.16666666666666666
-195,Liberty St & Broadway,32,45,40.70905623,-74.01043382,In Service,13,Liberty St & Broadway,,,,0.28888888888888886
-212,W 16 St & The High Line,11,28,40.74334935,-74.00681753,In Service,17,W 16 St & The High Line,,,,0.6071428571428571
-216,Columbia Heights & Cranberry St,21,23,40.70037867,-73.99548059,In Service,2,Columbia Heights & Cranberry St,,,,0.08695652173913043
-217,Old Fulton St,25,39,40.70277159,-73.99383605,In Service,14,Old Fulton St,,,,0.358974358974359
-218,Gallatin Pl & Livingston St,34,38,40.69028437,-73.98707105,In Service,4,Gallatin Pl & Livingston St,,,,0.10526315789473684
-223,W 13 St & 7 Ave,11,33,40.73781509,-73.99994661,In Service,22,W 13 St & 7 Ave,,,,0.6666666666666666
-224,Spruce St & Nassau St,14,31,40.71146364,-74.00552427,In Service,17,Spruce St & Nassau St,,,,0.5483870967741935
-225,W 14 St & The High Line,6,37,40.74195138,-74.00803013,In Service,31,W 14 St & The High Line,,,,0.8378378378378378
-228,E 48 St & 3 Ave,36,55,40.7546011026,-73.971878855,In Service,19,E 48 St & 3 Ave,,,,0.34545454545454546
-229,Great Jones St,19,27,40.72743423,-73.99379025,In Service,8,Great Jones St,,,,0.2962962962962963
-232,Cadman Plaza E & Tillary St,23,23,40.69597683,-73.99014892,In Service,0,Cadman Plaza E & Tillary St,,,,0.0
-233,Joralemon St & Adams St,37,39,40.69246277,-73.98963911,In Service,2,Joralemon St & Adams St,,,,0.05128205128205128
-236,St Marks Pl & 2 Ave,30,39,40.7284186,-73.98713956,In Service,9,St Marks Pl & 2 Ave,,,,0.23076923076923078
-237,E 11 St & 2 Ave,18,39,40.73047309,-73.98672378,In Service,21,E 11 St & 2 Ave,,,,0.5384615384615384
-238,Bank St & Washington St,21,31,40.7361967,-74.00859207,In Service,10,Bank St & Washington St,,,,0.3225806451612903
-239,Willoughby St & Fleet St,28,31,40.69196566,-73.9813018,In Service,3,Willoughby St & Fleet St,,,,0.0967741935483871
-241,DeKalb Ave & S Portland Ave,20,23,40.68981035,-73.97493121,In Service,3,DeKalb Ave & S Portland Ave,,,,0.13043478260869565
-242,Flushing Ave & Carlton Ave,12,23,40.69788349,-73.97350332,In Service,11,Flushing Ave & Carlton Ave,,,,0.4782608695652174
-243,Fulton St & Rockwell Pl,33,39,40.688265,-73.979244,In Service,6,Fulton St & Rockwell Pl,,,,0.15384615384615385
-244,Willoughby Ave & Hall St,23,31,40.69196035,-73.96536851,In Service,8,Willoughby Ave & Hall St,,,,0.25806451612903225
-245,Myrtle Ave & St Edwards St,22,23,40.69327018,-73.97703874,In Service,1,Myrtle Ave & St Edwards St,,,,0.043478260869565216
-247,Perry St & Bleecker St,12,20,40.73535398,-74.00483091,In Service,8,Perry St & Bleecker St,,,,0.4
-248,Laight St & Hudson St,21,23,40.72185379,-74.00771779,In Service,2,Laight St & Hudson St,,,,0.08695652173913043
-249,Harrison St & Hudson St,5,27,40.71870987,-74.0090009,In Service,22,Harrison St & Hudson St,,,,0.8148148148148148
-250,Lafayette St & Jersey St,8,40,40.72456089,-73.99565293,In Service,32,Lafayette St & Jersey St,,,,0.8
-251,Mott St & Prince St,3,27,40.72317958,-73.99480012,In Service,24,Mott St & Prince St,,,,0.8888888888888888
-252,MacDougal St & Washington Sq,9,33,40.73226398,-73.99852205,In Service,24,MacDougal St & Washington Sq,,,,0.7272727272727273
-253,W 13 St & 5 Ave,28,47,40.73543934,-73.99453948,In Service,19,W 13 St & 5 Ave,,,,0.40425531914893614
-254,W 11 St & 6 Ave,7,31,40.73532427,-73.99800419,In Service,24,W 11 St & 6 Ave,,,,0.7741935483870968
-257,Lispenard St & Broadway,22,39,40.71939226,-74.00247214,In Service,17,Lispenard St & Broadway,,,,0.4358974358974359
-258,DeKalb Ave & Vanderbilt Ave,21,23,40.68940747,-73.96885458,In Service,2,DeKalb Ave & Vanderbilt Ave,,,,0.08695652173913043
-259,South St & Whitehall St,30,39,40.70122128,-74.01234218,In Service,9,South St & Whitehall St,,,,0.23076923076923078
-260,Broad St & Bridge St,32,35,40.70365182,-74.01167797,In Service,3,Broad St & Bridge St,,,,0.08571428571428572
-261,Johnson St & Gold St,21,27,40.69474881,-73.98362464,In Service,6,Johnson St & Gold St,,,,0.2222222222222222
-262,Washington Park,23,24,40.69178232,-73.97372989,In Service,1,Washington Park,,,,0.041666666666666664
-263,Elizabeth St & Hester St,15,31,40.71729,-73.996375,In Service,16,Elizabeth St & Hester St,,,,0.5161290322580645
-264,Maiden Ln & Pearl St,14,27,40.70706456,-74.00731853,In Service,13,Maiden Ln & Pearl St,,,,0.48148148148148145
-265,Stanton St & Chrystie St,4,35,40.72229346,-73.99147535,In Service,31,Stanton St & Chrystie St,,,,0.8857142857142857
-266,Avenue D & E 8 St,23,24,40.72368361,-73.97574813,In Service,1,Avenue D & E 8 St,,,,0.041666666666666664
-267,Broadway & W 36 St,49,57,40.75097711,-73.98765428,In Service,8,Broadway & W 36 St,,,,0.14035087719298245
-268,Howard St & Centre St,8,27,40.71910537,-73.99973337,In Service,19,Howard St & Centre St,,,,0.7037037037037037
-270,Adelphi St & Myrtle Ave,19,23,40.69308257,-73.97178913,In Service,4,Adelphi St & Myrtle Ave,,,,0.17391304347826086
-271,Ashland Pl & Hanson Pl,6,39,40.68528172,-73.97805813,In Service,33,Ashland Pl & Hanson Pl,,,,0.8461538461538461
-274,Lafayette Ave & Fort Greene Pl,29,31,40.68691865,-73.976682,In Service,2,Lafayette Ave & Fort Greene Pl,,,,0.06451612903225806
-275,Washington Ave & Greene Ave,14,15,40.68650065,-73.96563307,In Service,1,Washington Ave & Greene Ave,,,,0.06666666666666667
-276,Duane St & Greenwich St,20,25,40.71748752,-74.0104554,In Service,5,Duane St & Greenwich St,,,,0.2
-278,Concord St & Bridge St,15,19,40.69766564,-73.98476437,In Service,4,Concord St & Bridge St,,,,0.21052631578947367
-279,Sands St & Gold St,18,19,40.69986937,-73.98271933,In Service,1,Sands St & Gold St,,,,0.05263157894736842
-280,E 10 St & 5 Ave,9,31,40.73331967,-73.99510132,In Service,22,E 10 St & 5 Ave,,,,0.7096774193548387
-281,Grand Army Plaza & Central Park S,11,59,40.7643971,-73.97371465,In Service,48,Grand Army Plaza & Central Park S,,,,0.8135593220338984
-282,Kent Ave & S 11 St,22,27,40.70827295,-73.96834101,In Service,5,Kent Ave & S 11 St,,,,0.18518518518518517
-284,Greenwich Ave & 8 Ave,32,43,40.7390169121,-74.0026376103,In Service,11,Greenwich Ave & 8 Ave,,,,0.2558139534883721
-285,Broadway & E 14 St,4,47,40.73454567,-73.99074142,In Service,43,Broadway & E 14 St,,,,0.9148936170212766
-289,Monroe St & Classon Ave,12,19,40.6845683,-73.95881081,In Service,7,Monroe St & Classon Ave,,,,0.3684210526315789
-290,2 Ave & E 58 St,28,29,40.76020258,-73.96478473,In Service,1,2 Ave & E 58 St,,,,0.034482758620689655
-291,Madison St & Montgomery St,14,20,40.713126,-73.984844,In Service,6,Madison St & Montgomery St,,,,0.3
-293,Lafayette St & E 8 St,29,55,40.73028666,-73.9907647,In Service,26,Lafayette St & E 8 St,,,,0.4727272727272727
-294,Washington Square E,9,31,40.73049393,-73.9957214,In Service,22,Washington Square E,,,,0.7096774193548387
-295,Pike St & E Broadway,22,24,40.71406667,-73.99293911,In Service,2,Pike St & E Broadway,,,,0.08333333333333333
-296,Division St & Bowery,7,35,40.71413089,-73.9970468,In Service,28,Division St & Bowery,,,,0.8
-297,E 15 St & 3 Ave,3,27,40.734232,-73.986923,In Service,24,E 15 St & 3 Ave,,,,0.8888888888888888
-298,3 Ave & Flatbush Ave,23,35,40.68683208,-73.9796772,In Service,12,3 Ave & Flatbush Ave,,,,0.34285714285714286
-300,Shevchenko Pl & E 6 St,14,55,40.728145,-73.990214,In Service,41,Shevchenko Pl & E 6 St,,,,0.7454545454545455
-301,E 2 St & Avenue B,35,37,40.72217444,-73.98368779,In Service,2,E 2 St & Avenue B,,,,0.05405405405405406
-302,Avenue D & E 3 St,22,23,40.72082834,-73.97793172,In Service,1,Avenue D & E 3 St,,,,0.043478260869565216
-303,Mercer St & Spring St,2,31,40.72362738,-73.99949601,In Service,29,Mercer St & Spring St,,,,0.9354838709677419
-304,Broadway & Battery Pl,28,36,40.70463334,-74.01361706,In Service,8,Broadway & Battery Pl,,,,0.2222222222222222
-305,E 58 St & 3 Ave,19,33,40.76095756,-73.96724467,In Service,14,E 58 St & 3 Ave,,,,0.42424242424242425
-306,Cliff St & Fulton St,21,37,40.70823502,-74.00530063,In Service,16,Cliff St & Fulton St,,,,0.43243243243243246
-307,Canal St & Rutgers St,21,31,40.71427487,-73.98990025,In Service,10,Canal St & Rutgers St,,,,0.3225806451612903
-308,St James Pl & Oliver St,9,27,40.71307916,-73.99851193,In Service,18,St James Pl & Oliver St,,,,0.6666666666666666
-309,Murray St & West St,16,41,40.7149787,-74.013012,In Service,25,Murray St & West St,,,,0.6097560975609756
-310,State St & Smith St,5,35,40.68926942,-73.98912867,In Service,30,State St & Smith St,,,,0.8571428571428571
-311,Norfolk St & Broome St,29,30,40.7172274,-73.98802084,In Service,1,Norfolk St & Broome St,,,,0.03333333333333333
-312,Allen St & E Houston St,30,31,40.722055,-73.989111,In Service,1,Allen St & E Houston St,,,,0.03225806451612903
-313,Washington Ave & Park Ave,16,23,40.69610226,-73.96751037,In Service,7,Washington Ave & Park Ave,,,,0.30434782608695654
-314,Montague St & Clinton St,38,39,40.69424674,-73.99215922,In Service,1,Montague St & Clinton St,,,,0.02564102564102564
-315,South St & Gouverneur Ln,8,29,40.70355377,-74.00670227,In Service,21,South St & Gouverneur Ln,,,,0.7241379310344828
-316,Fulton St & William St,41,43,40.70955958,-74.00653609,In Service,2,Fulton St & William St,,,,0.046511627906976744
-317,E 6 St & Avenue B,21,27,40.72453734,-73.98185424,In Service,6,E 6 St & Avenue B,,,,0.2222222222222222
-318,E 43 St & Vanderbilt Ave,11,31,40.75320159,-73.9779874,In Service,20,E 43 St & Vanderbilt Ave,,,,0.6451612903225806
-319,Park Pl & Church St,12,35,40.71336124,-74.00937622,In Service,23,Park Pl & Church St,,,,0.6571428571428571
-320,Church St & Leonard St,24,39,40.71743998,-74.00583475,In Service,15,Church St & Leonard St,,,,0.38461538461538464
-321,Cadman Plaza E & Red Cross Pl,27,27,40.69991755,-73.98971773,In Service,0,Cadman Plaza E & Red Cross Pl,,,,0.0
-322,Clinton St & Tillary St,28,31,40.696192,-73.991218,In Service,3,Clinton St & Tillary St,,,,0.0967741935483871
-323,Lawrence St & Willoughby St,37,39,40.69236178,-73.98631746,In Service,2,Lawrence St & Willoughby St,,,,0.05128205128205128
-324,DeKalb Ave & Hudson Ave,11,51,40.689888,-73.981013,In Service,40,DeKalb Ave & Hudson Ave,,,,0.7843137254901961
-325,E 19 St & 3 Ave,18,35,40.73624527,-73.98473765,In Service,17,E 19 St & 3 Ave,,,,0.4857142857142857
-326,E 11 St & 1 Ave,25,27,40.72953837,-73.98426726,In Service,2,E 11 St & 1 Ave,,,,0.07407407407407407
-327,Vesey Pl & River Terrace,34,39,40.7153379,-74.01658354,In Service,5,Vesey Pl & River Terrace,,,,0.1282051282051282
-328,Watts St & Greenwich St,15,23,40.72405549,-74.00965965,In Service,8,Watts St & Greenwich St,,,,0.34782608695652173
-329,Greenwich St & N Moore St,21,31,40.72043411,-74.01020609,In Service,10,Greenwich St & N Moore St,,,,0.3225806451612903
-330,Reade St & Broadway,33,39,40.71450451,-74.00562789,In Service,6,Reade St & Broadway,,,,0.15384615384615385
-331,Pike St & Monroe St,19,27,40.71173107,-73.99193043,In Service,8,Pike St & Monroe St,,,,0.2962962962962963
-332,Cherry St,15,24,40.71219906,-73.97948148,In Service,9,Cherry St,,,,0.375
-334,W 20 St & 7 Ave,4,31,40.74238787,-73.99726235,In Service,27,W 20 St & 7 Ave,,,,0.8709677419354839
-335,Washington Pl & Broadway,5,27,40.72903917,-73.99404649,In Service,22,Washington Pl & Broadway,,,,0.8148148148148148
-336,Sullivan St & Washington Sq,7,36,40.73047747,-73.99906065,In Service,29,Sullivan St & Washington Sq,,,,0.8055555555555556
-337,Old Slip & Front St,25,37,40.7037992,-74.00838676,In Service,12,Old Slip & Front St,,,,0.32432432432432434
-339,Avenue D & E 12 St,22,24,40.72580614,-73.97422494,In Service,2,Avenue D & E 12 St,,,,0.08333333333333333
-340,Madison St & Clinton St,15,27,40.71269042,-73.98776323,In Service,12,Madison St & Clinton St,,,,0.4444444444444444
-341,Stanton St & Mangin St,11,18,40.71782143,-73.97628939,In Service,7,Stanton St & Mangin St,,,,0.3888888888888889
-342,Columbia St & Rivington St,26,29,40.71739973,-73.98016555,In Service,3,Columbia St & Rivington St,,,,0.10344827586206896
-343,Clinton Ave & Flushing Ave,2,23,40.69794,-73.96986848,In Service,21,Clinton Ave & Flushing Ave,,,,0.9130434782608695
-344,Monroe St & Bedford Ave,19,23,40.6851443,-73.95380904,In Service,4,Monroe St & Bedford Ave,,,,0.17391304347826086
-345,W 13 St & 6 Ave,7,35,40.73649403,-73.99704374,In Service,28,W 13 St & 6 Ave,,,,0.8
-346,Bank St & Hudson St,9,27,40.73652889,-74.00618026,In Service,18,Bank St & Hudson St,,,,0.6666666666666666
-347,W Houston St & Hudson St,5,35,40.72873888,-74.00748842,In Service,30,W Houston St & Hudson St,,,,0.8571428571428571
-348,W Broadway & Spring St,8,42,40.72490985,-74.00154702,In Service,34,W Broadway & Spring St,,,,0.8095238095238095
-349,Rivington St & Ridge St,20,23,40.71850211,-73.98329859,In Service,3,Rivington St & Ridge St,,,,0.13043478260869565
-350,Clinton St & Grand St,24,28,40.71559509,-73.9870295,In Service,4,Clinton St & Grand St,,,,0.14285714285714285
-351,Front St & Maiden Ln,15,39,40.70530954,-74.00612572,In Service,24,Front St & Maiden Ln,,,,0.6153846153846154
-352,W 56 St & 6 Ave,27,36,40.76340613,-73.97722479,In Service,9,W 56 St & 6 Ave,,,,0.25
-353,S Portland Ave & Hanson Pl,26,27,40.68539567,-73.97431458,In Service,1,S Portland Ave & Hanson Pl,,,,0.037037037037037035
-354,Emerson Pl & Myrtle Ave,17,31,40.69363137,-73.96223558,In Service,14,Emerson Pl & Myrtle Ave,,,,0.45161290322580644
-355,Bayard St & Baxter St,8,43,40.71602118,-73.99974372,In Service,35,Bayard St & Baxter St,,,,0.813953488372093
-356,Bialystoker Pl & Delancey St,16,23,40.71622644,-73.98261206,In Service,7,Bialystoker Pl & Delancey St,,,,0.30434782608695654
-357,E 11 St & Broadway,15,27,40.73261787,-73.99158043,In Service,12,E 11 St & Broadway,,,,0.4444444444444444
-358,Christopher St & Greenwich St,16,36,40.73291553,-74.00711384,In Service,20,Christopher St & Greenwich St,,,,0.5555555555555556
-359,E 47 St & Park Av,25,55,40.75510267,-73.97498696,In Service,30,E 47 St & Park Ave,,,,0.5454545454545454
-360,William St & Pine St,23,39,40.70717936,-74.00887308,In Service,16,William St & Pine St,,,,0.41025641025641024
-361,Allen St & Hester St,38,43,40.71605866,-73.99190759,In Service,5,Allen St & Hester St,,,,0.11627906976744186
-362,Broadway & W 37 St,47,57,40.75172632,-73.98753523,In Service,10,Broadway & W 37 St,,,,0.17543859649122806
-363,West Thames St,44,49,40.70834698,-74.01713445,In Service,5,West Thames St,,,,0.10204081632653061
-364,Lafayette Ave & Classon Ave,25,27,40.68900443,-73.96023854,In Service,2,Lafayette Ave & Classon Ave,,,,0.07407407407407407
-365,Fulton St & Grand Ave,27,31,40.68223166,-73.9614583,In Service,4,Fulton St & Grand Ave,,,,0.12903225806451613
-366,Clinton Ave & Myrtle Ave,24,33,40.693261,-73.968896,In Service,9,Clinton Ave & Myrtle Ave,,,,0.2727272727272727
-367,E 53 St & Lexington Ave,33,33,40.75828065,-73.97069431,In Service,0,E 53 St & Lexington Ave,,,,0.0
-368,Carmine St & 6 Ave,7,39,40.73038599,-74.00214988,In Service,32,Carmine St & 6 Ave,,,,0.8205128205128205
-369,Washington Pl & 6 Ave,10,35,40.73224119,-74.00026394,In Service,25,Washington Pl & 6 Ave,,,,0.7142857142857143
-372,Franklin Ave & Myrtle Ave,25,27,40.694528,-73.958089,In Service,2,Franklin Ave & Myrtle Ave,,,,0.07407407407407407
-373,Willoughby Ave & Walworth St,14,19,40.69331716,-73.95381995,In Service,5,Willoughby Ave & Walworth St,,,,0.2631578947368421
-375,Mercer St & Bleecker St,3,30,40.72679454,-73.99695094,In Service,27,Mercer St & Bleecker St,,,,0.9
-376,John St & William St,39,43,40.70862144,-74.00722156,In Service,4,John St & William St,,,,0.09302325581395349
-377,6 Ave & Canal St,28,47,40.72243797,-74.00566443,In Service,19,6 Ave & Canal St,,,,0.40425531914893614
-379,W 31 St & 7 Ave,15,42,40.749156,-73.9916,In Service,27,W 31 St & 7 Ave,,,,0.6428571428571429
-380,W 4 St & 7 Ave S,16,39,40.73401143,-74.00293877,In Service,23,W 4 St & 7 Ave S,,,,0.5897435897435898
-382,University Pl & E 14 St,9,36,40.73492695,-73.99200509,In Service,27,University Pl & E 14 St,,,,0.75
-383,Greenwich Ave & Charles St,12,39,40.735238,-74.000271,In Service,27,Greenwich Ave & Charles St,,,,0.6923076923076923
-384,Fulton St & Waverly Ave,13,31,40.68317813,-73.9659641,In Service,18,Fulton St & Waverly Ave,,,,0.5806451612903226
-385,E 55 St & 2 Ave,25,29,40.75797322,-73.96603308,In Service,4,E 55 St & 2 Ave,,,,0.13793103448275862
-386,Centre St & Worth St,31,43,40.71494807,-74.00234482,In Service,12,Centre St & Worth St,,,,0.27906976744186046
-387,Centre St & Chambers St,26,39,40.71273266,-74.0046073,In Service,13,Centre St & Chambers St,,,,0.3333333333333333
-388,W 26 St & 10 Ave,30,35,40.749717753,-74.002950346,In Service,5,W 26 St & 10 Ave,,,,0.14285714285714285
-389,Broadway & Berry St,24,27,40.71044554,-73.96525063,In Service,3,Broadway & Berry St,,,,0.1111111111111111
-390,Duffield St & Willoughby St,26,31,40.69221589,-73.9842844,In Service,5,Duffield St & Willoughby St,,,,0.16129032258064516
-391,Clark St & Henry St,31,31,40.69760127,-73.99344559,In Service,0,Clark St & Henry St,,,,0.0
-392,Jay St & Tech Pl,24,32,40.695065,-73.987167,In Service,8,Jay St & Tech Pl,,,,0.25
-393,E 5 St & Avenue C,29,31,40.72299208,-73.97995466,In Service,2,E 5 St & Avenue C,,,,0.06451612903225806
-394,E 9 St & Avenue C,21,32,40.72521311,-73.97768752,In Service,11,E 9 St & Avenue C,,,,0.34375
-395,Bond St & Schermerhorn St,25,30,40.68807003,-73.98410637,In Service,5,Bond St & Schermerhorn St,,,,0.16666666666666666
-396,Lefferts Pl & Franklin Ave,25,25,40.680342423,-73.9557689392,In Service,0,Lefferts Pl & Franklin Ave,,,Bedford-Stuyvesant,0.0
-397,Fulton St & Clermont Ave,24,27,40.68415748,-73.96922273,In Service,3,Fulton St & Clermont Ave,,,,0.1111111111111111
-398,Atlantic Ave & Furman St,25,31,40.69165183,-73.9999786,In Service,6,Atlantic Ave & Furman St,,,,0.1935483870967742
-399,Lafayette Ave & St James Pl,25,27,40.68851534,-73.9647628,In Service,2,Lafayette Ave & St James Pl,,,,0.07407407407407407
-400,Pitt St & Stanton St,14,15,40.71926081,-73.98178024,In Service,1,Pitt St & Stanton St,,,,0.06666666666666667
-401,Allen St & Rivington St,38,42,40.72019576,-73.98997825,In Service,4,Allen St & Rivington St,,,,0.09523809523809523
-402,Broadway & E 22 St,7,42,40.7403432,-73.98955109,In Service,35,Broadway & E 22 St,,,,0.8333333333333334
-403,E 2 St & 2 Ave,9,31,40.72502876,-73.99069656,In Service,22,E 2 St & 2 Ave,,,,0.7096774193548387
-404,9 Ave & W 14 St,18,39,40.7405826,-74.00550867,In Service,21,9 Ave & W 14 St,,,,0.5384615384615384
-405,Washington St & Gansevoort St,25,40,40.739323,-74.008119,In Service,15,Washington St & Gansevoort St,,,,0.375
-406,Hicks St & Montague St,33,34,40.69512845,-73.99595065,In Service,1,Hicks St & Montague St,,,,0.029411764705882353
-407,Henry St & Poplar St,43,43,40.700469,-73.991454,In Service,0,Henry St & Poplar St,,,,0.0
-408,Market St & Cherry St,10,23,40.71076228,-73.99400398,In Service,13,Market St & Cherry St,,,,0.5652173913043478
-409,DeKalb Ave & Skillman St,7,19,40.6906495,-73.95643107,In Service,12,DeKalb Ave & Skillman St,,,,0.631578947368421
-410,Suffolk St & Stanton St,24,35,40.72066442,-73.98517977,In Service,11,Suffolk St & Stanton St,,,,0.3142857142857143
-411,E 6 St & Avenue D,14,23,40.72228087,-73.97668709,In Service,9,E 6 St & Avenue D,,,,0.391304347826087
-412,Forsyth St & Canal St,17,29,40.7158155,-73.99422366,In Service,12,Forsyth St & Canal St,,,,0.41379310344827586
-414,Pearl St & Anchorage Pl,14,24,40.70281858,-73.98765762,In Service,10,Pearl St & Anchorage Pl,,,,0.4166666666666667
-415,Pearl St & Hanover Square,31,42,40.7047177,-74.00926027,In Service,11,Pearl St & Hanover Square,,,,0.2619047619047619
-416,Cumberland St & Lafayette Ave,30,31,40.68753406,-73.97265183,In Service,1,Cumberland St & Lafayette Ave,,,,0.03225806451612903
-417,Barclay St & Church St,17,47,40.71291224,-74.01020234,In Service,30,Barclay St & Church St,,,,0.6382978723404256
-418,Front St & Gold St,20,23,40.70224,-73.982578,In Service,3,Front St & Gold St,,,,0.13043478260869565
-419,Carlton Ave & Park Ave,20,23,40.69580705,-73.97355569,In Service,3,Carlton Ave & Park Ave,,,,0.13043478260869565
-420,Clermont Ave & Lafayette Ave,23,23,40.68764484,-73.96968902,In Service,0,Clermont Ave & Lafayette Ave,,,,0.0
-421,Clermont Ave & Park Ave,18,19,40.69573398,-73.97129668,In Service,1,Clermont Ave & Park Ave,,,,0.05263157894736842
-422,W 59 St & 10 Ave,23,50,40.770513,-73.988038,In Service,27,W 59 St & 10 Ave,,,,0.54
-423,W 54 St & 9 Ave,38,39,40.76584941,-73.98690506,In Service,1,W 54 St & 9 Ave,,,,0.02564102564102564
-426,West St & Chambers St,9,31,40.71754834,-74.01322069,In Service,22,West St & Chambers St,,,,0.7096774193548387
-427,State St,33,59,40.70251526,-74.01427023,In Service,26,State St,,,,0.4406779661016949
-428,E 3 St & 1 Ave,31,31,40.72467721,-73.98783413,In Service,0,E 3 St & 1 Ave,,,,0.0
-430,York St & Jay St,23,27,40.7014851,-73.98656928,In Service,4,York St & Jay St,,,,0.14814814814814814
-431,Hanover Pl & Livingston St,29,30,40.68864636,-73.98263429,In Service,1,Hanover Pl & Livingston St,,,,0.03333333333333333
-432,E 7 St & Avenue A,30,31,40.72621788,-73.98379855,In Service,1,E 7 St & Avenue A,,,,0.03225806451612903
-433,E 13 St & Avenue A,0,39,40.72955361,-73.98057249,In Service,39,E 13 St & Avenue A,,,,1.0
-434,9 Ave & W 18 St,9,27,40.74317449,-74.00366443,In Service,18,9 Ave & W 18 St,,,,0.6666666666666666
-435,W 21 St & 6 Ave,7,47,40.74173969,-73.99415556,In Service,40,W 21 St & 6 Ave,,,,0.851063829787234
-436,Hancock St & Bedford Ave,24,27,40.68216564,-73.95399026,In Service,3,Hancock St & Bedford Ave,,,,0.1111111111111111
-437,Macon St & Nostrand Ave,25,27,40.6809833854,-73.9500479759,In Service,2,Macon St & Nostrand Ave,,,,0.07407407407407407
-438,St Marks Pl & 1 Ave,21,27,40.72779126,-73.98564945,In Service,6,St Marks Pl & 1 Ave,,,,0.2222222222222222
-439,E 4 St & 2 Ave,12,39,40.7262807,-73.98978041,In Service,27,E 4 St & 2 Ave,,,,0.6923076923076923
-440,E 45 St & 3 Ave,28,32,40.75255434,-73.97282625,In Service,4,E 45 St & 3 Ave,,,,0.125
-441,E 52 St & 2 Ave,34,35,40.756014,-73.967416,In Service,1,E 52 St & 2 Ave,,,,0.02857142857142857
-442,W 27 St & 7 Ave,36,51,40.746647,-73.993915,In Service,15,W 27 St & 7 Ave,,,,0.29411764705882354
-443,Bedford Ave & S 9 St,10,23,40.70853074,-73.96408963,In Service,13,Bedford Ave & S 9th St,,,,0.5652173913043478
-444,Broadway & W 24 St,15,52,40.7423543,-73.98915076,In Service,37,Broadway & W 24 St,,,,0.7115384615384616
-445,E 10 St & Avenue A,25,42,40.72740794,-73.98142006,In Service,17,E 10 St & Avenue A,,,,0.40476190476190477
-446,W 24 St & 7 Ave,34,39,40.74487634,-73.99529885,In Service,5,W 24 St & 7 Ave,,,,0.1282051282051282
-447,8 Ave & W 52 St,9,31,40.76370739,-73.9851615,In Service,22,8 Ave & W 52 St,,,,0.7096774193548387
-448,W 37 St & 10 Ave,20,31,40.75660359,-73.9979009,In Service,11,W 37 St & 10 Ave,,,,0.3548387096774194
-449,W 52 St & 9 Ave,29,31,40.76461837,-73.98789473,In Service,2,W 52 St & 9 Ave,,,,0.06451612903225806
-450,W 49 St & 8 Ave,47,59,40.76227205,-73.98788205,In Service,12,W 49 St & 8 Ave,,,,0.2033898305084746
-453,W 22 St & 8 Ave,20,39,40.74475148,-73.99915362,In Service,19,W 22 St & 8 Ave,,,,0.48717948717948717
-454,E 51 St & 1 Ave,26,35,40.75455731,-73.96592976,In Service,9,E 51 St & 1 Ave,,,,0.2571428571428571
-455,1 Ave & E 44 St,37,39,40.75001986,-73.96905301,In Service,2,1 Ave & E 44 St,,,,0.05128205128205128
-456,E 53 St & Madison Ave,21,35,40.7597108,-73.97402311,In Service,14,E 53 St & Madison Ave,,,,0.4
-457,Broadway & W 57 St,19,59,40.76695317,-73.98169333,In Service,40,Broadway & W 57 St,,,,0.6779661016949152
-458,11 Ave & W 27 St,2,31,40.751396,-74.005226,In Service,29,11 Ave & W 27 St,,,,0.9354838709677419
-459,W 18 St & 11 Ave,7,21,40.74522724,-74.00797904,In Service,14,W 18 St & 11 Ave,,,,0.6666666666666666
-460,S 4 St & Wythe Ave,2,23,40.71285887,-73.96590294,In Service,21,S 4 St & Wythe Ave,,,,0.9130434782608695
-461,E 20 St & 2 Ave,3,3,40.73587678,-73.98205027,Not In Service,0,E 20 St & 2 Ave,,,,0.0
-462,W 22 St & 10 Ave,42,47,40.74691959,-74.00451887,In Service,5,W 22 St & 10 Ave,,,,0.10638297872340426
-463,9 Ave & W 16 St,12,25,40.74206539,-74.00443172,In Service,13,9 Ave & W 16 St,,,,0.52
-464,E 56 St & 3 Ave,31,59,40.75934501,-73.96759673,In Service,28,E 56 St & 3 Ave,,,,0.4745762711864407
-465,Broadway & W 41 St,20,39,40.75513557,-73.98658032,In Service,19,Broadway & W 41 St,,,,0.48717948717948717
-466,W 25 St & 6 Ave,27,35,40.74395411,-73.99144871,In Service,8,W 25 St & 6 Ave,,,,0.22857142857142856
-467,Dean St & 4 Ave,11,34,40.68312489,-73.97895137,In Service,23,Dean St & 4 Ave,,,,0.6764705882352942
-468,Broadway & W 55 St,56,59,40.7652654,-73.98192338,In Service,3,Broadway & W 55 St,,,,0.05084745762711865
-469,Broadway & W 53 St,57,57,40.76344058,-73.98268129,In Service,0,Broadway & W 53 St,,,,0.0
-470,W 20 St & 8 Ave,21,37,40.74345335,-74.00004031,In Service,16,W 20 St & 8 Ave,,,,0.43243243243243246
-471,Grand St & Havemeyer St,0,27,40.71286844,-73.95698119,In Service,27,Grand St & Havemeyer St,,,,1.0
-472,E 32 St & Park Ave,36,41,40.7457121,-73.98194829,In Service,5,E 32 St & Park Ave,,,,0.12195121951219512
-473,Rivington St & Chrystie St,23,42,40.72110063,-73.9919254,In Service,19,Rivington St & Chrystie St,,,,0.4523809523809524
-474,5 Ave & E 29 St,25,47,40.7451677,-73.98683077,In Service,22,5 Ave & E 29 St,,,,0.46808510638297873
-475,E 16 St & Irving Pl,9,37,40.73524276,-73.98758561,In Service,28,E 16 St & Irving Pl,,,,0.7567567567567568
-476,E 31 St & 3 Ave,37,47,40.74394314,-73.97966069,In Service,9,E 31 St & 3 Ave,,,,0.19148936170212766
-477,W 41 St & 8 Ave,55,59,40.75640548,-73.9900262,In Service,4,W 41 St & 8 Ave,,,,0.06779661016949153
-478,11 Ave & W 41 St,21,24,40.76030096,-73.99884222,In Service,3,11 Ave & W 41 St,,,,0.125
-479,9 Ave & W 45 St,23,31,40.76019252,-73.9912551,In Service,8,9 Ave & W 45 St,,,,0.25806451612903225
-480,W 53 St & 10 Ave,25,27,40.76669671,-73.99061728,In Service,2,W 53 St & 10 Ave,,,,0.07407407407407407
-481,S 3 St & Bedford Ave,0,25,40.71260486,-73.96264403,In Service,25,S 3 St & Bedford Ave,,,,1.0
-482,W 15 St & 7 Ave,14,39,40.73935542,-73.99931783,In Service,25,W 15 St & 7 Ave,,,,0.6410256410256411
-483,E 12 St & 3 Ave,11,35,40.73223272,-73.98889957,In Service,24,E 12 St & 3 Ave,,,,0.6857142857142857
-484,W 44 St & 5 Ave,40,44,40.75500254,-73.98014437,In Service,4,W 44 St & 5 Ave,,,,0.09090909090909091
-485,W 37 St & 5 Ave,29,39,40.75038009,-73.98338988,In Service,10,W 37 St & 5 Ave,,,,0.2564102564102564
-486,Broadway & W 29 St,29,39,40.7462009,-73.98855723,In Service,10,Broadway & W 29 St,,,,0.2564102564102564
-487,E 20 St & FDR Drive,36,36,40.73314259,-73.97573881,In Service,0,E 20 St & FDR Drive,,,,0.0
-488,W 39 St & 9 Ave,15,41,40.75645824,-73.99372222,In Service,26,W 39 St & 9 Ave,,,,0.6341463414634146
-489,10 Ave & W 28 St,19,37,40.75066386,-74.00176802,In Service,18,10 Ave & W 28 St,,,,0.4864864864864865
-490,8 Ave & W 33 St,12,59,40.751551,-73.993934,In Service,47,8 Ave & W 33 St,,,,0.7966101694915254
-491,E 24 St & Park Ave S,18,53,40.74096374,-73.98602213,In Service,35,E 24 St & Park Ave S,,,,0.660377358490566
-492,W 33 St & 7 Ave,16,49,40.75019995,-73.99093085,In Service,33,W 33 St & 7 Ave,,,,0.673469387755102
-493,W 45 St & 6 Ave,17,34,40.7568001,-73.98291153,In Service,17,W 45 St & 6 Ave,,,,0.5
-494,W 26 St & 8 Ave,7,35,40.74734825,-73.99723551,In Service,28,W 26 St & 8 Ave,,,,0.8
-495,W 47 St & 10 Ave,16,25,40.76269882,-73.99301222,In Service,9,W 47 St & 10 Ave,,,,0.36
-496,E 16 St & 5 Ave,3,3,40.73726186,-73.99238967,Not In Service,0,E 16 St & 5 Ave,,,,0.0
-497,E 17 St & Broadway,6,59,40.73704984,-73.99009296,In Service,53,E 17 St & Broadway,,,,0.8983050847457628
-498,Broadway & W 32 St,23,30,40.74854862,-73.98808416,In Service,7,Broadway & W 32 St,,,,0.23333333333333334
-499,Broadway & W 60 St,18,36,40.76915505,-73.98191841,In Service,18,Broadway & W 60 St,,,PBSC,0.5
-500,Broadway & W 51 St,52,52,40.76228826,-73.98336183,In Service,0,Broadway & W 51 St,,,,0.0
-501,FDR Drive & E 35 St,38,43,40.744219,-73.97121214,In Service,5,FDR Drive & E 35 St,,,,0.11627906976744186
-502,Henry St & Grand St,29,30,40.714215,-73.981346,In Service,1,Henry St & Grand St,,,,0.03333333333333333
-503,E 20 St & Park Ave,3,3,40.73827428,-73.98751968,Not In Service,0,E 20 St & Park Ave,,,,0.0
-504,1 Ave & E 15 St,37,45,40.73221853,-73.98165557,In Service,8,1 Ave & E 15 St,,,,0.17777777777777778
-505,6 Ave & W 33 St,1,34,40.74901271,-73.98848395,In Service,33,6 Ave & W 33 St,,,,0.9705882352941176
-507,E 25 St & 2 Ave,27,47,40.73912601,-73.97973776,In Service,20,E 25 St & 2 Ave,,,,0.425531914893617
-508,W 46 St & 11 Ave,21,24,40.76341379,-73.99667444,In Service,3,W 46 St & 11 Ave,,,,0.125
-509,9 Ave & W 22 St,26,36,40.7454973,-74.00197139,In Service,10,9 Ave & W 22 St,,,,0.2777777777777778
-510,W 51 St & 6 Ave,31,51,40.7606597,-73.98042047,In Service,20,W 51 St & 6 Ave,,,,0.39215686274509803
-511,E 14 St & Avenue B,24,33,40.72938685,-73.97772429,In Service,9,E 14 St & Avenue B,,,,0.2727272727272727
-512,W 29 St & 9 Ave,22,27,40.7500727,-73.99839279,In Service,5,W 29 St & 9 Ave,,,,0.18518518518518517
-513,W 56 St & 10 Ave,21,27,40.768254,-73.988639,In Service,6,W 56 St & 10 Ave,,,,0.2222222222222222
-514,12 Ave & W 40 St,11,33,40.76087502,-74.00277668,In Service,22,12 Ave & W 40 St,,,,0.6666666666666666
-515,W 43 St & 10 Ave,25,35,40.76009437,-73.99461843,In Service,10,W 43 St & 10 Ave,,,,0.2857142857142857
-516,E 47 St & 1 Ave,35,39,40.75206862,-73.96784384,In Service,4,E 47 St & 1 Ave,,,,0.10256410256410256
-517,Pershing Square S,38,59,40.75149263,-73.97798848,In Service,21,Pershing Square S,,,,0.3559322033898305
-518,E 39 St & 2 Ave,37,39,40.74780373,-73.9734419,In Service,2,E 39 St & 2 Ave,,,,0.05128205128205128
-519,Pershing Square N,15,61,40.75188406,-73.97770164,In Service,46,Pershing Square N,,,,0.7540983606557377
-520,W 52 St & 5 Ave,9,39,40.75992262,-73.97648516,In Service,30,W 52 St & 5 Ave,,,,0.7692307692307693
-521,8 Ave & W 31 St,5,67,40.75044999,-73.99481051,In Service,62,8 Ave & W 31 St,,,,0.9253731343283582
-522,E 51 St & Lexington Ave,48,51,40.75714758,-73.97207836,In Service,3,E 51 St & Lexington Ave,,,,0.058823529411764705
-523,W 38 St & 8 Ave,31,51,40.75466591,-73.99138152,In Service,20,W 38 St & 8 Ave,,,,0.39215686274509803
-524,W 43 St & 6 Ave,22,57,40.75527307,-73.98316936,In Service,35,W 43 St & 6 Ave,,,,0.6140350877192983
-525,W 34 St & 11 Ave,14,39,40.75594159,-74.0021163,In Service,25,W 34 St & 11 Ave,,,,0.6410256410256411
-526,E 33 St & 5 Ave,10,43,40.74765947,-73.98490707,In Service,33,E 33 St & 5 Ave,,,,0.7674418604651163
-527,E 33 St & 1 Ave,52,59,40.74315566,-73.97434726,In Service,7,E 33 St & 1 Ave,,,,0.11864406779661017
-528,2 Ave & E 30 St,31,38,40.74290902,-73.97706058,In Service,7,2 Ave & E 30 St,,,,0.18421052631578946
-529,W 42 St & 8 Ave,18,41,40.7575699,-73.99098507,In Service,23,W 42 St & 8 Ave,,,,0.5609756097560976
-531,Forsyth St & Broome St,14,39,40.71893904,-73.99266288,In Service,25,Forsyth St & Broome St,,,,0.6410256410256411
-532,S 5 Pl & S 4 St,33,43,40.710451,-73.960876,In Service,10,S 5 Pl & S 4 St,,,,0.23255813953488372
-533,Broadway & W 39 St,47,50,40.75299641,-73.98721619,In Service,3,Broadway & W 39 St,,,,0.06
-534,Water - Whitehall Plaza,31,31,40.70255065,-74.0127234,In Service,0,Water - Whitehall Plaza,,,,0.0
-536,1 Ave & E 30 St,12,29,40.74144387,-73.97536082,In Service,17,1 Ave & E 30 St,,,,0.5862068965517241
-537,Lexington Ave & E 24 St,30,39,40.74025878,-73.98409214,In Service,9,Lexington Ave & E 24 St,,,,0.23076923076923078
-538,W 49 St & 5 Ave,7,39,40.75795248,-73.97787642,In Service,32,W 49 St & 5 Ave,,,,0.8205128205128205
-539,Metropolitan Ave & Bedford Ave,10,31,40.71534825,-73.96024116,In Service,21,Metropolitan Ave & Bedford Ave,,,,0.6774193548387096
-540,Lexington Ave & E 26 St,27,39,40.74147286,-73.98320928,In Service,12,Lexington Ave & E 26 St,,,,0.3076923076923077
-545,E 23 St & 1 Ave,23,27,40.736502,-73.97809472,In Service,4,E 23 St & 1 Ave,,,,0.14814814814814814
-546,E 30 St & Park Ave S,23,38,40.74444921,-73.98303529,In Service,15,E 30 St & Park Ave S,,,,0.39473684210526316
-2000,Front St & Washington St,27,30,40.70255088,-73.98940236,In Service,3,Front St & Washington St,,,,0.1
-2001,7 Ave & Farragut St,3,15,40.69892054,-73.97332996,In Service,12,7 Ave & Farragut St,,,,0.8
-2002,Wythe Ave & Metropolitan Ave,2,27,40.716887,-73.963198,In Service,25,Wythe Ave & Metropolitan Ave,,,,0.9259259259259259
-2003,1 Ave & E 18 St,27,30,40.73416059,-73.98024289,In Service,3,1 Ave & E 18 St,,,,0.1
-2004,6 Ave & Broome St,16,36,40.724399,-74.004704,In Service,20,6 Ave & Broome St,,,,0.5555555555555556
-2005,Railroad Ave & Kay Ave,10,12,40.70531194,-73.97100056,In Service,2,Railroad Ave & Kay Ave,,,,0.16666666666666666
-2006,Central Park S & 6 Ave,5,49,40.76590936,-73.97634151,In Service,44,Central Park S & 6 Ave,,,,0.8979591836734694
-2008,Little West St & 1 Pl,12,24,40.70569254,-74.01677685,In Service,12,Little West St & 1 Pl,,,,0.5
-2009,Catherine St & Monroe St,9,35,40.71117444,-73.99682619,In Service,26,Catherine St & Monroe St,,,,0.7428571428571429
-2010,Grand St & Greene St,2,39,40.72165481,-74.00234737,In Service,37,Grand St & Greene St,,,,0.9487179487179487
-2012,E 27 St & 1 Ave,35,36,40.739445,-73.976806,In Service,1,E 27 St & 1 Ave,,,,0.027777777777777776
-2017,E 43 St & 2 Ave,36,39,40.75022392,-73.97121414,In Service,3,E 43 St & 2 Ave,,,,0.07692307692307693
-2021,W 45 St & 8 Ave,32,43,40.75929124,-73.98859651,In Service,11,W 45 St & 8 Ave,,,,0.2558139534883721
-2022,E 59 St & Sutton Pl,13,33,40.75849116,-73.95920622,In Service,20,E 59 St & Sutton Pl,,,,0.6060606060606061
-2023,E 55 St & Lexington Ave,35,36,40.75968085,-73.97031366,In Service,1,E 55 St & Lexington Ave,,,,0.027777777777777776
-3002,South End Ave & Liberty St,19,25,40.711512,-74.015756,In Service,6,South End Ave & Liberty St,,,,0.24
+id,stationName,availableDocks,totalDocks,latitude,longitude,statusValue,availableBikes,stAddress1,city,postalCode,location,pct_available,distance_from_request
+72,W 52 St & 11 Ave,26,39,40.76727216,-73.99392888,In Service,13,W 52 St & 11 Ave,,,,0.3333333333333333,2.1591873321421775
+79,Franklin St & W Broadway,14,33,40.71911552,-74.00666661,In Service,19,Franklin St & W Broadway,,,,0.5757575757575758,2.7884475634694796
+82,St James Pl & Pearl St,23,26,40.71117416,-74.00016545,In Service,3,St James Pl & Pearl St,,,,0.11538461538461539,2.0596638853622204
+83,Atlantic Ave & Fort Greene Pl,53,62,40.68382604,-73.97632328,In Service,9,Atlantic Ave & Fort Greene Pl,,,,0.14516129032258066,1.0648681458313896
+116,W 17 St & 8 Ave,11,39,40.74177603,-74.00149746,In Service,28,W 17 St & 8 Ave,,,,0.717948717948718,2.3799577703865835
+119,Park Ave & St Edwards St,12,19,40.69608941,-73.97803415,In Service,7,Park Ave & St Edwards St,,,,0.3684210526315789,0.6483778829809165
+120,Lexington Ave & Classon Ave,16,19,40.68676793,-73.95928168,In Service,3,Lexington Ave & Classon Ave,,,,0.15789473684210525,2.608647630287005
+127,Barrow St & Hudson St,12,31,40.73172428,-74.00674436,In Service,19,Barrow St & Hudson St,,,,0.6129032258064516,2.8502976188886406
+128,MacDougal St & Prince St,7,30,40.72710258,-74.00297088,In Service,23,MacDougal St & Prince St,,,,0.7666666666666667,2.4114747411404975
+137,E 56 St & Madison Ave,34,46,40.761628,-73.972924,In Service,12,E 56 St & Madison Ave,,,,0.2608695652173913,1.785314399080311
+143,Clinton St & Joralemon St,20,24,40.69239502,-73.99337909,In Service,4,Clinton St & Joralemon St,,,,0.16666666666666666,1.4461171411900986
+144,Nassau St & Navy St,5,19,40.69839895,-73.98068914,In Service,14,Nassau St & Navy St,,,,0.7368421052631579,0.451666399331771
+146,Hudson St & Reade St,23,39,40.71625008,-74.0091059,In Service,16,Hudson St & Reade St,,,,0.41025641025641024,3.0545378872610636
+147,Greenwich St & Warren St,14,33,40.71542197,-74.01121978,In Service,19,Greenwich St & Warren St,,,,0.5757575757575758,3.2885704951107564
+150,E 2 St & Avenue C,24,31,40.7208736,-73.98085795,In Service,7,E 2 St & Avenue C,,,,0.22580645161290322,0.26446725962146234
+151,Cleveland Pl & Spring St,17,33,40.7218158,-73.99720307,In Service,16,Cleveland Pl & Spring St,,,,0.48484848484848486,1.752228284908457
+152,Warren St & Church St,3,29,40.71473993,-74.00910627,In Service,26,Warren St & Church St,,,,0.896551724137931,3.0532921306009824
+153,E 40 St & 5 Ave,19,55,40.752062307,-73.9816324043,In Service,36,E 40 St & 5 Ave,,,,0.6545454545454545,1.2063245379899796
+157,Henry St & Atlantic Ave,9,23,40.69089272,-73.99612349,In Service,14,Henry St & Atlantic Ave,,,,0.6086956521739131,1.7434632084148758
+160,E 37 St & Lexington Ave,24,26,40.748238,-73.978311,In Service,2,E 37 St & Lexington Ave,,,,0.07692307692307693,1.1501217418047303
+161,LaGuardia Pl & W 3 St,18,35,40.72917025,-73.99810231,In Service,17,LaGuardia Pl & W 3 St,,,,0.4857142857142857,1.8980168626096827
+164,E 47 St & 2 Ave,45,47,40.75323098,-73.97032517,In Service,2,E 47 St & 2 Ave,,,,0.0425531914893617,1.7674250764126151
+167,E 39 St & 3 Ave,34,45,40.7489006,-73.97604882,In Service,11,E 39 St & 3 Ave,,,,0.24444444444444444,1.2714460300788464
+168,W 18 St & 6 Ave,7,47,40.73971301,-73.99456405,In Service,40,W 18 St & 6 Ave,,,,0.851063829787234,1.657842959948376
+173,Broadway & W 49 St,15,51,40.76064679,-73.98442659,In Service,36,Broadway & W 49 St,,,,0.7058823529411765,1.5018096327919688
+174,E 25 St & 1 Ave,27,30,40.7381765,-73.97738662,In Service,3,E 25 St & 1 Ave,,,,0.1,0.9123218529031268
+195,Liberty St & Broadway,31,45,40.70905623,-74.01043382,In Service,14,Liberty St & Broadway,,,,0.3111111111111111,3.2021617843431374
+212,W 16 St & The High Line,19,28,40.74334935,-74.00681753,In Service,9,W 16 St & The High Line,,,,0.32142857142857145,2.951490578406254
+216,Columbia Heights & Cranberry St,22,23,40.70037867,-73.99548059,In Service,1,Columbia Heights & Cranberry St,,,,0.043478260869565216,1.5843545102343257
+217,Old Fulton St,22,39,40.70277159,-73.99383605,In Service,17,Old Fulton St,,,,0.4358974358974359,1.3896534494057704
+218,Gallatin Pl & Livingston St,35,38,40.69028437,-73.98707105,In Service,3,Gallatin Pl & Livingston St,,,,0.07894736842105263,0.9154730446364627
+223,W 13 St & 7 Ave,10,33,40.73781509,-73.99994661,In Service,23,W 13 St & 7 Ave,,,,0.696969696969697,2.1752665900282993
+224,Spruce St & Nassau St,16,31,40.71146364,-74.00552427,In Service,15,Spruce St & Nassau St,,,,0.4838709677419355,2.6548968327089604
+225,W 14 St & The High Line,1,37,40.74195138,-74.00803013,In Service,36,W 14 St & The High Line,,,,0.972972972972973,3.066755002584752
+228,E 48 St & 3 Ave,40,55,40.7546011026,-73.971878855,In Service,15,E 48 St & 3 Ave,,,,0.2727272727272727,1.680966284816974
+229,Great Jones St,17,27,40.72743423,-73.99379025,In Service,10,Great Jones St,,,,0.37037037037037035,1.4239634250286175
+232,Cadman Plaza E & Tillary St,22,23,40.69597683,-73.99014892,In Service,1,Cadman Plaza E & Tillary St,,,,0.043478260869565216,1.0763473719086696
+233,Joralemon St & Adams St,39,39,40.69246277,-73.98963911,In Service,0,Joralemon St & Adams St,,,,0.0,1.0847907326590938
+236,St Marks Pl & 2 Ave,26,39,40.7284186,-73.98713956,In Service,13,St Marks Pl & 2 Ave,,,,0.3333333333333333,0.7782324655661269
+237,E 11 St & 2 Ave,12,39,40.73047309,-73.98672378,In Service,27,E 11 St & 2 Ave,,,,0.6923076923076923,0.784768686643652
+238,Bank St & Washington St,21,31,40.7361967,-74.00859207,In Service,10,Bank St & Washington St,,,,0.3225806451612903,3.080658927255978
+239,Willoughby St & Fleet St,28,31,40.69196566,-73.9813018,In Service,3,Willoughby St & Fleet St,,,,0.0967741935483871,0.6375945958558071
+241,DeKalb Ave & S Portland Ave,19,23,40.68981035,-73.97493121,In Service,4,DeKalb Ave & S Portland Ave,,,,0.17391304347826086,1.0241738593119558
+242,Flushing Ave & Carlton Ave,12,23,40.69788349,-73.97350332,In Service,11,Flushing Ave & Carlton Ave,,,,0.4782608695652174,1.0118622773794759
+243,Fulton St & Rockwell Pl,33,39,40.688265,-73.979244,In Service,6,Fulton St & Rockwell Pl,,,,0.15384615384615385,0.7957391588907272
+244,Willoughby Ave & Hall St,23,31,40.69196035,-73.96536851,In Service,8,Willoughby Ave & Hall St,,,,0.25806451612903225,1.9166423828601076
+245,Myrtle Ave & St Edwards St,22,23,40.69327018,-73.97703874,In Service,1,Myrtle Ave & St Edwards St,,,,0.043478260869565216,0.7854148179136585
+247,Perry St & Bleecker St,10,20,40.73535398,-74.00483091,In Service,10,Perry St & Bleecker St,,,,0.5,2.6692262623159224
+248,Laight St & Hudson St,21,23,40.72185379,-74.00771779,In Service,2,Laight St & Hudson St,,,,0.08695652173913043,2.9118433221441165
+249,Harrison St & Hudson St,10,27,40.71870987,-74.0090009,In Service,17,Harrison St & Hudson St,,,,0.6296296296296297,3.0464849671840826
+250,Lafayette St & Jersey St,12,40,40.72456089,-73.99565293,In Service,28,Lafayette St & Jersey St,,,,0.7,1.5993672256788432
+251,Mott St & Prince St,8,27,40.72317958,-73.99480012,In Service,19,Mott St & Prince St,,,,0.7037037037037037,1.497595986480995
+252,MacDougal St & Washington Sq,6,33,40.73226398,-73.99852205,In Service,27,MacDougal St & Washington Sq,,,,0.8181818181818182,1.9697524166185116
+253,W 13 St & 5 Ave,29,47,40.73543934,-73.99453948,In Service,18,W 13 St & 5 Ave,,,,0.3829787234042553,1.594055608266354
+254,W 11 St & 6 Ave,9,31,40.73532427,-73.99800419,In Service,22,W 11 St & 6 Ave,,,,0.7096774193548387,1.9463872081132132
+257,Lispenard St & Broadway,19,39,40.71939226,-74.00247214,In Service,20,Lispenard St & Broadway,,,,0.5128205128205128,2.3244512117153144
+258,DeKalb Ave & Vanderbilt Ave,22,23,40.68940747,-73.96885458,In Service,1,DeKalb Ave & Vanderbilt Ave,,,,0.043478260869565216,1.5902285489721675
+259,South St & Whitehall St,29,39,40.70122128,-74.01234218,In Service,10,South St & Whitehall St,,,,0.2564102564102564,3.4304020329911493
+260,Broad St & Bridge St,32,35,40.70365182,-74.01167797,In Service,3,Broad St & Bridge St,,,,0.08571428571428572,3.349993879844209
+261,Johnson St & Gold St,22,27,40.69474881,-73.98362464,In Service,5,Johnson St & Gold St,,,,0.18518518518518517,0.5937956639965477
+262,Washington Park,24,24,40.69178232,-73.97372989,In Service,0,Washington Park,,,,0.0,1.0882815385005709
+263,Elizabeth St & Hester St,15,31,40.71729,-73.996375,In Service,16,Elizabeth St & Hester St,,,,0.5161290322580645,1.6438740670076082
+264,Maiden Ln & Pearl St,13,27,40.70706456,-74.00731853,In Service,14,Maiden Ln & Pearl St,,,,0.5185185185185185,2.859264855567105
+265,Stanton St & Chrystie St,4,35,40.72229346,-73.99147535,In Service,31,Stanton St & Chrystie St,,,,0.8857142857142857,1.1321061102738688
+266,Avenue D & E 8 St,24,24,40.72368361,-73.97574813,In Service,0,Avenue D & E 8 St,,,,0.0,0.735571174729043
+267,Broadway & W 36 St,54,57,40.75097711,-73.98765428,In Service,3,Broadway & W 36 St,,,,0.05263157894736842,1.3501280855319329
+268,Howard St & Centre St,10,27,40.71910537,-73.99973337,In Service,17,Howard St & Centre St,,,,0.6296296296296297,2.020592613859622
+270,Adelphi St & Myrtle Ave,18,23,40.69308257,-73.97178913,In Service,5,Adelphi St & Myrtle Ave,,,,0.21739130434782608,1.2490860227196476
+271,Ashland Pl & Hanson Pl,7,39,40.68528172,-73.97805813,In Service,32,Ashland Pl & Hanson Pl,,,,0.8205128205128205,0.9307392473973974
+274,Lafayette Ave & Fort Greene Pl,26,31,40.68691865,-73.976682,In Service,5,Lafayette Ave & Fort Greene Pl,,,,0.16129032258064516,0.9640183868754766
+275,Washington Ave & Greene Ave,13,15,40.68650065,-73.96563307,In Service,2,Washington Ave & Greene Ave,,,,0.13333333333333333,1.9518019208480384
+276,Duane St & Greenwich St,20,25,40.71748752,-74.0104554,In Service,5,Duane St & Greenwich St,,,,0.2,3.2059140660922005
+278,Concord St & Bridge St,16,19,40.69766564,-73.98476437,In Service,3,Concord St & Bridge St,,,,0.15789473684210525,0.5779444985552218
+279,Sands St & Gold St,17,19,40.69986937,-73.98271933,In Service,2,Sands St & Gold St,,,,0.10526315789473684,0.41211556543966393
+280,E 10 St & 5 Ave,8,31,40.73331967,-73.99510132,In Service,23,E 10 St & 5 Ave,,,,0.7419354838709677,1.6240964076884736
+281,Grand Army Plaza & Central Park S,22,59,40.7643971,-73.97371465,In Service,37,Grand Army Plaza & Central Park S,,,,0.6271186440677966,1.812969867747619
+282,Kent Ave & S 11 St,20,27,40.70827295,-73.96834101,In Service,7,Kent Ave & S 11 St,,,,0.25925925925925924,1.4836707425546678
+284,Greenwich Ave & 8 Ave,30,43,40.7390169121,-74.0026376103,In Service,13,Greenwich Ave & 8 Ave,,,,0.3023255813953488,2.469022299833204
+285,Broadway & E 14 St,6,47,40.73454567,-73.99074142,In Service,41,Broadway & E 14 St,,,,0.8723404255319149,1.2130309359955163
+289,Monroe St & Classon Ave,10,19,40.6845683,-73.95881081,In Service,9,Monroe St & Classon Ave,,,,0.47368421052631576,2.6795210847107587
+290,2 Ave & E 58 St,28,29,40.76020258,-73.96478473,In Service,1,2 Ave & E 58 St,,,,0.034482758620689655,2.372436273411083
+291,Madison St & Montgomery St,16,20,40.713126,-73.984844,In Service,4,Madison St & Montgomery St,,,,0.2,0.356733349344464
+293,Lafayette St & E 8 St,27,55,40.73028666,-73.9907647,In Service,28,Lafayette St & E 8 St,,,,0.509090909090909,1.1484936790325362
+294,Washington Square E,14,31,40.73049393,-73.9957214,In Service,17,Washington Square E,,,,0.5483870967741935,1.657341716850516
+295,Pike St & E Broadway,21,24,40.71406667,-73.99293911,In Service,3,Pike St & E Broadway,,,,0.125,1.2567644225185841
+296,Division St & Bowery,2,35,40.71413089,-73.9970468,In Service,33,Division St & Bowery,,,,0.9428571428571428,1.7131003363212454
+297,E 15 St & 3 Ave,3,27,40.734232,-73.986923,In Service,24,E 15 St & 3 Ave,,,,0.8888888888888888,0.8832340178347187
+298,3 Ave & Flatbush Ave,24,35,40.68683208,-73.9796772,In Service,11,3 Ave & Flatbush Ave,,,,0.3142857142857143,0.8232626690456396
+300,Shevchenko Pl & E 6 St,6,55,40.728145,-73.990214,In Service,49,Shevchenko Pl & E 6 St,,,,0.8909090909090909,1.064065971400502
+301,E 2 St & Avenue B,35,37,40.72217444,-73.98368779,In Service,2,E 2 St & Avenue B,,,,0.05405405405405406,0.3687686063220972
+302,Avenue D & E 3 St,21,23,40.72082834,-73.97793172,In Service,2,Avenue D & E 3 St,,,,0.08695652173913043,0.4808466595707383
+303,Mercer St & Spring St,2,31,40.72362738,-73.99949601,In Service,29,Mercer St & Spring St,,,,0.9354838709677419,2.0126661417780363
+304,Broadway & Battery Pl,25,36,40.70463334,-74.01361706,In Service,11,Broadway & Battery Pl,,,,0.3055555555555556,3.5625584645544537
+305,E 58 St & 3 Ave,11,33,40.76095756,-73.96724467,In Service,22,E 58 St & 3 Ave,,,,0.6666666666666666,2.178783232728184
+306,Cliff St & Fulton St,23,37,40.70823502,-74.00530063,In Service,14,Cliff St & Fulton St,,,,0.3783783783783784,2.6333575254768853
+307,Canal St & Rutgers St,20,31,40.71427487,-73.98990025,In Service,11,Canal St & Rutgers St,,,,0.3548387096774194,0.9196271664606842
+308,St James Pl & Oliver St,8,27,40.71307916,-73.99851193,In Service,19,St James Pl & Oliver St,,,,0.7037037037037037,1.8754011645294573
+309,Murray St & West St,13,41,40.7149787,-74.013012,In Service,28,Murray St & West St,,,,0.6829268292682927,3.4873761244727985
+310,State St & Smith St,0,35,40.68926942,-73.98912867,In Service,35,State St & Smith St,,,,1.0,1.1001386168457612
+311,Norfolk St & Broome St,26,30,40.7172274,-73.98802084,In Service,4,Norfolk St & Broome St,,,,0.13333333333333333,0.7228608852395716
+312,Allen St & E Houston St,31,31,40.722055,-73.989111,In Service,0,Allen St & E Houston St,,,,0.0,0.8785782305077701
+313,Washington Ave & Park Ave,12,23,40.69610226,-73.96751037,In Service,11,Washington Ave & Park Ave,,,,0.4782608695652174,1.6504182136548646
+314,Montague St & Clinton St,39,39,40.69424674,-73.99215922,In Service,0,Montague St & Clinton St,,,,0.0,1.2993598136368087
+315,South St & Gouverneur Ln,9,29,40.70355377,-74.00670227,In Service,20,South St & Gouverneur Ln,,,,0.6896551724137931,2.7996543785952244
+316,Fulton St & William St,38,43,40.70955958,-74.00653609,In Service,5,Fulton St & William St,,,,0.11627906976744186,2.7687521143139295
+317,E 6 St & Avenue B,18,27,40.72453734,-73.98185424,In Service,9,E 6 St & Avenue B,,,,0.3333333333333333,0.36309630339809207
+318,E 43 St & Vanderbilt Ave,15,31,40.75320159,-73.9779874,In Service,16,E 43 St & Vanderbilt Ave,,,,0.5161290322580645,1.3059227597523566
+319,Park Pl & Church St,9,35,40.71336124,-74.00937622,In Service,26,Park Pl & Church St,,,,0.7428571428571429,3.082726879977155
+320,Church St & Leonard St,23,39,40.71743998,-74.00583475,In Service,16,Church St & Leonard St,,,,0.41025641025641024,2.6930004193861463
+321,Cadman Plaza E & Red Cross Pl,27,27,40.69991755,-73.98971773,In Service,0,Cadman Plaza E & Red Cross Pl,,,,0.0,0.980162378167368
+322,Clinton St & Tillary St,26,31,40.696192,-73.991218,In Service,5,Clinton St & Tillary St,,,,0.16129032258064516,1.1792671741975347
+323,Lawrence St & Willoughby St,38,39,40.69236178,-73.98631746,In Service,1,Lawrence St & Willoughby St,,,,0.02564102564102564,0.8126395347451404
+324,DeKalb Ave & Hudson Ave,10,51,40.689888,-73.981013,In Service,41,DeKalb Ave & Hudson Ave,,,,0.803921568627451,0.7036420935779629
+325,E 19 St & 3 Ave,14,35,40.73624527,-73.98473765,In Service,21,E 19 St & 3 Ave,,,,0.6,0.7993742143920978
+326,E 11 St & 1 Ave,14,27,40.72953837,-73.98426726,In Service,13,E 11 St & 1 Ave,,,,0.48148148148148145,0.5927533115783183
+327,Vesey Pl & River Terrace,25,39,40.7153379,-74.01658354,In Service,14,Vesey Pl & River Terrace,,,,0.358974358974359,3.8844051293854633
+328,Watts St & Greenwich St,13,23,40.72405549,-74.00965965,In Service,10,Watts St & Greenwich St,,,,0.43478260869565216,3.1334575834732155
+329,Greenwich St & N Moore St,15,31,40.72043411,-74.01020609,In Service,16,Greenwich St & N Moore St,,,,0.5161290322580645,3.183662548873551
+330,Reade St & Broadway,33,39,40.71450451,-74.00562789,In Service,6,Reade St & Broadway,,,,0.15384615384615385,2.6666901383063064
+331,Pike St & Monroe St,18,27,40.71173107,-73.99193043,In Service,9,Pike St & Monroe St,,,,0.3333333333333333,1.14440332967496
+332,Cherry St,15,24,40.71219906,-73.97948148,In Service,9,Cherry St,,,,0.375,0.23992978392640196
+334,W 20 St & 7 Ave,12,31,40.74238787,-73.99726235,In Service,19,W 20 St & 7 Ave,,,,0.6129032258064516,1.960144437526867
+335,Washington Pl & Broadway,8,27,40.72903917,-73.99404649,In Service,19,Washington Pl & Broadway,,,,0.7037037037037037,1.4670342025392864
+336,Sullivan St & Washington Sq,5,36,40.73047747,-73.99906065,In Service,31,Sullivan St & Washington Sq,,,,0.8611111111111112,2.0113510478833074
+337,Old Slip & Front St,29,37,40.7037992,-74.00838676,In Service,8,Old Slip & Front St,,,,0.21621621621621623,2.985258206866653
+339,Avenue D & E 12 St,22,24,40.72580614,-73.97422494,In Service,2,Avenue D & E 12 St,,,,0.08333333333333333,0.9160906047251655
+340,Madison St & Clinton St,16,27,40.71269042,-73.98776323,In Service,11,Madison St & Clinton St,,,,0.4074074074074074,0.6809195819992261
+341,Stanton St & Mangin St,13,18,40.71782143,-73.97628939,In Service,5,Stanton St & Mangin St,,,,0.2777777777777778,0.6143469688335946
+342,Columbia St & Rivington St,21,29,40.71739973,-73.98016555,In Service,8,Columbia St & Rivington St,,,,0.27586206896551724,0.21739547582828914
+343,Clinton Ave & Flushing Ave,2,23,40.69794,-73.96986848,In Service,21,Clinton Ave & Flushing Ave,,,,0.9130434782608695,1.3840338935287453
+344,Monroe St & Bedford Ave,20,23,40.6851443,-73.95380904,In Service,3,Monroe St & Bedford Ave,,,,0.13043478260869565,3.2059882834950506
+345,W 13 St & 6 Ave,11,35,40.73649403,-73.99704374,In Service,24,W 13 St & 6 Ave,,,,0.6857142857142857,1.8607871846097737
+346,Bank St & Hudson St,8,27,40.73652889,-74.00618026,In Service,19,Bank St & Hudson St,,,,0.7037037037037037,2.8233729411703803
+347,W Houston St & Hudson St,3,35,40.72873888,-74.00748842,In Service,32,W Houston St & Hudson St,,,,0.9142857142857143,2.914494697711822
+348,W Broadway & Spring St,1,42,40.72490985,-74.00154702,In Service,41,W Broadway & Spring St,,,,0.9761904761904762,2.243943625347469
+349,Rivington St & Ridge St,23,23,40.71850211,-73.98329859,In Service,0,Rivington St & Ridge St,,,,0.0,0.2560251951492936
+350,Clinton St & Grand St,26,28,40.71559509,-73.9870295,In Service,2,Clinton St & Grand St,,,,0.07142857142857142,0.6058175873248489
+351,Front St & Maiden Ln,16,39,40.70530954,-74.00612572,In Service,23,Front St & Maiden Ln,,,,0.5897435897435898,2.7309163140882973
+352,W 56 St & 6 Ave,19,36,40.76340613,-73.97722479,In Service,17,W 56 St & 6 Ave,,,,0.4722222222222222,1.6298392316872912
+353,S Portland Ave & Hanson Pl,25,27,40.68539567,-73.97431458,In Service,2,S Portland Ave & Hanson Pl,,,,0.07407407407407407,1.1680739870354957
+354,Emerson Pl & Myrtle Ave,16,31,40.69363137,-73.96223558,In Service,15,Emerson Pl & Myrtle Ave,,,,0.4838709677419355,2.2340088596507135
+355,Bayard St & Baxter St,5,43,40.71602118,-73.99974372,In Service,38,Bayard St & Baxter St,,,,0.8837209302325582,2.0147896431070387
+356,Bialystoker Pl & Delancey St,14,23,40.71622644,-73.98261206,In Service,9,Bialystoker Pl & Delancey St,,,,0.391304347826087,0.15268591274143908
+357,E 11 St & Broadway,16,27,40.73261787,-73.99158043,In Service,11,E 11 St & Broadway,,,,0.4074074074074074,1.262228246572475
+358,Christopher St & Greenwich St,22,36,40.73291553,-74.00711384,In Service,14,Christopher St & Greenwich St,,,,0.3888888888888889,2.8980739474290687
+359,E 47 St & Park Av,25,55,40.75510267,-73.97498696,In Service,30,E 47 St & Park Ave,,,,0.5454545454545454,1.4951320537782442
+360,William St & Pine St,23,39,40.70717936,-74.00887308,In Service,16,William St & Pine St,,,,0.41025641025641024,3.0315150652155434
+361,Allen St & Hester St,22,43,40.71605866,-73.99190759,In Service,21,Allen St & Hester St,,,,0.4883720930232558,1.146032733881631
+362,Broadway & W 37 St,49,57,40.75172632,-73.98753523,In Service,8,Broadway & W 37 St,,,,0.14035087719298245,1.3637237888866287
+363,West Thames St,40,49,40.70834698,-74.01713445,In Service,9,West Thames St,,,,0.1836734693877551,3.9470755553961028
+364,Lafayette Ave & Classon Ave,26,27,40.68900443,-73.96023854,In Service,1,Lafayette Ave & Classon Ave,,,,0.037037037037037035,2.4866522035600434
+365,Fulton St & Grand Ave,27,31,40.68223166,-73.9614583,In Service,4,Fulton St & Grand Ave,,,,0.12903225806451613,2.429575412571735
+366,Clinton Ave & Myrtle Ave,23,33,40.693261,-73.968896,In Service,10,Clinton Ave & Myrtle Ave,,,,0.30303030303030304,1.5364401476617058
+367,E 53 St & Lexington Ave,33,33,40.75828065,-73.97069431,In Service,0,E 53 St & Lexington Ave,,,,0.0,1.8523653767133381
+368,Carmine St & 6 Ave,16,39,40.73038599,-74.00214988,In Service,23,Carmine St & 6 Ave,,,,0.5897435897435898,2.3430202039245307
+369,Washington Pl & 6 Ave,11,35,40.73224119,-74.00026394,In Service,24,Washington Pl & 6 Ave,,,,0.6857142857142857,2.1547566597637733
+372,Franklin Ave & Myrtle Ave,26,27,40.694528,-73.958089,In Service,1,Franklin Ave & Myrtle Ave,,,,0.037037037037037035,2.675538543078435
+373,Willoughby Ave & Walworth St,13,19,40.69331716,-73.95381995,In Service,6,Willoughby Ave & Walworth St,,,,0.3157894736842105,3.147884853263605
+375,Mercer St & Bleecker St,2,30,40.72679454,-73.99695094,In Service,28,Mercer St & Bleecker St,,,,0.9333333333333333,1.7557044737494887
+376,John St & William St,39,43,40.70862144,-74.00722156,In Service,4,John St & William St,,,,0.09302325581395349,2.846003873458052
+377,6 Ave & Canal St,33,47,40.72243797,-74.00566443,In Service,14,6 Ave & Canal St,,,,0.2978723404255319,2.686734921316174
+379,W 31 St & 7 Ave,15,42,40.749156,-73.9916,In Service,27,W 31 St & 7 Ave,,,,0.6428571428571429,1.5727232719413549
+380,W 4 St & 7 Ave S,18,39,40.73401143,-74.00293877,In Service,21,W 4 St & 7 Ave S,,,,0.5384615384615384,2.4555491971664454
+382,University Pl & E 14 St,6,36,40.73492695,-73.99200509,In Service,30,University Pl & E 14 St,,,,0.8333333333333334,1.3383155155525774
+383,Greenwich Ave & Charles St,14,39,40.735238,-74.000271,In Service,25,Greenwich Ave & Charles St,,,,0.6410256410256411,2.182782213673283
+384,Fulton St & Waverly Ave,13,31,40.68317813,-73.9659641,In Service,18,Fulton St & Waverly Ave,,,,0.5806451612903226,1.9632706356539662
+385,E 55 St & 2 Ave,28,29,40.75797322,-73.96603308,In Service,1,E 55 St & 2 Ave,,,,0.034482758620689655,2.221131803047558
+386,Centre St & Worth St,31,43,40.71494807,-74.00234482,In Service,12,Centre St & Worth St,,,,0.27906976744186046,2.302309841356974
+387,Centre St & Chambers St,31,39,40.71273266,-74.0046073,In Service,8,Centre St & Chambers St,,,,0.20512820512820512,2.552718065241423
+388,W 26 St & 10 Ave,28,35,40.749717753,-74.002950346,In Service,7,W 26 St & 10 Ave,,,,0.2,2.625923948582626
+389,Broadway & Berry St,23,27,40.71044554,-73.96525063,In Service,4,Broadway & Berry St,,,,0.14814814814814814,1.8221363142914162
+390,Duffield St & Willoughby St,25,31,40.69221589,-73.9842844,In Service,6,Duffield St & Willoughby St,,,,0.1935483870967742,0.6942628910883503
+391,Clark St & Henry St,31,31,40.69760127,-73.99344559,In Service,0,Clark St & Henry St,,,,0.0,1.3918253229998598
+392,Jay St & Tech Pl,24,32,40.695065,-73.987167,In Service,8,Jay St & Tech Pl,,,,0.25,0.8190842475317345
+393,E 5 St & Avenue C,26,31,40.72299208,-73.97995466,In Service,5,E 5 St & Avenue C,,,,0.16129032258064516,0.36615668100097815
+394,E 9 St & Avenue C,25,32,40.72521311,-73.97768752,In Service,7,E 9 St & Avenue C,,,,0.21875,0.5824328473747564
+395,Bond St & Schermerhorn St,25,30,40.68807003,-73.98410637,In Service,5,Bond St & Schermerhorn St,,,,0.16666666666666666,0.8042229470278338
+396,Lefferts Pl & Franklin Ave,25,25,40.680342423,-73.9557689392,In Service,0,Lefferts Pl & Franklin Ave,,,Bedford-Stuyvesant,0.0,3.041368201208137
+397,Fulton St & Clermont Ave,23,27,40.68415748,-73.96922273,In Service,4,Fulton St & Clermont Ave,,,,0.14814814814814814,1.6341927318944514
+398,Atlantic Ave & Furman St,24,31,40.69165183,-73.9999786,In Service,7,Atlantic Ave & Furman St,,,,0.22580645161290322,2.1382009600044745
+399,Lafayette Ave & St James Pl,25,27,40.68851534,-73.9647628,In Service,2,Lafayette Ave & St James Pl,,,,0.07407407407407407,2.016739506634604
+400,Pitt St & Stanton St,15,15,40.71926081,-73.98178024,In Service,0,Pitt St & Stanton St,,,,0.0,0.20112512620423997
+401,Allen St & Rivington St,40,42,40.72019576,-73.98997825,In Service,2,Allen St & Rivington St,,,,0.047619047619047616,0.9549507587720231
+402,Broadway & E 22 St,8,42,40.7403432,-73.98955109,In Service,34,Broadway & E 22 St,,,,0.8095238095238095,1.2209383712530006
+403,E 2 St & 2 Ave,11,31,40.72502876,-73.99069656,In Service,20,E 2 St & 2 Ave,,,,0.6451612903225806,1.0752380019995664
+404,9 Ave & W 14 St,21,39,40.7405826,-74.00550867,In Service,18,9 Ave & W 14 St,,,,0.46153846153846156,2.7868559061870757
+405,Washington St & Gansevoort St,20,40,40.739323,-74.008119,In Service,20,Washington St & Gansevoort St,,,,0.5,3.0537278464849646
+406,Hicks St & Montague St,31,34,40.69512845,-73.99595065,In Service,3,Hicks St & Montague St,,,,0.08823529411764706,1.6796744473200067
+407,Henry St & Poplar St,43,43,40.700469,-73.991454,In Service,0,Henry St & Poplar St,,,,0.0,1.153911787018478
+408,Market St & Cherry St,11,23,40.71076228,-73.99400398,In Service,12,Market St & Cherry St,,,,0.5217391304347826,1.3757361338090544
+409,DeKalb Ave & Skillman St,7,19,40.6906495,-73.95643107,In Service,12,DeKalb Ave & Skillman St,,,,0.631578947368421,2.881619120185597
+410,Suffolk St & Stanton St,23,35,40.72066442,-73.98517977,In Service,12,Suffolk St & Stanton St,,,,0.34285714285714286,0.4630279554041077
+411,E 6 St & Avenue D,14,23,40.72228087,-73.97668709,In Service,9,E 6 St & Avenue D,,,,0.391304347826087,0.6231687828228303
+412,Forsyth St & Canal St,14,29,40.7158155,-73.99422366,In Service,15,Forsyth St & Canal St,,,,0.5172413793103449,1.4020434578923306
+414,Pearl St & Anchorage Pl,15,24,40.70281858,-73.98765762,In Service,9,Pearl St & Anchorage Pl,,,,0.375,0.7348542617036906
+415,Pearl St & Hanover Square,31,42,40.7047177,-74.00926027,In Service,11,Pearl St & Hanover Square,,,,0.2619047619047619,3.0795623296539456
+416,Cumberland St & Lafayette Ave,31,31,40.68753406,-73.97265183,In Service,0,Cumberland St & Lafayette Ave,,,,0.0,1.2623805887832273
+417,Barclay St & Church St,26,47,40.71291224,-74.01020234,In Service,21,Barclay St & Church St,,,,0.44680851063829785,3.1744728069551735
+418,Front St & Gold St,18,23,40.70224,-73.982578,In Service,5,Front St & Gold St,,,,0.21739130434782608,0.3380656747897812
+419,Carlton Ave & Park Ave,20,23,40.69580705,-73.97355569,In Service,3,Carlton Ave & Park Ave,,,,0.13043478260869565,1.037020782109719
+420,Clermont Ave & Lafayette Ave,23,23,40.68764484,-73.96968902,In Service,0,Clermont Ave & Lafayette Ave,,,,0.0,1.5343608391485961
+421,Clermont Ave & Park Ave,17,19,40.69573398,-73.97129668,In Service,2,Clermont Ave & Park Ave,,,,0.10526315789473684,1.2615862618711442
+422,W 59 St & 10 Ave,23,50,40.770513,-73.988038,In Service,27,W 59 St & 10 Ave,,,,0.54,1.909266566597695
+423,W 54 St & 9 Ave,38,39,40.76584941,-73.98690506,In Service,1,W 54 St & 9 Ave,,,,0.02564102564102564,1.7308916785098802
+426,West St & Chambers St,7,31,40.71754834,-74.01322069,In Service,24,West St & Chambers St,,,,0.7741935483870968,3.512993768690992
+427,State St,33,59,40.70251526,-74.01427023,In Service,26,State St,,,,0.4406779661016949,3.639968623073464
+428,E 3 St & 1 Ave,31,31,40.72467721,-73.98783413,In Service,0,E 3 St & 1 Ave,,,,0.0,0.7802363215956893
+430,York St & Jay St,24,27,40.7014851,-73.98656928,In Service,3,York St & Jay St,,,,0.1111111111111111,0.6475190633562502
+431,Hanover Pl & Livingston St,29,30,40.68864636,-73.98263429,In Service,1,Hanover Pl & Livingston St,,,,0.03333333333333333,0.7465621698978532
+432,E 7 St & Avenue A,25,31,40.72621788,-73.98379855,In Service,6,E 7 St & Avenue A,,,,0.1935483870967742,0.47852729526938
+433,E 13 St & Avenue A,2,39,40.72955361,-73.98057249,In Service,37,E 13 St & Avenue A,,,,0.9487179487179487,0.5294751385861534
+434,9 Ave & W 18 St,7,27,40.74317449,-74.00366443,In Service,20,9 Ave & W 18 St,,,,0.7407407407407407,2.619771514867527
+435,W 21 St & 6 Ave,7,47,40.74173969,-73.99415556,In Service,40,W 21 St & 6 Ave,,,,0.851063829787234,1.6512851136193734
+436,Hancock St & Bedford Ave,23,27,40.68216564,-73.95399026,In Service,4,Hancock St & Bedford Ave,,,,0.14814814814814814,3.212058296528281
+437,Macon St & Nostrand Ave,24,27,40.6809833854,-73.9500479759,In Service,3,Macon St & Nostrand Ave,,,,0.1111111111111111,3.642874463306101
+438,St Marks Pl & 1 Ave,25,27,40.72779126,-73.98564945,In Service,2,St Marks Pl & 1 Ave,,,,0.07407407407407407,0.6421765155916098
+439,E 4 St & 2 Ave,13,39,40.7262807,-73.98978041,In Service,26,E 4 St & 2 Ave,,,,0.6666666666666666,0.9959543059297498
+440,E 45 St & 3 Ave,30,32,40.75255434,-73.97282625,In Service,2,E 45 St & 3 Ave,,,,0.0625,1.5655667732763838
+441,E 52 St & 2 Ave,31,35,40.756014,-73.967416,In Service,4,E 52 St & 2 Ave,,,,0.11428571428571428,2.0641505147269483
+442,W 27 St & 7 Ave,35,51,40.746647,-73.993915,In Service,16,W 27 St & 7 Ave,,,,0.3137254901960784,1.7156057372177926
+443,Bedford Ave & S 9 St,11,23,40.70853074,-73.96408963,In Service,12,Bedford Ave & S 9th St,,,,0.5217391304347826,1.9540500248182582
+444,Broadway & W 24 St,9,52,40.7423543,-73.98915076,In Service,43,Broadway & W 24 St,,,,0.8269230769230769,1.2339544082359841
+445,E 10 St & Avenue A,10,42,40.72740794,-73.98142006,In Service,32,E 10 St & Avenue A,,,,0.7619047619047619,0.45095159469399965
+446,W 24 St & 7 Ave,34,39,40.74487634,-73.99529885,In Service,5,W 24 St & 7 Ave,,,,0.1282051282051282,1.810141501762687
+447,8 Ave & W 52 St,14,31,40.76370739,-73.9851615,In Service,17,8 Ave & W 52 St,,,,0.5483870967741935,1.6115984661609395
+448,W 37 St & 10 Ave,13,31,40.75660359,-73.9979009,In Service,18,W 37 St & 10 Ave,,,,0.5806451612903226,2.252940050412864
+449,W 52 St & 9 Ave,30,31,40.76461837,-73.98789473,In Service,1,W 52 St & 9 Ave,,,,0.03225806451612903,1.7364312802030173
+450,W 49 St & 8 Ave,46,59,40.76227205,-73.98788205,In Service,13,W 49 St & 8 Ave,,,,0.22033898305084745,1.6701820727914243
+453,W 22 St & 8 Ave,13,39,40.74475148,-73.99915362,In Service,26,W 22 St & 8 Ave,,,,0.6666666666666666,2.1801668225718376
+454,E 51 St & 1 Ave,26,35,40.75455731,-73.96592976,In Service,9,E 51 St & 1 Ave,,,,0.2571428571428571,2.1664255583456957
+455,1 Ave & E 44 St,34,39,40.75001986,-73.96905301,In Service,5,1 Ave & E 44 St,,,,0.1282051282051282,1.8066978785691503
+456,E 53 St & Madison Ave,27,35,40.7597108,-73.97402311,In Service,8,E 53 St & Madison Ave,,,,0.22857142857142856,1.6711312075903058
+457,Broadway & W 57 St,17,59,40.76695317,-73.98169333,In Service,42,Broadway & W 57 St,,,,0.711864406779661,1.6629541306067224
+458,11 Ave & W 27 St,4,31,40.751396,-74.005226,In Service,27,11 Ave & W 27 St,,,,0.8709677419354839,2.876879363155255
+459,W 18 St & 11 Ave,4,21,40.74522724,-74.00797904,In Service,17,W 18 St & 11 Ave,,,,0.8095238095238095,3.0921787566650285
+460,S 4 St & Wythe Ave,3,23,40.71285887,-73.96590294,In Service,20,S 4 St & Wythe Ave,,,,0.8695652173913043,1.748313331670826
+461,E 20 St & 2 Ave,3,3,40.73587678,-73.98205027,Not In Service,0,E 20 St & 2 Ave,,,,0.0,0.7114876767476844
+462,W 22 St & 10 Ave,42,47,40.74691959,-74.00451887,In Service,5,W 22 St & 10 Ave,,,,0.10638297872340426,2.750342155194693
+463,9 Ave & W 16 St,6,25,40.74206539,-74.00443172,In Service,19,9 Ave & W 16 St,,,,0.76,2.688049074612885
+464,E 56 St & 3 Ave,31,59,40.75934501,-73.96759673,In Service,28,E 56 St & 3 Ave,,,,0.4745762711864407,2.1164818612502727
+465,Broadway & W 41 St,24,39,40.75513557,-73.98658032,In Service,15,Broadway & W 41 St,,,,0.38461538461538464,1.4116919066554563
+466,W 25 St & 6 Ave,19,35,40.74395411,-73.99144871,In Service,16,W 25 St & 6 Ave,,,,0.45714285714285713,1.4511187154560572
+467,Dean St & 4 Ave,9,34,40.68312489,-73.97895137,In Service,25,Dean St & 4 Ave,,,,0.7352941176470589,0.9554391473826394
+468,Broadway & W 55 St,57,59,40.7652654,-73.98192338,In Service,2,Broadway & W 55 St,,,,0.03389830508474576,1.611493123637195
+469,Broadway & W 53 St,57,57,40.76344058,-73.98268129,In Service,0,Broadway & W 53 St,,,,0.0,1.5595177502682354
+470,W 20 St & 8 Ave,13,37,40.74345335,-74.00004031,In Service,24,W 20 St & 8 Ave,,,,0.6486486486486487,2.2516414604615633
+471,Grand St & Havemeyer St,1,27,40.71286844,-73.95698119,In Service,26,Grand St & Havemeyer St,,,,0.9629629629629629,2.7397424749048986
+472,E 32 St & Park Ave,41,41,40.7457121,-73.98194829,In Service,0,E 32 St & Park Ave,,,,0.0,1.012185138556736
+473,Rivington St & Chrystie St,21,42,40.72110063,-73.9919254,In Service,21,Rivington St & Chrystie St,,,,0.5,1.1719270256840044
+474,5 Ave & E 29 St,25,47,40.7451677,-73.98683077,In Service,22,5 Ave & E 29 St,,,,0.46808510638297873,1.1501293197164766
+475,E 16 St & Irving Pl,11,37,40.73524276,-73.98758561,In Service,26,E 16 St & Irving Pl,,,,0.7027027027027027,0.9559619879762
+476,E 31 St & 3 Ave,33,47,40.74394314,-73.97966069,In Service,13,E 31 St & 3 Ave,,,,0.2765957446808511,0.9822462131035877
+477,W 41 St & 8 Ave,48,59,40.75640548,-73.9900262,In Service,11,W 41 St & 8 Ave,,,,0.1864406779661017,1.631782395734401
+478,11 Ave & W 41 St,24,24,40.76030096,-73.99884222,In Service,0,11 Ave & W 41 St,,,,0.0,2.404652837949162
+479,9 Ave & W 45 St,18,31,40.76019252,-73.9912551,In Service,13,9 Ave & W 45 St,,,,0.41935483870967744,1.8056271751872803
+480,W 53 St & 10 Ave,24,27,40.76669671,-73.99061728,In Service,3,W 53 St & 10 Ave,,,,0.1111111111111111,1.9323432580742883
+481,S 3 St & Bedford Ave,0,25,40.71260486,-73.96264403,In Service,25,S 3 St & Bedford Ave,,,,1.0,2.1104581965889926
+482,W 15 St & 7 Ave,11,39,40.73935542,-73.99931783,In Service,28,W 15 St & 7 Ave,,,,0.717948717948718,2.1277149221987988
+483,E 12 St & 3 Ave,8,35,40.73223272,-73.98889957,In Service,27,E 12 St & 3 Ave,,,,0.7714285714285715,1.0046497509735066
+484,W 44 St & 5 Ave,27,44,40.75500254,-73.98014437,In Service,17,W 44 St & 5 Ave,,,,0.38636363636363635,1.3070927883702832
+485,W 37 St & 5 Ave,31,39,40.75038009,-73.98338988,In Service,8,W 37 St & 5 Ave,,,,0.20512820512820512,1.1710166860228561
+486,Broadway & W 29 St,31,39,40.7462009,-73.98855723,In Service,8,Broadway & W 29 St,,,,0.20512820512820512,1.2825885583050376
+487,E 20 St & FDR Drive,35,36,40.73314259,-73.97573881,In Service,1,E 20 St & FDR Drive,,,,0.027777777777777776,0.9064389807121821
+488,W 39 St & 9 Ave,15,41,40.75645824,-73.99372222,In Service,26,W 39 St & 9 Ave,,,,0.6341463414634146,1.89769353260951
+489,10 Ave & W 28 St,15,37,40.75066386,-74.00176802,In Service,22,10 Ave & W 28 St,,,,0.5945945945945946,2.5213123561928814
+490,8 Ave & W 33 St,11,59,40.751551,-73.993934,In Service,48,8 Ave & W 33 St,,,,0.8135593220338984,1.812263464478034
+491,E 24 St & Park Ave S,14,53,40.74096374,-73.98602213,In Service,39,E 24 St & Park Ave S,,,,0.7358490566037735,0.9936498877053658
+492,W 33 St & 7 Ave,14,49,40.75019995,-73.99093085,In Service,35,W 33 St & 7 Ave,,,,0.7142857142857143,1.5449521911413926
+493,W 45 St & 6 Ave,17,34,40.7568001,-73.98291153,In Service,17,W 45 St & 6 Ave,,,,0.5,1.3589692428634452
+494,W 26 St & 8 Ave,7,35,40.74734825,-73.99723551,In Service,28,W 26 St & 8 Ave,,,,0.8,2.032585312325033
+495,W 47 St & 10 Ave,18,25,40.76269882,-73.99301222,In Service,7,W 47 St & 10 Ave,,,,0.28,1.9862348510043208
+496,E 16 St & 5 Ave,3,3,40.73726186,-73.99238967,Not In Service,0,E 16 St & 5 Ave,,,,0.0,1.412074180619445
+497,E 17 St & Broadway,10,59,40.73704984,-73.99009296,In Service,49,E 17 St & Broadway,,,,0.8305084745762712,1.1997650578444359
+498,Broadway & W 32 St,16,30,40.74854862,-73.98808416,In Service,14,Broadway & W 32 St,,,,0.4666666666666667,1.311446851247651
+499,Broadway & W 60 St,20,36,40.76915505,-73.98191841,In Service,16,Broadway & W 60 St,,,PBSC,0.4444444444444444,1.7307344185717082
+500,Broadway & W 51 St,30,52,40.76228826,-73.98336183,In Service,22,Broadway & W 51 St,,,,0.4230769230769231,1.5318743126043433
+501,FDR Drive & E 35 St,38,43,40.744219,-73.97121214,In Service,5,FDR Drive & E 35 St,,,,0.11627906976744186,1.5083430625674494
+502,Henry St & Grand St,28,30,40.714215,-73.981346,In Service,2,Henry St & Grand St,,,,0.06666666666666667,0.055949459275513036
+503,E 20 St & Park Ave,3,3,40.73827428,-73.98751968,Not In Service,0,E 20 St & Park Ave,,,,0.0,1.02039815239283
+504,1 Ave & E 15 St,37,45,40.73221853,-73.98165557,In Service,8,1 Ave & E 15 St,,,,0.17777777777777778,0.5978292058713028
+505,6 Ave & W 33 St,2,34,40.74901271,-73.98848395,In Service,32,6 Ave & W 33 St,,,,0.9411764705882353,1.347948575134299
+507,E 25 St & 2 Ave,29,47,40.73912601,-73.97973776,In Service,18,E 25 St & 2 Ave,,,,0.3829787234042553,0.836705519072554
+508,W 46 St & 11 Ave,22,24,40.76341379,-73.99667444,In Service,2,W 46 St & 11 Ave,,,,0.08333333333333333,2.281846249048118
+509,9 Ave & W 22 St,30,36,40.7454973,-74.00197139,In Service,6,9 Ave & W 22 St,,,,0.16666666666666666,2.472954998359218
+510,W 51 St & 6 Ave,30,51,40.7606597,-73.98042047,In Service,21,W 51 St & 6 Ave,,,,0.4117647058823529,1.4762032610704199
+511,E 14 St & Avenue B,21,33,40.72938685,-73.97772429,In Service,12,E 14 St & Avenue B,,,,0.36363636363636365,0.6708989194018883
+512,W 29 St & 9 Ave,21,27,40.7500727,-73.99839279,In Service,6,W 29 St & 9 Ave,,,,0.2222222222222222,2.185849019345017
+513,W 56 St & 10 Ave,21,27,40.768254,-73.988639,In Service,6,W 56 St & 10 Ave,,,,0.2222222222222222,1.8719147432335914
+514,12 Ave & W 40 St,7,33,40.76087502,-74.00277668,In Service,26,12 Ave & W 40 St,,,,0.7878787878787878,2.774273973322947
+515,W 43 St & 10 Ave,29,35,40.76009437,-73.99461843,In Service,6,W 43 St & 10 Ave,,,,0.17142857142857143,2.0469106019545764
+516,E 47 St & 1 Ave,34,39,40.75206862,-73.96784384,In Service,5,E 47 St & 1 Ave,,,,0.1282051282051282,1.9508581006899286
+517,Pershing Square S,38,59,40.75149263,-73.97798848,In Service,21,Pershing Square S,,,,0.3559322033898305,1.2561687812688807
+518,E 39 St & 2 Ave,31,39,40.74780373,-73.9734419,In Service,8,E 39 St & 2 Ave,,,,0.20512820512820512,1.4095642699143585
+519,Pershing Square N,13,61,40.75188406,-73.97770164,In Service,48,Pershing Square N,,,,0.7868852459016393,1.2780959745949358
+520,W 52 St & 5 Ave,17,39,40.75992262,-73.97648516,In Service,22,W 52 St & 5 Ave,,,,0.5641025641025641,1.556628044922713
+521,8 Ave & W 31 St,12,67,40.75044999,-73.99481051,In Service,55,8 Ave & W 31 St,,,,0.8208955223880597,1.865675730534028
+522,E 51 St & Lexington Ave,51,51,40.75714758,-73.97207836,In Service,0,E 51 St & Lexington Ave,,,,0.0,1.727661683159855
+523,W 38 St & 8 Ave,32,51,40.75466591,-73.99138152,In Service,19,W 38 St & 8 Ave,,,,0.37254901960784315,1.6811087237853413
+524,W 43 St & 6 Ave,27,57,40.75527307,-73.98316936,In Service,30,W 43 St & 6 Ave,,,,0.5263157894736842,1.315803349602977
+525,W 34 St & 11 Ave,16,39,40.75594159,-74.0021163,In Service,23,W 34 St & 11 Ave,,,,0.5897435897435898,2.633235056002158
+526,E 33 St & 5 Ave,11,43,40.74765947,-73.98490707,In Service,32,E 33 St & 5 Ave,,,,0.7441860465116279,1.131210518464673
+527,E 33 St & 1 Ave,44,59,40.74315566,-73.97434726,In Service,15,E 33 St & 1 Ave,,,,0.2542372881355932,1.235820025595587
+528,2 Ave & E 30 St,36,38,40.74290902,-73.97706058,In Service,2,2 Ave & E 30 St,,,,0.05263157894736842,1.0561911244911586
+529,W 42 St & 8 Ave,15,41,40.7575699,-73.99098507,In Service,26,W 42 St & 8 Ave,,,,0.6341463414634146,1.7232358062858677
+531,Forsyth St & Broome St,12,39,40.71893904,-73.99266288,In Service,27,Forsyth St & Broome St,,,,0.6923076923076923,1.2401203710928421
+532,S 5 Pl & S 4 St,30,43,40.710451,-73.960876,In Service,13,S 5 Pl & S 4 St,,,,0.3023255813953488,2.3079805693746156
+533,Broadway & W 39 St,48,50,40.75299641,-73.98721619,In Service,2,Broadway & W 39 St,,,,0.04,1.3817339866514675
+534,Water - Whitehall Plaza,31,31,40.70255065,-74.0127234,In Service,0,Water - Whitehall Plaza,,,,0.0,3.4686476060563103
+536,1 Ave & E 30 St,15,29,40.74144387,-73.97536082,In Service,14,1 Ave & E 30 St,,,,0.4827586206896552,1.1234695059837765
+537,Lexington Ave & E 24 St,34,39,40.74025878,-73.98409214,In Service,5,Lexington Ave & E 24 St,,,,0.1282051282051282,0.8873417244902462
+538,W 49 St & 5 Ave,17,39,40.75795248,-73.97787642,In Service,22,W 49 St & 5 Ave,,,,0.5641025641025641,1.4486441823586924
+539,Metropolitan Ave & Bedford Ave,8,31,40.71534825,-73.96024116,In Service,23,Metropolitan Ave & Bedford Ave,,,,0.7419354838709677,2.37883876742976
+540,Lexington Ave & E 26 St,23,39,40.74147286,-73.98320928,In Service,16,Lexington Ave & E 26 St,,,,0.41025641025641024,0.8987372138214079
+545,E 23 St & 1 Ave,24,27,40.736502,-73.97809472,In Service,3,E 23 St & 1 Ave,,,,0.1111111111111111,0.8286437659739065
+546,E 30 St & Park Ave S,24,38,40.74444921,-73.98303529,In Service,14,E 30 St & Park Ave S,,,,0.3684210526315789,0.9851848961296898
+2000,Front St & Washington St,28,30,40.70255088,-73.98940236,In Service,2,Front St & Washington St,,,,0.06666666666666667,0.9176773330952375
+2001,7 Ave & Farragut St,5,15,40.69892054,-73.97332996,In Service,10,7 Ave & Farragut St,,,,0.6666666666666666,1.0154379221791099
+2002,Wythe Ave & Metropolitan Ave,3,27,40.716887,-73.963198,In Service,24,Wythe Ave & Metropolitan Ave,,,,0.8888888888888888,2.0528747607783564
+2003,1 Ave & E 18 St,30,30,40.73416059,-73.98024289,In Service,0,1 Ave & E 18 St,,,,0.0,0.6753805324415344
+2004,6 Ave & Broome St,10,36,40.724399,-74.004704,In Service,26,6 Ave & Broome St,,,,0.7222222222222222,2.5883126635637663
+2005,Railroad Ave & Kay Ave,10,12,40.70531194,-73.97100056,In Service,2,Railroad Ave & Kay Ave,,,,0.16666666666666666,1.2034989316637563
+2006,Central Park S & 6 Ave,4,49,40.76590936,-73.97634151,In Service,45,Central Park S & 6 Ave,,,,0.9183673469387755,1.7340509792096699
+2008,Little West St & 1 Pl,15,24,40.70569254,-74.01677685,In Service,9,Little West St & 1 Pl,,,,0.375,3.910994022862342
+2009,Catherine St & Monroe St,10,35,40.71117444,-73.99682619,In Service,25,Catherine St & Monroe St,,,,0.7142857142857143,1.6887083181060687
+2010,Grand St & Greene St,3,39,40.72165481,-74.00234737,In Service,36,Grand St & Greene St,,,,0.9230769230769231,2.317802502834421
+2012,E 27 St & 1 Ave,35,36,40.739445,-73.976806,In Service,1,E 27 St & 1 Ave,,,,0.027777777777777776,0.9796429490151058
+2017,E 43 St & 2 Ave,36,39,40.75022392,-73.97121414,In Service,3,E 43 St & 2 Ave,,,,0.07692307692307693,1.6323059383121308
+2021,W 45 St & 8 Ave,30,43,40.75929124,-73.98859651,In Service,13,W 45 St & 8 Ave,,,,0.3023255813953488,1.6237726866421343
+2022,E 59 St & Sutton Pl,12,33,40.75849116,-73.95920622,In Service,21,E 59 St & Sutton Pl,,,,0.6363636363636364,2.8609190130136644
+2023,E 55 St & Lexington Ave,36,36,40.75968085,-73.97031366,In Service,0,E 55 St & Lexington Ave,,,,0.0,1.9125495811034667
+3002,South End Ave & Liberty St,17,25,40.711512,-74.015756,In Service,8,South End Ave & Liberty St,,,,0.32,3.791800011660591
