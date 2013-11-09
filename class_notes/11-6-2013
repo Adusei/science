@@ -60,6 +60,9 @@ UNIX HELP
 - # matches end
 - see more here: https://github.com/dzorlu/GADS/wiki/UNIX-Command-Line-Tools---Introduction-to-Data-Science
 	-- > COMPLETE THIS FOR NEXT TIME!
+- for file in * ;do mv $file $file.tmp; done
+
+
 
 
 Things to check out
