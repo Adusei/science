@@ -21,9 +21,8 @@ for k,v in citibike_json.items():
     if k == 'stationBeanList':
     	stations = v
 
-csv_line = []
 for station in stations:
-	#print station["id"]
+	csv_line = []
 	csv_line.append(station["id"])
 	csv_line.append(station["stationName"])
 	csv_line.append(station["availableDocks"])
@@ -38,8 +37,7 @@ for station in stations:
 	csv_line.append(station["postalCode"])
 	csv_line.append(station["location"])
 	writer.writerow(csv_line)
-	print station["id"]
-
+	
 
 
 
