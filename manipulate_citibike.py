@@ -21,16 +21,10 @@ def haversine(lon1, lat1, lon2, lat2):
 
 print 'generating random lat/long to simulate mobile request...'
 
-Location = r'data/citibike_parsed.csv' #chicken and egg problem here...
-inp = read_csv(Location,header=0) 
-
-mx_value = inp['latitude'].max()
-mx_value = inp['longitude'].max()
-
-mx_lat = inp['latitude'].max()
-mn_lat = inp['latitude'].min()
-mx_lon = inp['longitude'].max()
-mn_lon = inp['longitude'].min()
+mx_lat = 40.770513
+mn_lat = 40.680342423
+mx_lon = -73.9500479759
+mn_lon = -74.01713445
 
 lat_request = random.uniform(mx_lat, mn_lat)
 lon_request = random.uniform(mx_lon, mn_lon)
@@ -77,8 +71,10 @@ for station in stations:
 		##
 	station_lat = station["latitude"]
 	station_lon = station["longitude"]
-	distance_from_request = haversine(lat_request, lon_request, station_lat, station_lon) 
+	distance_from_request = haversine(lon_request, lat_request, station_lon, station_lat) 
 	csv_line.append(distance_from_request)
+	#print str(distance_from_request) + ' far away from ' + station["stationName"]
+
 
 	writer.writerow(csv_line)
 '''
@@ -106,8 +102,10 @@ print 'I think it is... ' + mx_pct_name + ' with... ' + str(mx_pct) + ' at... ' 
 '''
 
 print 'INCOMING REQUEST FROM: ' + str(lat_request) + ',' + str(lon_request)
-
 print 'excuse me operator.. can you please tell me what the closest citi bike location is??'
+
+Location = r'data/citibike_parsed.csv' #chicken and egg problem here...
+inp = read_csv(Location,header=0) 
 
 mn_dist = inp['distance_from_request'].min()
 mn_dist_name = inp['stationName'][inp['distance_from_request'] == mn_dist].values
