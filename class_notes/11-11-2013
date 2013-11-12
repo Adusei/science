@@ -1,0 +1,44 @@
+11-11-2013
+
+LINEAR REGRESSION 
+ ---------------------
+ | y = b + mx + (er) |
+ ---------------------
+
+er (error terms) is normally and perfectly distributed
+
+
+-Logistic Regression
+ 	- > what type of machine learning problem is this?
+ 			- generalization of the linear regression model to clasification problems
+ 	- > predicting some probablity (0,1) for a binary class membership 
+ 	- > what type of machine learning problem is this?
+ 	    - Supervised(we know the values of the outputes) and Categorical (trying to decide if this is bucket 1 or 2)
+ 	    - classificattion! 
+ 	- > The logistic regresion model is an extension of the linear regression model.. with a few differences
+  - >  outcome varaibles 
+ 				- the key variable in any regression probelm is the conditional mean of the outcome variable y given the value of the covariate x
+ 					- E(y|x)
+ 				- logistic function and logit function(log-odds function)
+ 	- >  error terms
+ 				- linear regression - error terms are on a gausian distribution
+ 				- logistic regresion, outcome is zero or 1 (bernoulli distribution)
+ 						- Distribution followed by a coin toss
+  - > generalized linear models: unification of regression techinues
+ 				- generalize distribtuion of the error term
+ 				- logit is the canonical link function for bernoulli distribution
+  - > interpreting results
+  			- linear regresn B represents change in the response variable for unit change in covariate
+  			- logistic regression b represents change in Logit Function 
+  			- relationship between odds ratio and parameter (B or Slope)
+  				 " the odds ration of a binary events..."
+
+
+# how to check out a json file
+pprint(x[;stationBeanList][0])
+
+#TO-DO
+-> get download program
+-> Check out Jason;s Json Parser
+-> What is a tuple? (an immutable list)
+
