@@ -34,6 +34,17 @@ er (error terms) is normally and perfectly distributed
   				 " the odds ration of a binary events..."
 
 
+CONFUSION MATRIX
+
+TP    FP
+FN 		TN
+
+
+
+COEFFICIENTS
+	- since its positinve, means that a higher number a higher rank
+
+
 # how to check out a json file
 pprint(x[;stationBeanList][0])
 
@@ -41,4 +52,13 @@ pprint(x[;stationBeanList][0])
 -> get download program
 -> Check out Jason;s Json Parser
 -> What is a tuple? (an immutable list)
+-> pip install ipdb, ipython, pandas (check if installed)
+-> do things pythonically! Try Expect (import this)
+-> false positives vs. true positives..
+
+-> define a model to chose whether a beer is good <-
+	 - what defines good?
+	 - take rank to be the 
+... develop a model to determine if the beer is within the top 50% of the rankings ...
+
 
