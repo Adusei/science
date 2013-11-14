@@ -1,0 +1,43 @@
+11-13-2013
+
+
+								e^(alpha + beta * x1) 
+Model: LR(x1) = -------------------------
+								1 + e^(alpha + beta * x1) 
+
+
+Check out the Iris Dataset
+
+WHAT TYPES OF PREDICTION ERROR
+- Training Set Error = Training Error (running the model on the training data)
+- Test Set Error = Generalization Error
+- Out of Sample Data Error (error in real life) 
+
+Overfitting: Traning Error goes down while generalization (test) error goes up
+
+How well does generalization error predict oos accuracy?
+	-- > not well because generalization gives a high variance estimate of oos accuracy
+	-- > cross validation... fitting your model a number of times
+			- get a more robust estimae of generalization error
+
+Cross Validation
+	- > can be done by shuffling feature space, or by shuffling records
+	- > Nested Cross Validation -- Outer loop is the feature space - inner is the sample data
+
+
+two ways of training LRession model
+	- > maximum likleyhood
+	- > sgd (better for bigger data set)
+
+
+
+
+
+
+#notes#:
+#use pth file to set python path
+#check out andrew ng's machine learning notes
+
+## Scikit Learn Tutorial - http://scikit-learn.org/stable/tutorial/ ##
+## project Euler (math questions) - http://projecteuler.net/ ##
+
