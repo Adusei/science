@@ -12,53 +12,54 @@ from sklearn.metrics import roc_curve, auc, confusion_matrix
 
 INPUT_FILE = '/Users/john/code/science/data/heart-disease-stats.csv'
 PLOT_OUTPUT_FILE = '/Users/john/code/science/data/heart-disease-plot.png'
-TRAIN_PCT = .7
 NUM_FOLDS = 10
 
 def preprocess_data(input_file):
 		data = pd.read_csv(input_file, delimiter=',').dropna()
-		data = data[['age', 'cp','chol', 'trestbps','heartdisease::category|0|1']]
-		data = data.rename(columns={'heartdisease::category|0|1': 'label', 'cp': 'chest_pain','trestbps':'blood_pressure','col':'cholestoral'})
-		#data = data.rename(columns={'heartdisease::category|0|1': 'label'})
+		#data = data[['age', 'cp','chol', 'trestbps','heartdisease::category|0|1']]
+		#data = data.rename(columns={'heartdisease::category|0|1': 'label', 'cp': 'chest_pain','trestbps':'blood_pressure','col':'cholestoral'})
+		data = data.rename(columns={'heartdisease::category|0|1': 'label'})
 		return data
 
-def kfolds(features, labels):
-    kf = cv.KFold(n=len(features), n_folds=NUM_FOLDS, shuffle=True)
+def kfolds(features, labels,num_folds):
+    kf = cv.KFold(n=len(features), n_folds=num_folds, shuffle=True)
+    return kf
 
-def run_model(data):
-    data = data.reindex(np.random.permutation(data.index))     # shuffle dataset
+def run_model(train_features, train_labels,test_features, test_labels):
+		model = LR()
+		model.fit(train_features, train_labels)
 
-    split_pt = int(TRAIN_PCT * len(data))
+		# get model outputs
+		inputs = map(str, train_features.columns.format())
+		coeffs = model.coef_[0]
+		accuracy = model.score(test_features, test_labels)
 
-    train_x = data[:split_pt].drop('label', 1)
-    train_y = data[:split_pt].label 
-    	# QUESTION -> How are these linked? by index via 
-    	#					 -> their order in the data set?
+		predicted_labels = model.predict(test_features)
+		cm = confusion_matrix(test_labels, predicted_labels)
 
-    test_x = data[split_pt:].drop('label', 1)
-    test_y = data[split_pt:].label
+		print 'inputs = {0}'.format(inputs)
+		print 'coeffs = {0}'.format(coeffs)
+		print 'accuracy = {0}'.format(accuracy)
+		print 'confusion matrix:\n', cm, '\n'
 
-    model = LR()
-    	# QUESTION -> Where can i see the source code for this?
-    	#					 -> What does the model aim to do... is it 
-    	#					 -> finding Alpha and Beta in the logit fn
-    	# 				 -> then applying the results to the test?
+		pred_labels = model.predict(test_features)
 
-    model.fit(train_x, train_y)
+		# calculate ROC/AUC
+		fpr, tpr, thresholds = roc_curve(test_labels, pred_labels, pos_label=1)
+		roc_auc = auc(fpr, tpr)
 
-    # get model outputs
-    inputs = map(str, train_x.columns.format())
-    coeffs = model.coef_[0]
-    accuracy = model.score(test_x, test_y)
+		print '\nfpr = {0}'.format(fpr)
+		print 'tpr = {0}'.format(tpr)
+		print 'auc = {0}'.format(roc_auc)
 
-    predicted_y = model.predict(test_x)
-    cm = confusion_matrix(test_y, predicted_y)
+		fpr, tpr, thresholds = roc_curve(test_labels, pred_labels, pos_label=1)
+		roc_auc = auc(fpr, tpr)
 
-    print 'inputs = {0}'.format(inputs)
-    print 'coeffs = {0}'.format(coeffs)
-    print 'accuracy = {0}'.format(accuracy)
-    print 'confusion matrix:\n', cm, '\n'
+		all_fprs = fpr[1]
+		all_tprs = tpr[1]
+		all_aucs = roc_auc
 
+		return all_fprs,all_tprs,all_aucs,fpr,tpr,roc_auc
 
 def roc_it(data):
     # create cv iterator (note: train pct is set implicitly by number of folds)
@@ -66,57 +67,39 @@ def roc_it(data):
 		labels = data.label 
 
 		num_recs = len(data)
-		print num_recs
-		kf = cv.KFold(n=num_recs, n_folds=NUM_FOLDS, shuffle=True)
+		kf = kfolds(features, labels,NUM_FOLDS)
 
     # initialize results sets
 		all_fprs, all_tprs, all_aucs = (np.zeros(NUM_FOLDS), np.zeros(NUM_FOLDS),
 			np.zeros(NUM_FOLDS))
 
 		for i, (train_index, test_index) in enumerate(kf):
-				print str(i) +'\n'#,train_index, test_index
-        # initialize & train model
-				model = LR()
+				loop_ind = '\n'+ '=' * 20 + 'Loop Number: ' + str(i) + '=' * 20 
 
-        # debug!
+				print loop_ind * 3 + '\n'
+
 				train_features = features.loc[train_index].dropna()
 				train_labels = labels.loc[train_index].dropna()
 
 				test_features = features.loc[test_index].dropna()
 				test_labels = labels.loc[test_index].dropna()
 
-				model.fit(train_features, train_labels)
+				run_model(train_features, train_labels,test_features, test_labels)
 
-        # predict labels for test features
-				pred_labels = model.predict(test_features)
-
-        # calculate ROC/AUC
-				fpr, tpr, thresholds = roc_curve(test_labels, pred_labels, pos_label=1)
-				roc_auc = auc(fpr, tpr)
-
-				print '\nfpr = {0}'.format(fpr)
-				print 'tpr = {0}'.format(tpr)
-				print 'auc = {0}'.format(roc_auc)
-
-				all_fprs[i] = fpr[1]
-				all_tprs[i] = tpr[1]
-				all_aucs[i] = roc_auc
-
-		print '\nall_fprs = {0}'.format(all_fprs)
-		print 'all_tprs = {0}'.format(all_tprs)
-		print 'all_aucs = {0}'.format(all_aucs)
+		#print '\nall_fprs = {0}'.format(all_fprs)
+		#print 'all_tprs = {0}'.format(all_tprs)
+		#print 'all_aucs = {0}'.format(all_aucs)
 
 	  # plot ROC curve
-		pl.clf()
-		pl.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
-		pl.plot([0, 1], [0, 1], 'k--')
-		pl.xlim([0.0, 1.0])
-		pl.ylim([0.0, 1.0])
-		pl.xlabel('False Positive Rate')
-		pl.ylabel('True Positive Rate')
-		pl.legend(loc="lower right")
-		pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
-		#time.sleep(10)
+		#pl.clf()
+		#pl.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
+		#pl.plot([0, 1], [0, 1], 'k--')
+		#pl.xlim([0.0, 1.0])
+		#pl.ylim([0.0, 1.0])
+		#pl.xlabel('False Positive Rate')
+		#pl.ylabel('True Positive Rate')
+		#pl.legend(loc="lower right")
+		#pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
 
 if __name__ == '__main__':
 		data = preprocess_data(INPUT_FILE)
