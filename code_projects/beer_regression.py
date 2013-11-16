@@ -33,14 +33,13 @@ def run_model(data):
     train_x = data[:split_pt].drop('label', 1)      # training set features
     train_y = data[:split_pt].label                 # training set target
 
-    '''
+    
     print train_x
     print train_x.values 
-    print '=' * 100
-    print '=' * 100
+    print '-TR-X-' * 10
+    print '-TR-Y-' * 10
     print train_y.values
     print train_y
-    '''
     
     test_x = data[split_pt:].drop('label', 1)       # test set features
     test_y = data[split_pt:].label                  # test set target
@@ -49,7 +48,7 @@ def run_model(data):
     model = LR()                        # model is an "instance" of the class LR
     model.fit(train_x, train_y)         # perform model fit ("in place")
 
-    print model
+    #print model
     
     # get model outputs
     inputs = map(str, train_x.columns.format())
