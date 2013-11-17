@@ -2,10 +2,15 @@ from HTMLParser import HTMLParser
 import urllib2
 import sys
 
+OUTPUT_FILE = '/Users/john/code/science/data/ra_raw/TECHNO.html'
+
+f = open(OUTPUT_FILE, 'w')
 djs = []
-genre_iterator = [{'DeepHouse':20}
-,{'Techno':5}
-,{'Tech House':15}]
+#genre_iterator = [{'DeepHouse':20}
+#,{'Techno':5}
+#,{'Tech House':15}]
+
+genre_iterator  = [{'Techno':5}]
 
 class MyHTMLParser(HTMLParser):
 	def handle_starttag(self, tag, attrs):
@@ -19,17 +24,21 @@ class MyHTMLParser(HTMLParser):
 def get_html(url):
 	response = urllib2.urlopen(url)
 	html = response.read()
-	parser = MyHTMLParser()
-	parser.feed(html)
+	f.write(html)
+	#parser = MyHTMLParser()
+	#parser.feed(html)
 
-def get_artists():
+def save_raw_files():
 	for x in genre_iterator:
 		for genre,genre_id in x.items():
 			print 'genre: '  + str(genre) + ' genre_id: '  + str(genre_id)
-			request = 'http://www.residentadvisor.net/dj.aspx?style=' + str(genre_id)
-			genre_source_html = get_html(request)
+			request_str = 'http://www.residentadvisor.net/dj.aspx?style=' + str(genre_id)
+			get_html(request_str)
+			#return raw_html
+			#genre_source_html = get_html(raw_html)
 
 if __name__ == '__main__':
-	get_artists()
-	print djs
+	rw = save_raw_files()
+	#f.write(rw)
+	#print djs
 
