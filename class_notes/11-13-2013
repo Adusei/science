@@ -24,7 +24,6 @@ Cross Validation
 	- > can be done by shuffling feature space, or by shuffling records
 	- > Nested Cross Validation -- Outer loop is the feature space - inner is the sample data
 
-
 two ways of training LRession model
 	- > maximum likleyhood
 	- > sgd (better for bigger data set)
@@ -39,10 +38,8 @@ Predicted	|TP  		|  FP |
 True Positinve Rate  :  TP / TP+FN (good stuff)
 False Positive Rate  :  FP / FP+TN (bad stuff)
 
-
 ROC Curve - Classification Model Performance
 	- Area Under the Curve.. Summary statistic for Model Performance
-
 
 #notes#:
 #use pth file to set python path

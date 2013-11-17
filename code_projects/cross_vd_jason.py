@@ -7,9 +7,10 @@ from sklearn.linear_model import LogisticRegression as LR
 from sklearn.metrics import roc_curve, auc
 
 TRAIN_PCT = 0.7
-NUM_FOLDS = 4
-INPUT_FILE = INPUT_FILE = '/Users/john/code/science/data/beer.txt'
-
+NUM_FOLDS = 3
+#INPUT_FILE = 'beer.txt'
+INPUT_FILE = '/Users/john/code/science/data/beer.txt'
+PLOT_OUTPUT_FILE = '/Users/john/code/science/data/cv_json.png'
 def print_data(features, labels):
     print '=' * 40
     print 'FULL DATASET'
@@ -119,20 +120,13 @@ def roc_it(input_file=INPUT_FILE):
     pl.ylabel('True Positive Rate')
     pl.title('Receiver operating characteristic example')
     pl.legend(loc="lower right")
-    pl.show()
+    pl.show() 
+    pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
+
 
 if __name__ == '__main__':
-
-    # pretend features
-    x = np.array([['x01', 'x02'], ['x11', 'x12'], ['x21', 'x22'],
-        ['x31', 'x32'], ['x41', 'x42'], ['x51', 'x52'], ['x61', 'x62'],
-        ['x71', 'x72'], ['x81', 'x82'], ['x91', 'x92']])
-
-    # pretend labels
-    y = np.array(['y0', 'y1', 'y2', 'y3', 'y4', 'y5', 'y6', 'y7', 'y8', 'y9'])
-
     # print_data(x, y)
-    holdout(x, y)
+    # holdout(x, y)
     # kfolds(x, y)
 
-    #roc_it()
+    roc_it()

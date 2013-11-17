@@ -1,18 +1,20 @@
-#Predict the presence of heart disease in the patient. 
-
 import numpy as np
 import pandas as pd
 import urllib2 as ul
 import pylab as pl
-import time
+import pprint as pp
+import json as js
+
 
 from sklearn import cross_validation as cv
 from sklearn.linear_model import LogisticRegression as LR
 from sklearn.metrics import roc_curve, auc, confusion_matrix
+from sklearn.grid_search import GridSearchCV as gs
 
 INPUT_FILE = '/Users/john/code/science/data/heart-disease-stats.csv'
 PLOT_OUTPUT_FILE = '/Users/john/code/science/data/heart-disease-plot.png'
 NUM_FOLDS = 10
+RESULTS = []
 
 def preprocess_data(input_file):
 		data = pd.read_csv(input_file, delimiter=',').dropna()
@@ -25,7 +27,8 @@ def kfolds(features, labels,num_folds):
     kf = cv.KFold(n=len(features), n_folds=num_folds, shuffle=True)
     return kf
 
-def run_model(train_features, train_labels,test_features, test_labels):
+def run_model(train_features, train_labels,test_features, test_labels,iteration):
+		model_results = {}
 		model = LR()
 		model.fit(train_features, train_labels)
 
@@ -59,7 +62,30 @@ def run_model(train_features, train_labels,test_features, test_labels):
 		all_tprs = tpr[1]
 		all_aucs = roc_auc
 
-		return all_fprs,all_tprs,all_aucs,fpr,tpr,roc_auc
+		model_results['iteration'] = iteration
+		model_results['roc_auc']			 = roc_auc
+		model_results['accuracy']			 = accuracy
+		model_results['fpr']  = fpr[1]
+		model_results['tpr']  = tpr[1]
+		
+		RESULTS.append(model_results)
+
+		return all_fprs,all_tprs,all_aucs,fpr,tpr,roc_auc,accuracy,all_aucs
+
+def plot_results(fpr,tpr,roc_auc): #THIS DOESNT WORK... PLEASE HELP!
+	  # plot ROC curve
+
+		pl.clf()
+		pl.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc[0])
+		pl.plot([0, 1], [0, 1], 'k--')
+		pl.xlim([0.0, 1.0])
+		pl.ylim([0.0, 1.0])
+		pl.xlabel('False Positive Rate')
+		pl.ylabel('True Positive Rate')
+		pl.title('Receiver operating characteristic example')
+		pl.legend(loc="lower right")
+		#pl.show() 
+		pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
 
 def roc_it(data):
     # create cv iterator (note: train pct is set implicitly by number of folds)
@@ -74,6 +100,7 @@ def roc_it(data):
 			np.zeros(NUM_FOLDS))
 
 		for i, (train_index, test_index) in enumerate(kf):
+
 				loop_ind = '\n'+ '=' * 20 + 'Loop Number: ' + str(i) + '=' * 20 
 
 				print loop_ind * 3 + '\n'
@@ -84,34 +111,31 @@ def roc_it(data):
 				test_features = features.loc[test_index].dropna()
 				test_labels = labels.loc[test_index].dropna()
 
-				run_model(train_features, train_labels,test_features, test_labels)
+				run_model(train_features, train_labels,test_features, test_labels, i)
+		
+		plot_results(all_fprs, all_tprs, all_aucs)	
 
-		#print '\nall_fprs = {0}'.format(all_fprs)
-		#print 'all_tprs = {0}'.format(all_tprs)
-		#print 'all_aucs = {0}'.format(all_aucs)
+def cv_fields(data):
+		features = data.drop('label', 1)
+		#features = features.iloc[:,index]
+		labels = data.label 
+		for i,(feature) in enumerate(features):
+			print i, feature
 
-	  # plot ROC curve
-		#pl.clf()
-		#pl.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % roc_auc)
-		#pl.plot([0, 1], [0, 1], 'k--')
-		#pl.xlim([0.0, 1.0])
-		#pl.ylim([0.0, 1.0])
-		#pl.xlabel('False Positive Rate')
-		#pl.ylabel('True Positive Rate')
-		#pl.legend(loc="lower right")
-		#pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
 
 if __name__ == '__main__':
 		data = preprocess_data(INPUT_FILE)
-		roc_it(data)
-    #run_model(data)
+		cv_fields(data)
+		#roc_it(data)
+		results_json = js.dumps(RESULTS)
+		pp.pprint(RESULTS)
 
 
 
-#Training Set:
-#https://github.com/dzorlu/GADS/blob/master/data/logit-train.csv
+#############################
+####### HW Questions ########
+#############################
 
-##Questions 
 #1 - Train your logistic regression model with the training set applying 10-fold cross-validation. 
   #(a) Report the average AUC as well as misclassification rate (percent of times you guessed the label wrong).  
 #2 - Train your model applying 5-fold cross-validation, but this time to select the features. 
