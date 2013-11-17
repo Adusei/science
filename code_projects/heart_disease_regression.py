@@ -11,8 +11,8 @@ from sklearn.linear_model import LogisticRegression as LR
 from sklearn.metrics import roc_curve, auc, confusion_matrix
 from sklearn.grid_search import GridSearchCV as gs
 
-INPUT_FILE = '/Users/john/code/science/data/heart-disease-stats.csv'
-PLOT_OUTPUT_FILE = '/Users/john/code/science/data/heart-disease-plot.png'
+INPUT_FILE = '/Users/john/data/gads//heart-disease-stats.csv'
+PLOT_OUTPUT_FILE = '/Users/john/data/gads/heart-disease-plot.png'
 NUM_FOLDS = 10
 RESULTS = []
 
@@ -27,7 +27,7 @@ def kfolds(features, labels,num_folds):
     kf = cv.KFold(n=len(features), n_folds=num_folds, shuffle=True)
     return kf
 
-def run_model(train_features, train_labels,test_features, test_labels,iteration):
+def run_model(train_features, train_labels,test_features, test_labels,iteration,excluded_feature):
 		model_results = {}
 		model = LR()
 		model.fit(train_features, train_labels)
@@ -67,6 +67,7 @@ def run_model(train_features, train_labels,test_features, test_labels,iteration)
 		model_results['accuracy']			 = accuracy
 		model_results['fpr']  = fpr[1]
 		model_results['tpr']  = tpr[1]
+		model_results['excluded_feature']  = excluded_feature
 		
 		RESULTS.append(model_results)
 
@@ -87,7 +88,7 @@ def plot_results(fpr,tpr,roc_auc): #THIS DOESNT WORK... PLEASE HELP!
 		#pl.show() 
 		pl.savefig(PLOT_OUTPUT_FILE, bbox_inches=0)
 
-def roc_it(data):
+def roc_it(data,excluded_feature):
     # create cv iterator (note: train pct is set implicitly by number of folds)
 		features = data.drop('label', 1)
 		labels = data.label 
@@ -111,16 +112,22 @@ def roc_it(data):
 				test_features = features.loc[test_index].dropna()
 				test_labels = labels.loc[test_index].dropna()
 
-				run_model(train_features, train_labels,test_features, test_labels, i)
+				run_model(train_features, train_labels,test_features, test_labels, i, excluded_feature)
 		
-		plot_results(all_fprs, all_tprs, all_aucs)	
+		#plot_results(all_fprs, all_tprs, all_aucs)	
 
 def cv_fields(data):
 		features = data.drop('label', 1)
 		#features = features.iloc[:,index]
 		labels = data.label 
-		for i,(feature) in enumerate(features):
-			print i, feature
+		for i,(excluded_feature) in enumerate(features):
+			loop_ind = '\n'+ '=' * 20 + 'Excluding Feature: ' + excluded_feature + '=' * 20 
+			print loop_ind
+			loop_features = data.drop(excluded_feature, 1)
+
+			roc_it(data,excluded_feature)
+
+			print i, loop_features
 
 
 if __name__ == '__main__':
@@ -129,8 +136,6 @@ if __name__ == '__main__':
 		#roc_it(data)
 		results_json = js.dumps(RESULTS)
 		pp.pprint(RESULTS)
-
-
 
 #############################
 ####### HW Questions ########
