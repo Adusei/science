@@ -1,0 +1,40 @@
+11-20-2013
+
+KNN algorithm
+
+TERMS
+	- Non Parametric
+	- Parametric
+	- Non Generalizing
+		- > local vs. global hypothesis - logistic regression is a global hypthesis
+  - Lazy Learner (Push computational complexity into Test)
+
+What does a logistic regression output?
+	- Vector of Parameters.. 
+
+Logistic Regression 
+	- fitting a model produces a vector of parameter
+
+Training STep
+	- Storing points in memory
+
+Test Set 
+	- for ev
+	- for every query point in test set find KNN
+		- calculate distance between every point in your training set
+		- form a prediction (create a local hypothesis)
+
+TEST is very computationally expensive
+TRAIN is not computationaly complex (just storing records)
+
+
+Chosing the value of K
+	- Be careful of Ties (use an odd number)
+
+WHat does "nearest Mean"
+	- > chose proper metrics
+	- > how do u make every problem you have to solve
+
+Taccard Coefficient
+Term Frequency
+Document Frequency
