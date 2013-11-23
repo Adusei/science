@@ -46,6 +46,7 @@ if __name__ == '__main__':
 	html = f.readlines()
 	for line in html:
 			print line
+			
 	#parse_html(html)
 	#print djs
 
