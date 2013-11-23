@@ -33,8 +33,68 @@ Chosing the value of K
 
 WHat does "nearest Mean"
 	- > chose proper metrics
-	- > how do u make every problem you have to solve
+	- > how do u make every problem you have to solve into one i know how to solve
 
-Taccard Coefficient
-Term Frequency
-Document Frequency
+Ways to Embed Features into Metric Space
+	- > Taccard Coefficient
+	- > Term Frequency
+	- > Document Frequency
+
+What do you need to perform a KNN Algorithm
+	- > you need a metric
+
+
+VC Dimmension of 1nn is Infinity
+	- > THIs is when the model is infinitly complex
+
+Varonoi Diagram (tesalation)
+	- > sample (dots)
+	- > nearest neighbor are in the same cell
+	- > for a given sample, the nearest sample
+	- > euclidean metric vs taxi cab metric
+
+
+Add as executable
+chmod - x (file name)
+
+
+CONFUSION MATRIX
+	- > Iris KNN is 3X3
+
+
+					TRUE LABELS
+
+PREDICTED
+
+confusion matrix:
+[[17  0  0]
+ [ 0 17  1]
+ [ 0  0 10]] 
+
+
+PARAMETRIC VS NON PARAMETRIC
+
+Who won the race vs. what was the winning time
+
+
+Decision Boundries
+	- Linear vs. Non Linear
+
+
+KNN can give you a complex decision boundry, but that leads to a complex model
+
+TODO!
+-Pick a time slot to discuss projcet
+-Send Denis my HW
+-Check out Kaggle Competition
+
+
+
+
+
+
+
+
+
+
+
