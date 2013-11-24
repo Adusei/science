@@ -109,8 +109,6 @@ def roc_it(data,excluded_feature=None):
 		num_recs = len(data)
 		kf = kfolds(features, labels,NUM_FOLDS)
 
-				## I DO NOT UNDERSTAND THIS!
-
 		for i, (train_index, test_index) in enumerate(kf):
 
 				loop_ind = '\n'+ '=' * 20 + 'Loop Number: ' + str(i) + '=' * 20 
