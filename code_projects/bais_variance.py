@@ -23,7 +23,7 @@ def model_1 (ex_1,ex_2):
 
 	#return a, b
 
-#def model_2 (x):
+def model_2 (x):
 	# b = x
 	# return b
 

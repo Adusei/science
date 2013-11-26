@@ -1,0 +1,100 @@
+11-25-2013
+
+Probability & Naive Bais Classifier 
+
+
+	- What is probability:
+		--> number betwee 0 and 1 characterizes the likelihood that some event will occur
+		--> probabilty of event A is denoted as P(A)
+		--> compilment is 1-P(A)
+
+	- Set of all possible events
+		--> sample space (omega) or Ω
+
+	- Consider two events A & B.  How can we characteize the intersection of the events
+		--> imagine a vendiagram of a and b (intersection)
+		--> AB or A(intersection)B or [A ∩ B]
+
+	- suppose we have two events a and b (but b already happened)
+		--> what quantity represent the probability of A given this info about B
+				- Additional information transforms the sample space
+				- The intersection
+				- p(A|B) = P(AB) / P(B)
+
+	- What does it mean for two events to be independent
+		--> information about one does not effect pobability of the other
+
+
+Discriminitve vs. Generative
+
+Conditional Probability - > Transform the sample space
+
+
+#########	  	BAYES THEOREM 		########
+####	P(A|B) = P(B|A) * P(A)/P(B) #####
+
+- Gateway between two different interpretations of probability
+- Powerful computational tool
+
+				- Frequentists Interpretation - 
+- regardsa an event's probabilty as its limiting
+- frequency across a  very large number of trails
+	-- Whats the percentage it is going to rain? ---
+		--> I can not tell... I need an infinite number of samples
+		--> I can not predict future events...
+
+				- Bayesian Interpretation
+- An event's probability as a "degree of belief"
+- which can apply even to events that have not yet occured
+
+
+NAIVE BAYES CLASSIFIERS
+
+Suppose we have data set with features x1... xn and a class label C?
+
+											P({xi}|class C) * P(Class C)
+P(class C } {xi}) =  -------------------------------
+																	P({xi})
+
+P({xi}|class C) < -- likleyhood function
+	represents joint probability of observing ffeathres {xi} given that the record belongs to class C
+
+P(class C) <--- prior probability
+
+P({xi})   <---- notmalization constant
+	- This isnt important.... may be left out til end of computation
+
+P(class C } {xi}) < ----posterior probability of c
+	- Updating our beliefs based on our evidentce(data)
+
+
+Diferentce between baysein and tradition
+--- Traditional vs. point estiment ----
+- Takes into account prior probability
+...  THE MORE EVIDENCE YOU HAVE TO UPDATE YOUR BELEIF... 
+......THE LES YOU CARE ABOUT THE PRIOR PROBABILITY.......
+Baysein requires that you make assumptions...reliant on prior assumtions
+
+Estimating Joint Probability (likelyhood functional) is impossible because the sample space is too big
+
+Make a simplifying assumption! (NAIVE bayes)
+	assume that features xi are conditionally independent from another
+
+
+
+EXERCISE - Spam Filter
+
+Naive Baise is Generative Model
+	- > figure out what a dog and an elephant looks like then predicting from there <- 
+	- > learn P(xi|C) -- determine features given the class
+
+Logistic Regression 
+	- > all it cares about is defining classes (top now)
+	- > be able to tell things apart
+	- > makes strong parametric assumtions
+	- > goal: to learn probability of the class fiven the data P(C|xi)
+
+
+...Cool Stuff...
+# http://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo
+# curse of dimensionality

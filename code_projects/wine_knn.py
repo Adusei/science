@@ -119,3 +119,7 @@ if __name__ == '__main__':
 #ii) Perform cross-validation to pick the best model between logistic regression and kNN. Does the answer change when you use different CV technique?
 
 
+# TODO - > Find Variance
+# CV on Features
+# move all code to m_learning Repo
+
