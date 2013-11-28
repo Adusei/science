@@ -51,7 +51,6 @@ def sklearn_model(): #parametric.. using gausian distribution for feature  - > n
 
 	## Gausian assuption is Strong and Accurate
 
-
 if __name__ = "__main__"
 
 
@@ -62,3 +61,8 @@ if __name__ = "__main__"
 
 # read the docs!
 # http://nltk.org/book/ch06.html
+
+# Check out /.jq parser
+
+# Andrew Ng
+# http://cs229.stanford.edu/
