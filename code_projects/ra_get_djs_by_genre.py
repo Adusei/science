@@ -1,55 +1,54 @@
 from HTMLParser import HTMLParser
 import urllib2
 import sys
+import pprint as pp
 
-OUTPUT_FILE = '/Users/john/data/ra_raw/TECHNO.html'
+#genre_iterator  = [{'Techno':5}] # [{'DeepHouse':20},{'Tech House':15}]
 
-f = open(OUTPUT_FILE, 'w')
-djs = []
-#genre_iterator = [{'DeepHouse':20}
-#,{'Techno':5}
-#,{'Tech House':15}]
-
-genre_iterator  = [{'Techno':5}]
+DJS = []
 
 class MyHTMLParser(HTMLParser):
-	def handle_starttag(self, tag, attrs):
-		a = 1
-	def handle_endtag(self, tag):
-	  b = 2
-	def handle_data(self, data):
-	  print "Encountered some data  :", data
-	  djs.append(data)
+    def add_dj(self, html):
+        self.dj = {}
+        self.attr_list = []
+        self.feed(html)
 
+    def handle_starttag(self, tag, attrs):
+        self.dj = {}
+        self.attr_list = []
+        for k,v in attrs:
+            if k == 'href' and v.startswith('/dj/'):
+                self.attr_list.append(v)
+
+    def handle_endtag(self, tag):
+        if len(self.attr_list) > 0:
+            self.dj['permalink'] = self.attr_list[0]
+            self.attr_list.pop()
+
+    def handle_data(self, data):
+       if len(self.attr_list) == 1:
+            self.dj['name']= data
+            DJS.append(self.dj)
+	
 def get_raw_html(url):
 	response = urllib2.urlopen(url)
 	html = response.read()
-	f.write(html)
 
-def save_raw_files():
-	for x in genre_iterator:
-		for genre,genre_id in x.items():
-			print 'genre: '  + str(genre) + ' genre_id: '  + str(genre_id)
-			request_str = 'http://www.residentadvisor.net/dj.aspx?style=' + str(genre_id)
-			get_raw_html(request_str)
-			#return raw_html
-			#genre_source_html = get_html(raw_html)
 
 def parse_html(html):
-	parser = MyHTMLParser()
-	parser.feed(html)
+	p = MyHTMLParser()
+	p.add_dj(html)
 
 if __name__ == '__main__':
-	# rw = save_raw_files()
-	f = open(OUTPUT_FILE, 'r')
-	print f
-	html = f.readlines()
-	for line in html:
-			print line
-			
-	#parse_html(html)
-	#print djs
+	response = urllib2.urlopen('http://www.residentadvisor.net/dj.aspx?style=15&1000=1')
+	html = response.read()
+	p = MyHTMLParser()
+	p.add_dj(html)
 
-	#f.write(rw)
-	#print djs
+	pp.pprint(DJS)
 
+
+
+
+
+# try an assertion... should be 1000 items in dict
