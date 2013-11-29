@@ -1,24 +1,28 @@
-import soundcloud
+import soundcloud as sc
+import pprint as pp 
 
-# create client object with app credentials
-#client = Soundcloud.new(:client_id => '607f0d77719587d3fab7f79c54a32e80',
-#                        :client_secret => 'd2a404de1518945ddec8127334952ff1',
-#                        :redirect_uri => 'http://localhost:3000/')
+client = sc.Client(client_id='7460ba6c0c64e2e019aeca796eb3a4f7'
+													,client_secret = '1b005ace1bd8c5dff552faedaa99eb70'
+													,username='Adusei'
+											    ,password='Dinginator06')
 
+#def get_my_favs():
+all_of_my_favs = []
 
-client = soundcloud.Client(client_id='7460ba6c0c64e2e019aeca796eb3a4f7'
-													,client_secret = '1b005ace1bd8c5dff552faedaa99eb70')
+my_id = client.get('/me').id
+print my_id
 
-# find all sounds of buskers licensed under 'creative commons share alike'
-tracks = client.get('/tracks', q='thugfucker')
+my_favorites_request = 'users/'+ str(my_id) +'/favorites'
 
-#duration => {:from => 3600000} , :limit => 10 
+my_favorites = client.get(my_favorites_request)
+for my_favs in my_favorites:
+		favs_dict = {}
+		favs_dict['track_id']= my_favs.id
+		favs_dict['title']= my_favs.title
+		favs_dict['duration']= ( my_favs.duration ) / 600000.00 
+		all_of_my_favs.append(favs_dict)
 
-#print type(tracks)
-
-for t in tracks:
-		print t.id
-		print t.description
+pp.pprint(all_of_my_favs)
 
 
 
