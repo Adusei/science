@@ -14,7 +14,6 @@ url(r'^admin/', include(admin.site.urls)),
 
 # test that this works...
 
-asdasdasdasdasd
 
 
 #urlpatterns = patterns('',
