@@ -1,55 +1,72 @@
 import pandas as pd
 import random as rd
 import string as st
-from collections import Counter
-
+import pprint as pp
 
 import nltk.classify
 from nltk import NaiveBayesClassifier
 
-from sklearn import cross_validation as cv
-from sklearn.datasets import load_iris
-from sklearn.naive_bayes import GaussianNB
 
-url_prefix = 'https://raw.github.com/dzorlu/GADS/master/data/'
+url_prefix = 'https://raw.github.com/dzorlu/GADS/master/data/nb_train.csv'
 TRAIN_PCT = 0.7
 
-def process_data():
-	train_location = 'nb_train.csv'
-	test_location =  'nb_test.csv'
+TRAIN = '/Users/john/data/gads/nb_train.csv'
+TEST = '/Users/john/data/gads/nb_test.csv'
 
-	train_url = url_prefix + train_location
-	test_url  = url_prefix + test_location
+def process_data(): #THIS IS SOOO FUCKKKEDDD UP FFFFIXXX SOOOONNN!
+    all_insults = []
 
-	train_data = pd.read_csv(train_url)
-	test_data = pd.read_csv(test_url)
+    with open(TRAIN, 'r') as f:
+      for line in f:
+        insult = {}
+        arr = line.split(',')
+        comment = arr[2]
+        if comment.endswith('\n'): #FIX ASAP!!!!
+            comment = comment.replace('"""','')
+            comment = comment.strip()
+            insult['comment'] = comment
+            is_insult = arr[0]
+            insult['is_insult'] = is_insult
+            if len(comment) > 1:
+                all_insults.append(insult)   # rstrip removes trailing whitespace
 
-	return train_data
+    # # shuffle all_names in place
+    rd.shuffle(all_insults)
+    for a in all_insults:
+        pp.pprint(a)
 
-def nltk_featurize(comments):
-	lines = comments.drop('insult',1)
-	#lines = lines.drop('date',1)
-	
-	print '^ comments ^'
-	lines = comments
+def nltk_featurize(phrase):
+    """Returns ngrams and frequency distros """
+    phrase_tokens = []
 
-	for line in lines:
-		counts = Counter(line)
-		print counts
-		print line
+    tokens = nltk.word_tokenize(phrase)
+    fd = nltk.FreqDist(tokens)
 
-		#Counter({'this': 1, 'a': 1, 'is': 1, 'sentence': 1})
+    for token, cnt in fd.items():
+        fdist = {}
+        fdist['token']=token
+        fdist['frequency']=cnt
+        phrase_tokens.append(fdist)
 
-    # underfitting! can do somewhat better
-    # return {'last_letter': word[-1]}
+    return phrase_tokens
 
-    # overfitting! features have little traction
-    # return dict(('contains_' + k, k in word.lower()) for k in string.lowercase)
+    ### USE CODE BELOW FOR N-GRAMS ###
 
+    # bgs = nltk.bigrams(tokens)
+    # bg_fd = nltk.FreqDist(bgs)
+    # for k,v in bg_fd.items():
+    #     print k,v
+
+# def nltk_model():
+    
 
 if __name__ == '__main__':
-	train = process_data()
-	nltk_featurize(train)
+	# train = process_data()
+	# nltk_model()
+    #bla = nltk_featurize('hello hello this is john bla bla bla')
+    process_data()
+    
+ 
 
 # The challenge is to detect when a comment from a conversation 
 # would be considered insulting to another participant in the 
