@@ -13,8 +13,10 @@ TRAIN_PCT = 0.7
 TRAIN = '/Users/john/data/gads/nb_train.csv'
 TEST = '/Users/john/data/gads/nb_test.csv'
 
-def process_data(): #THIS IS SOOO FUCKKKEDDD UP FFFFIXXX SOOOONNN!
-    all_insults = []
+#GIVEAWAYS = ['FAG', 'FAGGOT', 'FUCK', 'SLUT']
+
+def process_data(): # FIX THIS!
+    all_insults = list()
 
     with open(TRAIN, 'r') as f:
       for line in f:
@@ -28,27 +30,33 @@ def process_data(): #THIS IS SOOO FUCKKKEDDD UP FFFFIXXX SOOOONNN!
             is_insult = arr[0]
             insult['is_insult'] = is_insult
             if len(comment) > 1:
-                all_insults.append(insult)   # rstrip removes trailing whitespace
+                all_insults.append(insult)
 
     # # shuffle all_names in place
     rd.shuffle(all_insults)
-    for a in all_insults:
-        pp.pprint(a)
+    
+    return all_insults
 
 def nltk_featurize(phrase):
-    """Returns ngrams and frequency distros """
-    phrase_tokens = []
+    hfuck = 0
+    if 'fuck' in phrase:
+        hfuck = 1
 
-    tokens = nltk.word_tokenize(phrase)
-    fd = nltk.FreqDist(tokens)
+    return {'has_fuck': hfuck }
 
-    for token, cnt in fd.items():
-        fdist = {}
-        fdist['token']=token
-        fdist['frequency']=cnt
-        phrase_tokens.append(fdist)
+    # """Returns ngrams and frequency distros """
+    # phrase_tokens = {}
 
-    return phrase_tokens
+    # tokens = nltk.word_tokenize(phrase)
+    # fd = nltk.FreqDist(tokens)
+
+    # for token, cnt in fd.items():
+    #     fdist = {}
+    #     fdist['token']=token
+    #     fdist['frequency']=cnt
+    #     phrase_tokens['fdist'] = fdist
+
+    # return phrase_tokens
 
     ### USE CODE BELOW FOR N-GRAMS ###
 
@@ -57,17 +65,39 @@ def nltk_featurize(phrase):
     # for k,v in bg_fd.items():
     #     print k,v
 
-# def nltk_model():
-    
+def nltk_model(train_comments):
+    for t in train_comments:
+        print t 
+    train_set = [(nltk_featurize(comment), is_insult) for comment, is_insult in train_comments]
 
+    #train_set, test_set = features[:split_pt], features[split_pt:]
+    nb = NaiveBayesClassifier.train(train_set)
+        # labeled_featuresets - A list of classified
+        # featuresets, i.e., a list of tuples (featureset, label).
+
+    print nb.show_most_informative_features(2)
+
+    print train_set
+
+    # train_set = []
+    # for t in train_comments:
+    #     comment =  t['comment']
+    #     features = nltk_featurize(comment) #this is creating a dict
+    #     is_insult =  t['is_insult']
+    #     tupl = (features, is_insult)
+    #     #
+    #     train_set.append(tupl)
+    
 if __name__ == '__main__':
 	# train = process_data()
 	# nltk_model()
     #bla = nltk_featurize('hello hello this is john bla bla bla')
-    process_data()
-    
- 
+    train = process_data()
+    nltk_model (train)
 
+# IDEAS -- > all caps
+        #-- 
+ 
 # The challenge is to detect when a comment from a conversation 
 # would be considered insulting to another participant in the 
 # conversation. The data consists of a label column followed 
