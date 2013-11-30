@@ -5,7 +5,7 @@ import numpy as np
 import random as rd
 import datetime as dt
 import json
-
+from dateutil import parser as date_parser
 
 from sklearn.linear_model import LogisticRegression as LR
 from sklearn.metrics import confusion_matrix
@@ -26,9 +26,17 @@ def create_track_dict(sc_track_object):
   track_dict['duration']= ( sc_track_object.duration ) / 60000.00 #minutes
 
   #a = dt.datetime(sc_track_object.created_at)
-  #b = dt.datetime(2013,12,31,23,59,59)
-  #(b-a).total_seconds()
+  a = sc_track_object.created_at
+  a = date_parser.parse(a)
+  a = a.replace(tzinfo=None)
+  b = dt.datetime.now()
+  b = b.replace(tzinfo=None)
 
+  diff = (b-a).total_seconds() / 86400.00
+  print diff
+  print sc_track_object.title
+
+  track_dict['day_since_release'] = diff
 
   try:
      fc = sc_track_object.favoritings_count
@@ -59,7 +67,6 @@ def get_my_favs():
     all_of_my_favs.append(favs_dict)
 
   return all_of_my_favs
-
 
 def get_random_tracks(limit_input):
   all_random_tracks = []
@@ -118,11 +125,9 @@ def run_logistic_regression(train_x, train_y, test_x, test_y, iteration):
   print 'accuracy = {0}'.format(accuracy)     # mean 0/1 loss
   print 'confusion matrix:\n', cm, '\n'
 
-
 def cross_validate(data,num_folds=10):
     data = data.drop('title',1)
     data = data.drop('tags',1)
-
 
     features = data.drop('label', 1)
     labels = data.label
