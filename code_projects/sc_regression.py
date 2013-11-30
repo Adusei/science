@@ -28,17 +28,14 @@ def get_my_favs():
   for my_fav_instance in my_favorites:
       favs_dict = {}
       favs_dict['track_id']= my_fav_instance.id
-      #favs_dict['title']= my_fav_instance.title
+      favs_dict['title']= my_fav_instance.title
       #favs_dict['random_number']= rd.uniform(0,1)
       #favs_dict['playback_count'] = my_fav_instance.playback_count
       favs_dict['duration']= ( my_fav_instance.duration ) / 60000.00 #minutes
       all_of_my_favs.append(favs_dict)
       pp.pprint
-      #pp.pprint(vars(my_fav_instance))
 
   return all_of_my_favs
-
-  #pp.pprint(all_of_my_favs)
 
 def get_random_tracks(limit_input):
   all_random_tracks = []
@@ -48,7 +45,7 @@ def get_random_tracks(limit_input):
   for track in tracks: # make this modular...
     tracks_dict = {}
     tracks_dict['track_id']= track.id
-    #tracks_dict['title']= track.title
+    tracks_dict['title']= track.title
     #tracks_dict['random_number']= rd.uniform(0,1)
     #tracks_dict['playback_count'] = track.playback_count
     tracks_dict['duration']= ( track.duration ) / 60000.00 #minutes
@@ -75,25 +72,19 @@ def prepare_data(control_data, experiment_data):
   
   all_data = cntrl_df.append(expr_df)
 
+  print str(len(all_data)) + ' <--- data length'
+  print str(len(cntrl_df)) + ' <--- control length'
+  print str(len(expr_df)) + ' <--- expr length'
+
+  all_data = all_data.reindex(np.random.permutation(all_data.index))
+
   return all_data
 
-
 def kfolds(features, labels, num_folds):
-    kf = cv.KFold(n=len(features), n_folds=num_folds, shuffle=True,random_state=0)
+    kf = cv.KFold(n=len(features), n_folds=num_folds, shuffle=True ,random_state=0, indices=False)
     return kf
 
-def run_logistic_regression(data):#(train_x, train_y, text_x, text_y):#,iteration):
-  data = data.reindex(np.random.permutation(data.index))
-
-  split_pt = int(TRAIN_PCT * len(data))
-
-  train_x = data[:split_pt].drop('label', 1)      # training set features
-  train_y = data[:split_pt].label                 # training set target
-
-  test_x = data[split_pt:].drop('label', 1)       # test set features
-  test_y = data[split_pt:].label                  # test set target
-
-  # initialize model & perform fit
+def run_logistic_regression(train_x, train_y, test_x, test_y, iteration):#,iteration):
   model = LR()                        # model is an "instance" of the class LR
   model.fit(train_x, train_y)         # perform model fit ("in place")
 
@@ -112,73 +103,36 @@ def run_logistic_regression(data):#(train_x, train_y, text_x, text_y):#,iteratio
 
 
 def cross_validate(data,num_folds=10):
-    #data = data.drop('title',1)
-    data = data.reindex(np.random.permutation(data.index))
+    data = data.drop('title',1)
+    features = data.drop('label', 1)
+    labels = data.label
 
-    features = data.drop('label',1)
-    labels = data.label 
-
-    print '===' * 20
-    print 'DATA' 
-    print '===' * 20
-
-    print data
-
-    print '===' * 20
-    print 'FEATURES' 
-    print '===' * 20
-    
-    print features
-
-    print '===' * 20
-    print 'LABELS' 
-    print '===' * 20
-
-    print labels
-
-    print '< len feathres'
-    print features.shape 
-
-    '< len lables'
-    print labels.shape 
-
-    run_logistic_regression(features, labels, features, labels)
-
-    '''
     num_recs = len(data)
+    print num_recs
+    print '^ number of records'    
     kf = kfolds(features, labels, num_folds)
-
 
     for i, (train_index, test_index) in enumerate(kf):
 
-         loop_ind = '\n'+ '=' * 20 + 'Loop Number: ' + str(i) + '=' * 20 
+      loop_ind = '\n'+ '=' * 20 + 'Loop Number: ' + str(i) + '=' * 20 
 
-         print loop_ind * 3 + '\n'
+      print loop_ind * 3 + '\n'
 
-         train_features = features.loc[train_index].dropna()
-         train_labels = labels.loc[train_index].dropna()
+      train_features = features.loc[train_index].dropna()
+      train_labels = labels.loc[train_index].dropna()
 
-         test_features = features.loc[test_index].dropna()
-         test_labels = labels.loc[test_index].dropna()
+      test_features = features.loc[test_index].dropna()
+      test_labels = labels.loc[test_index].dropna()
 
-         print str(test_labels) + '<test labels'
-         print str(train_labels) + '<train labels'
-         run_logistic_regression(train_features, train_labels, test_features, test_labels, i)
-  '''
+      run_logistic_regression(train_features, train_labels, test_features, test_labels, i)
+
 if __name__ == '__main__':
-  expr  =  get_random_tracks(50)
+  expr  =  get_random_tracks(180)
   cntrl =  get_my_favs()
   tracks =  prepare_data(cntrl, expr)
-  #cross_validate(tracks)
-  run_logistic_regression(tracks)
+  cross_validate(tracks)
 
 # soundcloud app uri: py_ml_yp
-
-#TRAINING DATA:
-  # My Likes.. sounds that i like
-  # Starting small... defining the prediction based off of time only.
-
-# Sounds are tagged with things i like and I dont like..
 # Predict if i like it.. or if i dont
 
 
