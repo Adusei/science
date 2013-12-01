@@ -8,8 +8,6 @@ from sklearn import cross_validation as cv
 import nltk.classify
 from nltk import NaiveBayesClassifier
 
-
-
 url_prefix = 'https://raw.github.com/dzorlu/GADS/master/data/nb_train.csv'
 NUM_FOLDS = 10
 
@@ -39,45 +37,40 @@ def process_data(): # FIX THIS!
 
 def nltk_featurize(phrase):
     phrase_features = {}
-    # hfag = 0
 
-    # if 'fag' in phrase.lower():
-    #     hfag = 1
+    ##  PROFANITY CHECK  ##
+
+    hfag = 0
+
+    if 'fag' in phrase.lower():
+        hfag = 1
      
-    # phrase_features['has_fag'] = hfag
+    phrase_features['has_fag'] = hfag
 
-    ###          ###
     ##  TOKENIZE  ##
-    ###          ###
 
     tokens = nltk.word_tokenize(phrase)
-    fd = nltk.FreqDist(tokens)
 
-    for token, cnt in fd.items():
-        fdist = {}
-        #phrase_features['word']=token
-        phrase_features['']= (token,cnt)
+    # fd = nltk.FreqDist(tokens)
+    # for token, cnt in fd.items():
+    #     #phrase_features['word']=token
+    #     phrase_features['word']= (token,cnt)
+
+    ##  N-GRAMS   ##
+
+    bgs = nltk.bigrams(tokens)
+    bg_fd = nltk.FreqDist(bgs)
+    for ngram,freq in bg_fd.items():
+        phrase_features['ngram']= (ngram,freq)
 
     return phrase_features
+    # {'has_fag': 0, 'has_fuck': 1, 'word': ('hello',2) ,'ngram':(('u','are'),1)}
 
-
-    # {'has_fag': 0, 'has_fuck': 1, 'word': ('hello',2) }
-
-    ### USE CODE BELOW FOR N-GRAMS ###
-
-    # bgs = nltk.bigrams(tokens)
-    # bg_fd = nltk.FreqDist(bgs)
-    # for k,v in bg_fd.items():
-    #     print k,v
-
-# def nltk_model(train_comments):
 def nltk_model(train_data, test_data, iteration):
     # assert len(train_comments) == 1000 #?
 
     test_set = [(nltk_featurize(comment), is_insult) for comment, is_insult in test_data]
     train_set = [(nltk_featurize(comment), is_insult) for comment, is_insult in train_data]    
-
-    #train_set, test_set = features[:split_pt],features[split_pt:]
     
     nb = NaiveBayesClassifier.train(train_set)
 
@@ -126,6 +119,9 @@ def cross_validate (data,excluded_feature=None):
             test_data.append((ftr,lbl))
             
         nltk_model(train_data, test_data, i)
+
+def make_prediction(test_data):
+    a = 1
 
 if __name__ == '__main__':
 	# train = process_data()

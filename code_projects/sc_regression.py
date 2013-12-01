@@ -5,7 +5,9 @@ import numpy as np
 import random as rd
 import datetime as dt
 import json
+import nltk
 from dateutil import parser as date_parser
+
 
 from sklearn.linear_model import LogisticRegression as LR
 from sklearn.metrics import confusion_matrix
@@ -63,6 +65,7 @@ def get_my_favs():
   my_favorites = client.get(response)
 
   for f in my_favorites:
+    # tokens = tokenize_sc_track(f)
     favs_dict = create_track_dict(f)
     all_of_my_favs.append(favs_dict)
 
@@ -152,12 +155,21 @@ def cross_validate(data,num_folds=10):
       run_logistic_regression(train_features, train_labels, test_features, test_labels, i)
 
 
+def tokenize_sc_track(track_id=49977173):
+    response = 'tracks/' + str(track_id) 
+    track = client.get(response)
+
+    tag_list = track.tag_list
+
+    tokens = nltk.word_tokenize(tag_list)
+
+
 if __name__ == '__main__':
-  expr  =  get_random_tracks(180)
-  cntrl =  get_my_favs()
-  #get_my_favs()
-  tracks =  prepare_data(cntrl, expr)
-  cross_validate(tracks)
+  # expr  =  get_random_tracks(180)
+  # cntrl =  get_my_favs()
+  # tracks =  prepare_data(cntrl, expr)
+  # cross_validate(tracks)
+  tokenize_sc_track()
 
 # soundcloud app uri: py_ml_yp
 # Predict if i like it.. or if i dont
