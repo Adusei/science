@@ -30,7 +30,7 @@ def process_data(): # FIX THIS!
             is_insult = arr[0]
             insult['is_insult'] = is_insult
             if len(comment) > 1:
-                all_insults.append(insult)
+                all_insults.append((comment,is_insult))
 
     # # shuffle all_names in place
     rd.shuffle(all_insults)
@@ -39,7 +39,7 @@ def process_data(): # FIX THIS!
 
 def nltk_featurize(phrase):
     hfuck = 0
-    if 'fuck' in phrase:
+    if 'fuck' in phrase.lower():
         hfuck = 1
 
     return {'has_fuck': hfuck }
@@ -66,28 +66,28 @@ def nltk_featurize(phrase):
     #     print k,v
 
 def nltk_model(train_comments):
-    for t in train_comments:
-        print t 
-    train_set = [(nltk_featurize(comment), is_insult) for comment, is_insult in train_comments]
+    # assert len(train_comments) == 1000 #?
 
+    rd.shuffle(train_comments)
+
+    features = [(nltk_featurize(comment), is_insult) for comment, is_insult in train_comments]
+
+    split_pt = int(TRAIN_PCT * len(features))
+
+    train_set, test_set = features[:split_pt],features[split_pt:]
     #train_set, test_set = features[:split_pt], features[split_pt:]
     nb = NaiveBayesClassifier.train(train_set)
         # labeled_featuresets - A list of classified
         # featuresets, i.e., a list of tuples (featureset, label).
 
-    print nb.show_most_informative_features(2)
-
-    print train_set
-
-    # train_set = []
-    # for t in train_comments:
-    #     comment =  t['comment']
-    #     features = nltk_featurize(comment) #this is creating a dict
-    #     is_insult =  t['is_insult']
-    #     tupl = (features, is_insult)
-    #     #
-    #     train_set.append(tupl)
+    nb.show_most_informative_features(10)
     
+    print 'accuracy = {0} %'.format(int(100 * nltk.classify.accuracy(nb, test_set)))
+
+
+
+
+
 if __name__ == '__main__':
 	# train = process_data()
 	# nltk_model()
