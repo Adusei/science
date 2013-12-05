@@ -1,10 +1,22 @@
 Project Brain Storm
 
+1. FOCUS
+  
+  Things i want to experiment with / install
+  	- Marko implementation of recommendation system
+  	- py2neo
+  	- graph examples in my semantic web book
+  	- MySQL
+  	- Convert over freebase calls to python
+  		- > Save in DB
+
+  Django To dos
+  	- home page with search bar
+  	- pass search to sc api
+  	- render sound and play
+  	- bootstrap
+  	- tons of other stuff :-/
 
 
+http://book.py2neo.org/en/latest/fundamentals/#node-relationship-abstracts
 
-
-
-
-
-See 

@@ -51,12 +51,6 @@ TODOS
 	- review bais variance
 	- where is my rails book?
 	- data aa
-
-BOOKS
-	- The Elements of Statistical Learning: 1st Edition
-	- data analysis with open source tools (janert)
-	- machine learning for hackers
-	- Signal in the noise
 	- add to nltk code:
 			@john you can do it like this:
 			cv.fit(test_features)
@@ -66,4 +60,10 @@ BOOKS
 			clf.predict(test_features) would give you your prediction array
 			data/nb_test.csv
 
-
+BOOKS
+	- The Elements of Statistical Learning: 1st Edition
+	- data analysis with open source tools (janert)
+	- machine learning for hackers
+	- Signal in the noise
+  - data science for business
+  - ceder the quick python book <--- best python intro!

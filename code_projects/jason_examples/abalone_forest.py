@@ -74,4 +74,9 @@ if __name__ == '__main__':
 
 # pretty sure that when i increase the data size the difference between the accuracy for both models aproaches zero
 
+# with small data...ensemble does much better than single model
+
+
+    
+
 
