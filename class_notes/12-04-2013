@@ -1,0 +1,69 @@
+12-04-2013  - ENSEMBLE TECHNIQUES
+
+
+ENSEMBLE TECHNIQUES - Methods of improving classification accuracy by aggregating preiction over several base classifiers
+	- Base classifiers should be low bais and uncoorelated
+
+
+Decisition Tree is a high variance classifier
+
+
+Problems in Classification
+	- Statistical problem
+	- Computational problem
+	- represenation problem
+
+
+	DECISION TREES
+			-> a decisioin tree works by forming a rectilinear partition of the featree space
+			-> rectilinear -> decision boundries are perpandicular to axis
+
+
+  BAGGING (bootstrap aggregating)
+  Sample With Replacement
+  	- pick a card... put it back... probability of you pulling that card is the same as the first time
+
+  BOOSTING
+  Boosting is an iterative procedure that adaptively changes the sampling distribution of trainin records at each iteration
+  	- start with uniform weights
+  	- in next itreatinon adjust weights to ephasize records that were misclassified in previous iterations
+  	- final prediction constructed by a weighted vote
+  	- Ataboost; gradient boosted machine
+
+
+  RANDOM FOREST
+  	- Ensemble of decision trees where earch base classifier is grown using a random effect
+
+Check out Diettrick Ensemble Paper
+	- A few lessons to learn about machine learning
+	
+
+With random forest when predicting a record... make 100 preductions (you have 100 trees) then vote! either on average or a weighted average
+
+
+
+TODOS 
+	- Set up Emacs
+	- Set up MySQL
+	- ipdb practice
+	- how to call help on sklearn models
+	- install crab
+	- review bais variance
+	- where is my rails book?
+	- data aa
+
+BOOKS
+	- The Elements of Statistical Learning: 1st Edition
+	- data analysis with open source tools (janert)
+	- machine learning for hackers
+	- Signal in the noise
+	- add to nltk code:
+			@john you can do it like this:
+			cv.fit(test_features)
+			scratch that. sorry.
+			once you train your model, you can do this:
+			clf.score(testfeatures,testlabels)
+			clf.predict(test_features) would give you your prediction array
+			data/nb_test.csv
+
+
