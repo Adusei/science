@@ -1,7 +1,10 @@
 Project Brain Storm
 
 1. FOCUS
+2. KEEP IT SIMPLE!
   
+
+
   Things i want to experiment with / install
   	- Marko implementation of recommendation system
   	- py2neo
@@ -9,6 +12,7 @@ Project Brain Storm
   	- MySQL
   	- Convert over freebase calls to python
   		- > Save in DB
+  	- Finish RA Parser
 
   Django To dos
   	- home page with search bar
@@ -18,5 +22,26 @@ Project Brain Storm
   	- tons of other stuff :-/
 
 
-http://book.py2neo.org/en/latest/fundamentals/#node-relationship-abstracts
+
+
+
+################################
+## NOTES FROM JASONS RESPONSE ##
+################################
+
+buzzwords you should be looking up are things like 
+	, item-based vs collaborative filtering
+	, the cold start problem,
+	, the netflix prize, and 
+	. non-negative matrix factorization.
+
+This paper (from the netflix prize winners) is very instructive
+http://www2.research.att.com/~volinsky/papers/ieeecomputer.pdf
+
+best to keep it simple.
+
+http://www.adamlaiacano.com/post/46158753116/how-to-approach-a-problem-self-indulgent-music
+
+
+
 
