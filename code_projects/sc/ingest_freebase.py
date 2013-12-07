@@ -35,8 +35,10 @@ def insert_genre(mid, name, con):
 		x.execute("""INSERT INTO genres (m_id, genre_name) VALUES (%s,%s)""",(mid,name))
 		con.commit()
 
+	get_artists_by_genre(mid, con)
 
-def get_artists_by_genres(genre_m_id, conn):
+
+def get_artists_by_genre(genre_m_id, conn):
 	query = [{
 		  "genre": {
 		    "mid": genre_m_id
@@ -56,43 +58,54 @@ def get_artists_by_genres(genre_m_id, conn):
 		artist_name = artist['name']
 
 		insert_artist(artist_mid, artist_name, conn)
-		# artist_id = 
-		# insert_artist_to_genre(artist_id, genre_id, conn)
+
+		a_sql = "select artist_id from artists where m_id = '" + str(artist_mid) + "'"
+		g_sql = "select genre_id from genres where m_id  = '" + str(genre_m_id) + "'"
+
+		x = conn.cursor()
+		x.execute(g_sql)
+
+		conn.commit()
+
+		x_row = x.fetchone()
+		genre_id = x_row[0]
+
+		y = conn.cursor()
+		y.execute(a_sql)
+
+		conn.commit()
+
+		y_row = y.fetchone()
+		aritst_id = y_row[0]
+
+		if aritst_id is not None: #fix with try/except
+			insert_artist_to_genre(aritst_id, genre_id, conn)
 
 def insert_artist(mid, name, con):
-
 	x = con.cursor()
 
 	exists_clause = "select (1) from artists where m_id  = '" + str(mid) + "' limit 1"
 
 	if not x.execute(exists_clause): 
-		print mid
-		print name
 		x.execute("""INSERT INTO artists (m_id, artist_name) VALUES (%s,%s)""",(mid,name))
 		con.commit()
 
 def insert_artist_to_genre(artist_id, genre_id, con):
-	data = cursor.fetchall()
-	for row in data :
-	    do stuff
+	x = con.cursor()
 
-# 	x = con.cursor()
+	exists_clause = "select (1) from artist_to_genre where artist_id = " + str(artist_id) + " and genre_id = " + str(genre_id)
 
-# 	exists_clause = "select (1) from artist_to_genre where artist_id = and genre_id = "
-
-# 	if x.execute(exists_clause): 
-# 		x.execute("""INSERT INTO genres (m_id, artist_name) VALUES (%s,%s)""",(mid,name))
-# 		con.commit()
-
+	if not x.execute(exists_clause): 
+		x.execute("""INSERT INTO artist_to_genre (artist_id, genre_id) VALUES (%s,%s)""",(artist_id,genre_id))
+		con.commit()
 
 # def get_genre_relations(genre_id):
 
-
 def connect_to_db():
-	conn = mysql.connect(host="localhost",user="root",db="sandbox")
-	return conn
+	db = mysql.connect(host="localhost",user="root",db="sandbox")
+	return db
 
 if __name__ == '__main__':
 	conn = connect_to_db()
-	# get_genres(conn)
-	get_artists_by_genres("/m/01zh00",conn)
+	get_genres(conn)
+	# get_artists_by_genres("/m/01zh00",conn)
