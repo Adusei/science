@@ -12,7 +12,7 @@ def get_genres(con):
 	query =     [{"name":None,"mid":None,"type": "/music/genre","limit": 10000}]
 
 	params = {'query': json.dumps(query),'key': API_KEY}
-	
+
 	url = service_url + '?' + urllib.urlencode(params)
 	response = json.loads(urllib.urlopen(url).read())
 
@@ -41,3 +41,11 @@ def connect_to_db():
 if __name__ == '__main__':
 	conn = connect_to_db()
 	get_genres(conn)
+
+
+# create table genres
+# (
+# 	genre_id INT PRIMARY KEY AUTO_INCREMENT
+# 	,m_id NVARCHAR(10)
+# 	,genre_name NVARCHAR(255)
+# );
