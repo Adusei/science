@@ -63,10 +63,15 @@ WSGI_APPLICATION = 'm_learning.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'HOST': 'localhost',
+        'NAME': 'sandbox',
+        'ENGINE': 'django.db.backends.mysql',
+        'USER': 'root', #give application its own username
+        'PASSWORD': ''
     }
 }
+
+## CHANGE TO MYSQL
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.6/topics/i18n/
