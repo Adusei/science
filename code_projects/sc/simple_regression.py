@@ -61,11 +61,11 @@ def get_my_favs():
   all_of_my_favs = []
 
   my_id = client.get('/me').id
-  response = 'users/'+ str(my_id) +'/favorites'
-  my_favorites = client.get(response)
+
+  response = 'users/'+ str(my_id) +'/favorites'#?limit=10000'
+  my_favorites = client.get(response,limit=1000)
 
   for f in my_favorites:
-    # tokens = tokenize_sc_track(f)
     favs_dict = create_track_dict(f)
     all_of_my_favs.append(favs_dict)
 
