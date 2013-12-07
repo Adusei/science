@@ -26,6 +26,8 @@ def create_track_dict(sc_track_object):
   track_dict['title']= sc_track_object.title
   track_dict['tags'] = sc_track_object.tag_list
   track_dict['duration']= ( sc_track_object.duration ) / 60000.00 #minutes
+  track_dict['user_id']= sc_track_object.user_id
+
 
   #a = dt.datetime(sc_track_object.created_at)
   a = sc_track_object.created_at
@@ -35,8 +37,8 @@ def create_track_dict(sc_track_object):
   b = b.replace(tzinfo=None)
 
   diff = (b-a).total_seconds() / 86400.00
-  print diff
-  print sc_track_object.title
+  # print diff
+  # print sc_track_object.title
 
   track_dict['day_since_release'] = diff
 
