@@ -59,6 +59,8 @@ def create_track_dict(sc_track_object):
   return track_dict
 
 def get_my_favs():
+  #tj 3105250
+  #yoshi 12772525
   #http://api.soundcloud.com/tracks/92518013.json?client_id=7460ba6c0c64e2e019aeca796eb3a4f7
   all_of_my_favs = []
 

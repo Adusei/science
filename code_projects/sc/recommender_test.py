@@ -1,50 +1,134 @@
 import soundcloud as sc
 import MySQLdb as mysql
 import pprint as pp
-import simple_regression as sr
 import collections as cl
 import operator as op
-
+from dateutil import parser as date_parser
+import datetime as dt
 
 import nltk.classify
 from nltk import NaiveBayesClassifier
 
-user_ngram_fdist = cl.defaultdict(int)
-my_favs = sr.get_my_favs()
-# pp.pprint(my_favs)
+client = sc.Client(client_id='7460ba6c0c64e2e019aeca796eb3a4f7'
+                  ,client_secret = '1b005ace1bd8c5dff552faedaa99eb70'
+                  ,username='Adusei'
+                  ,password='Dinginator06')
 
-for fav in my_favs:
-	title =  fav['title']
-	tag_list = fav['tags']
-	# user_id = fav['user_id'] # Not sure how i want to do with this
+def create_track_dict(sc_track_object):
+  track_dict = {}
+  track_dict['track_id']= sc_track_object.id
+  track_dict['title']= sc_track_object.title
+  track_dict['tags'] = sc_track_object.tag_list
+  track_dict['duration']= ( sc_track_object.duration ) / 60000.00 #minutes
+  track_dict['user_id']= sc_track_object.user_id
 
-	tag_list = tag_list.replace('"', '').lower()
-	title = title.lower()
+  a = sc_track_object.created_at
+  a = date_parser.parse(a)
+  a = a.replace(tzinfo=None)
+  b = dt.datetime.now()
+  b = b.replace(tzinfo=None)
 
-	title_tokens = nltk.word_tokenize(title)
-	tag_tokens = nltk.word_tokenize(tag_list)
+  diff = (b-a).total_seconds() / 86400.00
 
-	tmp_tokens = title_tokens + tag_tokens
+  track_dict['day_since_release'] = diff
 
-	bgs = nltk.bigrams(tmp_tokens)
-	bg_fd = nltk.FreqDist(bgs)
-	for ngram,freq in bg_fd.items():	
-		ngram_str = ngram[0].encode('utf-8') + ' ' + ngram[1].encode('utf-8')
-		user_ngram_fdist[ngram_str] += 1
-		
-sorted_ngrams = sorted(user_ngram_fdist.iteritems(), key=op.itemgetter(1))	
-pp.pprint(sorted_ngrams)
+  try:
+     fc = sc_track_object.favoritings_count
+  except AttributeError:
+     fc = -1
 
-	# def find_follower_likes
+  track_dict['favs_count'] = fc
 
-	# def classify_user
-		# user = artist
-		# user = listener
+  try:
+     pc = sc_track_object.favoritings_count
+  except AttributeError:
+     pc = -1
+
+  track_dict['play_count'] = pc
+  
+  return track_dict
+
+def get_favs_by_user(user_id):
+	all_favs = []
+
+	response = 'users/'+ str(user_id) +'/favorites'
+	my_favorites = client.get(response,limit=1000)
+
+	for f in my_favorites:
+		favs_dict = create_track_dict(f)
+		all_favs.append(favs_dict)
+
+	return all_favs
+
+def get_ngams_by_user (user_id):
+
+	user_ngram_fdist = cl.defaultdict(int)
+	my_favs = get_favs_by_user(user_id)
+
+	for fav in my_favs:
+		title =  fav['title']
+		tag_list = fav['tags']
+		user_id = fav['user_id'] # Not sure how i want to deal with this
+
+		tag_list = tag_list.replace('"', '').lower()
+		title = title.lower()
+
+		print title
+		print user_id
+
+		title_tokens = nltk.word_tokenize(title)
+		tag_tokens = nltk.word_tokenize(tag_list)
+
+		tmp_tokens = title_tokens + tag_tokens
+
+		bgs = nltk.bigrams(tmp_tokens)
+		bg_fd = nltk.FreqDist(bgs)
+		for ngram,freq in bg_fd.items():	
+			ngram_str = ngram[0].encode('utf-8') + ' ' + ngram[1].encode('utf-8')
+			user_ngram_fdist[ngram_str] += 1
+			
+	sorted_ngrams = sorted(user_ngram_fdist.iteritems(), key=op.itemgetter(1))	
+	pp.pprint(sorted_ngrams)
+
+	return sorted_ngrams
+
+def find_follower_likes(user_id):
+	all_tracks = []
+
+
+	response = 'users/'+ str(user_id) +'/followings' #followers
+	my_favorites = client.get(response,limit=1000)
+
+	for f in my_favorites:
+		if f.duration > 3600000.0: #1hr
+			favs_dict = create_track_dict(f)
+			all_tracks.append(favs_dict)
+			user_favs = get_favs_by_user(user_id)
+
+
+	return all_tracks
+
+
+if __name__ == "__main__":
+	get_ngams_by_user(6596434) #md
+		# tj 3105250
+		# yoshi 12772525
+
+	# http://api.soundcloud.com/resolve.json?url=https://soundcloud.com/dteej&client_id=7460ba6c0c64e2e019aeca796eb3a4f7 yyy84
+
+
 
 
 # the idea about a weighted graph
 # in the way that "better" users
 # titlt the graph in their favor
  
+# Personas... Deep House/Techno/Burning Man/EDM
+
+
+
+
+
+
 
 
