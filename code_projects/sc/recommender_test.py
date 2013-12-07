@@ -98,6 +98,7 @@ def find_follower_likes(user_id):
   user_followings = client.get(response,limit=1000)
 
   for f in user_followings:
+    
     print 'USER:  ' + f.username
     followed_user_id = f.id
     user_favs = get_favs_by_user(followed_user_id)
@@ -107,8 +108,14 @@ def find_follower_likes(user_id):
         all_tracks[track_tuple] += 1
         print track_tuple
 
-  # remove favorites that current user also has as a favorite
+  ## TODO ##
+  
+    # remove favorites that current
+    # user also has as a favorite
 
+    # Rank Tracks
+
+    # insert tracks into mysql
   sorted_tracks = sorted(all_tracks.iteritems(), key=op.itemgetter(1))  
 
   pp.pprint(sorted_tracks)
