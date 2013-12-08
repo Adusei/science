@@ -108,6 +108,23 @@ def find_follower_likes(user_id):
         all_tracks[track_tuple] += 1
         print track_tuple
 
+  return all_tracks
+
+  def insert_tracks_to_db(tracks):
+    for track in alltracks:
+
+    exists_clause = "select (1) from listen_sound where id  = '" + str(track.id) + "' or name = '" + str(name) + "' limit 1"
+    print exists_clause
+
+    if not x.execute(exists_clause): 
+      x.execute("""INSERT INTO meta_genre (fb_id, name) VALUES (%s,%s)""",(mid,name))
+    con.commit()
+
+
+
+
+
+  
   ## TODO ##
   
     # remove favorites that current
@@ -122,8 +139,12 @@ def find_follower_likes(user_id):
   return sorted_tracks
 
 if __name__ == "__main__":
-  # get_ngams_by_user(6596434) #me
-  find_follower_likes(6596434)
+  # get_ngams_by_user(6596434) \
+  alltracks = find_follower_likes(6596434)
+
+
+
+
     # tj 3105250
     # yoshi 12772525
 
