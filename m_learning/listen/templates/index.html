@@ -6,19 +6,33 @@
 
 
 <html>
+
     <head>
     </head>
 
     <body>
 			{% block content %}
-
 	    {% include "bootstrap_toolkit/tabs.html" %}
-
-	    <h2>Now Playing</h2>
 	    {% include "bootstrap_toolkit/pills.html" %}
 
-			 <iframe width="600" height="200" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F13158665"></iframe>
+	    <div 
+	    	class="jumbotron" 
+	    	style="background:url('http://c308991.r91.cf1.rackcdn.com/SiteFiles/Artists/1873/365ec062-2ccb-4653-b94c-1009cd41d827.jpg')
+	    	"
+	    	width="1000" height="8000">
+	    
 
+	    <br>
+	    <br>
+
+			 <iframe width="400" height="150" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F93062339"></iframe>
+
+			  <p>...</p>
+			  <p>  this is where the track name will show </p>
+			  <p>...</p>
+			  <!-- <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p> -->
+			</div>
+			 
     {% endblock %}
 	   </body>
 </html>
