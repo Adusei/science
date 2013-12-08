@@ -1,0 +1,24 @@
+<!doctype html>
+
+{% extends "base.html" %}
+
+{% load bootstrap_toolkit %}
+
+
+<html>
+    <head>
+    </head>
+
+    <body>
+			{% block content %}
+
+	    {% include "bootstrap_toolkit/tabs.html" %}
+
+	    <h2>Now Playing</h2>
+	    {% include "bootstrap_toolkit/pills.html" %}
+
+			 <iframe width="600" height="200" src="http://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F13158665"></iframe>
+
+    {% endblock %}
+	   </body>
+</html>

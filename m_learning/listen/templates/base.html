@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load bootstrap_toolkit %}
+{% load url from future %}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>MixRecommender</title>
+    {% bootstrap_stylesheet_tag %}
+    {% bootstrap_stylesheet_tag "responsive" %}
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+        }
+    </style>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    {% bootstrap_javascript_tag %}
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">MixRecommender</a>
+            <ul class="nav">
+                <li><a href="#" class="">Home</a></li>
+                <li><a href="#">Artists</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+
+<div class="container">
+
+    {% bootstrap_messages %}
+
+    <div class="span6" style="text-align:center">
+    {% block content %}Empty page{% endblock %}
+    </div>
+    <br><br>
+
+
+</div> <!-- container -->
+</body>
+</html>

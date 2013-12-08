@@ -2,6 +2,8 @@ from django.db import models
 import django_tables2 as tables
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
+
+
 class Artist(models.Model):
     name = models.CharField(max_length=100, unique=True,)
     fb_id = models.CharField(max_length=100, unique=True,null=True,default=None)

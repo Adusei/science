@@ -10,6 +10,8 @@ urlpatterns = patterns('',
     # url(r'^blog/', include('blog.urls')),
 
 url(r'^admin/', include(admin.site.urls)),
-url(r'^$', 'meta.views.artists'),
+url(r'^artists/$', 'meta.views.artists'),
+url(r'^$', 'listen.views.basic'),
+
 )
 

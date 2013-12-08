@@ -39,6 +39,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'meta',
+    'listen',
     'south',
     'django_tables2',
     'bootstrap_toolkit',
