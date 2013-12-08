@@ -39,9 +39,8 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'blog',
+    'meta',
     'south',
-    'samples',
-
 )
 
 MIDDLEWARE_CLASSES = (
@@ -64,7 +63,7 @@ WSGI_APPLICATION = 'm_learning.wsgi.application'
 DATABASES = {
     'default': {
         'HOST': 'localhost',
-        'NAME': 'sandbox',
+        'NAME': 'mix',
         'ENGINE': 'django.db.backends.mysql',
         'USER': 'root', #give application its own username
         'PASSWORD': ''
