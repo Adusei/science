@@ -5,4 +5,4 @@ class ArtistTable(tables.Table):
     class Meta:
         model = Artist
         # add class="paleblue" to <table> tag
-        # attrs = {"class": "paleblue"}
+        attrs = {"class": "paleblue"}

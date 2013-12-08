@@ -41,6 +41,8 @@ INSTALLED_APPS = (
     'meta',
     'south',
     'django_tables2',
+    'bootstrap_toolkit',
+
 )
 
 MIDDLEWARE_CLASSES = (
