@@ -12,6 +12,8 @@ urlpatterns = patterns('',
 url(r'^admin/', include(admin.site.urls)),
 url(r'^artists/$', 'meta.views.artists'),
 url(r'^$', 'listen.views.basic'),
+url(r'^sounds/$', 'listen.views.sounds'),
+
 
 )
 
