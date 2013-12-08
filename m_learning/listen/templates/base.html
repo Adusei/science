@@ -19,26 +19,22 @@
 <body>
 
 <div class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
+    <div class="navbar-inner" > 
         <div class="container">
+            <a class="brand" href="#">________________________________________</a>
             <a class="brand" href="/">MixRecommender</a>
-            <ul class="nav">
-                <li><a href="#" class="">Home</a></li>
-                <li><a href="#">Artists</a></li>
-            </ul>
+            <a class="brand" href="/artists">Meta Data</a>
+            <a class="brand" href="/artists">Profile</a>
+            <a class="brand" href="#">____________________________________</a>
         </div>
     </div>
-
-
-
 
     {% bootstrap_messages %}
 
     <div style="text-align:center">
-    {% block content %}Empty page{% endblock %}
+    {% block content %}{% endblock %}
     </div>
     <br><br>
-
 
 </body>
 </html>
