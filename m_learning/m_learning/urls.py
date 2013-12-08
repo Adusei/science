@@ -11,8 +11,7 @@ urlpatterns = patterns('',
 
 url(r'^admin/', include(admin.site.urls)),
 url(r'blog/', 'blog.views.index'),
-url(r'artists/', 'meta.views.index'),
-# ,url(r'^blog/', include(blog.site.urls))
+url(r'^$', 'meta.views.index'),
 )
 
 # (r'^$', 'blog.views.index'),

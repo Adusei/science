@@ -1,7 +1,7 @@
-{% extends 'base.html' %} 
-{% block head_title %}{{ post.title }}{% endblock %}
-{% block title %}{{ post.title }}{% endblock %}
+<!-- {% extends 'base.html' %}  -->
+{% block head_artist %}{{ artist.name }}{% endblock %}
+{% block name %}{{ artist.name }}{% endblock %}
 
 {% block content %}
-    {{ post.body }}
+    {{ artist.name }}
 {% endblock %}

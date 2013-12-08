@@ -1,0 +1,12 @@
+{# meta/templates/artist.html #}
+{% load render_table from django_tables2 %}
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />
+    </head>
+    <body>
+        'hello'
+        {% render_table meta_artist %}
+    </body>
+</html>
