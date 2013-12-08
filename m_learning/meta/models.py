@@ -1,5 +1,6 @@
 from django.db import models
-
+import django_tables2 as tables
+from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 class Artist(models.Model):
     name = models.CharField(max_length=100, unique=True,)
@@ -34,8 +35,9 @@ class Artist_to_genre(models.Model):
     def __unicode__(self):
         return '%s' % self.name
 
-
-
+class ArtistTable(tables.Table):
+    class Meta:
+        model = Artist 
 
 
 
