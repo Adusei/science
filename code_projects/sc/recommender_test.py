@@ -110,22 +110,7 @@ def find_follower_likes(user_id):
 
   return all_tracks
 
-  def insert_tracks_to_db(tracks):
-    for track in alltracks:
-
-    exists_clause = "select (1) from listen_sound where id  = '" + str(track.id) + "' or name = '" + str(name) + "' limit 1"
-    print exists_clause
-
-    if not x.execute(exists_clause): 
-      x.execute("""INSERT INTO meta_genre (fb_id, name) VALUES (%s,%s)""",(mid,name))
-    con.commit()
-
-
-
-
-
-  
-  ## TODO ##
+    ## TODO ##
   
     # remove favorites that current
     # user also has as a favorite

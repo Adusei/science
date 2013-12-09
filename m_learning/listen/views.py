@@ -10,8 +10,6 @@ from django.http import HttpResponse
 def basic (request): 
   rand_pk = Sound.objects.order_by('?')[0].id
   sound = get_object_or_404(Sound, pk=rand_pk)
-
-  # iframe = 'sometahing'+ sound.id
   return render(request, 'index.html', {'sound': sound})
 
 
