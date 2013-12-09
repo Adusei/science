@@ -41,9 +41,8 @@ def get_followed_users_by_user(user_id):
 def populate_a_bunch_of_sounds():
 	users = get_followed_users_by_user(6596434)
 	for i,(u) in enumerate(users):
-		if i < 20:
-			insert_user_favs(u.id)
-			print u.id
+		insert_user_favs(u.id)
+		print u.id
 
 
 

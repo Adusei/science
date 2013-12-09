@@ -18,5 +18,16 @@ def sounds(request):
     RequestConfig(request).configure(table)
     return render(request, 'sounds.html', {'table': table})
 
-
+def search(request): # http://www.djangobook.com/en/2.0/chapter07.html
+    error = False
+    if 'q' in request.GET:
+        q = request.GET['q']
+        if not q:
+            error = True
+        else:
+            books = Book.objects.filter(title__icontains=q)
+            return render(request, 'search_results.html',
+                {'books': books, 'query': q})
+    return render(request, 'search_form.html',
+        {'error': error})
 

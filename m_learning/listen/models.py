@@ -4,7 +4,7 @@ from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
 
 
 class Sound(models.Model):
-    title = models.CharField(max_length=100, unique=True)
+    title = models.CharField(max_length=255, unique=False) #This should be fixed in the insert...
     sc_id = models.IntegerField(max_length=100, unique=True)
     # THIS IS JUST SO I CAN GET THE RECOMMENDER WORKING #
     jd_fav_flag = models.BooleanField(default=0)
