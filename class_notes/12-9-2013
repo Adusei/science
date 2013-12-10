@@ -1,0 +1,28 @@
+12-9-2013 Support Vector Machines
+
+Hyper Plane: somethign that is straight in high dimension
+
+Kernel Trick
+
+Machine learning is about convex optimization
+
+
+---->>> vectors = records <<<----
+
+
+SVMs work well in most cases, but are NOT intuitave, and are hard to explain
+
+
+
+How to get Scikit Help up?
+	In [3]: from sklearn.cross_validation import cross_val_score as s
+	In [4]: help(s)
+
+
+
+What is a callback function
+	-->http://stackoverflow.com/questions/824234/what-is-a-callback-function
+
+
+
+Ataboost --> Ensemble methods for ALL models
