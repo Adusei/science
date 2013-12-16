@@ -86,6 +86,8 @@ def get_ngams_by_user (user_id):
       
   sorted_ngrams = sorted(user_ngram_fdist.iteritems(), key=op.itemgetter(1))  
 
+  pp.pprint(sorted_ngrams)
+
   return sorted_ngrams
 
 def find_follower_likes(user_id):
@@ -124,8 +126,8 @@ def find_follower_likes(user_id):
   return sorted_tracks
 
 if __name__ == "__main__":
-  # get_ngams_by_user(6596434) \
-  alltracks = find_follower_likes(6596434)
+  get_ngams_by_user(6596434) \
+  #alltracks = find_follower_likes(6596434)
 
 
 

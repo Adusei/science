@@ -28,6 +28,10 @@ class MyHTMLParser(HTMLParser):
     def handle_data(self, data):
        if len(self.attr_list) == 1:
             self.dj['name']= data
+            try:
+                self.dj[data]
+            except ValueError:
+                print 'does not exists already.. adding now'
             DJS.append(self.dj)
 	
 def get_raw_html(url):
@@ -40,15 +44,14 @@ def parse_html(html):
 	p.add_dj(html)
 
 if __name__ == '__main__':
-	response = urllib2.urlopen('http://www.residentadvisor.net/dj.aspx?style=15&1000=1')
-	html = response.read()
-	p = MyHTMLParser()
-	p.add_dj(html)
+    response = urllib2.urlopen('http://www.residentadvisor.net/dj.aspx?style=15&1000=1')
+    html = response.read()
+    p = MyHTMLParser()
+    p.add_dj(html)
 
-	pp.pprint(DJS)
-
-
-
+    pp.pprint(DJS)
 
 
 # try an assertion... should be 1000 items in dict
+
+

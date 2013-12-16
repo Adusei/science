@@ -1,0 +1,35 @@
+12-11-2013
+
+Clustering (unsupervises)
+
+Goal is to extract and enhance natural structure of the data (not to impose structure)
+
+
+K-Means clustering
+	- Greedy learner that partitions a dat set into k clusteres
+	- greedy (captures local structure (depends on initial conditions))
+
+Partitions are determined 
+	-- > each point is assigned to the cluster wiht the nearest centroid
+
+Partitions are not scale invariant!
+	-- > Same data can yeild differnet results depeniding on the scale and units useed
+	-- > 
+
+	Basic K means algo
+		- choose k initial centroides (k is an input)
+		- for each poitn
+			- find distance to each centroid
+			- assign point to nearest centroid
+		- recalculate centroid positions
+		- repeat steps 2-3 until stopping chriteria met
+
+
+
+		TEXT MINING:
+			- Jaccard Coefficient
+			- TFIDF
+
+Check out Project Euler:
+	http://projecteuler.net/
+	
