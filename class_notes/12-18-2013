@@ -1,0 +1,56 @@
+12-18-2013
+
+NoSQL - Redis and Mongo
+
+=========
+==REDIS==
+=========
+
+	- KV store
+	- single index 
+	- cache like
+	- few features
+
+Supports 5 Data Types
+	- 1. String / Number
+	- 2. Hash
+	- 3. List
+	- 4. set (distinct list; unordered)
+	- 5. z-set (sorted set; embedded sort key)
+	
+Mongo
+	- lots of features
+	- json 
+	- multi indexed
+	- not a cache
+	- Collections = Tables
+	- Documents = Row
+	- https://github.com/dzorlu/GADS/wiki/NoSQL
+
+
+Run Redis:
+redis-server /usr/local/etc/redis.conf
+http://redis.io/topics/quickstart
+
+
+Redis on the console:
+
+
+Johns-MacBook-Pro:code john$ redis-cli
+127.0.0.1:6379> select 0
+OK
+127.0.0.1:6379> set hello world
+OK
+127.0.0.1:6379> get hello
+"world"
+127.0.0.1:6379> set first_list = [1,2,3,4]
+(error) ERR syntax error
+127.0.0.1:6379> set counter 1
+OK
+127.0.0.1:6379> set first_list [1,2,3,4]
+OK
+127.0.0.1:6379> type first_list
+string
+127.0.0.1:6379> get first_list
+"[1,2,3,4]"
+127.0.0.1:6379> 

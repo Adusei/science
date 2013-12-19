@@ -1,0 +1,35 @@
+12-16-2013
+
+What is D3?
+	1. Library for rendering interactive visualizations in the browser
+	2. A JS library capable of building interating visualization by manipualting the DOM
+	3. A JS library  capable of building interactive visualizations by explicitly
+		 binding data to html (dom) elements
+
+What is a webpade
+	1. structure - HTML(5)
+	2. aestetics - CSS
+	3. behaviors - JS
+
+SVG - Scalable Vector Grapics
+	1. Standard to Represent images in XML 
+			- frequently embedded in HTML
+
+Data Driven Docuemnts:
+	- How does the data come into play?
+		-> Explicitly map every element of the dataset into a DOM element <-
+
+
+Spin up Simple HTTP server with...
+'python -m SimpleHTTPServer'
+
+HTML Dom:
+	http://www.w3schools.com/js/js_htmldom.asp
+
+Cool Stuff:
+	http://bost.ocks.org/mike/
+	d3.layout.tree
+		-> http://bl.ocks.org/mbostock/4339083
+		->http://bost.ocks.org/mike/miserables/
+		->http://bost.ocks.org/mike/path/
+		->http://www.newyorker.com/sandbox/business/subway.html
