@@ -1,0 +1,46 @@
+1-6-2014
+
+Map Reduce
+
+* Last Class - Jan 29th *
+
+Next up:
+	- Dimensionality Reduction
+	- Recommender Systems
+
+
+
+MAP REDUCE
+ - A horizontal distributed system also has better fault tolerance than a single machine
+
+
+	  	   [client]
+	   /   		 |			\
+	  / 			 |			 \
+[node-1] [node-2] [node-3]
+
+
+Within a cluster there are two ways to process data:
+
+1. move data to code 
+	- SETI (search for extra terrestrial intelligence)
+2. move code to data
+	- Map Reduce
+	- "computing nodes are the same as storage nodes"
+
+Divide and Conquer!
+	- Split Tasks into Subtasks
+	- solve these subtasks independetly
+	- recombne the subtask results into a final result
+		-> Merge Sort
+
+http://highlyscalable.wordpress.com/
+
+
+Map Reduce is a functional paradigm
+
+	Mappers  - filter and transform data
+		-> combiners - perform reducer operations on the mapper node (for optimization..dont worry)
+		-> partitioner - perform reducer operations on the mapper node (for optimization..dont worry)
+	Reducers - Aggregate Results
+
