@@ -44,3 +44,9 @@ Map Reduce is a functional paradigm
 		-> partitioner - perform reducer operations on the mapper node (for optimization..dont worry)
 	Reducers - Aggregate Results
 
+
+
+
+Zen of Map Reduce:
+	"All Records for a given key are processed by the same reducer task!"
+

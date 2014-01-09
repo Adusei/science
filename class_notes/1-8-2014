@@ -1,0 +1,41 @@
+1-8-2014
+Dimensionality Reduction
+
+
+
+
+Set of techniques for techinques for reducing the size of a dataset
+
+""""""""""
+
+Were at union sq
+
+"how do i get to madison sq park"
+
+ walk up broadway... (no lefts, or rights (2d becomes 3d))
+
+eliminate not needed variabes
+
+
+"""""""""
+
+
+Techniques:
+	SVD; PCA
+
+Curse of Dimensionality
+	more fileds = more sparse
+
+
+Feature Selection vs. Feature Extraction
+
+From Decathlon results... take 10 features and predict speed and strength
+
+Read: Linear ALgebra Done Right!
+			Intro to Machine Learnig
+
+
+ipython Notebook:
+
+iPython notebook --pylab=auto
+
