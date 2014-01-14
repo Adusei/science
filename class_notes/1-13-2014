@@ -1,0 +1,68 @@
+1-13-2014
+recommender systems
+
+CONTENT BASED FILTERING
+
+		- Show users things similar to other items theve consumed
+
+		Pandora is Content Based!
+
+		For my project implementation is:
+			Calculate Tag Estimates for Users and Tracks (same feature space - columns are tags)
+			Predict Rankings by taking dot product
+
+		Example:
+
+		=======
+
+			Features = (burning Man, Deep House, Get Physical, Berlin) - Ranked 1 to 5
+
+			Blondish Live At Burning Man (5, 2, 4, -2) 
+			Ben Klock CLR podcast (-3, -1, -5, 5)
+			Mandy Presents Get Physical (0, 4, 5, 1)
+
+			Johns Preferences: (4,5,2,4)
+
+			take the dot product!
+
+		=======
+
+	Difficulies (see notes..)
+
+
+COLABORATIVE BASED FILTERING
+
+More Modern
+
+All abotu the ratings matrix
+
+								10k tracks
+						------------
+						|
+						|
+1m users		|
+						|
+						|
+						------------
+
+
+2 Techniques:
+		- Item based CF (memory based CF)
+			-- > clustering after
+		- Model Based Collaborative Filtering
+			-- > Dimensionality Reduction (map to the latent features)
+
+
+Dont you need metadata about users/items to get predicted ratings?
+	- No! thats the point :D
+	- Check out the notes for the ipython notebook
+
+
+
+
+CLASSMATES:
+	 - Surf: Hand written Digits; Cat and Dog Recognition
+	 - Mark: Predicting Event Tiles (one kings lane.com)
+	 - Jameson: Football (weather effects)
+	 		: census commuter data CTPP 
+	 - Jake:  Map Add Campaigns to Aritcles
