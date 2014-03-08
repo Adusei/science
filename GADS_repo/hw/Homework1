@@ -1,0 +1,35 @@
+#Homework 1 Due 11/18
+
+For the homework, we want you to predict the presence of heart disease in the patient. 
+
+Download the data here:
+
+Training Set:
+https://github.com/dzorlu/GADS/blob/master/data/logit-train.csv
+
+Test Set:
+https://github.com/dzorlu/GADS/blob/master/data/logit-test.csv
+
+More information can be found here:
+http://archive.ics.uci.edu/ml/datasets/Heart+Disease
+
+
+##Questions 
+1 - Train your logistic regression model with the training set applying 10-fold cross-validation. 
+
+	(a) Report the average AUC as well as misclassification rate (percent of times you guessed the label wrong).  
+
+
+
+2 - Train your model applying 5-fold cross-validation, but this time to select the features. 
+
+	Hint: This construct might help: features.iloc[:,index]
+
+	(a) Report the average AUC. Note that the code is very similar to first question, only this time we select the features, rather than the records. 
+
+	(b) If you want to reduce the number of features, which two features would you remove from the model first (hint: RFECV ). 
+
+
+
+The code will be available Monday night. Thanks! 
+
