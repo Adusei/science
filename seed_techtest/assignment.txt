@@ -1,47 +1,47 @@
 Applicant Assignment: Data Engineer
 
-The purpose of this assignment is to test your comfort, skill, and creativity with 
-
-the kind of data engineering tasks we regularly perform at Seed.
 
 Goal: Construct a data set that relates Last.fm tags to each other, revealing 
-
 which genres (and other tags) are most associated.
 
 Details: Using the Last.fm API, collect the top tags among a large set of 
-
 popular artists (1000 or more). This data should be structured and stored in 
-
 whatever format you deem most efficient. From this raw data, create a metric 
-
 that compares how strongly associated the tags are to each other. Feel free to 
-
 include any weighting or balancing in your metric, as long as you can explain it.
 
 Resources:
-
-• API details: http://www.last.fm/api/intro
-
-• Top Artists method: http://www.last.fm/api/show/chart.getTopArtists
-
-• Top Tags method: http://www.last.fm/api/show/artist.getTopTags
+	• API details: http://www.last.fm/api/intro
+	• Top Artists method: http://www.last.fm/api/show/chart.getTopArtists
+	• Top Tags method: http://www.last.fm/api/show/artist.getTopTags
 
 Deliverables:
-
-• Your clean, commented code — Python or Node.js strongly preferred.
-
-• Your data sets, both intermediate steps and the final output.
-
-• Short explanation of process and outcomes.
+	• Your clean, commented code — Python or Node.js strongly preferred.
+	• Your data sets, both intermediate steps and the final output.
+	• Short explanation of process and outcomes.
 
 Extra credit ideas:
-
-• Use your tags data to compute the similarity between artists.
-
-• Compare your tags data to the “similar tags” data in the API. Highlight 
+	• Use your tags data to compute the similarity between artists.
+	• Compare your tags data to the “similar tags” data in the API. Highlight 
 
 what is the same and what is different.
+	• Come up with your own next step about how to make your data set more interesting
 
-• Come up with your own next step about how to make your data set more 
 
-interesting
+
+########### JD PLAN OF ATTACK ###########
+
+1. Get all tags for all artists of a particular genre ( minimal techno )
+2. Create DB with the following Schema 
+	- Artist Table (id, name)
+	- Tags Table (id, name)
+	- Artist to Tags ( artist_id, tag_id, tag_count)
+3. Ensure Foriegn keys and indices are in place
+
+4. Write the following Query
+	Show me the tags that appear together the most order by count descending... somehow incpororating the tag_count (normalized)
+Is this something i could use K - nearest neighbors for?
+
+
+
+What would this process/schema look like in redis?... mongo?
