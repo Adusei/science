@@ -11,16 +11,27 @@ class LastFM:
         # self.SECRET =  "44195d2012dd899f51af02c7861aad21" 
 
     def api_request(self, url):
+    # try
 				#Send Request and Collect it
 				data = urllib2.urlopen( url )
 				json_response = json.load ( data )
 
 				data.close()
+		# except
 				return json_response
 
+    def get_tags_by_artist (self, artist, **kwargs):
+				kwargs.update({
+				    "method":	"artist.gettoptags",
+				    "artist":		artist,
+				    "api_key":	self.API_KEY,
+				    "format":	"json"
+				})
 
-    # def get_tags_by_artist (self, artist):
-    # 		url = "http://ws.audioscrobbler.com/2.0/?method=artist.getTags&artist=Red%20Hot%20Chili%20Peppers&user=RJ&api_key=834ca7240545d8fa587d43662c252773&format=json"
+				url = self.API_URL + "?" + urllib.urlencode(kwargs)
+				response_data = self.api_request(url)
+
+				pp.pprint(response_data)
 
     def get_genre(self, genre, **kwargs):
         kwargs.update({
@@ -30,10 +41,11 @@ class LastFM:
             "limit":	100,
             "format":	"json"
         })
+
         try:
 						#Create an API Request
 						url = self.API_URL + "?" + urllib.urlencode(kwargs)
-
+						print url
 						response_data = self.api_request(url)
 
 						artists =  response_data['topartists']['artist']
@@ -47,6 +59,6 @@ class LastFM:
  
 def main():
     last_request = LastFM()
-    last_request.get_genre( "minimal" )
+    last_request.get_tags_by_artist( "raresh" )
  
 if __name__ == "__main__": main()
