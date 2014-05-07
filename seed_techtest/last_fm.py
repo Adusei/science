@@ -1,12 +1,9 @@
 import urllib, urllib2
 import pprint as pp
-
-try:
-    import json
-except ImportError:
-    import simplejson as json
+import simplejson as json
  
 # SOURCE: http://snipplr.com/view/63161/
+
 class LastFM:
     def __init__(self ):
         self.API_URL = "http://ws.audioscrobbler.com/2.0/"
@@ -18,21 +15,21 @@ class LastFM:
             "method":	"tag.gettopartists",
             "tag":		genre,
             "api_key":	self.API_KEY,
-            "limit":	10,
+            "limit":	100,
             "format":	"json"
         })
         try:
-            #Create an API Request
-            url = self.API_URL + "?" + urllib.urlencode(kwargs)
-            #Send Request and Collect it
-            data = urllib2.urlopen( url )
-            #Print it
-            response_data = json.load( data )
-            pp.pprint(response_data)
-            # artists =  response_data['topartists']
-            print response_data['topartists']['artist'][0]['name']
-            #Close connection
-            data.close()
+						#Create an API Request
+						url = self.API_URL + "?" + urllib.urlencode(kwargs)
+						#Send Request and Collect it
+						data = urllib2.urlopen( url )
+						#Print it
+						response_data = json.load( data )
+						artists =  response_data['topartists']['artist']
+						for artist in artists:
+						    print artist['name'].encode('utf8')
+						#Close connection
+						data.close()
         except urllib2.HTTPError, e:
             print "HTTP error: %d" % e.code
         except urllib2.URLError, e:
@@ -40,6 +37,6 @@ class LastFM:
  
 def main():
     last_request = LastFM()
-    last_request.get_genre( "techno" )
+    last_request.get_genre( "minimal" )
  
 if __name__ == "__main__": main()
