@@ -11,51 +11,53 @@ class LastFM:
         # self.SECRET =  "44195d2012dd899f51af02c7861aad21" 
 
     def api_request(self, url):
-    # try
-				#Send Request and Collect it
-				data = urllib2.urlopen( url )
-				json_response = json.load ( data )
+      json_response = {}
 
-				data.close()
-		# except
-				return json_response
+      try:
+          # Send Request and Collect it
+          data = urllib2.urlopen( url )
+          json_response = json.load ( data )
+
+          data.close()
+
+      except urllib2.HTTPError, e:
+          print "HTTP error: %d" % e.code
+      except urllib2.URLError, e:
+          print "Network error: %s" % e.reason.args[1]
+
+      return json_response
 
     def get_tags_by_artist (self, artist, **kwargs):
-				kwargs.update({
-				    "method":	"artist.gettoptags",
-				    "artist":		artist,
-				    "api_key":	self.API_KEY,
-				    "format":	"json"
-				})
+        kwargs.update({
+            "method": "artist.gettoptags",
+            "artist":   artist,
+            "api_key":  self.API_KEY,
+            "format": "json"
+        })
 
-				url = self.API_URL + "?" + urllib.urlencode(kwargs)
-				response_data = self.api_request(url)
+        url = self.API_URL + "?" + urllib.urlencode(kwargs)
+        response_data = self.api_request(url)
 
-				pp.pprint(response_data)
+        pp.pprint(response_data)
 
     def get_genre(self, genre, **kwargs):
         kwargs.update({
-            "method":	"tag.gettopartists",
-            "tag":		genre,
-            "api_key":	self.API_KEY,
-            "limit":	100,
-            "format":	"json"
+            "method": "tag.gettopartists",
+            "tag":    genre,
+            "api_key":  self.API_KEY,
+            "limit":  100,
+            "format": "json"
         })
 
-        try:
-						#Create an API Request
-						url = self.API_URL + "?" + urllib.urlencode(kwargs)
-						print url
-						response_data = self.api_request(url)
 
-						artists =  response_data['topartists']['artist']
-						for artist in artists:
-						    print artist['name'].encode('utf8')
-						#Close connection
-        except urllib2.HTTPError, e:
-            print "HTTP error: %d" % e.code
-        except urllib2.URLError, e:
-            print "Network error: %s" % e.reason.args[1]
+        url = self.API_URL + "?" + urllib.urlencode(kwargs)
+        print url
+        response_data = self.api_request(url)
+
+        artists =  response_data['topartists']['artist']
+        for artist in artists:
+            print artist['name'].encode('utf8')
+
  
 def main():
     last_request = LastFM()
