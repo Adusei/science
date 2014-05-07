@@ -41,27 +41,29 @@ class LastFM:
 
         response_data = self.api_request(**kwargs)
 
-        pp.pprint(response_data)
+        tags = response_data['toptags']['tag']
+        for tag in tags:
+            print tag['name'].encode('utf8')
 
     def get_artist_by_genre(self, genre, **kwargs):
         kwargs.update({
             "method": "tag.gettopartists",
             "tag":    genre,
-            "limit":  100,
+            "limit":  10,
         })
 
-
-        url = self.API_URL + "?" + urllib.urlencode(**kwargs)
-        print url
-        response_data = self.api_request(url)
+        response_data = self.api_request(**kwargs)
 
         artists =  response_data['topartists']['artist']
         for artist in artists:
-            print artist['name'].encode('utf8')
+            artist_name =  artist['name'].encode('utf8')
+            print artist_name + '\n' +'=' * 50
+            self.get_tags_by_artist(artist_name)
 
  
 def main():
     last_request = LastFM()
-    last_request.get_tags_by_artist( "raresh" )
+    # last_request.get_tags_by_artist( "raresh" )
+    last_request.get_artist_by_genre( "minimal techno" )
  
 if __name__ == "__main__": main()
