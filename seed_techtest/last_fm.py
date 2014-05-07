@@ -10,9 +10,15 @@ class LastFM:
         self.API_KEY = "834ca7240545d8fa587d43662c252773"
         # self.SECRET =  "44195d2012dd899f51af02c7861aad21" 
 
-    def api_request(self, url):
+    def api_request(self, **kwargs):
       json_response = {}
+      kwargs.update({
+          "api_key":  self.API_KEY,
+          "format": "json"
+      })
 
+      url = self.API_URL + "?" + urllib.urlencode(kwargs)
+      
       try:
           # Send Request and Collect it
           data = urllib2.urlopen( url )
@@ -31,26 +37,21 @@ class LastFM:
         kwargs.update({
             "method": "artist.gettoptags",
             "artist":   artist,
-            "api_key":  self.API_KEY,
-            "format": "json"
         })
 
-        url = self.API_URL + "?" + urllib.urlencode(kwargs)
-        response_data = self.api_request(url)
+        response_data = self.api_request(**kwargs)
 
         pp.pprint(response_data)
 
-    def get_genre(self, genre, **kwargs):
+    def get_artist_by_genre(self, genre, **kwargs):
         kwargs.update({
             "method": "tag.gettopartists",
             "tag":    genre,
-            "api_key":  self.API_KEY,
             "limit":  100,
-            "format": "json"
         })
 
 
-        url = self.API_URL + "?" + urllib.urlencode(kwargs)
+        url = self.API_URL + "?" + urllib.urlencode(**kwargs)
         print url
         response_data = self.api_request(url)
 
