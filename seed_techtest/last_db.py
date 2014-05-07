@@ -14,20 +14,14 @@ class DbTask(object):
     # ensures the connection the the database is closed on task completion
     db_connection_string  = 'mysql://root@localhost/last_fm'
 
-
     engine = create_engine(db_connection_string, convert_unicode=True,pool_recycle=3600, pool_size=20)
     engine.echo = False
     db_session = scoped_session(sessionmaker(autocommit=True, autoflush=True, bind=engine))
 
     metadata = al.MetaData(engine)
 
-    abstract = True
-
     def __init__(self):
         print("Initializing DBTask!")
-
-    def after_return(self, status, retval, task_id, args, kwargs, einfo):
-        db_session.close()
 
     def add_artist (self, artist_name):
         artist_table = al.Table('artists', self.metadata, autoload=True)
@@ -37,8 +31,28 @@ class DbTask(object):
             print '...success fully insertest tag!!' + artist_name
         except IntegrityError:
             pass
+
+        self.db_session.close()
+        # http://stackoverflow.com/questions/8585346/get-last-inserted-value-from-mysql-using-sqlalchemy    
+
+
+    def select_artists(self):
+        artist_table = al.Table('artists', self.metadata, autoload=True)
+
+        s = artist_table.select()
+
+        rs = s.execute()
+
+        # for i, r in enumerate(rs):
+        #     print i
+        #     print r.artist_name
+        #     print r.artist_id
+
         
         self.db_session.close()
+        return rs
+
+
 
 if __name__ == "__main__":
     t = DbTask()

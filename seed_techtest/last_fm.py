@@ -10,11 +10,13 @@ class LastFM(DbTask):
         self.API_URL = "http://ws.audioscrobbler.com/2.0/"
         self.API_KEY = "834ca7240545d8fa587d43662c252773"
         # self.SECRET =  "44195d2012dd899f51af02c7861aad21" 
-    # super(LastFM, self).__init__
-
 
     def add_artist(self,artist_name):
         super(LastFM, self).add_artist(artist_name)
+
+    def select_artists(self):
+        return super(LastFM, self).select_artists()
+
 
     def api_request(self, **kwargs):
       json_response = {}
@@ -55,7 +57,7 @@ class LastFM(DbTask):
         kwargs.update({
             "method": "tag.gettopartists",
             "tag":    genre,
-            "limit":  10000,
+            "limit":  10,
         })
 
         response_data = self.api_request(**kwargs)
@@ -67,10 +69,19 @@ class LastFM(DbTask):
             # print artist_name + '\n' +'=' * 50
             # self.get_tags_by_artist(artist_name)
 
+    def populate_artist_to_tags(self):
+        all_artists  = self.select_artists()
+        # for artist in all_artists:
+        for i, r in enumerate(all_artists):
+            print i
+            print r.artist_name
+            print r.artist_id
+
  
 def main():
     last_request = LastFM()
-    # last_request.get_tags_by_artist( "raresh" )
-    last_request.get_artist_by_genre( "minimal" )
+    # last_request.get_artist_by_genre( "minimal techno" )
+    last_request.populate_artist_to_tags()
  
+
 if __name__ == "__main__": main()
