@@ -39,7 +39,7 @@ class LastFM(DbTask):
       kwargs.update({
           "api_key":  self.API_KEY,
           "format": "json",
-          "limit": 3
+          "limit": 1000
       })
 
       url = self.API_URL + "?" + urllib.urlencode(kwargs)
@@ -81,7 +81,6 @@ class LastFM(DbTask):
         kwargs.update({
             "method": "tag.gettopartists",
             "tag":    genre,
-            "limit":  10,
         })
 
         response_data = self.api_request(**kwargs)

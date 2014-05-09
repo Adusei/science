@@ -56,8 +56,8 @@ class DbTask(object):
 
         try:
             a_t_ins = artist_to_tags_table.insert()
-            self.engine.execute(artist_to_tags_table, artist_id = artist_id, tag_id = tag_id)
-            print '...success fully insertest relation ' + tag_name + ' and ' + artist_name
+            self.engine.execute(a_t_ins, artist_id = artist_id, tag_id = tag_id)
+            # print '...success fully insertest relation ' + tag_name + ' and ' + artist_name
         except IntegrityError:
             pass
 
@@ -67,7 +67,7 @@ class DbTask(object):
     def get_tag_by_name (self, tag_name):
         tags_table = al.Table('tags', self.metadata, autoload=True)
 
-        where_clause = "tag_name = '" + tag_name + "'"
+        where_clause = 'tag_name = "' + tag_name + '"'
         s = tags_table.select().where(where_clause)
 
         rs = s.execute()
@@ -83,7 +83,7 @@ class DbTask(object):
     def get_artist_by_name(self, artist_name):
         artist_table = al.Table('artists', self.metadata, autoload=True)
 
-        where_clause = "artist_name = '" + artist_name + "'"
+        where_clause = 'artist_name = "' + artist_name + '"'
         s = artist_table.select().where(where_clause) #.limit(1)
         # Since there is a unique index on artist_name dont need to limit
 
