@@ -80,8 +80,8 @@ class LastFM(DbTask):
  
 def main():
     last_request = LastFM()
-    # last_request.get_artist_by_genre( "minimal techno" )
-    last_request.populate_artist_to_tags()
+    last_request.get_artist_by_genre( "minimal techno" )
+    # last_request.populate_artist_to_tags()
  
 
 if __name__ == "__main__": main()

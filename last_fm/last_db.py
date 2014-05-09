@@ -1,4 +1,5 @@
 # last_db.py
+
 from __future__ import absolute_import
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session
@@ -8,7 +9,7 @@ from sqlalchemy import desc
 
 import sqlalchemy as al
 
-
+import pprint as pp
 
 class DbTask(object):
     # ensures the connection the the database is closed on task completion
@@ -34,20 +35,37 @@ class DbTask(object):
 
         self.db_session.close()
         # http://stackoverflow.com/questions/8585346/get-last-inserted-value-from-mysql-using-sqlalchemy    
+        ## DO THIS BEFORE HANDING IN THE CODE... WHAT IS BELOW IS GARBAGE ##
 
 
-    def select_artists(self):
-        artist_table = al.Table('artists', self.metadata, autoload=True)
+    def get_tag_by_name (self, tag_name):
+        tags_table = al.Table('tags', self.metadata, autoload=True)
 
-        s = artist_table.select()
+        where_clause = "tag_name = '" + tag_name + "'"
+        s = tags_table.select().where(where_clause)
 
         rs = s.execute()
 
-        # for i, r in enumerate(rs):
-        #     print i
-        #     print r.artist_name
-        #     print r.artist_id
+        for r in rs:
+            tag_id = r.tag_id
+            print tag_id
+        
+        self.db_session.close()
+        return rs
 
+
+    def get_artist_by_name(self, artist_name):
+        artist_table = al.Table('artists', self.metadata, autoload=True)
+
+        where_clause = "artist_name = '" + artist_name + "'"
+        s = artist_table.select().where(where_clause) #.limit(1)
+        # Since there is a unique index on artist_name dont need to limit
+
+        rs = s.execute()
+
+        for r in rs:
+            artist_id = r.artist_id
+            print artist_id
         
         self.db_session.close()
         return rs
@@ -56,7 +74,9 @@ class DbTask(object):
 
 if __name__ == "__main__":
     t = DbTask()
-    t.add_artist("raresh")
+    t.get_tag_by_name("a")
+    # t.
+
 
 
 '''
