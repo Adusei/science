@@ -37,6 +37,32 @@ class DbTask(object):
         # http://stackoverflow.com/questions/8585346/get-last-inserted-value-from-mysql-using-sqlalchemy    
         ## DO THIS BEFORE HANDING IN THE CODE... WHAT IS BELOW IS GARBAGE ##
 
+    def add_tag (self, tag_name):
+        tags_table = al.Table('tags', self.metadata, autoload=True)
+        try:
+            tag_ins = tags_table.insert()
+            self.engine.execute(tag_ins,tag_name = tag_name)
+            print '...success fully insertest tag ' + tag_name
+        except IntegrityError:
+            pass
+
+        self.db_session.close()
+
+    def add_artist_to_tag (self, artist_id, tag_id):
+        artist_to_tags_table = al.Table('artist_to_tags', self.metadata, autoload=True)
+        
+        # artist_id = self.get_artist_by_name(artist_name) 
+        # tag_id = self.get_tag_by_name(tag_name)
+
+        try:
+            a_t_ins = artist_to_tags_table.insert()
+            self.engine.execute(artist_to_tags_table, artist_id = artist_id, tag_id = tag_id)
+            print '...success fully insertest relation ' + tag_name + ' and ' + artist_name
+        except IntegrityError:
+            pass
+
+        self.db_session.close()
+
 
     def get_tag_by_name (self, tag_name):
         tags_table = al.Table('tags', self.metadata, autoload=True)
@@ -51,7 +77,7 @@ class DbTask(object):
             print tag_id
         
         self.db_session.close()
-        return rs
+        return tag_id
 
 
     def get_artist_by_name(self, artist_name):
@@ -68,7 +94,7 @@ class DbTask(object):
             print artist_id
         
         self.db_session.close()
-        return rs
+        return artist_id
 
 
 

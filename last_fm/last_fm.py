@@ -14,15 +14,32 @@ class LastFM(DbTask):
     def add_artist(self,artist_name):
         super(LastFM, self).add_artist(artist_name)
 
+    def add_tag(self,tag_name):
+        super(LastFM, self).add_tag(tag_name)
+
+    def add_artist_to_tag(self,artist_id,tag_id):
+        super(LastFM, self).add_artist_to_tag(artist_id,tag_id)
+
     def select_artists(self):
         return super(LastFM, self).select_artists()
 
+    def get_artist_by_name(self, artist_name):
+        return super(LastFM, self).get_artist_by_name(artist_name)
+
+    def get_tag_by_name(self, tag_name):
+        return super(LastFM, self).get_tag_by_name(tag_name)
+
+    # artist_id = self.get_artist_by_name(artist_name) 
+    # tag_id = self.get_tag_by_name(tag_name)
+
+    default = False
 
     def api_request(self, **kwargs):
       json_response = {}
       kwargs.update({
           "api_key":  self.API_KEY,
-          "format": "json"
+          "format": "json",
+          "limit": 3
       })
 
       url = self.API_URL + "?" + urllib.urlencode(kwargs)
@@ -41,17 +58,24 @@ class LastFM(DbTask):
 
       return json_response
 
-    def get_tags_by_artist (self, artist, **kwargs):
+    def get_tags_by_artist (self, artist_name, **kwargs):
         kwargs.update({
             "method": "artist.gettoptags",
-            "artist":   artist,
+            "artist":   artist_name,
         })
 
         response_data = self.api_request(**kwargs)
 
         tags = response_data['toptags']['tag']
         for tag in tags:
-            print tag['name'].encode('utf8')
+            tag_name = tag['name'].encode('utf8')
+            self.add_tag(tag_name)
+
+            artist_id = self.get_artist_by_name(artist_name) 
+            tag_id = self.get_tag_by_name(tag_name)
+
+            self.add_artist_to_tag(artist_id, tag_id)
+            print tag_name
 
     def get_artist_by_genre(self, genre, **kwargs):
         kwargs.update({
@@ -66,22 +90,14 @@ class LastFM(DbTask):
         for artist in artists:
             artist_name =  artist['name'].encode('utf8')
             self.add_artist(artist_name)
-            # print artist_name + '\n' +'=' * 50
-            # self.get_tags_by_artist(artist_name)
+            print artist_name + '\n' +'=' * 50
+            self.get_tags_by_artist(artist_name)
 
-    def populate_artist_to_tags(self):
-        all_artists  = self.select_artists()
-        # for artist in all_artists:
-        for i, r in enumerate(all_artists):
-            print i
-            print r.artist_name
-            print r.artist_id
+  
 
- 
 def main():
     last_request = LastFM()
     last_request.get_artist_by_genre( "minimal techno" )
-    # last_request.populate_artist_to_tags()
  
 
 if __name__ == "__main__": main()
