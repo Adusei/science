@@ -5,7 +5,7 @@ from last_db import DbTask
 from last_db import StatementError
 
 
-# SOURCE: http://snipplr.com/view/63161/
+
 
 class LastFM(DbTask):
     def __init__(self):
@@ -34,9 +34,6 @@ class LastFM(DbTask):
     def set_tag_pct(self, artist_id, total_tag_count):
         super(LastFM, self).set_tag_pct(artist_id,total_tag_count)
 
-    # artist_id = self.get_artist_by_name(artist_name) 
-    # tag_id = self.get_tag_by_name(tag_name)
-
     default = False
 
     def api_request(self, **kwargs):
@@ -44,7 +41,7 @@ class LastFM(DbTask):
       kwargs.update({
           "api_key":  self.API_KEY,
           "format": "json",
-          "limit": 3
+          "limit": 1000
       })
 
       url = self.API_URL + "?" + urllib.urlencode(kwargs)
