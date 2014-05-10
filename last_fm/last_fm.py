@@ -3,7 +3,7 @@ import pprint as pp
 import simplejson as json
 from last_db import DbTask
 from last_db import StatementError
- 
+
 
 # SOURCE: http://snipplr.com/view/63161/
 
@@ -19,8 +19,8 @@ class LastFM(DbTask):
     def add_tag(self,tag_name):
         super(LastFM, self).add_tag(tag_name)
 
-    def add_artist_to_tag(self,artist_id,tag_id):
-        super(LastFM, self).add_artist_to_tag(artist_id,tag_id)
+    def add_artist_to_tag(self,artist_id,tag_id,tag_count):
+        super(LastFM, self).add_artist_to_tag(artist_id,tag_id,tag_count)
 
     def select_artists(self):
         return super(LastFM, self).select_artists()
@@ -30,6 +30,9 @@ class LastFM(DbTask):
 
     def get_tag_by_name(self, tag_name):
         return super(LastFM, self).get_tag_by_name(tag_name)
+
+    def set_tag_pct(self, artist_id, total_tag_count):
+        super(LastFM, self).set_tag_pct(artist_id,total_tag_count)
 
     # artist_id = self.get_artist_by_name(artist_name) 
     # tag_id = self.get_tag_by_name(tag_name)
@@ -41,7 +44,7 @@ class LastFM(DbTask):
       kwargs.update({
           "api_key":  self.API_KEY,
           "format": "json",
-          "limit": 1000
+          "limit": 3
       })
 
       url = self.API_URL + "?" + urllib.urlencode(kwargs)
@@ -69,19 +72,30 @@ class LastFM(DbTask):
         response_data = self.api_request(**kwargs)
 
         tags = response_data['toptags']['tag']
+        
+        total_tag_count = 0
+
         for tag in tags:
             tag_name = tag['name'].encode('utf8')
-          
+            tag_count = tag['count']
+            total_tag_count = total_tag_count + int(tag_count)
+
             try:
                 self.add_tag(tag_name)
 
                 artist_id = self.get_artist_by_name(artist_name) 
                 tag_id = self.get_tag_by_name(tag_name)
 
-                self.add_artist_to_tag(artist_id, tag_id)
+                self.add_artist_to_tag(artist_id, tag_id, tag_count)
+
                 print tag_name
             except StatementError:
-                print 'that broke..'
+                pass
+
+        # try:
+        self.set_tag_pct(artist_id, total_tag_count)
+        # except :
+
 
     def get_artist_by_genre(self, genre, **kwargs):
         kwargs.update({
@@ -103,6 +117,8 @@ class LastFM(DbTask):
 def main():
     last_request = LastFM()
     last_request.get_artist_by_genre( "minimal techno" )
- 
+    # last_request.get_tags_by_artist("raresh")
+
+
 
 if __name__ == "__main__": main()

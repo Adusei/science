@@ -56,6 +56,7 @@ Tag Count Distro
 Use Tag Count Distro as scoring mechanism
 Dont Dupe tags in query
 
+make table objects class variables ( only define them once )
 
 
 

@@ -51,16 +51,12 @@ class DbTask(object):
 
         self.db_session.close()
 
-    def add_artist_to_tag (self, artist_id, tag_id):
+    def add_artist_to_tag (self, artist_id, tag_id, tag_count):
         artist_to_tags_table = al.Table('artist_to_tags', self.metadata, autoload=True)
-        
-        # artist_id = self.get_artist_by_name(artist_name) 
-        # tag_id = self.get_tag_by_name(tag_name)
 
         try:
             a_t_ins = artist_to_tags_table.insert()
-            self.engine.execute(a_t_ins, artist_id = artist_id, tag_id = tag_id)
-            # print '...success fully insertest relation ' + tag_name + ' and ' + artist_name
+            self.engine.execute(a_t_ins, artist_id = artist_id, tag_id = tag_id, tag_count = tag_count)
         except IntegrityError:
             pass
 
@@ -79,8 +75,6 @@ class DbTask(object):
         for r in rs:
             tag_id = r.tag_id
             print tag_id
-            # Some tags are blank...     
-
 
         self.db_session.close()
         return tag_id
@@ -105,17 +99,50 @@ class DbTask(object):
         return artist_id
 
 
+    def set_tag_pct(self, artist_id, total_tag_count):
+        artist_to_tags_table = al.Table('artist_to_tags', self.metadata, autoload=True)
+        stmt = artist_to_tags_table.update().where(artist_to_tags_table.c.artist_id==artist_id).values(tag_count_pct = artist_to_tags_table.c.tag_count / total_tag_count )
+
+        stmt.execute()
+
+
+    def get_related_tags(self):
+        raw_sql = '''select 
+        t1.tag_name as t1 , t2.tag_name as t2, x.c
+        from 
+        (
+            select
+                at_1.tag_id as tag_id_1
+                , at_2.tag_id as tag_id_2
+                , count(*) as c
+            from artist_to_tags at_1
+                inner join artist_to_tags at_2
+                on at_1.artist_id = at_2.artist_id
+                and at_1.tag_id != at_2.tag_id
+            GROUP BY at_1.tag_id, at_2.tag_id HAVING COUNT(*) > 10
+        ) x
+        inner join tags t1
+            on x.tag_id_1 = t1.tag_id
+        inner join tags t2
+            on x.tag_id_2 = t2.tag_id
+        ORDER BY x.c desc'''
+
+        db_results =  self.engine.execute(raw_sql)
+
+        for r in db_results:
+            print r.t1 + ' | ' + r.t2 
+            # print 
+
+
 
 if __name__ == "__main__":
     t = DbTask()
-    t.get_tag_by_name("a")
-    # t.
-
+    t.get_related_tags()
+    t.set_tag_pct(4154,1000)
 
 
 '''
-# I SHOULD DEFINE THIS VIA SQL ALCHEMY
-# BUT I DID THIS DIRECTLY IN MYSQL FOR NOW
+## THIS IS MY DATABASE SCHEMA THAT I DEFINED DIRECTLY IN MYSQL
 
 #DB = last_fm ; u=root ; p=
 
