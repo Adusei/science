@@ -1,27 +1,57 @@
 
 Goal: Construct a data set that relates Last.fm tags to each other, revealing 
-which genres (and other tags) are most associated.  Define score for similarity between tags, output a text file with related tags and their score descending.  In addition, output transitional data sets, specifically relevant tags per artist.
+which genres (and other tags) are most associated.  Define score for similarity
+between tags, output a text file with related tags and their score descending. 
+In addition, output transitional data sets, specifically relevant tags per artist.
 
 Resources:
 	• API details: http://www.last.fm/api/intro
 	• Top Artists method: http://www.last.fm/api/show/chart.getTopArtists
 	• Top Tags method: http://www.last.fm/api/show/artist.getTopTags
-	• Getting Started I used: http://snipplr.com/view/63161/
+	• To get started with last fm api I used: http://snipplr.com/view/63161/
 
 
-Use Tag Count Distro as scoring mechanism
-Create Score
+Normalize Score
 save a file with artist to tags.. only relevant tags.. use tag_cnt pct
 output the related tags to txt
 Dont Dupe tags in query
-
 make table objects class variables ( only define them once )
+comments
+venv
 
 
+Steps:
+	1. Define a database schema where store, artists, tags, and their relations
+			--> Why i chose this schema?
+			-  I have been working on a project (see www.mixdemon.com) in which i am attempting
+			-  to generate analytics on underground house and techno artists in order to create
+		  -  a content based filtering recommendation algorithm. That is, i'm interested in using
+		  -  metadata as opposed to user behavior to tag tracks and recommend them to my users.
+		  -  I'm currently using soundcloud, freebase, and Resident Advisor (shhhh.. i crawled their site)
+		  -  and tring to create one resource in which all of this metadata is combined.  Last fm
+		  -  is actually one of the resources that i want to use, but as of last have not had the
+		  -  time to work with.  The schema i use in mix demon (https://github.com/Adusei/mix_daemon/blob/master/app/db.py)
+		  -  is similar to what you see here.. that is because hopefully i will add last fm as a source
+		  -  and be able to use some of this code.
+
+		  -  Also im a SQL Server database professional by trade, and i think in terms of relational databases
+		  -  very naturally, so this was an easy choice for me in how i chose to store the data.
+	2.  Define two classes, a last FM task which inherits from a DB task
+			-  The DB task deals with all connections and interaction with the databae.
+			-  The last fm class inherits all of the database methods and calls them in order to insert and retreive data
+	2. Find Relevant Artists for a Particular Genere
+			-- > I chose minimal techno, which is had 999 artists... a nice number :D
+			-  The top level Method in my code is called get_artists_by_genre()
 
 
+Where i would go from here.
+	1.  I really am not happy with how i am finding the Tg
+	2.  Performance.  This code is pretty slow... if this was production code i would use redis
+			and create a dictionary for each tag, where the tag was the key, and the value was another
+			dictionary where the key was the tag, and the cooresponding score.. for example:
+
+			[minimal techno] = { [techno] = .907, [electronica] = .824, [deep house] = .726 } etc.
 
 
-What would this process/schema look like in redis??
 
 

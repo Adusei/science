@@ -106,38 +106,66 @@ class DbTask(object):
         stmt.execute()
 
 
+    def output_relevant_tags_by_artist(self):
+        raw_sql = '''
+        SELECT  
+            a.artist_name, t.tag_name, att.tag_count_pct  
+        FROM artist_to_tags att
+        INNER JOIN tags t
+            ON att.tag_id = t.tag_id
+        INNER JOIN artists a 
+            ON att.artist_id = a.artist_id
+        WHERE att.tag_count_pct > .1
+        ORDER BY  artist_name
+        '''
+
+        db_results =  self.engine.execute(raw_sql)
+
+        f = open('tags_for_artists.txt', 'w+')
+        f.write('artist_name, tag_name, tag_count_pct\n')
+
+        for r in db_results:
+            f.write(r.artist_name + ',' + r.tag_name + ',' + str(r.tag_count_pct) + '\n')
+
+        f.close()
+
+
     def get_related_tags(self):
-        raw_sql = '''select 
-        t1.tag_name as t1 , t2.tag_name as t2, x.c
-        from 
+        raw_sql = '''
+        SELECT 
+            t1.tag_name as t1, t2.tag_name as t2, x.score
+        FROM
         (
-            select
-                at_1.tag_id as tag_id_1
-                , at_2.tag_id as tag_id_2
-                , count(*) as c
-            from artist_to_tags at_1
-                inner join artist_to_tags at_2
-                on at_1.artist_id = at_2.artist_id
-                and at_1.tag_id != at_2.tag_id
+            SELECT
+                at_1.tag_id AS tag_id_1
+                , at_2.tag_id AS tag_id_2
+                #, count(*) as c
+                , sum(at_1.tag_count_pct + at_2.tag_count_pct ) AS score
+            FROM artist_to_tags at_1
+                INNER JOIN artist_to_tags at_2
+                ON at_1.artist_id = at_2.artist_id
+                AND at_1.tag_id != at_2.tag_id
             GROUP BY at_1.tag_id, at_2.tag_id HAVING COUNT(*) > 10
         ) x
-        inner join tags t1
-            on x.tag_id_1 = t1.tag_id
-        inner join tags t2
-            on x.tag_id_2 = t2.tag_id
-        ORDER BY x.c desc'''
+        INNER JOIN tags t1
+            ON x.tag_id_1 = t1.tag_id
+        INNER JOIN tags t2
+            ON x.tag_id_2 = t2.tag_id
+        ORDER BY x.score DESC
+        '''
 
         db_results =  self.engine.execute(raw_sql)
 
         for r in db_results:
-            print r.t1 + ' | ' + r.t2 
+            print r.t1 + ' | ' + r.t2  + ' | ' + str(r.score)
             # print 
+
 
 
 
 if __name__ == "__main__":
     t = DbTask()
-    t.get_related_tags()
+    t.output_relevant_tags_by_artist()
 
 
 
