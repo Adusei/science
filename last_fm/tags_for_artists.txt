@@ -1,1 +1,3405 @@
-tag_1, tag_2, score
+artist_name, tag_name, tag_count_pct
+10dens,techno,0.363636
+10dens,minimal techno,0.363636
+2000 and One,minimal,0.166667
+2000 and One,techno,0.22831
+2000 and One,minimal techno,0.118721
+2000 and One,electronic,0.107306
+2562,minimal,0.104247
+2562,electronic,0.127413
+2562,dubstep,0.3861
+3 Channels,minimal,0.235849
+3 Channels,techno,0.134434
+3 Channels,minimal techno,0.162736
+3 Channels,tech house,0.134434
+3 Phase,techno,0.254453
+3 Phase,tresor,0.19084
+A Rocket in Dub,minimal,0.132251
+A Rocket in Dub,electronic,0.232019
+A Rocket in Dub,dub techno,0.132251
+Abdulla Rashim,techno,0.297619
+Abdulla Rashim,minimal techno,0.190476
+Abdulla Rashim,dub techno,0.202381
+Abnormal Boyz,minimal,0.20284
+Abnormal Boyz,minimal techno,0.176471
+Abnormal Boyz,tech house,0.125761
+Abnormal Boyz,under 2000 listeners,0.10142
+Accou,techno,0.108108
+Accou,minimal techno,0.108108
+Accou,minimal dub,0.108108
+Acid Circus,minimal,0.108987
+Acid Circus,techno,0.108987
+Acid Circus,minimal techno,0.191205
+Acid Circus,acid techno,0.135755
+Actress,techno,0.121118
+Actress,electronic,0.145963
+Actress,idm,0.152174
+Actress,experimental,0.15528
+Actress,dubstep,0.102484
+ADA,minimal,0.201613
+ADA,techno,0.116935
+ADA,electronic,0.153226
+Adam Beyer,minimal,0.15261
+Adam Beyer,techno,0.401606
+Adam Beyer,electronic,0.136546
+Adam Johnson,minimal,0.102041
+Adam Johnson,techno,0.110787
+Adam Johnson,electronic,0.16035
+Adam Johnson,idm,0.291545
+Adam Kroll,minimal,0.238663
+Adam Kroll,techno,0.112172
+Adam Kroll,minimal techno,0.224344
+Adam Kroll,electronic,0.112172
+Adam Proll,minimal,0.283286
+Adam Proll,techno,0.181303
+Adam Proll,minimal techno,0.147309
+Adaptive,minimal,0.181818
+Adaptive,minimal techno,0.227273
+Adaptive,downtempo,0.227273
+Adaptive,under 2000 listeners,0.136364
+Adrian Carter,electronic,0.130208
+Adultnapper,minimal,0.235849
+Adultnapper,techno,0.153302
+Adultnapper,minimal techno,0.153302
+Adultnapper,tech house,0.129717
+Advanced Human,techno,0.34965
+Advanced Human,minimal techno,0.216783
+Advanced Human,electronic,0.129371
+Adverb,minimal,0.212766
+Adverb,techno,0.106383
+Adverb,minimal techno,0.185106
+Adverb,idm,0.144681
+Afternoon Coffee Boys,minimal,0.244499
+Afternoon Coffee Boys,techno,0.244499
+Afternoon Coffee Boys,minimal techno,0.215159
+Agaric,minimal,0.202429
+Agaric,techno,0.188259
+Agaric,minimal techno,0.147773
+Agoria,minimal,0.169565
+Agoria,techno,0.186957
+Agoria,electronic,0.217391
+Agoria,electro,0.108696
+Aguayo/Rossknecht,electronic,0.166667
+Aguayo/Rossknecht,Kompakt,0.166667
+Aguayo/Rossknecht,Cologne,0.166667
+AKA AKA,minimal,0.235294
+AKA AKA,techno,0.124706
+AKA AKA,minimal techno,0.202353
+AKA AKA,tech house,0.131765
+Akiko Kiyama,minimal,0.318471
+Akiko Kiyama,techno,0.136943
+Akiko Kiyama,minimal techno,0.159236
+Akiko Kiyama,japanese,0.149682
+Akufen,minimal,0.176056
+Akufen,electronic,0.126761
+Akufen,microhouse,0.160211
+Alberto Fracasso,minimal,0.381679
+Alberto Fracasso,techno,0.19084
+Alec Troniq,minimal,0.115473
+Alessio Mereu,minimal,0.243902
+Alessio Mereu,techno,0.170732
+Alessio Mereu,minimal techno,0.109756
+Alessio Mereu,electronic,0.134146
+Alex Bau,minimal,0.202091
+Alex Bau,techno,0.348432
+Alex Bau,electronic,0.135889
+Alex Di Stefano,minimal,0.205882
+Alex Di Stefano,techno,0.169118
+Alex Di Stefano,minimal techno,0.245098
+Alex Di Stefano,tech house,0.129902
+Alex Medina,minimal,0.259067
+Alex Medina,techno,0.11399
+Alex Medina,minimal techno,0.142487
+Alex Medina,All,0.11399
+Alex Niggemann,minimal,0.215983
+Alex Niggemann,minimal techno,0.151188
+Alex Niggemann,electronic,0.12527
+Alex Niggemann,tech house,0.151188
+Alex Smoke,minimal,0.283286
+Alex Smoke,techno,0.167139
+Alex Smoke,minimal techno,0.17847
+Alex Smoke,electronic,0.155807
+Alex Under,minimal,0.288184
+Alex Under,techno,0.201729
+Alex Under,minimal techno,0.15562
+Alex Under,electronic,0.126801
+Alexander Kowalski,minimal,0.137313
+Alexander Kowalski,techno,0.298507
+Alexander Kowalski,electronic,0.161194
+Alexey Volkov,techno,0.2
+Alexey Volkov,minimal techno,0.2
+Alexey Volkov,experimental,0.1
+Alexey Volkov,industrial,0.1
+Alexi Delano,techno,0.228833
+Alexi Delano,minimal techno,0.176201
+Alexi Delano & Xpansul,minimal,0.129921
+Alexi Delano & Xpansul,minimal techno,0.393701
+Alle Farben,minimal,0.224719
+Alle Farben,minimal techno,0.186517
+Alle Farben,electronic,0.224719
+Alta Infidelidad,minimal techno,0.117355
+Alta Infidelidad,electronic,0.165289
+Ambivalent,minimal,0.276243
+Ambivalent,techno,0.165746
+Ambivalent,minimal techno,0.198895
+Ambivalent,electronic,0.104972
+Âme,minimal,0.201613
+Âme,electronic,0.114919
+Âme,House,0.149194
+Âme,deep house,0.165323
+Amir Ad Fontes,minimal,0.252525
+Amir Ad Fontes,minimal techno,0.209596
+Amir Ad Fontes,tech house,0.166667
+And.id,minimal,0.198807
+And.id,techno,0.10338
+And.id,minimal techno,0.163022
+And.id,tech house,0.17495
+Anders Ilar,minimal,0.242718
+Anders Ilar,minimal techno,0.143204
+Anders Ilar,electronic,0.131068
+Anders Ilar,ambient,0.160194
+Andhim,minimal,0.194175
+Andhim,electronic,0.135922
+Andhim,tech house,0.165049
+Andomat 3000,minimal,0.232558
+Andomat 3000,techno,0.104651
+Andomat 3000,minimal techno,0.174419
+Andomat 3000,tech house,0.116279
+Andomat 3000 & Jan,minimal,0.232472
+Andomat 3000 & Jan,techno,0.132841
+Andomat 3000 & Jan,minimal techno,0.369004
+Andre Crom,minimal,0.225734
+Andre Crom,minimal techno,0.137698
+Andre Crom,tech house,0.160271
+Andrea Bertolini,minimal,0.133511
+Andrea Bertolini,minimal techno,0.101469
+Andrea Bertolini,electronic,0.11749
+Andrea Bertolini,electro,0.125501
+Andrea Bertolini,House,0.11749
+Andrea Roma,minimal,0.310559
+Andrea Roma,techno,0.232919
+Andrea Roma,minimal techno,0.257764
+Andreas Henneberg,minimal,0.211864
+Andreas Henneberg,techno,0.120763
+Andreas Henneberg,minimal techno,0.180085
+Andy Stott,minimal,0.119522
+Andy Stott,techno,0.169323
+Andy Stott,minimal techno,0.129482
+Andy Stott,dub techno,0.199203
+Andy Vaz,minimal,0.106061
+Andy Vaz,minimal techno,0.151515
+Andy Vaz,electronic,0.106061
+Animal Collective,experimental,0.251256
+Animal Collective,indie,0.168342
+Animal Collective,freak folk,0.130653
+Animal Trainer,minimal,0.2
+Animal Trainer,techno,0.15
+Animal Trainer,minimal techno,0.1
+Animal Trainer,tech house,0.2
+Animal Trainer,homegrown electro,0.1
+Anja Schneider,minimal,0.28169
+Anja Schneider,techno,0.140845
+Anja Schneider,minimal techno,0.177465
+Anja Schneider,electronic,0.112676
+Anja Schneider & Sebo K,minimal,0.28169
+Anja Schneider & Sebo K,techno,0.140845
+Anja Schneider & Sebo K,minimal house,0.112676
+Anna,minimal,0.222222
+Anna,techno,0.144444
+Anna,minimal techno,0.2
+Ante Perry,minimal,0.276243
+Ante Perry,electronic,0.143646
+Ante Perry,House,0.129834
+Anthony Collins,minimal,0.277778
+Anthony Collins,techno,0.133333
+Anthony Collins,minimal techno,0.111111
+Anthony Rother,minimal,0.120401
+Anthony Rother,techno,0.150502
+Anthony Rother,electronic,0.177258
+Anthony Rother,electro,0.334448
+Antiguo Autómata Mexicano,minimal,0.110372
+Antiguo Autómata Mexicano,minimal techno,0.132979
+Antiguo Autómata Mexicano,electronic,0.110372
+Antislash,minimal,0.138075
+Antislash,techno,0.209205
+Antislash,minimal techno,0.17364
+Antislash,circus company,0.138075
+Anton Kubikov,minimal,0.240964
+Anton Kubikov,techno,0.127711
+Anton Kubikov,minimal techno,0.101205
+Anton Kubikov,electronic,0.154217
+Anton Pieete,minimal,0.214133
+Anton Pieete,techno,0.137045
+Anton Pieete,minimal techno,0.152034
+Anton Pieete,tech house,0.182013
+Apoll,minimal techno,0.148148
+Apoll,electronic,0.111111
+Apoll,idm,0.111111
+Apoll,tech house,0.111111
+Applescal,minimal,0.167224
+Applescal,techno,0.130435
+Applescal,electronic,0.135452
+Arandel,techno,0.143062
+Arandel,deep techno,0.120172
+Argy,minimal,0.224719
+Argy,techno,0.116854
+Argy,electronic,0.121348
+Aril Brikha,minimal,0.125333
+Aril Brikha,techno,0.266667
+Aril Brikha,detroit techno,0.125333
+Aril Brikha,deep techno,0.109333
+Arul,minimal techno,0.555556
+Asem Shama,minimal,0.294118
+Asem Shama,techno,0.147059
+Asem Shama,minimal techno,0.147059
+Asem Shama,tech house,0.117647
+Auch,minimal,0.160772
+Auch,electronic,0.122186
+Auch,ambient,0.110932
+audiodump,minimal,0.238663
+audiodump,minimal techno,0.210024
+audiodump,experimental,0.157518
+audiodump,deep techno,0.105012
+Audiofly X,minimal,0.253165
+Audiofly X,techno,0.205063
+Audiofly X,minimal techno,0.164557
+Audiofly X,electronic,0.118987
+Audiojack,minimal,0.225225
+Audiojack,techno,0.171171
+Audiojack,electronic,0.117117
+Audiojack,House,0.117117
+Audion,minimal,0.25641
+Audion,techno,0.2
+Audion,minimal techno,0.189744
+Audion,electronic,0.128205
+audiossey,minimal,0.117429
+audiossey,electronic,0.123609
+Audision,minimal,0.218818
+Audision,minimal techno,0.109409
+Austin Cesear,techno,0.25
+Austin Cesear,minimal techno,0.125
+Austin Cesear,ambient,0.15
+Austin Cesear,dub techno,0.25
+Autistic,minimal,0.25
+Autistic,techno,0.17
+Autistic,minimal techno,0.23
+Avatism,minimal techno,0.192678
+Avatism,electronic,0.148362
+Avatism,House,0.169557
+Avatism,tech house,0.105973
+Avatism,deep house,0.192678
+Avus,techno,0.21645
+Avus,electronic,0.132035
+Avus,Progressive House,0.108225
+Avus,Border Community,0.164502
+Axel Bartsch,minimal,0.228833
+Axel Bartsch,techno,0.194508
+Axel Bartsch,minimal techno,0.194508
+Axel Bartsch,Kompakt,0.1373
+Axel Boman,minimal techno,0.156566
+Axel Boman,House,0.189394
+Axel Boman,deep house,0.252525
+B. Fleischmann,electronic,0.196464
+B. Fleischmann,electronica,0.102161
+B. Fleischmann,idm,0.174853
+B. Fleischmann,ambient,0.143418
+Baby Ford & The Ifach Collective,techno,0.190476
+Baby Ford & The Ifach Collective,minimal techno,0.125714
+Baiyon,minimal,0.142857
+Baiyon,minimal techno,0.178571
+Baiyon,electronic,0.160714
+Baiyon,video game music,0.107143
+Barem,minimal,0.294118
+Barem,techno,0.191176
+Barem,minimal techno,0.173529
+Barem,electronic,0.123529
+Barker & Baumecker,techno,0.3003
+Barker & Baumecker,minimal techno,0.192192
+Barker & Baumecker,dub techno,0.276276
+Basic Channel,minimal,0.15146
+Basic Channel,techno,0.158759
+Basic Channel,dub techno,0.182482
+Basic Soul Unit,techno,0.251256
+Basic Soul Unit,minimal techno,0.133166
+Basic Soul Unit,House,0.100503
+Basteroid,minimal,0.157282
+Basteroid,techno,0.194175
+Basteroid,electronic,0.120388
+Basti Grub,minimal,0.21097
+Basti Grub,minimal techno,0.189873
+Basti Grub,electronic,0.14346
+Basti Grub,tech house,0.132911
+Basti Grub,tribal,0.113924
+Basti Grub & Komaton,techno,0.214286
+Basti Grub & Komaton,minimal techno,0.357143
+Basti Grub & Komaton,electronic,0.214286
+Basti Grub & Komaton,tech house,0.142857
+Beckers & Hatfield,minimal,0.244499
+Beckers & Hatfield,techno,0.198044
+Beckers & Hatfield,minimal techno,0.151589
+Beckers & Hatfield,electronic,0.151589
+Beckers & Hatfield,progressive trance,0.105134
+Ben Klock,minimal,0.209302
+Ben Klock,techno,0.258398
+Ben Klock,minimal techno,0.126615
+Ben Klock,electronic,0.111111
+Ben Parris,minimal,0.27248
+Ben Parris,techno,0.114441
+Ben Parris,minimal techno,0.231608
+Benfay,minimal,0.198807
+Bern,minimal,0.294118
+Bern,minimal techno,0.117647
+Billy Dalessandro,minimal,0.243902
+Billy Dalessandro,techno,0.170732
+Billy Dalessandro,minimal techno,0.134146
+Biodub,techno,0.134715
+Biodub,minimal techno,0.108808
+Biodub,dub techno,0.518135
+Bloody Mary,minimal,0.102703
+Bloody Mary,Gothic Rock,0.108108
+Bobby Peru,minimal,0.252525
+Bobby Peru,minimal techno,0.143939
+Bobby Peru,electronic,0.143939
+Bodycode,techno,0.12708
+Bodycode,electronic,0.151286
+Bodycode,experimental,0.134644
+Bodzin & Huntemann,minimal,0.215054
+Bodzin & Huntemann,techno,0.133333
+Bodzin & Huntemann,electronic,0.169892
+Bodzin & Huntemann,electro,0.169892
+Booka Shade,minimal,0.243902
+Booka Shade,electronic,0.202439
+Booka Shade,electro,0.121951
+Booka Shade,House,0.119512
+Boris Brejcha,minimal,0.298507
+Boris Brejcha,techno,0.19403
+Boris Brejcha,minimal techno,0.21194
+Boris Brejcha,electronic,0.110448
+Bozzwell,minimal techno,0.175385
+Bozzwell,electronic,0.129231
+Bozzwell,tech house,0.307692
+Bozzwell,Bozzwel,0.129231
+Brendon Moeller,techno,0.140725
+Brendon Moeller,dub techno,0.21322
+Brian Sanhaji,minimal,0.145594
+Brian Sanhaji,techno,0.383142
+Brian Sanhaji,minimal techno,0.16092
+Broke,minimal,0.132275
+Broke,Kompakt,0.109788
+Broombeck,minimal,0.185874
+Broombeck,techno,0.13197
+Broombeck,minimal techno,0.157993
+Broombeck,electronic,0.13197
+Broombeck,tech house,0.13197
+Bruno Pronsato,minimal,0.242131
+Bruno Pronsato,techno,0.128329
+Bruno Pronsato,minimal techno,0.169492
+Bruno Pronsato,microhouse,0.116223
+Bryan Zentz,minimal,0.127148
+Bryan Zentz,techno,0.343643
+Bryan Zentz,electronic,0.113402
+Bukaddor & Fishbeck,minimal,0.25
+Bukaddor & Fishbeck,techno,0.175
+Bukaddor & Fishbeck,minimal techno,0.175
+Bukaddor & Fishbeck,electronic,0.1025
+Bukaddor & Fishbeck,tech house,0.1175
+Burger / Voigt,minimal,0.25
+Burger / Voigt,minimal techno,0.3125
+Burger / Voigt,electronic,0.1875
+Burger / Voigt,Kompakt,0.1875
+Burnski,minimal,0.114155
+Burnski,techno,0.13242
+Burnski,minimal techno,0.114155
+Burnski,House,0.114155
+Burnski,tech house,0.22831
+Butane,minimal,0.258398
+Butane,techno,0.167959
+Butane,minimal techno,0.136951
+Butch,minimal,0.174737
+Butch,techno,0.210526
+BVoice,minimal,0.166667
+BVoice,techno,0.208333
+BVoice,minimal techno,0.208333
+BVoice,electronic,0.125
+Byetone,minimal,0.187204
+Byetone,electronic,0.130332
+Byetone,experimental,0.116114
+Byetone,glitch,0.236967
+Cabanne,minimal,0.201613
+Cabanne,techno,0.120968
+Camea,minimal,0.263158
+Camea,minimal techno,0.263158
+Cape,minimal,0.167785
+Cape,minimal techno,0.167785
+Cape,under 2000 listeners,0.110738
+Cardo,minimal,0.247525
+Cardo,techno,0.101485
+Cardo,minimal techno,0.247525
+Cardo,electronic,0.143564
+Caribou,electronic,0.252525
+Caribou,Canadian,0.103535
+Caribou,experimental,0.156566
+Caribou,indie,0.156566
+Carl Craig & Moritz von Oswald,minimal,0.160878
+Carl Craig & Moritz von Oswald,techno,0.120658
+Carl Craig & Moritz von Oswald,electronic,0.182815
+Carl Craig & Moritz von Oswald,modern classical,0.127971
+Carsten Jost,minimal,0.208768
+Carsten Jost,techno,0.118998
+Carsten Jost,minimal techno,0.141962
+Cassy,minimal,0.154412
+Cassy,techno,0.102941
+Cassy,deep house,0.183824
+Catz 'n Dogz,minimal,0.163666
+Catz 'n Dogz,tech house,0.139116
+Chaim,minimal,0.212314
+Chaim,techno,0.169851
+Chaim,electronic,0.110403
+Chaim,tech house,0.140127
+Channel X,minimal,0.117083
+Channel X,techno,0.15739
+Channel X,electronic,0.134357
+Channel X,Rave,0.191939
+Chelonis R. Jones,minimal,0.12807
+Chelonis R. Jones,electronic,0.175439
+Chelonis R. Jones,electro,0.112281
+Chelonis R. Jones,House,0.138596
+Chet Faker,downtempo,0.198413
+Chet Faker,Lo-Fi,0.107143
+Chet Faker,post-dubstep,0.130952
+Chevel,minimal,0.10585
+Chevel,techno,0.278552
+Chevel,minimal techno,0.222841
+Chevel,electronic,0.116992
+Chevel,tech house,0.169916
+Chic Miniature,minimal,0.202429
+Chic Miniature,minimal techno,0.202429
+Chic Miniature,tech house,0.202429
+Chopstick & Johnjon,minimal,0.162075
+Chopstick & Johnjon,electronic,0.106969
+Chopstick & Johnjon,deep house,0.106969
+Chris Lattner,minimal,0.187617
+Chris Lattner,minimal techno,0.140713
+Chris Lattner,deep house,0.116323
+Chris Lattner,All,0.116323
+Chris Wood & Meat,minimal,0.2
+Chris Wood & Meat,minimal techno,0.25
+Chris Wood & Meat,electronic,0.1
+Chris Wood & Meat,House,0.15
+Chris Wood & Meat,tech house,0.15
+Christian Bloch,minimal,0.161812
+Christian Bloch,techno,0.139159
+Christian Bloch,minimal techno,0.118123
+Christian Burkhardt,minimal,0.158
+Christian Burkhardt,techno,0.1
+Christian Burkhardt,tech house,0.2
+Christian Dittmann,minimal,0.277008
+Christian Dittmann,techno,0.149584
+Christian Dittmann,minimal techno,0.149584
+Christian Löffler,minimal,0.160772
+Christian Löffler,techno,0.110932
+Christian Löffler,minimal techno,0.104502
+Christian Löffler,electronic,0.117363
+Christian Morgenstern,techno,0.192678
+Christian Morgenstern,electronic,0.152216
+Christian Prommer,german,0.127168
+Christian Prommer,jazz,0.175337
+Christian Prommer,nu jazz,0.192678
+Christian Prommer,nu-jazz,0.111753
+Christopher Just,techno,0.171233
+Christopher Just,electronic,0.136986
+Christopher Just,electro,0.121575
+Christopher Rau,minimal,0.17452
+Christopher Rau,techno,0.17452
+Christopher Rau,House,0.132635
+Christopher Rau,deep house,0.146597
+Chymera,minimal,0.144231
+Chymera,techno,0.160256
+Chymera,electronic,0.112179
+Chymera,tech house,0.105769
+Cio D'or,minimal,0.1766
+Cio D'or,techno,0.220751
+Cio D'or,minimal techno,0.103753
+Cipy,minimal,0.142241
+Cipy,minimal techno,0.215517
+Cipy,electronic,0.142241
+Cipy,electronica,0.215517
+Cipy,House,0.142241
+Clara Moto,minimal,0.211864
+Clara Moto,techno,0.177966
+Claro Intelecto,minimal,0.174825
+Claro Intelecto,techno,0.141608
+Claro Intelecto,electronic,0.155594
+Claro Intelecto,idm,0.143357
+Claude VonStroke,minimal,0.25
+Claude VonStroke,techno,0.1775
+Claude VonStroke,minimal techno,0.115
+Claude VonStroke,electronic,0.12
+Claudio PRC,minimal,0.133333
+Claudio PRC,techno,0.216667
+Claudio PRC,minimal techno,0.238095
+Claudio PRC,ambient,0.12381
+Claudio PRC,Ambient Techno,0.12381
+Cle,minimal,0.232558
+Cle,minimal techno,0.153488
+Click Box,minimal,0.265252
+Click Box,techno,0.214854
+Click Box,minimal techno,0.164456
+Click Box,tech house,0.114058
+Closer Musik,minimal,0.187617
+Closer Musik,electronic,0.140713
+Closer Musik,Kompakt,0.121951
+Cobblestone Jazz,minimal,0.208768
+Cobblestone Jazz,techno,0.146138
+Cobblestone Jazz,minimal techno,0.123173
+Cobblestone Jazz,electronic,0.146138
+Coeter One,minimal,0.125628
+Coeter One,techno,0.125628
+Coeter One,minimal techno,0.251256
+Coeter One,deep,0.251256
+Coeter One,under 2000 listeners,0.165829
+Coil,electronic,0.110345
+Coil,ambient,0.105747
+Coil,experimental,0.197701
+Coil,dark ambient,0.151724
+Coil,industrial,0.229885
+Conforce,techno,0.219638
+Conforce,minimal techno,0.116279
+Conforce,dub techno,0.258398
+Container,techno,0.219298
+Container,minimal techno,0.153509
+Container,experimental,0.10307
+COS/MES,techno,0.172414
+COS/MES,minimal techno,0.103448
+Cosmic Sandwich,minimal,0.222973
+Cosmic Sandwich,techno,0.168919
+Cosmic Sandwich,minimal techno,0.337838
+Cristian Varela,techno,0.49505
+Cristian Vogel,techno,0.232558
+Cristian Vogel,electronic,0.132558
+Cristian Vogel,experimental,0.118605
+CTRLS,techno,0.299401
+CTRLS,minimal techno,0.134731
+CTRLS,electronic,0.188623
+CTRLS,mutant techno,0.161677
+Cubenx,electronic,0.139665
+Cyan341,minimal,0.168067
+Cyan341,minimal techno,0.168067
+Cyan341,dub techno,0.168067
+D'Malicious,techno,0.111111
+D'Malicious,electronic,0.111111
+D'Malicious,detroit techno,0.111111
+D'Malicious,House,0.111111
+D'Malicious,tech-house,0.111111
+D'Malicious,minimal techno artists,0.222222
+D'Malicious,melodic techno,0.111111
+D'Malicious,to listen to,0.111111
+D. DIGGLER,minimal,0.107181
+Dadub,techno,0.213542
+Dadub,electronic,0.109375
+Dadub,dub,0.125
+Dadub,dub techno,0.260417
+Damian Lazarus,minimal,0.165563
+Damian Lazarus,techno,0.102649
+Damian Lazarus,minimal techno,0.142384
+Damian Lazarus,electronic,0.102649
+Damian Schwartz,minimal,0.248139
+Damian Schwartz,techno,0.158809
+Damian Schwartz,minimal techno,0.218362
+Damian Schwartz,deep,0.101737
+Damon Wild,minimal,0.1
+Damon Wild,techno,0.4
+Damon Wild,minimal techno,0.12
+Dan Andrei,minimal,0.251889
+Dan Andrei,techno,0.166247
+Dan Andrei,minimal techno,0.251889
+Dan Andrei,tech house,0.125945
+Dan Berkson,minimal,0.192547
+Dan Berkson,techno,0.310559
+Dan Berkson,minimal techno,0.192547
+Dan Berkson & James What,techno,0.166667
+Dan Berkson & James What,minimal techno,0.116667
+Dan Berkson & James What,electronic,0.1
+Dan Berkson & James What,House,0.116667
+Dan Berkson & James What,tech house,0.133333
+Dan Drastic,minimal,0.174142
+Dan Drastic,minimal techno,0.263852
+Dan Drastic,tech house,0.218997
+Dan F,minimal techno,0.110887
+Dan F,breakbeat,0.201613
+Dan F,progressive breaks,0.155242
+Dana Ruh,minimal,0.2457
+Dana Ruh,minimal techno,0.12285
+Dana Ruh,under 2000 listeners,0.12285
+Dandi & Ugo,minimal,0.182482
+Dandi & Ugo,techno,0.122263
+Dandi & Ugo,minimal techno,0.169708
+Daniel Bell,minimal,0.15121
+Daniel Bell,techno,0.201613
+Daniel Bell,minimal techno,0.116935
+Daniel Blomqvist,ambient,0.184843
+Daniel Blomqvist,dub,0.170055
+Daniel Dreier,minimal,0.318471
+Daniel Dreier,techno,0.146497
+Daniel Dreier,minimal techno,0.210191
+Daniel Dreier,electronic,0.146497
+Daniel Mehlhart,minimal,0.173913
+Daniel Mehlhart,techno,0.121739
+Daniel Mehlhart,minimal techno,0.113043
+Daniel Mehlhart,electronic,0.104348
+Daniel Mehlhart,tech house,0.130435
+Daniel Stefanik,minimal,0.19802
+Daniel Stefanik,minimal techno,0.118812
+Daniel Steinberg,minimal,0.296736
+Daniel Steinberg,techno,0.181009
+Daniel Steinberg,minimal techno,0.148368
+Daniel Steinberg,electronic,0.118694
+Daniel Steinberg,tech house,0.15727
+Daniele Papini,minimal,0.30303
+Daniele Papini,techno,0.242424
+Daniele Papini,minimal techno,0.181818
+Danton Eeprom,minimal,0.232558
+Danton Eeprom,techno,0.134884
+Danton Eeprom,electronic,0.14186
+Dapayk,minimal,0.321543
+Dapayk,techno,0.118971
+Dapayk,minimal techno,0.106109
+Dapayk,electronic,0.163987
+Dapayk & Padberg,minimal,0.265957
+Dapayk & Padberg,electronic,0.12766
+Dapayk Solo,minimal,0.277778
+Dapayk Solo,techno,0.155556
+Dapayk Solo,minimal techno,0.183333
+Dapayk Solo,electronic,0.111111
+Dario Zenker,minimal,0.287356
+Dario Zenker,techno,0.155172
+Dario Zenker,minimal techno,0.195402
+Dario Zenker,electronic,0.103448
+Darko Esser,minimal,0.124783
+Darko Esser,techno,0.17331
+Darko Esser,electronic,0.124783
+Das,minimal techno,0.188679
+Das,sexy,0.124528
+Das,electronical,0.188679
+Daso,minimal,0.182149
+Daso,techno,0.125683
+Daso,electro,0.15847
+Daso,tech house,0.120219
+Daso,deep house,0.111111
+Databoy78,minimal,0.137363
+Databoy78,techno,0.137363
+Dataworx,minimal,0.136771
+Dataworx,techno,0.224215
+Dataworx,minimal techno,0.206278
+Dave Tarrida,techno,0.316456
+Dave Tarrida,minimal techno,0.10443
+Dave Tarrida,electronic,0.10443
+Dave Tarrida,tresor,0.126582
+David Alvarado,House,0.103611
+David Alvarado,tech house,0.103611
+David Alvarado,deep house,0.156986
+David K,minimal,0.15674
+David K,electronic,0.101881
+David K,House,0.119122
+David K,deep house,0.101881
+Davide Squillace,minimal,0.210526
+Davide Squillace,techno,0.126316
+Davide Squillace,minimal techno,0.168421
+Davide Squillace,electronic,0.126316
+Davis & May,minimal,0.111311
+Davis & May,minimal techno,0.111311
+Davis & May,neotrance,0.179533
+Daze Maxim,minimal,0.251256
+Daze Maxim,techno,0.228643
+Daze Maxim,minimal techno,0.188442
+Daze Maxim,electronic,0.125628
+DBX,techno,0.206186
+DBX,minimal techno,0.119588
+DBX,detroit techno,0.127835
+Deadbeat,minimal,0.1125
+Deadbeat,electronic,0.120833
+Deadbeat,ambient,0.145833
+Deadbeat,dub,0.208333
+deadmau5,electronic,0.199513
+deadmau5,electro,0.114355
+deadmau5,House,0.243309
+deadmau5,Progressive House,0.184915
+Decomposed Subsonic,minimal,0.169205
+Decomposed Subsonic,minimal techno,0.14044
+Decomposed Subsonic,electronic,0.14044
+Decomposed Subsonic,microhouse,0.14044
+Deepchild,minimal,0.154083
+Deepchild,techno,0.104777
+Deepchild,electronic,0.124807
+DeepChord presents Echospace,minimal,0.101124
+DeepChord presents Echospace,minimal techno,0.103933
+DeepChord presents Echospace,ambient,0.160112
+DeepChord presents Echospace,dub,0.120787
+DeepChord presents Echospace,dub techno,0.280899
+Dejan Galic,techno,0.25641
+Dejan Galic,minimal techno,0.230769
+Dejan Galic,electronic,0.153846
+Dejan Galic,idm,0.128205
+Delete,minimal,0.105882
+Delete,dubstep,0.235294
+Dema,minimal,0.114286
+Dema,techno,0.142857
+Dema,minimal techno,0.142857
+Der Dritte Raum,minimal,0.113274
+Der Dritte Raum,techno,0.176991
+Der Dritte Raum,electronic,0.168142
+Dettinger,minimal,0.104359
+Dettinger,electronic,0.1321
+Dettinger,ambient,0.125495
+Dettinger,Kompakt,0.114927
+DeWalta,minimal,0.142857
+DeWalta,minimal techno,0.142857
+DeWalta,electronic,0.107143
+DeWalta,vakant,0.107143
+Diamond Version,techno,0.143488
+Diamond Version,minimal techno,0.15011
+Diamond Version,electronic,0.112583
+Diamond Version,glitch,0.220751
+Die Sektor,industrial,0.161538
+Die Sektor,ebm,0.176923
+Die Sektor,dark electro,0.25641
+Die Sektor,Harsh EBM,0.148718
+Die Sektor,Aggrotech,0.130769
+digihouse,minimal techno,0.222222
+digihouse,House,0.111111
+digihouse,deep house,0.222222
+digihouse,minimal house,0.111111
+digihouse,electrohouse,0.111111
+digihouse,under 2000 listeners,0.222222
+Digitaline,minimal,0.215054
+Digitaline,techno,0.137634
+Digitaline,Cadenza,0.163441
+Digitalverein,minimal,0.122302
+Digitalverein,electronic,0.115108
+Digitalverein,dub,0.143885
+Dilo,minimal,0.134953
+Dimbiman,minimal,0.230947
+Dimbiman,minimal techno,0.13164
+Dimbiman,microhouse,0.180139
+Dinky,minimal,0.146853
+Dinky,techno,0.134615
+Dinky,electronic,0.174825
+Dino Sabatini,techno,0.235849
+Dino Sabatini,minimal techno,0.235849
+Dino Sabatini,dub techno,0.165094
+DJ Koze,minimal,0.215517
+DJ Koze,techno,0.135776
+DJ Koze,electronic,0.206897
+DJ Koze,Kompakt,0.105603
+DJ Phono,minimal techno,0.151515
+DJ Phono,electronic,0.113636
+DJ Phono,electronica,0.113636
+DJ Phono,House,0.113636
+DJ Shufflemaster,techno,0.359712
+DJ Shufflemaster,tresor,0.107914
+Dole & Kom,minimal,0.21097
+Dole & Kom,techno,0.162447
+Dole & Kom,minimal techno,0.162447
+Dole & Kom,tech house,0.139241
+Dominik Eulberg,minimal,0.280112
+Dominik Eulberg,techno,0.148459
+Dominik Eulberg,minimal techno,0.173669
+Dominik Eulberg,electronic,0.162465
+Dominik Eulberg & Gabriel Ananda,minimal,0.204082
+Dominik Eulberg & Gabriel Ananda,techno,0.181633
+Dominik Eulberg & Gabriel Ananda,minimal techno,0.116327
+Don Genaro,minimal,0.222222
+Don Genaro,minimal techno,0.111111
+Don Genaro,electronic,0.111111
+Don Genaro,minimal house,0.166667
+Don Genaro,under 2000 listeners,0.111111
+Don Genaro,house minimal electronic techno techhouse electro,0.111111
+Donato Dozzy,techno,0.150316
+Donato Dozzy,minimal techno,0.158228
+Donato Dozzy,ambient,0.143987
+Donato Dozzy,deep techno,0.150316
+Donk Boys,minimal,0.21322
+Donk Boys,techno,0.185501
+Donk Boys,minimal techno,0.159915
+Donk Boys,tech house,0.132196
+Donnacha Costello,minimal,0.209205
+Donnacha Costello,minimal techno,0.140167
+Donnacha Costello,electronic,0.125523
+Donnacha Costello,ambient,0.138075
+Donor,techno,0.157978
+Donor,minimal techno,0.157978
+Donor,Progressive metal,0.110585
+Donor,thrash metal,0.110585
+Donor,progressive thrash metal,0.116904
+dOP,minimal,0.192678
+dOP,electronic,0.159923
+dOP,experimental,0.105973
+dOP,House,0.142582
+Dorisburg,minimal techno,0.190476
+Dorisburg,electronic,0.142857
+Dorisburg,tech house,0.190476
+Dosem,minimal,0.228495
+Dosem,techno,0.268817
+Dosem,electronic,0.139785
+Dosem,tech house,0.112903
+Douglas Greed,minimal,0.2331
+Douglas Greed,techno,0.137529
+Douglas Greed,minimal techno,0.153846
+Douglas Greed,electronic,0.179487
+Dualism,minimal,0.186916
+Dualism,techno,0.114019
+Dualism,minimal techno,0.114019
+Dub Kult,minimal,0.206278
+Dub Kult,techno,0.143498
+Dub Kult,minimal techno,0.127803
+Dub Kult,electronic,0.224215
+Dubfire,minimal,0.230415
+Dubfire,House,0.126728
+Dubfire,Progressive House,0.110599
+Dubfire & Oliver Huntemann,minimal,0.199367
+Dubfire & Oliver Huntemann,techno,0.227848
+Dubfire & Oliver Huntemann,minimal techno,0.316456
+Dubfound,minimal techno,0.201613
+dubkrauz,minimal,0.107926
+dubkrauz,techno,0.168634
+dubkrauz,electronica,0.107926
+dubkrauz,dub,0.131535
+Duoteque,minimal,0.21322
+Duoteque,techno,0.21322
+Duoteque,minimal techno,0.162047
+Duoteque,electronic,0.144989
+Dustin Zahn,minimal,0.24911
+Dustin Zahn,techno,0.355872
+Dustin Zahn,electronic,0.124555
+Dusty Kid,minimal,0.260417
+Dusty Kid,techno,0.226562
+Dusty Kid,minimal techno,0.130208
+Dusty Kid,electronic,0.140625
+Dyno,minimal,0.227273
+Dyno,techno,0.125
+E-Spectro,minimal techno,0.106178
+E-Spectro,electronic,0.19305
+E-Spectro,tech house,0.106178
+E-Spectro,Progressive House,0.148649
+E-Spectro,Progressive,0.106178
+Easy Changes,minimal,0.27027
+Easy Changes,minimal techno,0.218919
+Easy Changes,minimal techno artists,0.1
+Easy Changes,russian,0.1
+Ed Davenport,minimal,0.263158
+Ed Davenport,techno,0.157895
+Ed Davenport,minimal techno,0.210526
+Ed Davenport,electronic,0.157895
+Efdemin,minimal,0.26455
+Efdemin,techno,0.166667
+Efdemin,minimal techno,0.150794
+Efdemin,electronic,0.116402
+Eftos,industrial,0.127877
+Egostereo,minimal,0.173913
+Egostereo,techno,0.130435
+Egostereo,minimal techno,0.217391
+Egostereo,electronic,0.130435
+Egostereo,Progressive,0.130435
+Einmusik,minimal,0.280112
+Einmusik,techno,0.193277
+Einmusik,minimal techno,0.148459
+Einmusik,electronic,0.156863
+Einzelkind,minimal,0.189036
+Einzelkind,minimal techno,0.145558
+Elay Lazutkin,minimal,0.157434
+Elay Lazutkin,minimal techno,0.291545
+Elay Lazutkin,minimal tech,0.131195
+Elay Lazutkin,spotify,0.104956
+Elay Lazutkin,under 2000 listeners,0.104956
+Elektro Guzzi,minimal,0.215983
+Elektro Guzzi,techno,0.183585
+Elektro Guzzi,experimental,0.194384
+Elektrochemie,minimal,0.236967
+Elektrochemie,techno,0.109005
+Elektrochemie,electronic,0.14455
+Elektrochemie,electro,0.120853
+Ellen Allien,minimal,0.154639
+Ellen Allien,techno,0.152577
+Ellen Allien,electronic,0.206186
+Ellen Allien,electro,0.121649
+Ellen Allien & Apparat,minimal,0.158537
+Ellen Allien & Apparat,techno,0.121951
+Ellen Allien & Apparat,electronic,0.243902
+Ellen Allien & Apparat,idm,0.163415
+Ellen Allien & Apparat,electro,0.1
+Elon,minimal,0.193955
+Elon,techno,0.221662
+Elon,minimal techno,0.251889
+Elon,electronic,0.138539
+Emptyset,minimal,0.143505
+Emptyset,techno,0.119335
+Emptyset,ambient,0.128399
+Emptyset,experimental,0.119335
+Emptyset,drone,0.151057
+EQD,minimal,0.160112
+EQD,techno,0.280899
+EQD,minimal techno,0.280899
+EQD,dubstep,0.160112
+Esse,minimal techno,0.155521
+Esse,dub techno,0.155521
+Esse,Melodic-Power Metal,0.102644
+Ester Brinkmann,minimal,0.176367
+Ester Brinkmann,electronic,0.160494
+Ester Brinkmann,idm,0.102293
+Estroe,minimal,0.19685
+Estroe,minimal techno,0.139764
+Estroe,tech house,0.112205
+Evan Marc,minimal techno,0.140594
+Evan Marc,ambient,0.19802
+Evan Marc,chillout,0.10099
+Evan Marc,tech house,0.146535
+Exercise One,minimal,0.21097
+Exercise One,minimal techno,0.21097
+Exercise One,electronic,0.132911
+Exercise One,tech house,0.113924
+Exos,techno,0.108108
+Exos,minimal techno,0.108108
+Extrawelt,minimal,0.283286
+Extrawelt,techno,0.167139
+Extrawelt,minimal techno,0.17847
+Extrawelt,electronic,0.161473
+Ezekiel Honig,minimal,0.213508
+Ezekiel Honig,electronic,0.143791
+Ezekiel Honig,ambient,0.217865
+F.U.S.E.,minimal,0.103297
+F.U.S.E.,techno,0.21978
+F.U.S.E.,Acid,0.103297
+Fabrizio Maurizi,minimal,0.2079
+Fabrizio Maurizi,techno,0.170478
+Fabrizio Maurizi,minimal techno,0.151767
+Fairmont,minimal,0.259067
+Fairmont,techno,0.145078
+Fairmont,minimal techno,0.15544
+Fairmont,electronic,0.145078
+False,minimal,0.21645
+False,techno,0.136364
+False,minimal techno,0.160173
+fan erhalder,minimal,0.149215
+fan erhalder,techno,0.185864
+fan erhalder,minimal techno,0.26178
+Farben,minimal,0.204499
+Farben,electronic,0.149284
+Farben,microhouse,0.118609
+Farben,glitch,0.112474
+Federico Milani,minimal,0.265252
+Federico Milani,techno,0.193634
+Federico Milani,minimal techno,0.124668
+Federleicht,minimal,0.253165
+Federleicht,techno,0.121519
+Federleicht,minimal techno,0.139241
+Federleicht,electronic,0.101266
+Federleicht,deep house,0.149367
+Felipe Venegas,minimal,0.15083
+Felipe Venegas,minimal techno,0.15083
+Felipe Venegas,tech house,0.15083
+Fenin,minimal,0.180077
+Fenin,electronic,0.122605
+Fenin,dub,0.191571
+Ferenc,minimal,0.151515
+Ferenc,techno,0.119697
+Ferenc,minimal techno,0.124242
+Ferenc,electronic,0.110606
+Ferenc,Kompakt,0.14697
+Few Nolder,minimal,0.132812
+Few Nolder,techno,0.148438
+Few Nolder,minimal techno,0.15625
+Few Nolder,electronic,0.132812
+Florian Meindl,minimal,0.251256
+Florian Meindl,techno,0.105528
+Florian Meindl,electronic,0.125628
+Flug,minimal,0.181319
+Flug,techno,0.181319
+Flug,minimal techno,0.274725
+Flug,spotify,0.181319
+Fluxion,minimal,0.119231
+Fluxion,ambient,0.115385
+Fluxion,dub techno,0.192308
+Format B,minimal,0.271739
+Format B,techno,0.152174
+Format B,minimal techno,0.130435
+Format B,electronic,0.130435
+Format: B,minimal,0.307692
+Format: B,techno,0.166154
+Format: B,minimal techno,0.206154
+Format: B,electronic,0.123077
+Format:B,minimal,0.266667
+Format:B,techno,0.192
+Format:B,minimal techno,0.184
+Format:B,electronic,0.106667
+Format:B,tech house,0.117333
+Franco Cinelli,minimal,0.236967
+Franco Cinelli,techno,0.14455
+Franco Cinelli,minimal techno,0.14455
+Franco Cinelli,electronic,0.109005
+Frank Martiniq,minimal,0.16
+Frank Martiniq,techno,0.104
+Frank Martiniq,minimal techno,0.1424
+Frank Martiniq,electronic,0.1296
+Frankie,minimal,0.217865
+Frankie,techno,0.180828
+Frankie,minimal techno,0.143791
+Franklin De Costa,minimal,0.250627
+Franklin De Costa,minimal techno,0.137845
+Franklin De Costa,electronic,0.125313
+Fritz Kalkbrenner,minimal,0.236407
+Fritz Kalkbrenner,techno,0.148936
+Fritz Kalkbrenner,electronic,0.219858
+Fritz Kalkbrenner,german,0.108747
+From Karaoke to Stardom,minimal,0.285714
+From Karaoke to Stardom,techno,0.12
+From Karaoke to Stardom,minimal techno,0.197143
+Fuckpony,minimal,0.26738
+Fuckpony,electronic,0.165775
+Fumiya Tanaka,minimal,0.131833
+Fumiya Tanaka,techno,0.321543
+Function,techno,0.33557
+Funkwerkstatt,minimal,0.253165
+Funkwerkstatt,techno,0.167089
+Funkwerkstatt,minimal techno,0.151899
+Funkwerkstatt,House,0.116456
+Funkwerkstatt,tech house,0.151899
+Funzion,minimal,0.257732
+Funzion,techno,0.118557
+Funzion,minimal techno,0.177835
+Fusiphorm,minimal,0.327869
+Fusiphorm,techno,0.15082
+Fusiphorm,minimal techno,0.137705
+Futuristic Polar Bears,techno,0.222222
+Futuristic Polar Bears,minimal techno,0.222222
+Futuristic Polar Bears,electronic,0.222222
+Futuristic Polar Bears,House,0.222222
+Futuristic Polar Bears,big room,0.111111
+FWY!,minimal techno,0.158983
+FWY!,electronic,0.104928
+FWY!,krautrock,0.158983
+G&G,minimal,0.151099
+G&G,minimal techno,0.120879
+G&G,dance,0.120879
+G&G,House,0.274725
+G&G,electro house,0.120879
+Gabriel Ananda,minimal,0.27248
+Gabriel Ananda,techno,0.179837
+Gabriel Ananda,minimal techno,0.133515
+Gabriel Ananda,electronic,0.147139
+Gabriel Rocha,techno,0.168067
+Gabriel Rocha,minimal techno,0.139496
+Gabriel Rocha,electronic,0.110924
+Gabriel Rocha,House,0.110924
+Gabriel Rocha,tech house,0.168067
+Gadi Mizrahi,minimal,0.208333
+Gadi Mizrahi,minimal techno,0.104167
+Gadi Mizrahi,House,0.145833
+Gaiser,minimal,0.2849
+Gaiser,techno,0.168091
+Gaiser,minimal techno,0.182336
+Gaiser,minus,0.111111
+Gary Beck,minimal,0.14664
+Gary Beck,techno,0.203666
+Gary Beck,minimal techno,0.101833
+Gas,minimal,0.166172
+Gas,electronic,0.130564
+Gas,ambient,0.296736
+Gastón Arévalo,minimal,0.144213
+Gastón Arévalo,ambient,0.189753
+Gel Abril,minimal,0.265252
+Gel Abril,minimal techno,0.164456
+Gel Abril,tech house,0.132626
+Geoff White,minimal,0.225734
+Geoff White,techno,0.10158
+Geoff White,minimal techno,0.142212
+Geoff White,microhouse,0.162528
+Gianluca Corvesi,minimal,0.181818
+Gianluca Corvesi,minimal techno,0.181818
+Gianluca Corvesi,electronic,0.136364
+Giorgio Gigli,minimal,0.109959
+Giorgio Gigli,techno,0.178423
+Giorgio Gigli,minimal techno,0.207469
+Giorgos Gatzigristos,minimal,0.215054
+Giorgos Gatzigristos,minimal techno,0.124731
+Giorgos Gatzigristos,Kompakt,0.124731
+Glimpse,minimal,0.278552
+Glimpse,techno,0.167131
+Glimpse,minimal techno,0.155989
+Glimpse,electronic,0.144847
+Glitter,minimal,0.2
+Glitter,techno,0.126027
+Glitter,minimal techno,0.109589
+Glitter,tech house,0.273973
+Go Hiyama,techno,0.346021
+Go Hiyama,minimal techno,0.124567
+Go Hiyama,electronic,0.107266
+Goldfish und der Dulz,minimal techno,0.208333
+Goldfish und der Dulz,tech house,0.125
+Gorje Hewek,minimal,0.192308
+Gorje Hewek,minimal techno,0.101923
+Gorje Hewek,electronic,0.115385
+Gorje Hewek,idm,0.123077
+Gorje Hewek,ambient,0.15
+Gregor Tresher,minimal,0.257069
+Gregor Tresher,techno,0.236504
+Gregor Tresher,minimal techno,0.138817
+Gregor Tresher,electronic,0.141388
+Gregor Tresher,electro,0.11054
+Gui Boratto,minimal,0.265252
+Gui Boratto,techno,0.145889
+Gui Boratto,minimal techno,0.175066
+Gui Boratto,electronic,0.156499
+Gui Boratto & Martin Eyerer,minimal,0.284091
+Gui Boratto & Martin Eyerer,minimal techno,0.153409
+Gui Boratto & Martin Eyerer,tech house,0.102273
+Guido Schneider,minimal,0.230415
+Guido Schneider,techno,0.126728
+Guido Schneider,minimal techno,0.163594
+Guido Schneider,electronic,0.147465
+Guillaume & The Coutu Dumonts,minimal,0.195312
+Guillaume & The Coutu Dumonts,House,0.115234
+Guillaume & The Coutu Dumonts,tech house,0.126953
+GummiHz,minimal,0.289855
+GummiHz,techno,0.107246
+GummiHz,minimal techno,0.205797
+GummiHz,tech house,0.130435
+Gunnar Stiller,minimal,0.246914
+Gunnar Stiller,techno,0.123457
+Gunnar Stiller,electronic,0.197531
+Gunnar Stiller,dj,0.111111
+Gunnar Stiller,Berlin,0.123457
+Gurtz,minimal,0.190476
+Gurtz,minimal techno,0.146667
+Gustavo Lamas,minimal,0.127877
+Gustavo Lamas,ambient,0.107417
+Guti,minimal,0.157233
+Guti,techno,0.157233
+Guti,House,0.157233
+Guti,deep house,0.108491
+Guy Gerber,minimal,0.2079
+Guy Gerber,electronic,0.153846
+Guy Gerber,Progressive House,0.126819
+Guy J,minimal,0.119919
+Guy J,House,0.101626
+Guy J,tech house,0.164634
+Guy J,Progressive House,0.203252
+H.O.S.H.,minimal,0.204499
+H.O.S.H.,minimal techno,0.132924
+H.O.S.H.,House,0.108384
+H.O.S.H.,tech house,0.173824
+H2,techno,0.115075
+H2,electronic,0.115075
+Håkan Lidbo,minimal,0.155039
+Håkan Lidbo,electronic,0.124031
+Hallucinator,minimal,0.105335
+Hallucinator,ambient,0.109439
+Hallucinator,Drum and bass,0.136799
+Hans Bouffmyhre,minimal,0.145242
+Hans Bouffmyhre,techno,0.166945
+Hans Bouffmyhre,electronic,0.125209
+Harald Björk,minimal,0.181818
+Harald Björk,techno,0.127273
+Harald Björk,minimal techno,0.145455
+Harald Björk,electronic,0.163636
+Harry Axt,minimal,0.225882
+Harry Axt,techno,0.235294
+Harry Axt,minimal techno,0.207059
+Harry Axt,tech house,0.12
+Hauntologists,techno,0.12963
+Hauntologists,minimal techno,0.308642
+Hauntologists,electronic,0.12963
+Hauntologists,dub techno,0.12963
+Heartthrob,minimal,0.276243
+Heartthrob,techno,0.190608
+Heartthrob,minimal techno,0.196133
+Heartthrob,electronic,0.116022
+Heib,minimal,0.100152
+Heib,techno,0.151745
+Heib,minimal techno,0.151745
+Heib,Kompakt,0.151745
+Heiko Laux,techno,0.286533
+Heiko Laux,minimal techno,0.103152
+Heiko Laux,electronic,0.117479
+Heinrichs & Hirtenfellner,minimal,0.31348
+Heinrichs & Hirtenfellner,techno,0.166144
+Heinrichs & Hirtenfellner,minimal techno,0.194357
+Heinrichs & Hirtenfellner,tech house,0.122257
+Henning Baer,minimal,0.131579
+Henning Baer,techno,0.236842
+Henning Baer,minimal techno,0.263158
+Henning Baer,electronic,0.131579
+Henning Baer,experimental,0.131579
+Henrik B,techno,0.180505
+Henrik B,electronic,0.140794
+Henrik B,House,0.140794
+Henry Saiz,minimal,0.139259
+Henry Saiz,techno,0.103704
+Henry Saiz,tech house,0.148148
+Henry Saiz,Progressive House,0.112593
+Herbert,electronic,0.201207
+Herbert,electronica,0.112676
+Herbert,House,0.100604
+Hermanez,minimal,0.185874
+Hermanez,techno,0.185874
+Hermanez,minimal techno,0.169145
+Hermanez,electronic,0.107807
+Hermanez,House,0.154275
+hermético,minimal,0.2457
+hermético,techno,0.152334
+hermético,minimal techno,0.2457
+Hobo,minimal,0.223214
+Hobo,techno,0.158482
+Hobo,blues,0.118304
+Holger Zilske,minimal,0.268097
+Holger Zilske,minimal techno,0.152815
+Holger Zilske,electronic,0.112601
+Holger Zilske,tech house,0.13941
+Holgi Star,minimal,0.167089
+Holgi Star,techno,0.210127
+Holgi Star,minimal techno,0.253165
+Holgi Star,t e c h n o,0.103797
+Horror Inc.,minimal,0.137056
+Horror Inc.,minimal techno,0.114213
+Horror Inc.,microhouse,0.253807
+Hug,minimal,0.25
+Hug,techno,0.125
+Hug,minimal techno,0.2
+Hug,electronic,0.1
+Humeka,minimal,0.10158
+Humeka,minimal techno,0.225734
+Humeka,electronic,0.13544
+Ilar & Hedvall,minimal,0.184162
+Ilar & Hedvall,minimal techno,0.184162
+Ilar & Hedvall,ambient,0.121547
+Ilar & Hedvall,dub techno,0.121547
+Ilario Alicante,minimal,0.289017
+Ilario Alicante,techno,0.16763
+Ilario Alicante,minimal techno,0.16763
+Iminazole,Ambient Techno,0.14978
+Iminazole,dub techno,0.220264
+Insect O.,minimal,0.166667
+Insect O.,minimal techno,0.133333
+Insect O.,tech house,0.133333
+Internal Sync,minimal techno,0.208333
+Internal Sync,netaudio,0.125
+Internal Sync,broque,0.166667
+Ion Ludwig,minimal,0.243902
+Ion Ludwig,minimal techno,0.195122
+Ion Ludwig,electronic,0.121951
+Iori,techno,0.212314
+Iori,minimal techno,0.212314
+Isolée,minimal,0.183794
+Isolée,electronic,0.197628
+Ital,electronic,0.108963
+Ital,House,0.175747
+Ital,psytrance,0.119508
+Italoboyz,minimal,0.183824
+Italoboyz,techno,0.139706
+Italoboyz,minimal techno,0.126838
+Jabberjaw,minimal,0.218818
+Jabberjaw,minimal techno,0.164114
+Jabberjaw,electronic,0.109409
+Jabberjaw,microhouse,0.109409
+Jacek Sienkiewicz,minimal,0.152964
+Jacek Sienkiewicz,techno,0.191205
+Jacek Sienkiewicz,minimal techno,0.147228
+Jacek Sienkiewicz,electronic,0.101338
+Jacob Seville,minimal techno,0.110011
+Jake Fairley,techno,0.13947
+Jake Fairley,electronic,0.104603
+James Holden,minimal,0.175747
+James Holden,techno,0.133568
+James Holden,electronic,0.173989
+James Holden,Progressive House,0.13884
+James Ruskin,minimal,0.152074
+James Ruskin,techno,0.460829
+James Ruskin,minimal techno,0.129032
+James Ruskin,tresor,0.110599
+James T. Cotton,techno,0.186916
+James T. Cotton,Acid,0.128972
+Jamie Jones,minimal,0.164623
+Jamie Jones,tech house,0.175131
+Jan Blomqvist,minimal techno,0.2
+Jan Blomqvist,electronic,0.16
+Jan Blomqvist,electro,0.16
+Jan Blomqvist,tech house,0.16
+Jan Jelinek,minimal,0.188679
+Jan Jelinek,electronic,0.158491
+Jan Jelinek,idm,0.111321
+Jan Jelinek,ambient,0.156604
+Jaxson,minimal,0.308642
+Jaxson,minimal techno,0.12963
+Jaxson,electronic,0.12963
+Jay Haze,minimal,0.253807
+Jay Haze,techno,0.152284
+Jay Haze,minimal techno,0.137056
+Jay Haze,electronic,0.101523
+Jeff Bennett,minimal,0.128617
+Jeff Bennett,House,0.101286
+Jeff Bennett,tech house,0.160772
+Jeff Mills,minimal,0.109325
+Jeff Mills,techno,0.321543
+Jeff Mills,electronic,0.11254
+Jeff Mills,detroit techno,0.21865
+Jeff Samuel,minimal,0.230947
+Jeff Samuel,techno,0.115473
+Jeff Samuel,minimal techno,0.147806
+Jennifer Cardini,minimal,0.162602
+Jennifer Cardini,Kompakt,0.107317
+Jens Bond,minimal,0.230947
+Jens Bond,techno,0.12933
+Jens Bond,minimal techno,0.17321
+Jens Bond,electronic,0.115473
+Jens Bond,tech house,0.12933
+Jesse Somfay,minimal,0.2079
+Jesse Somfay,techno,0.10395
+Jesse Somfay,electronic,0.108108
+Jesse Somfay,ambient,0.116424
+Jewel Kid,minimal,0.142857
+Jewel Kid,minimal techno,0.142857
+Jewel Kid,electronic,0.142857
+Jewel Kid,House,0.238095
+Jichael Mackson,minimal,0.2331
+Jichael Mackson,techno,0.146853
+Jichael Mackson,minimal techno,0.170163
+Jin Choi,minimal,0.403226
+Jin Choi,minimal techno,0.201613
+Jin Choi,tech house,0.100806
+Jin Choi,under 2000 listeners,0.100806
+Joachim Spieth,minimal,0.141732
+Joachim Spieth,techno,0.125984
+Joachim Spieth,minimal techno,0.15748
+Joachim Spieth,Kompakt,0.149606
+Joe Maker,minimal,0.114458
+Joe Maker,techno,0.301205
+Joe Maker,minimal techno,0.183735
+Joe Maker,tech house,0.253012
+Joe Montana,minimal techno,0.277778
+Joe Montana,House,0.277778
+Joe Montana,deephouse,0.111111
+Joe Montana,percussive,0.111111
+Joel Mull,minimal,0.18612
+Joel Mull,techno,0.315457
+Joel Mull,tech house,0.141956
+Joey Beltram,techno,0.378788
+Joey Beltram,electronic,0.140152
+Joey Beltram,detroit techno,0.121212
+Johannes Heil,minimal,0.140684
+Johannes Heil,techno,0.380228
+Johannes Heil,minimal techno,0.106464
+Johannes Heil,electronic,0.106464
+Johannes Heil,electro,0.114068
+Johannes Heil & Extrawelt,minimal,0.263158
+Johannes Heil & Extrawelt,minimal techno,0.210526
+Johannes Heil & Extrawelt,electronic,0.105263
+Johannes Heil & Extrawelt,kanzleramt,0.105263
+Johannes Heil & Extrawelt,Metatron Recordings,0.105263
+John Dahlbäck,minimal,0.160643
+John Dahlbäck,electronic,0.162651
+John Dahlbäck,electro,0.120482
+John Dahlbäck,House,0.200803
+John Tejada,minimal,0.222222
+John Tejada,techno,0.164444
+John Tejada,minimal techno,0.131111
+John Tejada,electronic,0.137778
+John Tejada & Arian Leviste,minimal,0.164474
+John Tejada & Arian Leviste,techno,0.101974
+John Tejada & Arian Leviste,electronic,0.123355
+Johnny D,minimal,0.164745
+Johnny D,techno,0.130148
+Johnny D,minimal techno,0.140033
+Johnny D,tech house,0.140033
+Jon Rundell,techno,0.221239
+Jon Rundell,minimal techno,0.121681
+Jon Rundell,electronic,0.121681
+Jona,minimal,0.163666
+Jona,techno,0.121113
+Jona,minimal techno,0.116203
+Jonas Bering,minimal,0.217865
+Jonas Bering,techno,0.119826
+Jonas Bering,electronic,0.137255
+Jonas Bering,Kompakt,0.159041
+Jonas Kopp,minimal,0.149091
+Jonas Kopp,techno,0.363636
+Jonas Kopp,minimal techno,0.196364
+Jonny Jay,minimal,0.142857
+Jonny Jay,minimal techno,0.357143
+Jonny Jay,electronic,0.142857
+Jonny Jay,chill,0.214286
+Jörg Burger,techno,0.192308
+Jörg Burger,minimal techno,0.134615
+Jörg Burger,Kompakt,0.173077
+Jorge Savoretti,minimal,0.266667
+Jorge Savoretti,techno,0.146667
+Jorge Savoretti,minimal techno,0.146667
+Jorge Savoretti,tech house,0.146667
+Joseph Capriati,minimal,0.193206
+Joseph Capriati,techno,0.167728
+Joseph Capriati,minimal techno,0.212314
+JPLS,minimal,0.239808
+JPLS,techno,0.182254
+JPLS,minimal techno,0.151079
+Juan Atkins & Moritz von Oswald,minimal,0.124646
+Juan Atkins & Moritz von Oswald,techno,0.21813
+Juan Atkins & Moritz von Oswald,minimal techno,0.283286
+Juan Atkins & Moritz von Oswald,electronic,0.124646
+Juergens,minimal,0.15
+Juergens,minimal techno,0.25
+Juergens,electronic,0.1
+Juergens,tech house,0.25
+Juergens,Progressive House,0.15
+Julian Jeweil,minimal,0.220751
+Julian Jeweil,techno,0.178808
+Julian Jeweil,electronic,0.12362
+Julien Chaptal,minimal,0.200969
+Julien Chaptal,minimal techno,0.159806
+Julien Chaptal,House,0.159806
+Julien Chaptal,tech house,0.242131
+Julien Chaptal,spotify,0.121065
+Junior Boys,electronic,0.255754
+Junior Boys,electronica,0.112532
+Junior Boys,indie,0.107417
+Junior Boys,electropop,0.150895
+Juno6,minimal,0.193424
+Juno6,electronic,0.10058
+Jurek Przezdziecki,minimal,0.190476
+Jurek Przezdziecki,techno,0.226757
+Jurek Przezdziecki,minimal techno,0.165533
+Jürgen Paape,minimal,0.183486
+Jürgen Paape,techno,0.119266
+Jürgen Paape,electronic,0.166972
+Jürgen Paape,Kompakt,0.122936
+Jussi-Pekka,minimal,0.196464
+Jussi-Pekka,techno,0.111984
+Jussi-Pekka,House,0.111984
+Jussi-Pekka,tech house,0.13556
+Jussi-Pekka,deep house,0.104126
+Justus Köhncke,minimal,0.136012
+Justus Köhncke,techno,0.108192
+Justus Köhncke,electronic,0.146832
+Justus Köhncke,Kompakt,0.15456
+Kabale und Liebe,minimal,0.153846
+Kabale und Liebe,minimal techno,0.192308
+Kabale und Liebe,electronic,0.115385
+Kabale und Liebe & Daniel Sanchez,minimal,0.238095
+Kabale und Liebe & Daniel Sanchez,minimal techno,0.190476
+Kabale und Liebe & Daniel Sanchez,tech house,0.142857
+Kaiserdisco,minimal,0.151767
+Kaiserdisco,techno,0.178794
+Kaiserdisco,minimal techno,0.12474
+Kaiserdisco,electronic,0.12474
+Kaiserdisco,tech house,0.2079
+Kaliber,minimal,0.294985
+Kaliber,techno,0.221239
+Kaliber,minimal techno,0.150442
+Kaliber,electronic,0.103245
+Kanio,minimal,0.244275
+Kanio,techno,0.254453
+Kanio,minimal techno,0.195929
+Karotte,minimal,0.157244
+Karotte,techno,0.125442
+Karotte,minimal techno,0.137809
+Karotte,electronic,0.176678
+Karotte,tech house,0.106007
+Karri O.,electronic,0.113507
+Kassem Mosse,techno,0.152513
+Kassem Mosse,deep house,0.17331
+Kate Simko,minimal techno,0.125628
+Kazooo,techno,0.10582
+Kenny Larkin,techno,0.225513
+Kenny Larkin,electronic,0.113895
+Kenny Larkin,detroit techno,0.22779
+Kenny Larkin,detroit,0.129841
+Kenny Leaven,minimal,0.277008
+Kenny Leaven,minimal techno,0.138504
+Kiki,minimal,0.140411
+Kiki,minimal techno,0.116438
+Kiki,electronic,0.150685
+Kiki,electro,0.171233
+Kiki,BPitch Control,0.116438
+Kiko,minimal,0.121951
+Kiko,techno,0.174216
+Kiko,electronic,0.141115
+Kiko,electro,0.116725
+Killahertz,minimal,0.203252
+Killahertz,minimal techno,0.170732
+klakast,techno,0.183824
+klakast,minimal techno,0.183824
+klakast,electronic,0.152574
+Klute,Drum n Bass,0.111111
+Klute,dnb,0.111111
+Klute,Drum and bass,0.37037
+Knobs,minimal techno,0.142857
+Knobs,spotify,0.107143
+Koen Groeneveld,minimal,0.111811
+Koen Groeneveld,techno,0.144882
+Koen Groeneveld,minimal techno,0.111811
+Koen Groeneveld,House,0.15748
+Kollektiv Turmstrasse,minimal,0.25974
+Kollektiv Turmstrasse,techno,0.12987
+Kollektiv Turmstrasse,minimal techno,0.187013
+Kollektiv Turmstrasse,electronic,0.150649
+Kolombo,minimal,0.21978
+Kolombo,techno,0.191209
+Kolombo,minimal techno,0.101099
+Kolombo,electronic,0.123077
+Komaton,techno,0.142241
+Komaton,minimal techno,0.431034
+Komaton,House,0.142241
+Komaton,minimal techno artists,0.142241
+Komaton,Austria,0.142241
+Kombinat 100,minimal,0.27027
+Kombinat 100,techno,0.116216
+Kombinat 100,dub techno,0.116216
+Kombinat 100,tech house,0.162162
+Konrad Black,minimal,0.19802
+Konrad Black,techno,0.10495
+Konrad Black,minimal techno,0.10495
+Kreon & Lemos,minimal,0.209596
+Kreon & Lemos,minimal techno,0.252525
+Kreon & Lemos,House,0.126263
+Kreon & Lemos,deep house,0.166667
+Kris Wadsworth,techno,0.151976
+Kris Wadsworth,minimal techno,0.200608
+Kris Wadsworth,electronic,0.100304
+Kris Wadsworth,tech house,0.303951
+Lakker,techno,0.160517
+Lakker,minimal techno,0.184502
+Lakker,electronic,0.114391
+Lakker,dub techno,0.125461
+Lakker,glitch,0.114391
+Lars Wickinger,minimal,0.26455
+Lars Wickinger,minimal techno,0.153439
+Laurent Garnier,techno,0.260417
+Laurent Garnier,electronic,0.216146
+Laurent Garnier,House,0.143229
+Laurent Garnier,french,0.104167
+Lawrence,minimal,0.219298
+Lawrence,techno,0.116228
+Lawrence,electronic,0.129386
+Lazy Fat People,minimal,0.21097
+Lazy Fat People,minimal techno,0.118143
+Lazy Fat People,neotrance,0.118143
+Lazy Fat People,Border Community,0.158228
+Lazzich,minimal,0.200803
+Lazzich,techno,0.136546
+Le K,minimal,0.108075
+Le K,minimal techno,0.124224
+Lee Curtiss,minimal,0.170358
+Lee Curtiss,techno,0.11925
+Lee Curtiss,tech house,0.11414
+Lee Van Dowski,minimal,0.224719
+Lee Van Dowski,techno,0.11236
+Lee Van Dowski,minimal techno,0.11236
+Leghau,minimal,0.142857
+Leghau,techno,0.142857
+Leghau,minimal techno,0.190476
+Leghau,spotify,0.142857
+Lemos,minimal,0.185185
+Lemos,minimal techno,0.148148
+Lemos,tech house,0.185185
+Lemos,deep house,0.166667
+Len Faki,minimal,0.187668
+Len Faki,techno,0.268097
+Len Faki,minimal techno,0.123324
+Len Faki,electronic,0.107239
+Let's Go Outside,minimal,0.13947
+LetKolben,minimal,0.158228
+LetKolben,minimal techno,0.10443
+Levan,minimal techno,0.151286
+Levon Vincent,techno,0.190965
+Levon Vincent,House,0.172485
+Levon Vincent,deep house,0.205339
+Loco Dice,minimal,0.290698
+Loco Dice,techno,0.148256
+Loco Dice,minimal techno,0.171512
+Loco Dice,electronic,0.119186
+LOD,minimal,0.185185
+LOD,minimal techno,0.122222
+LoSoul,minimal,0.160256
+LoSoul,electronic,0.120192
+Louderbach,minimal,0.222222
+Louderbach,techno,0.182222
+Louderbach,minimal techno,0.175556
+Louderbach,electronic,0.142222
+Louderbach aka Troy Pierce,minimal,0.4
+Louderbach aka Troy Pierce,techno,0.2
+Louderbach aka Troy Pierce,minimal techno,0.1
+Louderbach aka Troy Pierce,electronic,0.1
+Louderbach aka Troy Pierce,House,0.1
+Louderbach aka Troy Pierce,minimal techno artists,0.1
+Luca Bacchetti,minimal,0.258398
+Luca Bacchetti,techno,0.118863
+Luca Bacchetti,minimal techno,0.160207
+Luca Bacchetti,tech house,0.129199
+Lucca,techno,0.285714
+Lucca,minimal techno,0.128571
+Lucca,tech house,0.114286
+Lucca,Progressive House,0.1
+Lucien-N-Luciano,minimal,0.189394
+Lucien-N-Luciano,electronic,0.147727
+Lucio Aquilina,minimal,0.293255
+Lucio Aquilina,techno,0.146628
+Lucio Aquilina,minimal techno,0.219941
+Lucy,techno,0.21322
+Lucy,idm,0.115139
+Ludwig Coenen,minimal,0.172414
+Ludwig Coenen,techno,0.103448
+Ludwig Coenen,minimal techno,0.137931
+Ludwig Coenen,minimal techno artists,0.103448
+Luigi Madonna,minimal,0.218421
+Luigi Madonna,techno,0.263158
+Luigi Madonna,minimal techno,0.173684
+Luigi Madonna,plus8,0.131579
+Luke Hess,minimal,0.179803
+Luke Hess,techno,0.211823
+Luke Hess,minimal techno,0.103448
+Luke Hess,dub techno,0.246305
+Lula Circus,minimal techno,0.142549
+Lula Circus,tech house,0.215983
+Lula Circus,spotify,0.142549
+Luna City Express,minimal,0.21692
+Luna City Express,tech house,0.182213
+Luna City Express,deep house,0.132321
+Lusine,minimal,0.118919
+Lusine,electronic,0.181081
+Lusine,idm,0.27027
+Lusine,ambient,0.145946
+Lützenkirchen,minimal,0.162281
+Lützenkirchen,techno,0.195175
+Lützenkirchen,electronic,0.219298
+Lützenkirchen,electro,0.120614
+Lützenkirchen,House,0.135965
+M.A.N.D.Y.,minimal,0.2331
+M.A.N.D.Y.,minimal techno,0.128205
+M.A.N.D.Y.,electronic,0.179487
+M.A.N.D.Y.,House,0.125874
+m.rueter,minimal techno,0.235294
+m.rueter,psychedelic,0.117647
+m.rueter,trance,0.117647
+m.rueter,under 2000 listeners,0.117647
+M:I:5,techno,0.139241
+M:I:5,minimal techno,0.21097
+Maas,techno,0.217391
+Maas,minimal techno,0.130435
+Maayan Nidam,minimal,0.160256
+Maayan Nidam,minimal techno,0.147436
+Maayan Nidam,House,0.134615
+Maetrik,minimal,0.131915
+Maetrik,techno,0.212766
+Maetrik,electronic,0.102128
+Maetrik,tech house,0.146809
+Magda,minimal,0.311526
+Magda,techno,0.168224
+Magda,minimal techno,0.180685
+Magda,electronic,0.11838
+Magitman,minimal,0.166247
+Magitman,techno,0.166247
+Magitman,minimal techno,0.251889
+Magnet,indie,0.166113
+Magnet,singer-songwriter,0.147841
+Magnet,norwegian,0.162791
+manu harmilapi,minimal,0.222222
+manu harmilapi,techno,0.111111
+manu harmilapi,minimal techno,0.111111
+manu harmilapi,electronic,0.111111
+manu harmilapi,electronica,0.111111
+manu harmilapi,alternative,0.111111
+manu harmilapi,minimal techno artists,0.111111
+manu harmilapi,electronic music,0.111111
+Manuel Tur,minimal techno,0.128205
+Manuel Tur,House,0.169231
+Manuel Tur,tech house,0.205128
+Manuel Tur,deep house,0.25641
+Marascia,minimal,0.190476
+Marascia,techno,0.173333
+Marascia,minimal techno,0.131429
+Marascia,tech house,0.106667
+Marascia & Dusty Kid,minimal,0.268817
+Marascia & Dusty Kid,techno,0.16129
+Marascia & Dusty Kid,minimal techno,0.172043
+Marascia & Dusty Kid,tech house,0.107527
+Marc Antona,minimal,0.273973
+Marc Antona,minimal techno,0.180822
+Marc DePulse,minimal,0.241546
+Marc DePulse,techno,0.128019
+Marc DePulse,minimal techno,0.128019
+Marc DePulse,tech house,0.111111
+Marc Houle,minimal,0.287356
+Marc Houle,techno,0.192529
+Marc Houle,minimal techno,0.158046
+Marc Houle,electronic,0.112069
+Marc Neyen,minimal,0.111111
+Marc Neyen,minimal techno,0.185185
+Marc Neyen,Archipel,0.111111
+Marc Romboy,minimal,0.223714
+Marc Romboy,techno,0.176734
+Marc Romboy,minimal techno,0.127517
+Marc Romboy,electronic,0.116331
+Marc Romboy vs Stephan Bodzin,minimal,0.333333
+Marc Romboy vs Stephan Bodzin,minimal techno,0.2
+Marc Romboy vs. Stephan Bodzin,minimal,0.23753
+Marc Romboy vs. Stephan Bodzin,techno,0.142518
+Marc Romboy vs. Stephan Bodzin,minimal techno,0.149644
+Marc Romboy vs. Stephan Bodzin,electronic,0.142518
+Marcel Dettmann,minimal,0.15212
+Marcel Dettmann,techno,0.249377
+Marcel Dettmann,minimal techno,0.174564
+Marcel Fengler,minimal,0.13602
+Marcel Fengler,techno,0.251889
+Marcel Fengler,minimal techno,0.13602
+Marcel Fengler,Berghain,0.15869
+Marcel Knopf,minimal,0.299401
+Marcel Knopf,techno,0.149701
+Marcel Knopf,minimal techno,0.149701
+Marcel Knopf,tech house,0.110778
+Marcelus,minimal,0.149194
+Marcelus,techno,0.403226
+Marcelus,minimal techno,0.25
+Marcelus,electronic,0.100806
+Marcin Czubala,minimal,0.190574
+Marcin Czubala,techno,0.186475
+Marcin Czubala,minimal techno,0.204918
+Marco Bailey & Tom Hades,minimal,0.164179
+Marco Bailey & Tom Hades,techno,0.248756
+Marco Bailey & Tom Hades,minimal techno,0.109453
+Marco Bailey & Tom Hades,electronic,0.124378
+Marco Carola,minimal,0.180758
+Marco Carola,techno,0.291545
+Marco Carola,minimal techno,0.139942
+Marco Carola,electronic,0.113703
+Marco Dassi,minimal,0.27027
+Marco Dassi,techno,0.202703
+Marco Dassi,minimal techno,0.135135
+Marco Resmann,minimal,0.224719
+Marco Resmann,minimal techno,0.139326
+Marco Resmann,electronic,0.11236
+Marco Resmann,tech house,0.139326
+Marco Shuttle,techno,0.166247
+Marco Shuttle,minimal techno,0.251889
+Marcus Meinhardt,minimal,0.294985
+Marcus Meinhardt,minimal techno,0.162242
+Marcus Meinhardt,electronic,0.162242
+Marcus Meinhardt,tech house,0.129794
+Marcus Meinhardt,Berlin,0.112094
+Marcus Sur,minimal,0.193473
+Marcus Sur,minimal techno,0.193473
+Marcus Sur,tech house,0.2331
+Marcus Sur,beatplantation,0.153846
+Marek Bois,minimal,0.244499
+Marek Bois,techno,0.117359
+Marek Bois,minimal techno,0.168704
+Marek Bois,electronic,0.102689
+Marek Hemmann,minimal,0.293255
+Marek Hemmann,techno,0.140762
+Marek Hemmann,minimal techno,0.202346
+Marek Hemmann,electronic,0.167155
+Margaret Dygas,minimal,0.210526
+Margaret Dygas,techno,0.157895
+Margaret Dygas,minimal techno,0.113684
+Marika Rossa,techno,0.217391
+Marika Rossa,minimal techno,0.180435
+Mark August,minimal,0.21097
+Mark August,minimal techno,0.139241
+Mark Broom,minimal,0.158416
+Mark Broom,techno,0.330033
+Mark Broom,minimal techno,0.125413
+Mark Fell,minimal,0.155738
+Mark Fell,minimal techno,0.106557
+Mark Fell,electronic,0.106557
+Mark Fell,idm,0.135246
+Mark Fell,glitch,0.204918
+Mark Henning,minimal,0.195312
+Mark Henning,techno,0.160156
+Mark Henning,minimal techno,0.136719
+Mark Reeve,minimal techno,0.173913
+Mark Reeve,electronic,0.130435
+Mark Reeve,House,0.130435
+Mark Reeve,tech house,0.217391
+Mark-Henning,minimal,0.294985
+Mark-Henning,minimal techno,0.168142
+Mark-Henning,electro,0.123894
+Marko Fürstenberg,minimal,0.183486
+Marko Fürstenberg,dub techno,0.146789
+Markus Fix,minimal,0.187266
+Markus Fix,minimal techno,0.170412
+Markus Fix,House,0.108614
+Markus Fix,tech house,0.123596
+Markus Guentner,minimal,0.204819
+Markus Guentner,electronic,0.10241
+Markus Guentner,ambient,0.301205
+Markus Guentner,Kompakt,0.111446
+Markus Suckut,techno,0.304878
+Markus Suckut,minimal techno,0.207317
+Markus Suckut,dub techno,0.182927
+Martin Buttrich,minimal,0.214592
+Martin Buttrich,techno,0.118026
+Martin Buttrich,minimal techno,0.169528
+Martin Buttrich,tech house,0.124464
+Martin Dawson,minimal techno,0.11236
+Martin Dawson,electronic,0.195506
+Martin Dawson,House,0.195506
+Martin Dawson,deep house,0.224719
+Martin Donath,minimal,0.140118
+Martin Donath,minimal techno,0.147493
+Martin Donath,ambient,0.116519
+Martin Landsky,minimal,0.210084
+Martin Landsky,techno,0.113445
+Martin Landsky,minimal techno,0.109244
+Martin Landsky,electronic,0.109244
+Martin Schulte,minimal,0.118681
+Martin Schulte,minimal techno,0.136264
+Martin Schulte,ambient,0.140659
+Martin Schulte,dub techno,0.21978
+Martinez,minimal,0.185185
+Martinez,techno,0.142593
+Martinez,minimal techno,0.125926
+Masomenos,minimal,0.165563
+Masomenos,minimal techno,0.142384
+Masomenos,tech house,0.165563
+Massi DL,minimal,0.27027
+Massi DL,minimal techno,0.162162
+Massi DL,trapez,0.108108
+Mathew Jonson,minimal,0.268097
+Mathew Jonson,techno,0.190349
+Mathew Jonson,minimal techno,0.16622
+Mathew Jonson,electronic,0.136729
+Mathias Kaden,minimal,0.274725
+Mathias Kaden,techno,0.131868
+Mathias Kaden,minimal techno,0.208791
+Mathias Kaden,tech house,0.101648
+Mathias Schaffhäuser,minimal,0.26178
+Mathias Schaffhäuser,techno,0.162304
+Mathias Schaffhäuser,minimal techno,0.141361
+Mathias Schaffhäuser,electronic,0.172775
+Matias Aguayo,minimal,0.140647
+Matias Aguayo,techno,0.115331
+Matias Aguayo,electronic,0.127989
+Matias Aguayo,Kompakt,0.113924
+Matt John,minimal,0.27248
+Matt John,techno,0.111717
+Matt John,minimal techno,0.158038
+Matt John,electronic,0.106267
+Matt Minimal,minimal,0.160714
+Matt Minimal,techno,0.357143
+Matt Minimal,minimal techno,0.160714
+Matt Minimal,electronic,0.160714
+Matt Star,minimal,0.297619
+Matt Star,minimal techno,0.202381
+Matt Star,electronic,0.139881
+Matthew Dear,minimal,0.170683
+Matthew Dear,techno,0.13253
+Matthew Dear,minimal techno,0.114458
+Matthew Dear,electronic,0.200803
+Matthew Stone,minimal techno,0.240113
+Matthew Stone,electronic,0.118644
+Matthew Stone,DIsco House,0.161017
+Matthew Stone,runway music,0.282486
+Matthias Meyer,minimal,0.257069
+Matthias Meyer,minimal techno,0.107969
+Matthias Meyer,electronic,0.133676
+Matthias Meyer,tech house,0.107969
+Matthias Meyer,deep house,0.133676
+Matthias Tanzmann,minimal,0.236407
+Matthias Tanzmann,techno,0.158392
+Matthias Tanzmann,electronic,0.115839
+Matthias Tanzmann,tech house,0.144208
+Matzak,minimal,0.192308
+Matzak,techno,0.171154
+Matzak,electronic,0.113462
+Maurizio,minimal,0.158824
+Maurizio,techno,0.196078
+Maurizio,dub techno,0.184314
+Maus & Stolle,minimal,0.148148
+Maus & Stolle,minimal techno,0.148148
+Maus & Stolle,electronic,0.148148
+Maus & Stolle,electronica,0.111111
+Max Cooper,minimal,0.242718
+Max Cooper,techno,0.152913
+Max Cooper,minimal techno,0.194175
+Max Cooper,electronic,0.126214
+Max Cooper,tech house,0.104369
+Max Grabke,minimal,0.235849
+Max Grabke,minimal techno,0.235849
+Max Mineyev,electronic,0.129702
+Maxime Dangles,minimal,0.233645
+Maxime Dangles,techno,0.21729
+Maxime Dangles,minimal techno,0.116822
+Maxime Dangles,electronic,0.123832
+Mayburg,minimal,0.212766
+Mayburg,techno,0.212766
+Mayburg,minimal techno,0.185106
+Mayburg,Tech trance,0.106383
+Melchior Productions Ltd.,minimal,0.250627
+Melchior Productions Ltd.,minimal techno,0.115288
+Melchior Productions Ltd.,tech house,0.115288
+Metaboman,minimal,0.247525
+Metaboman,minimal techno,0.128713
+Metaboman,tech house,0.116337
+Metaboman,microhouse,0.155941
+Metope,minimal,0.209205
+Metope,techno,0.115063
+Metope,minimal techno,0.135983
+Michael Knop,minimal,0.132797
+Michael Knop,techno,0.201207
+Michael Knop,minimal techno,0.201207
+Michael Knop,german,0.132797
+Michael Knop,autist,0.132797
+Michael Mayer,minimal,0.198807
+Michael Mayer,techno,0.121272
+Michael Mayer,minimal techno,0.143141
+Michael Mayer,electronic,0.141153
+Michael Mayer,Kompakt,0.133201
+Michael Melchner,minimal,0.142308
+Michael Melchner,minimal techno,0.384615
+Michal Ho,minimal,0.239808
+Michal Ho,techno,0.129496
+Michal Ho,minimal techno,0.119904
+Michal Wolski,electro,0.101918
+Michal Wolski,Electroclash,0.119904
+Microfluid,minimal,0.11236
+Microfluid,techno,0.11236
+Microfluid,minimal techno,0.224719
+Microfluid,downtempo,0.148315
+Microtrauma,minimal,0.165605
+Microtrauma,techno,0.212314
+Microtrauma,minimal techno,0.165605
+Microtrauma,electronic,0.121019
+Microtrauma,neotrance,0.144374
+Mihalis Safras,minimal,0.27248
+Mihalis Safras,techno,0.138965
+Mihalis Safras,minimal techno,0.217984
+Mihalis Safras,tech house,0.125341
+Mikael Jonasson,minimal,0.25641
+Mikael Jonasson,techno,0.128205
+Mikael Jonasson,minimal techno,0.128205
+Mikael Jonasson,electro,0.102564
+Mikael Jonasson,tech house,0.153846
+Mikalogic,minimal,0.181818
+Mikalogic,techno,0.136364
+Mikalogic,minimal techno,0.181818
+Mike Dehnert,minimal,0.100775
+Mike Dehnert,techno,0.258398
+Mike Dehnert,dub techno,0.155039
+Mike Ink,techno,0.180505
+Mike Ink,minimal techno,0.111913
+Mike Ink,electronic,0.142599
+Mike Monday,minimal,0.185529
+Mike Monday,electronic,0.141002
+Mike Monday,electro,0.107607
+Mike Parker,minimal,0.142857
+Mike Parker,techno,0.31746
+Mike Parker,minimal techno,0.209524
+Mike Shannon,minimal,0.156495
+Mike Shannon,techno,0.13615
+Mike Wall,minimal,0.151874
+Mike Wall,minimal techno,0.197239
+Mike Wall,tech house,0.151874
+Mikkel Metal,minimal,0.178253
+Mikkel Metal,minimal techno,0.128342
+Mikkel Metal,electronic,0.14082
+Millok,minimal,0.25
+Millok,minimal techno,0.25
+Millok,tech house,0.25
+Millok,deep house,0.25
+Milton Bradley,minimal,0.127796
+Milton Bradley,techno,0.319489
+Milton Bradley,minimal techno,0.159744
+Milton Bradley,dub techno,0.146965
+Mini,j-pop,0.127551
+Minicoolboyz,minimal,0.168067
+Minicoolboyz,techno,0.105882
+Minicoolboyz,minimal techno,0.151261
+Minilogue,minimal,0.297619
+Minilogue,techno,0.142857
+Minilogue,minimal techno,0.172619
+Minilogue,electronic,0.116071
+Minimal,minimal,0.191939
+Minimal,minimal techno,0.163148
+Minimal Man,industrial,0.123967
+Minimal Man,post-punk,0.206612
+Minimal Techno,minimal,0.166667
+Minimal Techno,techno,0.166667
+Minimal Techno,minimal techno,0.50505
+Minimal Youth,electro,0.333333
+Minimal Youth,under 2000 listeners,0.666667
+Miro Pajic,minimal,0.219072
+Miro Pajic,techno,0.257732
+MISC,minimal,0.168279
+MISC,techno,0.193424
+MISC,electronic,0.131528
+Misc.,minimal,0.208333
+Misc.,techno,0.125
+Misc.,minimal techno,0.125
+Miskate,minimal,0.167785
+Miskate,minimal techno,0.147651
+Miss Fitz,minimal,0.251256
+Miss Fitz,techno,0.100503
+Miss Fitz,minimal techno,0.138191
+Miss Fitz,electronic,0.125628
+Miss Kittin & The Hacker,electronic,0.195822
+Miss Kittin & The Hacker,electro,0.16188
+Miss Kittin & The Hacker,Electroclash,0.261097
+Misstress Barbara,minimal,0.123543
+Misstress Barbara,techno,0.2331
+Misstress Barbara,minimal techno,0.118881
+Misstress Barbara,electronic,0.137529
+Miwon,electronic,0.165746
+Miwon,idm,0.184162
+Miwon,ambient,0.119705
+Mlle Caro & Franck Garcia,minimal,0.14094
+Mlle Caro & Franck Garcia,electronic,0.167785
+Mmm,electronic,0.145985
+Moderat,techno,0.1375
+Moderat,electronic,0.24
+Moderat,idm,0.25
+Moderat,glitch,0.1225
+Modeselektor,techno,0.126521
+Modeselektor,electronic,0.243309
+Modeselektor,idm,0.177616
+Modeselektor,electro,0.136253
+Moire,minimal techno,0.166667
+Moire,spotify,0.166667
+Monika Kruse,minimal,0.200658
+Monika Kruse,techno,0.328947
+Monika Kruse,electronic,0.167763
+Monoblock,minimal,0.217391
+Monoblock,minimal techno,0.102174
+Monoblock,Gothic Metal,0.102174
+Monolake,minimal,0.193798
+Monolake,techno,0.114341
+Monolake,electronic,0.149225
+Monolake,idm,0.156977
+Monolake,ambient,0.141473
+Monoloc,techno,0.320513
+Monoloc,minimal techno,0.150641
+Monoloc,electronic,0.112179
+Monoloc,schranz,0.150641
+Moodymann,detroit,0.118852
+Moodymann,House,0.168033
+Moodymann,deep house,0.204918
+Moonbeam,minimal,0.157464
+Moonbeam,House,0.102249
+Moonbeam,Progressive House,0.204499
+Moonbeam,trance,0.161554
+Moonbeam,progressive trance,0.106339
+Moritz von Oswald Trio,electronic,0.162866
+Moritz von Oswald Trio,ambient,0.127036
+Moritz von Oswald Trio,experimental,0.149837
+Morphosis,techno,0.189036
+Morphosis,dub techno,0.126654
+Morphosis,death metal,0.122873
+Motorcitysoul,techno,0.11039
+Motorcitysoul,electronic,0.127706
+Motorcitysoul,House,0.145022
+Motorcitysoul,deep house,0.21645
+Mount Kimbie,minimal,0.104651
+Mount Kimbie,electronic,0.162791
+Mount Kimbie,ambient,0.176744
+Mount Kimbie,experimental,0.130233
+Mount Kimbie,dubstep,0.232558
+Move D,electronic,0.163399
+Move D,ambient,0.124183
+Move D & Benjamin Brunn,minimal,0.183486
+Move D & Benjamin Brunn,techno,0.111927
+Move D & Benjamin Brunn,minimal techno,0.100917
+Move D & Benjamin Brunn,idm,0.100917
+Move D & Benjamin Brunn,ambient,0.141284
+Mr. Statik,minimal,0.241546
+Mr. Statik,techno,0.15942
+Mr. Statik,minimal techno,0.200483
+Mr. Statik,tech house,0.120773
+Mr. Statik,BPitch Control,0.120773
+MRI,electronic,0.113001
+MRI,microhouse,0.113001
+MRI,deep house,0.121507
+Mujuice,minimal,0.173494
+Mujuice,electronic,0.228916
+Mujuice,idm,0.240964
+Mujuice,glitch,0.108434
+Mujuice,russian,0.139759
+Murcof,minimal,0.165548
+Murcof,electronic,0.149888
+Murcof,idm,0.154362
+Murcof,ambient,0.223714
+My My,minimal,0.217391
+My My,techno,0.108696
+My My,minimal techno,0.108696
+N'TO,minimal,0.214133
+N'TO,techno,0.192719
+N'TO,minimal techno,0.115632
+N'TO,electronic,0.134904
+nakotika,minimal,0.102564
+nakotika,deep house,0.102564
+nakotika,club,0.102564
+nakotika,under 2000 listeners,0.128205
+Namito,minimal,0.248139
+Namito,techno,0.124069
+Namito,minimal techno,0.163772
+Namito,electronic,0.143921
+Narcotic Syntax,minimal,0.111111
+Narcotic Syntax,minimal techno,0.16835
+Narcotic Syntax,microhouse,0.139731
+Narcotic Syntax,Perlon,0.139731
+Nathan Fake,minimal,0.223214
+Nathan Fake,techno,0.125
+Nathan Fake,electronic,0.1875
+navy b.,minimal,0.111111
+navy b.,minimal techno,0.277778
+navy b.,under 2000 listeners,0.111111
+navy b.,polish,0.166667
+NDKj,minimal,0.138889
+NDKj,techno,0.111111
+NDKj,minimal techno,0.111111
+Neil Landstrumm,techno,0.222222
+Neil Landstrumm,electronic,0.104444
+Neil Landstrumm,dubstep,0.162222
+Neurotron,minimal,0.163132
+Neurotron,deep house,0.102773
+Nhar,minimal,0.173611
+Nhar,techno,0.118056
+Nhar,electronic,0.109375
+Nice7,minimal,0.15121
+Nice7,minimal techno,0.125
+Nice7,electronic,0.15121
+Nice7,House,0.175403
+Nice7,tech house,0.201613
+Nick Curly,minimal,0.138614
+Nick Curly,minimal techno,0.10099
+Nick Curly,House,0.132673
+Nick Curly,tech house,0.164356
+Nick Curly,deep house,0.19802
+Nicky Romero,electronic,0.148325
+Nicky Romero,House,0.239234
+Nicky Romero,electro house,0.126794
+Nico Lahs,minimal techno,0.192412
+Nico Lahs,House,0.230352
+Nico Lahs,tech house,0.271003
+Nico Lahs,deep house,0.192412
+Nicolas Masseyeff,minimal,0.178891
+Nicolas Masseyeff,techno,0.144902
+Niconé & Sascha Braemer,minimal,0.110619
+Niederflur,minimal,0.304878
+Niederflur,techno,0.164634
+Niederflur,minimal techno,0.137195
+Niederflur,electronic,0.112805
+Niederflur,minus,0.112805
+Niko Schwind,minimal,0.263852
+Niko Schwind,techno,0.145119
+Niko Schwind,minimal techno,0.100264
+Niko Schwind,electronic,0.145119
+Nine Inch Nails,electronic,0.104478
+Nine Inch Nails,industrial,0.298507
+Nine Inch Nails,alternative,0.113433
+Nine Inch Nails,rock,0.116418
+Nine Inch Nails,industrial rock,0.170149
+NTFO,minimal,0.201207
+NTFO,techno,0.201207
+NTFO,minimal techno,0.132797
+NTFO,electronic,0.132797
+Nu,minimal,0.123457
+Nu,electronic,0.123457
+Nubian Mindz,Broken Beat,0.156495
+Nudisco,minimal,0.245098
+Nudisco,techno,0.188725
+Nudisco,minimal techno,0.134804
+Nudisco,electronic,0.107843
+Nuel,minimal techno,0.181818
+Nuel,under 2000 listeners,0.181818
+Nulleins,minimal,0.123457
+NX1,techno,0.403226
+NX1,minimal techno,0.165323
+NX1,electronic,0.100806
+NX1,dub techno,0.133065
+NX1,industrial,0.100806
+Octave,minimal,0.227273
+Octave,techno,0.181818
+Octave,minimal techno,0.113636
+Octex,minimal,0.109924
+Octex,minimal techno,0.134351
+Octex,dub techno,0.152672
+Odd Dots,minimal techno,0.196464
+Odd Dots,tech house,0.163065
+Off Pop,minimal,0.21322
+Off Pop,techno,0.159915
+Off Pop,minimal techno,0.132196
+Off Pop,electro,0.10661
+Oil 10,electronic,0.137168
+Oil 10,idm,0.147493
+Oil 10,ambient,0.141593
+Olene Kadar,minimal,0.137363
+Olene Kadar,minimal techno,0.274725
+Olene Kadar,electronic,0.137363
+Olene Kadar,microhouse,0.137363
+Oliver Hacke,minimal,0.220751
+Oliver Hacke,techno,0.161148
+Oliver Hacke,minimal techno,0.143488
+Oliver Huntemann,minimal,0.251256
+Oliver Huntemann,techno,0.20603
+Oliver Huntemann,minimal techno,0.128141
+Oliver Huntemann,electronic,0.105528
+Oliver Huntemann,electro,0.123116
+Oliver Koletzki,minimal,0.280899
+Oliver Koletzki,techno,0.16573
+Oliver Koletzki,minimal techno,0.146067
+Oliver Koletzki,electronic,0.185393
+Oliver Koletzki,electro,0.11236
+Oliver Schories,minimal,0.242131
+Oliver Schories,techno,0.108959
+Oliver Schories,minimal techno,0.108959
+Oliver Schories,electronic,0.140436
+Omar Salgado,minimal,0.21645
+Omar Salgado,techno,0.119048
+Omar Salgado,minimal techno,0.179654
+Oni Ayhun,techno,0.109905
+Oni Ayhun,electronic,0.135685
+Oni Ayhun,experimental,0.101764
+Onur Özer,minimal,0.275482
+Onur Özer,techno,0.137741
+Onur Özer,minimal techno,0.157025
+Onur Özer,electronic,0.101928
+oozee,under 2000 listeners,0.212314
+Oscar Mulero,techno,0.4
+Oscar Mulero,minimal techno,0.124
+Oscar Mulero,hard techno,0.108
+Oskar Offermann,minimal techno,0.176471
+Oskar Offermann,House,0.176471
+Oskar Offermann,tech-house,0.176471
+Oskar Offermann,deep house,0.235294
+Oskar Offermann,german,0.117647
+Oxia,minimal,0.193548
+Oxia,techno,0.268817
+Oxia,minimal techno,0.120968
+Oxia,electronic,0.13172
+Oxia,electro,0.120968
+Pablo Akaros,minimal,0.284091
+Pablo Akaros,techno,0.133523
+Pablo Akaros,minimal techno,0.147727
+Pablo Bolivar,minimal,0.146843
+Pablo Bolivar,minimal techno,0.107195
+Pablo Bolivar,dub techno,0.139501
+Pablo Bolivar,tech house,0.142438
+Paco Osuna,minimal,0.26178
+Paco Osuna,techno,0.235602
+Paco Osuna,minimal techno,0.125654
+Pacou,techno,0.340136
+Pacou,tresor,0.115646
+Pan-Pot,minimal,0.240964
+Pan-Pot,techno,0.13253
+Pan-Pot,minimal techno,0.173494
+Pan-Pot,electronic,0.108434
+Pan/Tone,minimal,0.105263
+Pantha du Prince,minimal,0.252525
+Pantha du Prince,techno,0.118687
+Pantha du Prince,minimal techno,0.14899
+Pantha du Prince,electronic,0.194444
+Pantha du Prince & The Bell Laboratory,minimal techno,0.138298
+Pantha du Prince & The Bell Laboratory,Ambient Techno,0.177305
+Pantha du Prince & The Bell Laboratory,microhouse,0.113475
+Pantytec,minimal,0.230947
+Pantytec,minimal techno,0.127021
+Pantytec,microhouse,0.101617
+Par Grindvik,minimal,0.151515
+Par Grindvik,techno,0.30303
+Par Grindvik,minimal techno,0.275758
+Pascal FEOS,minimal,0.175719
+Pascal FEOS,techno,0.319489
+Pascal FEOS,minimal techno,0.111821
+Pascal FEOS,electronic,0.134185
+Patrice Bäumel,minimal,0.265252
+Patrice Bäumel,techno,0.100796
+Patrice Bäumel,minimal techno,0.100796
+Patrice Bäumel,tech house,0.244032
+Patrick Chardronnet,minimal,0.17757
+Patrick Chardronnet,techno,0.106542
+Patrick Chardronnet,minimal techno,0.186916
+Patrick Zigon,minimal,0.233645
+Patrick Zigon,minimal techno,0.17757
+Patrick Zigon,tech house,0.142523
+Paul & Fritz Kalkbrenner,minimal,0.201613
+Paul & Fritz Kalkbrenner,minimal techno,0.139113
+Paul & Fritz Kalkbrenner,electronic,0.127016
+Paul Brtschitsch,minimal,0.211864
+Paul Brtschitsch,techno,0.194915
+Paul Brtschitsch,minimal techno,0.112288
+Paul Brtschitsch,electronic,0.112288
+Paul dB+,minimal,0.236967
+Paul dB+,techno,0.14218
+Paul dB+,minimal techno,0.184834
+Paul Kalkbrenner,minimal,0.25974
+Paul Kalkbrenner,techno,0.166234
+Paul Kalkbrenner,electronic,0.220779
+Paul Kalkbrenner,electro,0.106494
+Paul Keeley,Progressive House,0.164474
+Paul Ritch,minimal,0.242718
+Paul Ritch,techno,0.199029
+Paul Ritch,minimal techno,0.162621
+Paul Ritch,electronic,0.11165
+Paul Thomas,techno,0.12156
+Paul Thomas,minimal techno,0.105505
+Paul Thomas,electronic,0.229358
+Pawas,minimal techno,0.176056
+Pawas,tech house,0.176056
+Pawas,microhouse,0.125
+Pawas,deep house,0.176056
+Pawas,minimal techno artists,0.125
+Pawel,minimal,0.216216
+Pawel,deep house,0.27027
+Pawel,dial,0.102703
+Pendle Coven,techno,0.136957
+Pendle Coven,idm,0.108696
+Pendle Coven,dub,0.119565
+Pendle Coven,dub techno,0.217391
+Pep Gaya,techno,0.105263
+Pep Gaya,minimal techno,0.210526
+Pep Gaya,dub techno,0.210526
+Pep Gaya,under 2000 listeners,0.105263
+Perc,techno,0.332226
+Perc,minimal techno,0.119601
+Perc,electronic,0.112957
+Personable,techno,0.181488
+Personable,minimal techno,0.15971
+Personable,electronic,0.119782
+Peter Grummich,minimal,0.178571
+Peter Grummich,minimal techno,0.116071
+Peter Grummich,electronic,0.126786
+Peter Grummich,Kompakt,0.107143
+Peter Horrevorts,techno,0.257732
+Peter Horrevorts,minimal techno,0.216495
+Peter van Hoesen,minimal,0.106061
+Peter van Hoesen,techno,0.30303
+Peter van Hoesen,minimal techno,0.106061
+Peter van Hoesen,dub techno,0.193939
+Petersky,minimal techno,0.215983
+Petersky,electro,0.142549
+Petersky,tech house,0.142549
+Petersky,techno house,0.142549
+Petre Inspirescu,minimal,0.221239
+Petre Inspirescu,minimal techno,0.115044
+Petre Inspirescu,tech house,0.103982
+Petre Inspirescu,microhouse,0.154867
+Petter,Hip-Hop,0.145773
+Petter,swedish,0.131195
+Pfirter,minimal,0.110714
+Pfirter,techno,0.357143
+Pfirter,minimal techno,0.171429
+Pfirter,electronic,0.132143
+Phage & Daniel Dreier,minimal,0.251515
+Phage & Daniel Dreier,techno,0.1
+Phage & Daniel Dreier,minimal techno,0.30303
+Phage & Daniel Dreier,tech house,0.1
+Phage & Daniel Dreier,minimal techno artists,0.1
+Pheek,minimal,0.199601
+Pheek,techno,0.123752
+Pheek,minimal techno,0.123752
+Phil Kieran,minimal,0.191304
+Phil Kieran,techno,0.289855
+Philip Bader,minimal,0.253165
+Philip Bader,minimal techno,0.103797
+Philip Bader,electronic,0.146835
+Philip Bader,House,0.146835
+Philip Bader,tech house,0.146835
+Phong Sui,minimal,0.181818
+Phong Sui,minimal techno,0.181818
+Phong Sui,Kompakt,0.181818
+Phonique,minimal,0.14006
+Phonique,electronic,0.150602
+Phonique,House,0.13253
+Phonique,deep house,0.120482
+Phonogenic,minimal,0.207039
+Phonogenic,minimal techno,0.10352
+Phonogenic,electronic,0.180124
+Phonogenic,turbo,0.10352
+Phunk Investigation,techno,0.156682
+Phunk Investigation,minimal techno,0.108295
+Phunk Investigation,House,0.230415
+Piatto,minimal,0.142056
+Piatto,techno,0.186916
+Piatto,minimal techno,0.157009
+Piatto,spotify,0.114019
+Piemont,minimal,0.286533
+Piemont,techno,0.174785
+Piemont,minimal techno,0.148997
+Piemont,electronic,0.108883
+Piemont,tech house,0.126074
+Pier Bucci,minimal,0.234192
+Pier Bucci,minimal techno,0.112412
+Pier Bucci,electronic,0.138173
+Pig & Dan,minimal,0.230947
+Pig & Dan,techno,0.205543
+Pig & Dan,minimal techno,0.159353
+Pig & Dan,electronic,0.124711
+Pigon,minimal,0.277778
+Pigon,techno,0.152778
+Pigon,electronic,0.111111
+Pigon,dial,0.138889
+Pitto,minimal techno,0.112108
+Pitto,electronic,0.147982
+Pitto,House,0.186099
+Pitto,tech house,0.224215
+Pitto,tech-house,0.112108
+Planetary Assault Systems,techno,0.384615
+Planetary Assault Systems,minimal techno,0.165385
+Planetary Assault Systems,electronic,0.1
+Planetary Assault Systems,detroit techno,0.107692
+Plasmik,minimal,0.346021
+Plasmik,minimal techno,0.249135
+Plastikman,minimal,0.209644
+Plastikman,techno,0.186583
+Plastikman,minimal techno,0.167715
+Plastikman,electronic,0.132075
+Plateau,electronic,0.13245
+Plateau,idm,0.127152
+Plateau,experimental,0.116556
+Plateau,industrial,0.121854
+Plato,minimal,0.136986
+Pleasurekraft,minimal,0.207547
+Pleasurekraft,electronic,0.169811
+Pleasurekraft,tech house,0.269542
+Polar Inertia,techno,0.290698
+Polar Inertia,minimal techno,0.162791
+Polar Inertia,dub techno,0.209302
+Pole,minimal,0.179856
+Pole,electronic,0.152878
+Pole,idm,0.120504
+Pole,dub,0.133094
+Pole,glitch,0.116906
+Popof,minimal,0.253807
+Popof,techno,0.236041
+Popof,minimal techno,0.14467
+Porter Ricks,minimal,0.123881
+Porter Ricks,techno,0.149254
+Porter Ricks,minimal techno,0.146269
+Porter Ricks,dub techno,0.119403
+Presslaboys,minimal,0.125
+Presslaboys,techno,0.149648
+Presslaboys,minimal techno,0.176056
+Presslaboys,electro,0.100352
+Presslaboys,House,0.100352
+Presslaboys,tech house,0.176056
+Project Swirl,minimal,0.1
+Project Swirl,techno,0.133333
+Project Swirl,minimal techno,0.166667
+Prompt,minimal,0.154799
+Prompt,minimal techno,0.154799
+Prompt,electronic,0.128483
+Prompt,idm,0.128483
+Prompt,deep house,0.154799
+Prosumer & Murat Tepeli,minimal,0.140625
+Prosumer & Murat Tepeli,minimal techno,0.125
+Prosumer & Murat Tepeli,House,0.109375
+Prosumer & Murat Tepeli,tech house,0.109375
+Prosumer & Murat Tepeli,deep house,0.15625
+psyCodEd,minimal,0.166667
+psyCodEd,techno,0.111111
+psyCodEd,minimal techno,0.222222
+psyCodEd,under 2000 listeners,0.222222
+Psyk,minimal,0.14053
+Psyk,techno,0.203666
+Psyk,minimal techno,0.171079
+Public Lover,minimal,0.139175
+Public Lover,minimal techno,0.257732
+Public Lover,electronic,0.162371
+Pushkarev,minimal,0.178891
+Pushkarev,minimal techno,0.135957
+Pushkarev,deep,0.150268
+Pushkarev,dub techno,0.109123
+Q-Man,techno,0.117647
+Q-Man,electronic,0.147059
+Q-Man,dance,0.117647
+Quadrant,techno,0.126897
+Quadrant,dub techno,0.137931
+Quadrant,Drum and bass,0.131034
+Quantec,minimal,0.145763
+Quantec,minimal techno,0.101695
+Quantec,ambient,0.125424
+Quantec,dub,0.125424
+Quantec,dub techno,0.338983
+Radio Slave,minimal,0.21692
+Radio Slave,techno,0.199566
+Radio Slave,minimal techno,0.10846
+Radio Slave,House,0.106291
+Rainer Weichhold,minimal,0.19407
+Rainer Weichhold,techno,0.269542
+Rainer Weichhold,minimal techno,0.134771
+Rainer Weichhold,electronic,0.148248
+Ramiro Lopez,minimal,0.116203
+Ramiro Lopez,minimal techno,0.163666
+Ramiro Lopez,electronic,0.139116
+Ramiro Lopez,House,0.116203
+Ramiro Lopez,tech house,0.163666
+Ramiro Lopez,deep house,0.116203
+Ramiro Lopez,spotify,0.116203
+Ramon Tapia,minimal,0.226757
+Ramon Tapia,techno,0.1678
+Ramon Tapia,minimal techno,0.136054
+Ramon Tapia,tech house,0.179138
+Rampa,minimal,0.114286
+Rampa,minimal techno,0.114286
+Rampa,House,0.142857
+Random Logic,minimal techno,0.131579
+Raudive,minimal,0.309598
+Raudive,techno,0.232198
+Raudive,minimal techno,0.160991
+Raumheld,electronic,0.173134
+Raumheld,electro,0.191045
+Raumheld,electropunk,0.298507
+Ray Okpara,minimal,0.201613
+Ray Okpara,minimal techno,0.145161
+Ray Okpara,House,0.118952
+Ray Okpara,tech house,0.181452
+Ray Okpara,deep house,0.173387
+Rebekah,techno,0.172414
+Rebekah,minimal techno,0.172414
+Rebekah,electronic,0.103448
+Reboot,minimal,0.162338
+Reboot,House,0.105519
+Reboot,tech house,0.113636
+Rechenzentrum,minimal,0.149362
+Rechenzentrum,electronic,0.182149
+Rechenzentrum,idm,0.100182
+Recondite,techno,0.217865
+Recondite,House,0.119826
+Redshape,minimal,0.156627
+Redshape,techno,0.301205
+Redshape,minimal techno,0.126506
+Redshape,detroit techno,0.123494
+Reinhard Voigt,minimal,0.164751
+Reinhard Voigt,techno,0.191571
+Reinhard Voigt,electronic,0.143678
+Reinhard Voigt,Kompakt,0.141762
+Rekorder,minimal,0.271739
+Rekorder,techno,0.157609
+Rekorder,minimal techno,0.184783
+Remote_,minimal,0.166667
+Remote_,techno,0.141667
+Remote_,minimal techno,0.106667
+Remote_,dub techno,0.153333
+Remute,minimal,0.184843
+Remute,techno,0.158965
+Repeat Repeat,techno,0.103448
+Repeat Repeat,minimal techno,0.137931
+Repeat Repeat,electronic,0.103448
+Reset Robot,minimal,0.169811
+Reset Robot,techno,0.113208
+Reset Robot,minimal techno,0.169811
+Reset Robot,electronic,0.113208
+Reset Robot,tech house,0.188679
+Rhadoo,minimal,0.177419
+Rhadoo,minimal techno,0.110887
+Rhadoo,House,0.201613
+Ricardo Tobar,minimal,0.129032
+Ricardo Tobar,techno,0.134409
+Ricardo Tobar,minimal techno,0.11828
+Ricardo Tobar,electronic,0.107527
+Ricardo Tobar,Border Community,0.134409
+Ricardo Villalobos,minimal,0.280112
+Ricardo Villalobos,techno,0.156863
+Ricardo Villalobos,minimal techno,0.179272
+Ricardo Villalobos,electronic,0.137255
+Ricardo Villalobos & Fumiya Tanaka,minimal,0.222222
+Ricardo Villalobos & Fumiya Tanaka,techno,0.277778
+Ricardo Villalobos & Fumiya Tanaka,minimal techno,0.277778
+Richard Davis,electronic,0.1287
+Richard Davis,deep house,0.10296
+Richie Hawtin,minimal,0.255754
+Richie Hawtin,techno,0.240409
+Richie Hawtin,minimal techno,0.173913
+Richie Hawtin,electronic,0.122762
+Riley Reinhold,minimal,0.214592
+Riley Reinhold,minimal techno,0.182403
+Riley Reinhold,trapez,0.122318
+Ripperton,minimal,0.240385
+Ripperton,techno,0.149038
+Ripperton,tech house,0.125
+Ripperton,deep house,0.112981
+Robag Wruhme,minimal,0.231481
+Robag Wruhme,techno,0.141204
+Robag Wruhme,minimal techno,0.166667
+Robag Wruhme,electronic,0.106481
+Robert Babicz,minimal,0.249377
+Robert Babicz,techno,0.187032
+Robert Babicz,minimal techno,0.167082
+Robert Babicz,electronic,0.139651
+Robert Babicz,tech house,0.109726
+Robert Hood,minimal,0.144737
+Robert Hood,techno,0.263158
+Robert Hood,electronic,0.1
+Robert Hood,detroit techno,0.202632
+Robert Hood,detroit,0.123684
+Roberto Mozza,minimal,0.124528
+Roberto Mozza,techno,0.124528
+Roberto Mozza,minimal techno,0.377358
+Roberto Mozza,electronic,0.124528
+Roberto Mozza,tech house,0.124528
+Roberto Mozza,minimal techno artists,0.124528
+Robin Hirte,minimal,0.137931
+Robin Hirte,techno,0.172414
+Robin Hirte,minimal techno,0.137931
+Robin Hirte,spotify,0.103448
+Rocha & Lewinger,minimal,0.183824
+Rocha & Lewinger,techno,0.152574
+Rocha & Lewinger,minimal techno,0.183824
+Rocha & Lewinger,electronic,0.152574
+Rod Modell,techno,0.107042
+Rod Modell,ambient,0.185915
+Rod Modell,dub,0.143662
+Rod Modell,dub techno,0.28169
+Rodriguez Jr.,minimal,0.217391
+Rodriguez Jr.,techno,0.130435
+Rodriguez Jr.,minimal techno,0.156522
+Roland M. Dill,minimal,0.278552
+Roland M. Dill,techno,0.103064
+Roland M. Dill,minimal techno,0.24234
+Roland M. Dill,tech house,0.103064
+Roman Flügel,techno,0.102837
+Roman Flügel,electronic,0.16844
+Roman Flügel,electro,0.120567
+Roman Flügel,House,0.177305
+Roman Lindau,techno,0.322581
+Roman Lindau,minimal techno,0.258065
+Roman Lindau,spotify,0.129032
+Rone,minimal,0.180392
+Rone,techno,0.196078
+Rone,ambient,0.160784
+Roy RosenfelD,minimal,0.172117
+Roy RosenfelD,techno,0.146299
+Roy RosenfelD,minimal techno,0.172117
+Roy RosenfelD,House,0.172117
+Rrose,minimal,0.138211
+Rrose,techno,0.271003
+Rrose,electronic,0.108401
+Rrose,dub techno,0.173442
+Rrose x Bob Ostertag,techno,0.294118
+Rrose x Bob Ostertag,minimal techno,0.25
+Rrose x Bob Ostertag,electronic,0.167647
+Rrose x Bob Ostertag,experimental,0.123529
+RSS B0YS,techno,0.3125
+RSS B0YS,minimal techno,0.125
+RSS B0YS,electronic,0.1875
+Ruede Hagelstein,minimal,0.255754
+Ruede Hagelstein,techno,0.161125
+Ruede Hagelstein,electronic,0.11509
+Ruede Hagelstein,House,0.102302
+Run Stop Restore,minimal,0.192678
+Run Stop Restore,techno,0.192678
+Run Stop Restore,minimal techno,0.175337
+Run Stop Restore,minus,0.127168
+Ryan Crosson,minimal,0.192678
+Ryan Crosson,techno,0.100193
+Ryan Crosson,minimal techno,0.121387
+Ryan Elliott,minimal,0.148984
+Ryan Elliott,techno,0.225734
+Ryan Elliott,minimal techno,0.187359
+Ryo Murakami,minimal,0.222513
+Ryo Murakami,minimal techno,0.26178
+Ryo Murakami,tech house,0.13089
+Rødhåd,techno,0.348432
+Rødhåd,minimal techno,0.191638
+Rødhåd,german,0.114983
+Rødhåd,Berlin,0.114983
+Salz,minimal,0.12301
+Salz,minimal techno,0.10275
+Salz,electronic,0.144718
+Salz,Kompakt,0.12301
+Samim,minimal,0.182149
+Samim,electronic,0.15847
+Samim,House,0.182149
+Samim & Michal,minimal,0.191489
+Samim & Michal,minimal techno,0.212766
+Samim & Michal,electronic,0.106383
+Samuel Kerridge,techno,0.221239
+Samuel Kerridge,minimal techno,0.146018
+Samuel Kerridge,electronic,0.146018
+Samuel Kerridge,dub techno,0.146018
+Samuel L. Session,techno,0.308642
+Samuel L. Session,tribal techno,0.138889
+Samuli Kemppi,minimal,0.123256
+Samuli Kemppi,techno,0.232558
+Samuli Kemppi,minimal techno,0.139535
+Sandwell District,minimal,0.123167
+Sandwell District,techno,0.293255
+Sandwell District,minimal techno,0.13783
+Sandwell District,dub techno,0.14956
+Santos Resiak,minimal,0.302115
+Santos Resiak,minimal techno,0.166163
+Sascha Braemer,minimal,0.296736
+Sascha Braemer,techno,0.11276
+Sascha Braemer,minimal techno,0.142433
+Sascha Braemer,tech house,0.20178
+Sascha Dive,minimal,0.146341
+Sascha Dive,tech house,0.113821
+Sascha Dive,deep house,0.162602
+Sascha Funke,minimal,0.275482
+Sascha Funke,techno,0.157025
+Sascha Funke,electronic,0.198347
+Sascha Rydell,techno,0.37037
+Sascha Rydell,minimal techno,0.244444
+Sascha Rydell,tech house,0.162963
+Savvas Ysatis,minimal,0.176056
+Savvas Ysatis,techno,0.142606
+Savvas Ysatis,minimal techno,0.158451
+Sawlin,minimal,0.157895
+Sawlin,techno,0.263158
+Sawlin,minimal techno,0.210526
+Sawlin,electronic,0.105263
+Sawlin,ambient,0.105263
+SCB,techno,0.2
+SCB,electronic,0.145882
+SCB,dub techno,0.235294
+Schaeben & Voss,techno,0.182903
+Schaeben & Voss,electronic,0.198807
+Schaeben & Voss,Kompakt,0.198807
+Scion,techno,0.12275
+Scion,minimal techno,0.11784
+Scion,dub techno,0.163666
+SCSI-9,minimal,0.25974
+SCSI-9,techno,0.124675
+SCSI-9,minimal techno,0.150649
+SCSI-9,electronic,0.127273
+Sebastian Roya,minimal,0.253807
+Sebastian Roya,techno,0.126904
+Sebastian Roya,minimal techno,0.167513
+Sebastian Russell,minimal,0.227273
+Sebastian Russell,techno,0.113636
+Sebastian Russell,minimal techno,0.113636
+Sebo K,minimal,0.20202
+Sebo K,techno,0.151515
+Sebo K,minimal techno,0.165657
+Sebo K,tech house,0.157576
+Sei A,minimal,0.15192
+Sei A,techno,0.166945
+Sei A,tech house,0.110184
+Sei A,Progressive House,0.125209
+Selffish,ambient,0.123609
+Sendai,minimal,0.111111
+Sendai,techno,0.168582
+Sendai,minimal techno,0.1341
+Sendai,electronic,0.122605
+Sendai,dub techno,0.191571
+Sender Berlin,minimal,0.158416
+Sender Berlin,techno,0.19802
+Sender Berlin,tresor,0.118812
+Sensual Physics,minimal techno,0.139665
+Sensual Physics,netlabel,0.104749
+Sensual Physics,dub-tech,0.121508
+Seph,minimal,0.294118
+Seph,minimal techno,0.226471
+Seth Troxler,minimal,0.164204
+Seth Troxler,techno,0.126437
+Seth Troxler,minimal techno,0.103448
+Seuil,minimal,0.31746
+Seuil,techno,0.15873
+Seuil,minimal techno,0.142857
+Seuil,House,0.111111
+Seuil,tech house,0.126984
+sgnl_fltr,minimal,0.110811
+sgnl_fltr,techno,0.102703
+sgnl_fltr,minimal techno,0.127027
+sgnl_fltr,ambient,0.135135
+Shackleton,electronic,0.112676
+Shackleton,dub,0.102113
+Shackleton,dubstep,0.352113
+Shades Of Gray,techno,0.235294
+Shades Of Gray,minimal techno,0.134118
+Shades Of Gray,electronic,0.134118
+Shades Of Gray,tech house,0.134118
+Shane Berry,minimal,0.257069
+Shane Berry,techno,0.156812
+Shane Berry,minimal techno,0.136247
+Shed,minimal,0.143885
+Shed,techno,0.239808
+Shed,minimal techno,0.11271
+Shed,dub techno,0.143885
+Shifted,techno,0.302115
+Shifted,minimal techno,0.18429
+Shifted,dub techno,0.129909
+Shinedoe,minimal,0.195833
+Shinedoe,techno,0.208333
+Shinedoe,electronic,0.11875
+Shlomi Aber,minimal,0.234742
+Shlomi Aber,techno,0.157277
+Shlomi Aber,electronic,0.13615
+Shonky,minimal,0.283286
+Shonky,techno,0.201133
+Shonky,electronic,0.147309
+Sian,minimal,0.128866
+Sian,minimal techno,0.100515
+Sian,downtempo,0.128866
+Sidney Charles,minimal,0.152174
+Sidney Charles,minimal techno,0.152174
+Sidney Charles,electronic,0.152174
+Sidney Charles,House,0.173913
+Sidney Charles,tech house,0.217391
+Sil,minimal techno,0.10917
+Sil,electronic,0.10917
+Silent Servant,techno,0.322581
+Silent Servant,minimal techno,0.148387
+Silent Servant,electronic,0.129032
+Silent Servant,dub techno,0.174194
+Simina Grigoriu,minimal,0.143472
+Simina Grigoriu,minimal techno,0.143472
+Simina Grigoriu,german,0.143472
+Simon Baker,minimal,0.226757
+Simon Baker,techno,0.195011
+Simon Garcia,minimal,0.190476
+Simon Garcia,minimal techno,0.190476
+Simon Garcia,electronic,0.190476
+Simon Garcia,tech house,0.142857
+Simon Garcia,tech-house,0.142857
+Siopis,minimal techno,0.159236
+Siopis,deep house,0.119427
+SIS,minimal,0.20284
+SIS,minimal techno,0.10142
+SIS,House,0.123732
+SIS,tech house,0.196755
+Sistol,minimal,0.161638
+Sistol,techno,0.215517
+Sistol,minimal techno,0.12069
+Sistol,glitch,0.1875
+Skoozbot,minimal,0.237342
+Skoozbot,techno,0.21519
+Skoozbot,minimal techno,0.316456
+Sleeparchive,minimal,0.222222
+Sleeparchive,techno,0.182222
+Sleeparchive,minimal techno,0.133333
+Sleeper Thief,minimal,0.253807
+Sleeper Thief,minimal techno,0.172589
+Sleeper Thief,tech house,0.172589
+SLG,minimal,0.236967
+SLG,techno,0.177725
+SLG,minimal techno,0.203791
+SLG,tech house,0.104265
+Smith n Hack,minimal,0.137552
+Smith n Hack,electronic,0.105915
+Smith n Hack,Disco,0.105915
+SND,minimal,0.214592
+SND,electronic,0.141631
+SND,idm,0.133047
+SND,glitch,0.199571
+Snilloc,minimal,0.181818
+Snilloc,minimal techno,0.181818
+Snilloc,electronic,0.181818
+Snilloc,tech house,0.181818
+Socks and Sandals,minimal,0.226757
+Socks and Sandals,minimal techno,0.14059
+Solar & Poppcke,minimal,0.162835
+Solar & Poppcke,minimal techno,0.191571
+Solar & Poppcke,tech house,0.136015
+Solaris BC,minimal techno,0.416667
+Solaris BC,electronic,0.116667
+Solaris BC,experimental,0.175
+Solaris BC,minimalism,0.116667
+Solaris BC,Justin Broadrick,0.116667
+Solead,minimal techno,0.111111
+Solead,Progressive House,0.111111
+Solead,progressive trance,0.148148
+Solee,minimal,0.27027
+Solee,techno,0.135135
+Solee,minimal techno,0.135135
+Solee,electro,0.108108
+Solee,neotrance,0.145946
+Solomun,minimal,0.195695
+Solomun,tech house,0.154599
+Solomun,Progressive House,0.105675
+Solomun,deep house,0.176125
+Solomun & Stimming,minimal,0.27933
+Solomun & Stimming,minimal techno,0.181564
+Solomun & Stimming,electro,0.114525
+Someone Else,minimal,0.293255
+Someone Else,techno,0.184751
+Someone Else,electronic,0.16129
+Soukie & Windish,minimal,0.289017
+Soukie & Windish,techno,0.144509
+Soukie & Windish,minimal techno,0.144509
+Soul Capsule,minimal,0.119942
+Soul Capsule,minimal techno,0.144509
+Soul Capsule,microhouse,0.119942
+Sound Bros,minimal,0.144928
+Sound Bros,minimal techno,0.289855
+Sound Bros,electronic,0.144928
+Spada,minimal,0.12782
+Spada,minimal techno,0.12782
+Spada,electronic,0.150376
+Spada,neotrance,0.150376
+Spartaque,minimal,0.224138
+Spartaque,techno,0.287356
+Spartaque,minimal techno,0.198276
+Spartaque,electronic,0.103448
+Spektre,minimal,0.269542
+Spektre,techno,0.239892
+Spektre,minimal techno,0.169811
+Spektre,tech house,0.142857
+Sr.Click,minimal,0.198807
+Sr.Click,electronic,0.149105
+Staffan Linzatti,minimal,0.26455
+Staffan Linzatti,techno,0.219577
+Steadycam,minimal,0.15748
+Steadycam,electronic,0.103937
+Steadycam,electro,0.146457
+Stefan Goldmann,minimal,0.156495
+Stefan Goldmann,techno,0.103286
+Stefan Goldmann,minimal techno,0.103286
+Stefan Tretau,minimal,0.137306
+Stefan Tretau,techno,0.119171
+Stefan Tretau,minimal techno,0.259067
+Stefan Z,techno,0.165829
+Stefan Z,minimal techno,0.502513
+Stefan Z,electronic,0.165829
+Stefan Z,tech house,0.165829
+Stefano Noferini,House,0.181818
+Stefano Noferini,tech house,0.145455
+Stefano Noferini,funky house,0.103636
+Sten,minimal,0.244499
+Sten,minimal techno,0.144254
+Stephan Bodzin,minimal,0.2849
+Stephan Bodzin,techno,0.173789
+Stephan Bodzin,minimal techno,0.213675
+Stephan Bodzin,electronic,0.122507
+Stephan Bodzin,tech house,0.102564
+Stephan Bodzin vs Marc Romboy,minimal,0.28169
+Stephan Bodzin vs Marc Romboy,techno,0.183099
+Stephan Bodzin vs Marc Romboy,minimal techno,0.169014
+Stephan Bodzin vs. Marc Romboy,minimal,0.1
+Stephan Bodzin vs. Marc Romboy,techno,0.1
+Stephan Bodzin vs. Marc Romboy,minimal techno,0.133333
+Stephan Bodzin vs. Marc Romboy,electro house,0.133333
+Stephan Bodzin vs. Marc Romboy,CP31,0.1
+Stephan Hinz,minimal,0.253807
+Stephan Hinz,minimal techno,0.147208
+Stephan Hinz,electronic,0.147208
+Stephan Hinz,tech house,0.22335
+Stephen Beaupré,minimal,0.163934
+Stephen Beaupré,techno,0.163934
+Sterac,techno,0.2
+Sterac,detroit techno,0.142
+Stereoclip,techno,0.142241
+Stereoclip,minimal techno,0.215517
+Stereoclip,electronic,0.215517
+Stereoclip,in que,0.142241
+Stereoclip,shad,0.142241
+Steve Barnes,techno,0.2
+Steve Barnes,minimal techno,0.2
+Steve Barnes,tech house,0.15
+Steve Barnes,Fox,0.1
+Steve Barnes,New Discoveries,0.1
+Steve Bug,minimal,0.254453
+Steve Bug,techno,0.167939
+Steve Bug,minimal techno,0.145038
+Steve Bug,electronic,0.10687
+Stewart Walker,minimal,0.231481
+Stewart Walker,techno,0.164352
+Stewart Walker,minimal techno,0.141204
+Stewart Walker,electronic,0.122685
+Stimming,minimal,0.224719
+Stimming,techno,0.121348
+Stimming,minimal techno,0.150562
+Stimming,tech house,0.182022
+Stimming & Einmusik,minimal techno,0.278552
+Stimming & Einmusik,tech house,0.278552
+Stimming & Einmusik,Rosinche,0.172702
+STL,minimal,0.147887
+STL,techno,0.176056
+STL,minimal techno,0.100352
+STL,dub techno,0.133803
+Studio 1,minimal,0.144351
+Studio 1,techno,0.188285
+Studio 1,minimal techno,0.209205
+Style of Eye,minimal,0.165289
+Style of Eye,minimal techno,0.158678
+Style of Eye,electronic,0.122314
+Style of Eye,House,0.127273
+Style of Eye,tech house,0.158678
+Styro2000,minimal,0.142857
+Styro2000,minimal techno,0.178571
+Styro2000,electronic,0.142857
+Substance,minimal,0.145349
+Substance,techno,0.122093
+Substance,dub techno,0.133721
+sudio,minimal techno,0.15083
+sudio,ambient,0.128205
+sudio,All,0.107089
+sudio,iDEOLOGY,0.107089
+Sunnery James & Ryan Marciano,techno,0.136116
+Sunnery James & Ryan Marciano,minimal techno,0.136116
+Sunnery James & Ryan Marciano,House,0.181488
+Sunnery James & Ryan Marciano,deep house,0.181488
+Sunnery James & Ryan Marciano,minimal house,0.136116
+Sunnery James & Ryan Marciano,spotify,0.136116
+Sunshine Jones,minimal,0.209644
+Sunshine Jones,minimal techno,0.104822
+Sunshine Jones,tech house,0.104822
+Sunshine Jones,deep house,0.209644
+Super Flu,minimal,0.301205
+Super Flu,techno,0.165663
+Super Flu,minimal techno,0.177711
+Super Flu,electronic,0.13253
+Super Flu,tech house,0.156627
+Supermayer,minimal,0.203252
+Supermayer,techno,0.158537
+Supermayer,electronic,0.113821
+Supermayer,Kompakt,0.113821
+Superpitcher,minimal,0.162338
+Superpitcher,techno,0.121753
+Superpitcher,minimal techno,0.103896
+Superpitcher,electronic,0.142857
+Superpitcher,Kompakt,0.118506
+Surgeon,minimal,0.134387
+Surgeon,techno,0.395257
+Surgeon,electronic,0.114625
+Sustainer,minimal techno,0.259701
+Sustainer,dub techno,0.298507
+Sustainer,basic channel,0.110448
+Sutekh,minimal,0.209644
+Sutekh,minimal techno,0.115304
+Sutekh,electronic,0.15304
+Sutekh,idm,0.15304
+Sven Laux,minimal,0.178571
+Sven Laux,electronic,0.121429
+Sven Laux,microhouse,0.1
+Sven Väth,minimal,0.140187
+Sven Väth,techno,0.311526
+Sven Väth,electronic,0.190031
+Sven Weisemann,minimal,0.108179
+Sven Weisemann,dub techno,0.113456
+Sven Weisemann,deep house,0.131926
+Swat Squad,minimal,0.180505
+Swat Squad,minimal techno,0.180505
+Swayzak,minimal,0.188867
+Swayzak,techno,0.101392
+Swayzak,electronic,0.198807
+Swayzak,House,0.115308
+Sweet N Candy,minimal,0.168699
+Sweet N Candy,minimal techno,0.203252
+Sweet N Candy,electronic,0.134146
+Sweet N Candy,tech house,0.134146
+System 7,techno,0.147773
+System 7,electronic,0.202429
+System 7,ambient,0.168016
+System 7,trance,0.117409
+T++,techno,0.190476
+T++,minimal techno,0.12381
+T++,electronic,0.104762
+T++,dub techno,0.137143
+T++,dubstep,0.104762
+Tadeo,minimal,0.235751
+Tadeo,techno,0.259067
+Tadeo,minimal techno,0.176166
+Tapesh,minimal,0.115183
+Tapesh,electronic,0.13438
+Tapesh,House,0.13438
+Tapesh,tech house,0.17452
+Tapesh,deep house,0.13438
+tekdev69,minimal,0.154083
+tekdev69,electronic,0.117103
+tekdev69,dub,0.154083
+Terje Bakke,minimal,0.172117
+Terje Bakke,minimal techno,0.172117
+Terje Bakke,tech house,0.146299
+Terje Bakke,Progressive House,0.122203
+Terrence Dixon,techno,0.218045
+Terrence Dixon,detroit techno,0.250627
+Textural Being,minimal techno,0.142857
+Textural Being,Ambient Techno,0.142857
+Textural Being,dub techno,0.357143
+Textural Being,deep house,0.178571
+The Field,minimal,0.175844
+The Field,techno,0.122558
+The Field,minimal techno,0.159858
+The Field,electronic,0.17762
+The Field,ambient,0.120782
+The Flashbulb,electronic,0.159218
+The Flashbulb,idm,0.27933
+The Flashbulb,experimental,0.139665
+The Flashbulb,breakcore,0.178771
+The Modernist,minimal,0.15949
+The Modernist,techno,0.105263
+The Modernist,minimal techno,0.110048
+The Modernist,electronic,0.127592
+The Modernist,Kompakt,0.137161
+The Mole,minimal,0.15625
+The Mole,techno,0.10625
+The Mole,tech house,0.11875
+The Noisemaker,minimal,0.199546
+The Noisemaker,techno,0.174603
+The Noisemaker,minimal techno,0.226757
+The Noisemaker,experimental,0.14966
+The Noisemaker,glitch,0.14966
+The Rice Twins,minimal,0.207469
+The Rice Twins,electronic,0.128631
+The Rice Twins,Kompakt,0.105809
+The Selph,minimal,0.102564
+The Selph,techno,0.128205
+The Suffragettes,minimal,0.254453
+The Suffragettes,minimal techno,0.127226
+The Viewers,minimal,0.306748
+The Viewers,minimal techno,0.153374
+The Viewers,tech house,0.196319
+Theodor Zox,minimal,0.27933
+Theodor Zox,techno,0.111732
+Theodor Zox,minimal techno,0.128492
+Theodor Zox,tech house,0.111732
+Theorem,minimal,0.275482
+Theorem,techno,0.187328
+These Hidden Hands,techno,0.224215
+These Hidden Hands,minimal techno,0.130045
+These Hidden Hands,electronic,0.143498
+These Hidden Hands,Industrial Techno,0.170404
+Thomas Bjerring,minimal,0.10142
+Thomas Bjerring,minimal techno,0.20284
+Thomas Bjerring,electronic,0.133874
+Thomas Bjerring,dub,0.133874
+Thomas Bjerring & David Skog,minimal,0.124528
+Thomas Bjerring & David Skog,minimal techno,0.377358
+Thomas Bjerring & David Skog,electronic,0.124528
+Thomas Bjerring & David Skog,electro,0.124528
+Thomas Bjerring & David Skog,neopop,0.249057
+Thomas Brinkmann,minimal,0.225734
+Thomas Brinkmann,techno,0.137698
+Thomas Brinkmann,minimal techno,0.115124
+Thomas Brinkmann,electronic,0.13544
+Thomas Fehlmann,minimal,0.170648
+Thomas Fehlmann,techno,0.110922
+Thomas Fehlmann,electronic,0.129693
+Thomas Fehlmann,ambient,0.127986
+Thomas P. Heckmann,techno,0.398406
+Thomas P. Heckmann,electronic,0.115538
+Thomas Schumacher,minimal,0.182584
+Thomas Schumacher,techno,0.280899
+Thomas Schumacher,minimal techno,0.103933
+Thomas Schumacher,electronic,0.11236
+Thomas Schumacher,electro,0.129213
+Thomas/Mayer,minimal techno,0.165171
+Thomas/Mayer,electronic,0.152603
+Thomas/Mayer,Kompakt,0.179533
+Tiefschwarz,minimal,0.131274
+Tiefschwarz,electronic,0.19305
+Tiefschwarz,electro,0.150579
+Tiefschwarz,House,0.150579
+Tigerskin,minimal,0.235849
+Tigerskin,techno,0.122642
+Tigerskin,tech house,0.150943
+Tim Green,minimal,0.210375
+Tim Green,minimal techno,0.152738
+Tim Green,electronic,0.132565
+Tim Green,tech house,0.288184
+Tim Xavier,minimal,0.282486
+Tim Xavier,minimal techno,0.141243
+Tim Xavier,tech house,0.186441
+Tin Man,minimal techno,0.18018
+Tin Man,acid house,0.135135
+Tin Man,deep house,0.156757
+Tobi Neumann,minimal,0.234667
+Tobi Neumann,techno,0.205333
+Tobi Neumann,minimal techno,0.266667
+Tobias Schmidt,techno,0.302115
+Tobias Schmidt,electronic,0.102719
+Tobias Schmidt,tresor,0.154079
+Tobias.,minimal,0.108197
+Tobias.,techno,0.327869
+Tobias.,minimal techno,0.163934
+Tobias.,electronic,0.134426
+Toby Dreher,minimal,0.299401
+Toby Dreher,techno,0.158683
+Toby Dreher,minimal techno,0.182635
+Toby Dreher,electronic,0.113772
+Toby Dreher,tech house,0.137725
+Tocadisco,electronic,0.146699
+Tocadisco,electro,0.151589
+Tocadisco,dance,0.107579
+Tocadisco,House,0.244499
+Tocadisco,electro house,0.100244
+Todd Bodine,minimal,0.135255
+Todd Bodine,techno,0.101996
+Todd Bodine,minimal techno,0.221729
+Todd Bodine,tresor,0.101996
+Tolga Fidan,minimal,0.3125
+Tolga Fidan,techno,0.14375
+Tolga Fidan,minimal techno,0.221875
+Tom Dazing,minimal,0.220751
+Tom Dazing,techno,0.156733
+Tom Dazing,minimal techno,0.220751
+Tom Demac,minimal,0.242131
+Tom Demac,techno,0.184019
+Tom Demac,tech-house,0.1477
+Tom Hades,minimal,0.193182
+Tom Hades,techno,0.378788
+Tom Hades,minimal techno,0.140152
+Tom Laws,techno,0.336032
+Tom Laws,minimal techno,0.404858
+Tom Pooks,minimal,0.315457
+Tom Pooks,techno,0.11041
+Tom Pooks,electronic,0.132492
+Tom Pooks,Kompakt,0.132492
+Tomas Barfod,minimal,0.142626
+Tomas Barfod,minimal techno,0.124797
+Tomas Barfod,House,0.162075
+Tomas Barfod,All,0.106969
+Tomas Jirku,minimal,0.21692
+Tomas Jirku,minimal techno,0.143167
+Tomas Jirku,electronic,0.104121
+Tommy Four Seven,techno,0.308642
+Tommy Four Seven,minimal techno,0.141975
+Tommy Four Seven,schranz,0.135802
+Tone Def,minimal techno,0.114286
+Tony Rohr,minimal,0.128049
+Tony Rohr,techno,0.304878
+Tony Rohr,minimal techno,0.164634
+Tracing Arcs,trip-hop,0.142857
+Tractile,minimal,0.321543
+Tractile,techno,0.11254
+Tractile,minimal techno,0.205788
+Tractile,electronic,0.128617
+Trentemøller,minimal,0.241546
+Trentemøller,techno,0.123188
+Trentemøller,electronic,0.229469
+Tripmastaz,minimal,0.22831
+Tripmastaz,minimal techno,0.130137
+Tripmastaz,tech house,0.194064
+Troy Pierce,minimal,0.327869
+Troy Pierce,techno,0.15082
+Troy Pierce,minimal techno,0.177049
+Troy Pierce,electronic,0.121311
+Truncate,techno,0.452489
+Truncate,minimal techno,0.307692
+Truncate,electronic,0.122172
+Truss,minimal,0.125475
+Truss,techno,0.380228
+Truss,minimal techno,0.250951
+Tufan Demir,minimal techno,0.227273
+Tufan Demir,Need to Rate,0.136364
+Turmspringer,minimal,0.22779
+Turmspringer,techno,0.193622
+Turmspringer,minimal techno,0.129841
+Turmspringer,electronic,0.193622
+Twerk,minimal,0.161426
+Twerk,idm,0.169811
+Twerk,glitch,0.209644
+UMEK,minimal,0.151724
+UMEK,techno,0.344828
+UMEK,electronic,0.134483
+Uto Karem,minimal,0.2
+Uto Karem,techno,0.2
+Uto Karem,minimal techno,0.136
+Uusitalo,minimal,0.167224
+Uusitalo,minimal techno,0.122074
+Uusitalo,electronic,0.110368
+Vainqueur,techno,0.137771
+Vainqueur,dub techno,0.154799
+Vandross,techno,0.5
+Vandross,minimal techno,0.35
+VCMG,techno,0.291545
+VCMG,minimal techno,0.119534
+VCMG,electronic,0.204082
+VCMG,electronica,0.102041
+Vector Lovers,electronic,0.199387
+Vector Lovers,idm,0.306748
+Vector Lovers,ambient,0.165644
+Vernis,minimal,0.176471
+Vernis,techno,0.235294
+Vernis,minimal techno,0.294118
+Vernis,All,0.117647
+Victor Ruiz,techno,0.277778
+Victor Ruiz,minimal techno,0.277778
+Victor Ruiz,brazilian,0.111111
+Victor Ruiz,electro techno,0.222222
+Vincent Casanova,minimal techno,0.14245
+Vladislav Delay,minimal,0.166058
+Vladislav Delay,electronic,0.120438
+Vladislav Delay,idm,0.10219
+Vladislav Delay,ambient,0.182482
+Vladislav Delay,glitch,0.136861
+Voices from the Lake,techno,0.155769
+Voices from the Lake,minimal techno,0.165385
+Voices from the Lake,ambient,0.142308
+Voices from the Lake,Ambient Techno,0.192308
+Voodeux,minimal,0.296736
+Voodeux,techno,0.181009
+Wacker & Zittrich,minimal,0.294118
+Wacker & Zittrich,techno,0.235294
+Wacker & Zittrich,minimal techno,0.294118
+Wareika,minimal,0.181818
+Wareika,minimal techno,0.101818
+Wareika,tech house,0.123636
+Weekend Heroes,minimal techno,0.10495
+Weekend Heroes,Progressive House,0.19802
+White Zone,minimal,0.109354
+White Zone,electronic,0.131752
+Wighnomy Bros.,minimal techno,0.173913
+Wighnomy Bros.,trance,0.217391
+Wighnomy Brothers,minimal,0.212766
+Wighnomy Brothers,techno,0.110638
+Wighnomy Brothers,minimal techno,0.138298
+Wighnomy Brothers,electronic,0.121277
+Wighnomy Brothers & Robag Wruhme,minimal,0.240385
+Wighnomy Brothers & Robag Wruhme,techno,0.146635
+Williams,minimal,0.169421
+Williams,minimal techno,0.107438
+Williams,electronic,0.206612
+Wolfgang Voigt,minimal,0.186567
+Wolfgang Voigt,techno,0.130597
+Wolfgang Voigt,ambient,0.154851
+Worakls,minimal,0.234463
+Worakls,techno,0.282486
+Worakls,minimal techno,0.115819
+Xenia Beliayeva,minimal,0.130515
+Xenia Beliayeva,techno,0.183824
+Xenia Beliayeva,minimal techno,0.110294
+Xenia Beliayeva,electronic,0.150735
+Xenia Beliayeva,electro,0.148897
+Xhin,minimal,0.127424
+Xhin,techno,0.277008
+Xhin,minimal techno,0.149584
+Xhin,electronic,0.144044
+Xhin,idm,0.180055
+Yagya,minimal,0.131579
+Yagya,electronic,0.105263
+Yagya,ambient,0.239234
+Yagya,Ambient Techno,0.110048
+Yakine,minimal,0.128364
+Yakine,minimal techno,0.15528
+Yakine,tech house,0.128364
+Yakine,deep house,0.207039
+Yakine,All,0.10352
+Zander VT,minimal,0.261097
+Zander VT,minimal techno,0.143603
+Zander VT,electronic,0.114883
+Zentex,minimal,0.277778
+Zentex,techno,0.125
+Zhao,minimal,0.217391
+Zhao,techno,0.136957
+Zhao,minimal techno,0.136957
+Ziggy Kinder,minimal,0.21066
+Ziggy Kinder,techno,0.104061
+Ziggy Kinder,minimal techno,0.253807
+Ziggy Kinder,electronic,0.104061
+Ziggy Kinder,electronica,0.104061
+Zoltan Solomon,minimal techno,0.146018
+Zoltan Solomon,dub,0.19469
+Zoltan Solomon,dub techno,0.221239
+Zoltan Solomon,abstract,0.121681
+Zoltan Solomon,hungarian,0.146018
+Zoo Brazil,minimal,0.13943
+Zoo Brazil,techno,0.13943
+Zoo Brazil,electronic,0.149925
+Zoo Brazil,House,0.104948
+Zoo Brazil,tech house,0.101949
+Zzzzra,minimal,0.167598
+Zzzzra,electronic,0.103352
+Zzzzra,ambient,0.145251
+Zzzzra,dub techno,0.27933
+[a]pendics.shuffle,minimal,0.249377
+[a]pendics.shuffle,techno,0.114713
+[a]pendics.shuffle,minimal techno,0.187032
+[a]pendics.shuffle,electronic,0.114713
+[a]pendics.shuffle,tech house,0.124688
+[In]anace,minimal,0.121951
+[In]anace,minimal techno,0.121951
+Ø,minimal,0.206612
+Ø,techno,0.103306
+Ø,electronic,0.109504
+Ø,ambient,0.159091
+Ø,experimental,0.134298
+Ø [Phase],techno,0.423729
+Ø [Phase],minimal techno,0.322034
+Ø [Phase],detroit techno,0.194915

@@ -155,7 +155,6 @@ All,deep techno,0.00862791188685
 All,deep-clash,0.000369750560123
 All,detroit,0.00633617877998
 All,downtempo,0.00776215798804
-All,drjazzmrfunkmusic,0.00151218747374
 All,drone,0.00133325311447
 All,dub techno,0.0316866483479
 All,e-chill,0.000470768643213
@@ -201,7 +200,6 @@ All,minimal techno artists,0.0187552854894
 All,minimal-techno,0.000608426379619
 All,minimalist,0.000662918665014
 All,minipark,0.000475210821421
-All,minus,0.0028198459823
 All,moonroof,0.00147447747615
 All,more fucking house,0.00161040791596
 All,mutant techno,0.00198252476964
@@ -365,6 +363,7 @@ BPitch Control,germany,0.00296064474833
 BPitch Control,indie,0.00161004322875
 BPitch Control,minimal,0.0246106429673
 BPitch Control,minimal techno,0.0142888429994
+BPitch Control,techno,0.0172049418923
 BPitch Control,trance,0.00113574651579
 Berghain,All,0.00185786232839
 Berghain,Berlin,0.00246050836532
@@ -438,6 +437,7 @@ Broken Beat,tech house,0.00125684681958
 CC,House,0.00283150786173
 CC,ambient,0.00459336496043
 CC,creative commons,0.00146386807013
+CC,deep,0.00103005207124
 CC,deep house,0.00178811756826
 CC,dub,0.00219137549974
 CC,electronica,0.00296644387949
@@ -502,7 +502,6 @@ Disco,instrumental,0.00054300989416
 Disco,lounge,0.000221346061456
 Disco,minimal house,0.00119543576826
 Disco,minimal tech house,0.000660053237028
-Disco,minimal techno,0.0140232318616
 Disco,sexy,0.000473118263807
 Disco,synthpop,0.000344048929762
 Disco,techno,0.0165645450511
@@ -802,7 +801,6 @@ House,dj,0.0174495496294
 House,dnb,0.00301859182191
 House,downbeat,0.00200864459757
 House,downtempo,0.0263882727469
-House,drjazzmrfunkmusic,0.00607476758199
 House,dub,0.023277035786
 House,dub techno,0.0250191399059
 House,dubbing on a sun-day,0.00124721309702
@@ -1558,7 +1556,6 @@ alternative,lounge,0.000283385475756
 alternative,minimal,0.038247086043
 alternative,minimal house,0.00057832091635
 alternative,minimal techno artists,0.00139549084869
-alternative,minimalism,0.00024191855102
 alternative,pop,0.00151968763334
 alternative,post-rock,0.00137501519191
 alternative,psychedelic,0.00122976147346
@@ -2436,6 +2433,7 @@ dance,melodic techno,0.000667607490289
 dance,microhouse,0.00710524186704
 dance,minimal,0.193393558538
 dance,minimal tech,0.000795246643829
+dance,minimal techno,0.122205020843
 dance,minus,0.00220676238625
 dance,mnml,0.00214061885087
 dance,moonroof,0.00108410566443
@@ -2517,7 +2515,6 @@ deep,Audiomatique,0.000870059639202
 deep,Avant-Garde,0.000374517274726
 deep,Berghain,0.00175105221171
 deep,Berlin,0.00475217176826
-deep,CC,0.00103005207124
 deep,Cologne,0.000557292640739
 deep,Disco,0.000442901183158
 deep,Dreamy,0.000151705470759
@@ -2607,7 +2604,6 @@ deep,to jest kurwa techno,0.00114629094355
 deep,todaysart,0.000313113422372
 deep,trance,0.0016790158267
 deep,vier viertel,0.0012366240496
-deep,web music,0.00104132997992
 deep digital,abstract,0.000706192839241
 deep digital,ambient,0.00738073224581
 deep digital,deep techno,0.00117546300946
@@ -2670,7 +2666,6 @@ deep house,dubtechno,0.00132580066905
 deep house,electro,0.0407376132832
 deep house,electro house,0.00768943732315
 deep house,electro-house,0.000964891234853
-deep house,electrohouse,0.00184342975887
 deep house,electronic,0.168366181293
 deep house,elektronic beats,0.00159112821932
 deep house,european,0.000759986431573
@@ -2781,7 +2776,6 @@ deep techno,deep,0.00638199097965
 deep techno,deep house,0.0100997479851
 deep techno,deep minimal,0.00191093499017
 deep techno,detroit techno,0.00603150272511
-deep techno,drjazzmrfunkmusic,0.000334543843398
 deep techno,drone,0.00185257921569
 deep techno,dub techno,0.0305843034177
 deep techno,dubstep,0.00141382674812
@@ -2851,6 +2845,7 @@ detroit,seen live,0.00191223002474
 detroit,techno,0.0477937015758
 detroit,to jest kurwa techno,0.00329789352117
 detroit,tresor,0.00304358992884
+detroit house,electronic,0.00420563593099
 detroit techno,Acid,0.00505252425764
 detroit techno,All,0.00920065039336
 detroit techno,Ambient Techno,0.00494142033014
@@ -2911,7 +2906,6 @@ deutsch,lounge,0.000255089691587
 deutsch,minimal,0.0602459600695
 deutsch,minimal tech,0.000262831115107
 deutsch,minimal tech house,0.000733252558205
-deutsch,minimalism,0.000322195358777
 deutsch,mnml,0.000350901054952
 deutsch,ramon,0.000328784922005
 deutsch,schmitz minimal,0.000751068452633
@@ -2944,6 +2938,7 @@ dj,deep techno,0.000575745004816
 dj,deutsch,0.000465282196377
 dj,dub,0.00135098961168
 dj,dub techno,0.00192832351147
+dj,electro,0.015122263259
 dj,electro house,0.00249865767798
 dj,electronic,0.0499854447802
 dj,electronic-lounge,0.00232784634231
@@ -3065,8 +3060,11 @@ downtempo,transitions,0.000470599384631
 downtempo,trip-hop,0.00328914885291
 downtempo,under 2000 listeners,0.00582501124789
 downtempo,underground,0.000542203153109
+drjazzmrfunkmusic,All,0.00151218747374
 drjazzmrfunkmusic,Ambient Techno,0.000383314089328
+drjazzmrfunkmusic,House,0.00607476758199
 drjazzmrfunkmusic,Nu-Bluz Funky Grooves in the E-Lounge,0.000288142127717
+drjazzmrfunkmusic,deep techno,0.000334543843398
 drjazzmrfunkmusic,dj,0.000449426038538
 drjazzmrfunkmusic,downtempo,0.0010117433827
 drjazzmrfunkmusic,electronic,0.0197375632871
@@ -3077,6 +3075,8 @@ drjazzmrfunkmusic,idm,0.00303126643326
 drjazzmrfunkmusic,minimal house,0.00144609231786
 drjazzmrfunkmusic,minimal tech house,0.000604458125441
 drjazzmrfunkmusic,minimal techno,0.022324148107
+drjazzmrfunkmusic,ramon,0.000314075754521
+drjazzmrfunkmusic,spotify,0.00142376525938
 drone,dub,0.00296380960125
 drone,dub techno,0.00863250240443
 drone,electronic,0.0111481251458
@@ -3193,7 +3193,6 @@ dub techno,idm,0.0320472292027
 dub techno,industrial,0.00596670889342
 dub techno,minimal dub,0.00875998787915
 dub techno,minimal electronica,0.00340160318486
-dub techno,minimal tech,0.000933622031183
 dub techno,minimal techno,0.134958083824
 dub techno,minimalist,0.00135070713879
 dub techno,moody,0.00385941193251
@@ -3344,7 +3343,6 @@ electro,deep techno,0.0108901487538
 electro,deep-clash,0.00428038018085
 electro,detroit,0.00588861583734
 electro,detroit techno,0.00924129705425
-electro,dj,0.015122263259
 electro,downtempo,0.0165828439244
 electro,drjazzmrfunkmusic,0.00487884340643
 electro,drone,0.000380558005341
@@ -3448,7 +3446,6 @@ electro,techhouse,0.00570695384823
 electro,techno house,0.00553677787664
 electro,to listen,0.000976811238305
 electro,top minimal techno artists,0.0016297564154
-electro,trance,0.0182315045202
 electro,trapez,0.00250472117207
 electro,trip-hop,0.00597690574553
 electro,trippy,0.000267907605831
@@ -3547,6 +3544,7 @@ electroacoustic,All,0.000505285804914
 electroacoustic,minimal,0.00941676351352
 electroacoustic,techno,0.0133852282083
 electrohouse,dance,0.00122886782706
+electrohouse,deep house,0.00184342975887
 electrohouse,electro,0.00501893857484
 electrohouse,electronica,0.00134023664266
 electrohouse,minimal techno,0.00520603123116
@@ -3640,7 +3638,6 @@ electronic,deep,0.097518583162
 electronic,deep digital,0.00883925896185
 electronic,deep minimal,0.0177572012786
 electronic,deep techno,0.0514871891472
-electronic,detroit house,0.00420563593099
 electronic,deutsch,0.042922338672
 electronic,discover,0.00590994692301
 electronic,dnb,0.00958753881478
@@ -3696,7 +3693,6 @@ electronic,indie,0.0442635959661
 electronic,indie pop,0.0107643209645
 electronic,indietronica,0.0212008984094
 electronic,industrial,0.0268036364098
-electronic,italian,0.00683322913927
 electronic,japanese,0.00819445472168
 electronic,jazz,0.0176237422495
 electronic,kl4bb1n d0wn,0.0144914672331
@@ -3975,7 +3971,6 @@ electronica,lounge,0.00696648798773
 electronica,love at first listen,0.00222281591385
 electronica,maschinenmusik,0.00709683061929
 electronica,melt 2009,0.00169285623871
-electronica,melt 2010,0.000731751706714
 electronica,memoires,0.00154118068711
 electronica,micro house,0.00112284774508
 electronica,minimal deep,0.00128160907419
@@ -4851,7 +4846,6 @@ good,ambient,0.00176099740295
 good,deep house,0.000512038600516
 good,electronic,0.011286761081
 good,idm,0.00110907844348
-good,minimal techno,0.0102916420697
 good,tech-house,0.000552608407156
 good shit,All,0.00029237583721
 good shit,electro,0.00253189263455
@@ -4984,7 +4978,6 @@ hiccup,House,0.00194616776647
 hiccup,electro,0.00224283829581
 hiccup,electronica,0.00163041715477
 hiccup,minimal,0.012285406406
-hiccup,minimal techno,0.00671559266483
 hiccup,techno,0.00806562094481
 hip hop,All,0.000850741434445
 hip hop,dance,0.000745330489617
@@ -5340,6 +5333,7 @@ instrumental,underground,0.000309969575652
 instrumental,unusual harmonies,0.000242941997716
 instrumental,vier viertel,0.000256023902255
 italian,electro,0.00186731405855
+italian,electronic,0.00683322913927
 italian,electronica,0.00132321292399
 italian,minimal,0.0111111802858
 italian,minimal techno,0.00900477846394
@@ -5547,6 +5541,7 @@ melodic techno,minimal,0.0126546719889
 melodic techno,tech-house,0.00142402571903
 melt 2009,german,0.000998218981596
 melt 2009,tech house,0.000624275422171
+melt 2010,electronica,0.000731751706714
 melt 2010,minimal,0.00980759020276
 melt 2010,seen live,0.000101966068831
 memoires,minimal,0.00811881415549
@@ -5818,7 +5813,6 @@ minimal,noise,0.0161419305354
 minimal,pablo NY,0.0713444831123
 minimal,party,0.0281154786027
 minimal,percussive,0.0139147832363
-minimal,perlon label,0.00710124466653
 minimal,polish,0.0101956724107
 minimal,pr0g-electronic,0.0357702918572
 minimal,pra,0.00705905467184
@@ -5846,7 +5840,6 @@ minimal,techno,0.978525675368
 minimal,techno dub,0.0048996866277
 minimal,techno house,0.028907047459
 minimal,techno-minimal,0.0115832453161
-minimal,thinner,0.00938244962494
 minimal,thisismysummer,0.00805215454436
 minimal,to jest kurwa techno,0.0223470896243
 minimal,trance,0.0664619267219
@@ -6001,6 +5994,7 @@ minimal tech,club,0.000351300363485
 minimal tech,deep house,0.00247013410322
 minimal tech,dj,0.000254626379273
 minimal tech,dub,0.000671932471753
+minimal tech,dub techno,0.000933622031183
 minimal tech,electro,0.0060384642314
 minimal tech,electro house,0.000306660410325
 minimal tech,electronic,0.0242760436485
@@ -6090,6 +6084,7 @@ minimal techno,Border Community,0.00680689848926
 minimal techno,CC,0.00991116385404
 minimal techno,Canadian,0.00759137774924
 minimal techno,Cologne,0.0112107453528
+minimal techno,Disco,0.0140232318616
 minimal techno,Drum and bass,0.00756049638456
 minimal techno,Dumb Unit,0.00738863371238
 minimal techno,ELECTROGEFUCKEL,0.00699006817186
@@ -6156,7 +6151,6 @@ minimal techno,chef-martin,0.0258943596793
 minimal techno,click,0.0126549303661
 minimal techno,club,0.0759343696863
 minimal techno,connaisseur,0.00646085543614
-minimal techno,dance,0.122205020843
 minimal techno,dark ambient,0.00832504773046
 minimal techno,deep digital,0.00709130789483
 minimal techno,deep techno,0.0653367223659
@@ -6208,6 +6202,7 @@ minimal techno,german techno,0.00784101900951
 minimal techno,germanja,0.0187138679297
 minimal techno,glitch-hop,0.00253329656999
 minimal techno,goa,0.0039543812084
+minimal techno,good,0.0102916420697
 minimal techno,greatest electronic artists,0.0132703602252
 minimal techno,groove,0.0296883230818
 minimal techno,groovy,0.0146170170274
@@ -6215,6 +6210,7 @@ minimal techno,hairy-eyed,0.00786740479279
 minimal techno,hameryka,0.00581877013173
 minimal techno,heart in 4x4,0.00494008018084
 minimal techno,heiner blum,0.0089852942666
+minimal techno,hiccup,0.00671559266483
 minimal techno,hip hop,0.00416018600582
 minimal techno,hypnotic,0.0104676160092
 minimal techno,icke micke,0.00863663042423
@@ -6423,6 +6419,7 @@ minimalism,All,0.0018014545324
 minimalism,Ambient Techno,0.00428429560152
 minimalism,Berlin,0.0013071679936
 minimalism,abstract,0.00111347225084
+minimalism,alternative,0.00024191855102
 minimalism,ambient,0.0149677067211
 minimalism,beats,0.000183358274589
 minimalism,beautiful,0.000155932512222
@@ -6432,6 +6429,7 @@ minimalism,dance,0.000822690252331
 minimalism,dark,0.000512680653241
 minimalism,detroit,0.00103348460297
 minimalism,detroit techno,0.00140046637333
+minimalism,deutsch,0.000322195358777
 minimalism,dub techno,0.0109260860906
 minimalism,electronica,0.00853540540093
 minimalism,elektro,0.00013356972314
@@ -6447,6 +6445,8 @@ minimalism,minimal tech,0.000397439003583
 minimalism,mnml,0.000285111489536
 minimalism,moonroof,0.00047388282882
 minimalism,pablo NY,0.000418005442618
+minimalism,psychedelic,0.000344875629974
+minimalism,soundscape,0.000258606253038
 minimalism,t e c h n o,0.000220883559973
 minimalist,Ambient Techno,0.000643969028905
 minimalist,chillout,0.000424138648879
@@ -6470,6 +6470,7 @@ minipark,microhouse,0.00130874350717
 minipark,minimal,0.0140214762176
 minipark,minimal techno,0.00772209803884
 minipark,techno,0.00567489188799
+minus,All,0.0028198459823
 minus,ambient,0.00167710738151
 minus,dj,0.00134116020781
 minus,electronica,0.00404113239839
@@ -6728,6 +6729,7 @@ netlabels,CC,0.000755729444567
 netlabels,House,0.00153365316327
 netlabels,minimal,0.0102940478496
 netlabels,netlabel,0.0038234553084
+netlabels,techno,0.00468410294202
 netlabels,weblabel,0.00180814132785
 new,House,0.001482953501
 new,electronica,0.00163588610215
@@ -6871,6 +6873,7 @@ perfect,minimal,0.00948328142074
 perfect,minimal techno,0.00523732463076
 perfect,tech house,0.00097339417174
 perfect,techno,0.00519760591442
+perlon label,minimal,0.00710124466653
 perlon label,minimal techno artists,0.00126325260345
 plus 8,electronica,0.00115675598975
 plus 8,minimal,0.00995236957466
@@ -6988,7 +6991,6 @@ psychedelic,instrumental,0.000967913818715
 psychedelic,minimal,0.0278865461
 psychedelic,minimal techno,0.0197391528053
 psychedelic,minimal techno artists,0.000745355758552
-psychedelic,minimalism,0.000344875629974
 psychedelic,tech house,0.00547771867107
 psychedelic,tech-house,0.00110534425961
 psychedelic,techno,0.0218234241029
@@ -7023,7 +7025,6 @@ ramon,club,0.000523657290674
 ramon,deep house,0.00161516524065
 ramon,deep techno,0.000565591175025
 ramon,downtempo,0.000220174174399
-ramon,drjazzmrfunkmusic,0.000314075754521
 ramon,dub,0.000581144667907
 ramon,electr0-tech,5.51022659462e-05
 ramon,electro,0.00974834521363
@@ -7451,7 +7452,6 @@ soundscape,electronic,0.00986597580119
 soundscape,experimental,0.0030002337291
 soundscape,glitch,0.00404810516728
 soundscape,minimal,0.0124180481908
-soundscape,minimalism,0.000258606253038
 spain,minimal,0.00844508917147
 spain,minimal techno,0.00615572940996
 spain,techno,0.00621612670582
@@ -7480,7 +7480,6 @@ spotify,chill,0.00200010685428
 spotify,deep house,0.0325221936392
 spotify,detroit,0.00133031921798
 spotify,deutsch,0.00123963202778
-spotify,drjazzmrfunkmusic,0.00142376525938
 spotify,dub,0.00467860587976
 spotify,dubstep,0.00108599128595
 spotify,electro,0.017129981018
@@ -7525,7 +7524,6 @@ spotify,tech-funk,0.0013306046745
 spotify,tech-minimal techn0,0.00109113721843
 spotify,to jest kurwa techno,0.000413883346382
 spotify,trance,0.00135090057352
-spotify,web music,0.00137876564848
 swedish,All,0.00237424077329
 swedish,ambient,0.00496089715497
 swedish,deep house,0.00300901705099
@@ -8045,7 +8043,6 @@ techno,90s,0.0126950092278
 techno,Acid,0.0591717192172
 techno,Ambient dub,0.00923275930064
 techno,Awesome,0.00435395878256
-techno,BPitch Control,0.0172049418923
 techno,Boomkat,0.0127922843736
 techno,Border Community,0.00832583055094
 techno,Broken Beat,0.00696359237593
@@ -8213,7 +8210,6 @@ techno,music by marina,0.00440631367797
 techno,mutant techno,0.0242342277326
 techno,mutek,0.018313730067
 techno,neo detroit,0.00450886302802
-techno,netlabels,0.00468410294202
 techno,nice,0.0119904362856
 techno,nu-bluz,0.0143586959337
 techno,pablo NY,0.0465959835478
@@ -8309,8 +8305,10 @@ techouse,minimal techno,0.00467428216792
 techouse,techno,0.00710560572528
 thinner,dub techno,0.00256510586314
 thinner,electronic,0.00519489362608
+thinner,minimal,0.00938244962494
 thinner,netaudio,0.00262872018629
 thinner,netlabel,0.00448402370811
+thinner,weblabel,0.00156086690815
 thisismysummer,electronic,0.00452052095222
 thisismysummer,techno,0.00297499012683
 to jest kurwa techno,Acid,0.00101366452666
@@ -8372,6 +8370,7 @@ trance,detroit techno,0.00344970753664
 trance,dj,0.00211228718811
 trance,downtempo,0.00199305061256
 trance,dub,0.00185604922046
+trance,electro,0.0182315045202
 trance,electronic,0.053886731849
 trance,electronic-lounge,0.00102500156712
 trance,electronica,0.0136904570547
@@ -8616,6 +8615,7 @@ want to see live,experimental,0.00126460526068
 want to see live,idm,0.00217767094432
 want to see live,minimal,0.00496298472393
 web music,House,0.0035422769385
+web music,deep,0.00104132997992
 web music,downtempo,0.00104367813096
 web music,dub,0.00276848830624
 web music,dub techno,0.00319173576265
@@ -8626,6 +8626,7 @@ web music,minimal techno artists,0.00185903836854
 web music,netaudio,0.00451231204763
 web music,pablo NY,0.00093002179122
 web music,seen live,0.000386752674473
+web music,spotify,0.00137876564848
 web music,tech house,0.00231251726148
 weblabel,House,0.00436984517326
 weblabel,ambient,0.0044330237297
@@ -8640,7 +8641,6 @@ weblabel,netaudio artists,0.00315117060047
 weblabel,spotify,0.00130622655758
 weblabel,tech house,0.00351700194958
 weblabel,tech-house,0.00221762397129
-weblabel,thinner,0.00156086690815
 weblabel,web music,0.00301494266327
 wemradio,electronica,0.00128015430573
 wemradio,minimal techno,0.00522180405098

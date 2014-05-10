@@ -35,7 +35,12 @@ class LastFM(DbTask):
     def set_tag_pct(self, artist_id, total_tag_count):
         super(LastFM, self).set_tag_pct(artist_id,total_tag_count)
 
-    default = False
+    def get_relevant_tags_by_artist(self):
+        return super(LastFM, self).get_relevant_tags_by_artist()
+
+    def get_related_tags(self):
+        return super(LastFM, self).get_related_tags()
+
 
     def api_request(self, **kwargs):
       json_response = {}
@@ -94,9 +99,7 @@ class LastFM(DbTask):
             except StatementError:
                 pass
 
-        # try:
         self.set_tag_pct(artist_id, total_tag_count)
-        # except :
 
 
     def get_artist_by_genre(self, genre, **kwargs):
@@ -114,11 +117,68 @@ class LastFM(DbTask):
             print artist_name + '\n' +'=' * 50
             self.get_tags_by_artist(artist_name)
 
-  
+    def output_relevant_tags_by_artist(self):
+        f = open('tags_for_artists.txt', 'w+')
+        f.write('artist_name, tag_name, tag_count_pct\n')
+
+        db_results = self.get_relevant_tags_by_artist()
+
+        for r in db_results:
+            f.write(r.artist_name + ',' + r.tag_name + ',' + str(r.tag_count_pct) + '\n')
+
+        f.close()
+
+
+    def output_related_tags(self):
+        # get related tags from the database (see query in db method)
+        db_results = self.get_related_tags()
+
+        # Create a tuple-dict for DISTINCT results
+        # this is more work, but the resulting data set is nicer
+
+        distinct_results = {}
+        for r in db_results:
+            tpl = ( r.t1 , r.t2 ) 
+            inv_tpl = ( r.t2 , r.t1 ) 
+
+            try:
+                # Only add the tag combo if id doesnt exist already
+                distinct_results[inv_tpl]
+            except KeyError:
+                distinct_results[tpl] = r.score
+
+        # Find the Max Score (to normalize btwn 0 and 1)
+        # JD:  There has gotta be a better way to do this :-/ 
+        max_key = max(distinct_results,key=distinct_results.get)
+        max_value = distinct_results[max_key]
+
+        # open the output file
+        f = open('related_tags.txt', 'w+')
+
+        #write the header
+        f.write('tag_1, tag_2, score')
+
+        # write each line sorted by 
+        for tag_combo,score in sorted(distinct_results.items()):
+            print tag_combo, score / max_value
+
+            # ensure the score is between 0 and 1
+            # FIX THISSSSSS!!! MAKE IT NORMAL  -- RESULTS WILL BE WAY NICER
+            score_normal = ( score / max_value ) 
+            # write the output to a file
+            f.write(tag_combo[0] + ','  + tag_combo[1] + ',' +  str(score_normal) + '\n')
+
+        f.close()
+
+
 
 def main():
-    last_request = LastFM()
-    last_request.get_artist_by_genre( "minimal techno" )
+    last_task = LastFM()
+    # last_task.get_artist_by_genre( "minimal techno" )
+    last_task.output_relevant_tags_by_artist()
+    # last_task.output_related_tags()
+    
+    
     # last_request.get_tags_by_artist("raresh")
 
 

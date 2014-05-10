@@ -106,7 +106,7 @@ class DbTask(object):
         stmt.execute()
 
 
-    def output_relevant_tags_by_artist(self):
+    def get_relevant_tags_by_artist(self):
         raw_sql = '''
         SELECT  
             a.artist_name, t.tag_name, att.tag_count_pct  
@@ -121,14 +121,7 @@ class DbTask(object):
 
         db_results =  self.engine.execute(raw_sql)
 
-        f = open('tags_for_artists.txt', 'w+')
-        f.write('artist_name, tag_name, tag_count_pct\n')
-
-        for r in db_results:
-            f.write(r.artist_name + ',' + r.tag_name + ',' + str(r.tag_count_pct) + '\n')
-
-        f.close()
-
+        return db_results
 
     def get_related_tags(self):
         raw_sql = '''
@@ -157,46 +150,7 @@ class DbTask(object):
         # get the results of above query
         db_results =  self.engine.execute(raw_sql)
 
-        # Create a tuple-dict for DISTINCT results
-        distinct_results = {}
-        for r in db_results:
-            tpl = ( r.t1 , r.t2 ) 
-            inv_tpl = ( r.t2 , r.t1 ) 
-
-            try:
-                distinct_results[inv_tpl]
-            except KeyError:
-                distinct_results[tpl] = r.score
-
-        # Find the Max Score (to normalize btwn 0 and 1)
-        # JD:  There has gotta be a better way to do this :-/ 
-        max_key = max(distinct_results,key=distinct_results.get)
-        max_value = distinct_results[max_key]
-
-        f = open('related_tags.txt', 'w+')
-
-        #write the header
-        f.write('tag_1, tag_2, score')
-
-        for tag_combo,score in sorted(distinct_results.items()):
-            print tag_combo, score / max_value
-
-            #ensure the score is between 0 and 1
-            score_normal = ( score / max_value ) 
-            # write the output to a file
-            f.write(tag_combo[0] + ','  + tag_combo[1] + ',' +  str(score_normal) + '\n')
-
-        f.close()
-
-        # output each line to a text file
-
-        #
-        # f.write('artist_name, tag_name, tag_count_pct\n')
-
-        # for r in db_results:
-        #     f.write(r.t1 + ',' + r.t2 + ',' + str(r.score) + '\n')
-
-        # f.close()
+        return db_results
 
 
 
