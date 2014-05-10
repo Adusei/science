@@ -26,6 +26,7 @@ class DbTask(object):
 
     def add_artist (self, artist_name):
         artist_table = al.Table('artists', self.metadata, autoload=True)
+        artist_name = artist_name.decode('utf8')
         try:
             artist_ins = artist_table.insert()
             self.engine.execute(artist_ins,artist_name = artist_name)
@@ -39,6 +40,7 @@ class DbTask(object):
 
     def add_tag (self, tag_name):
         tags_table = al.Table('tags', self.metadata, autoload=True)
+        tag_name = tag_name.decode('utf8')
         try:
             tag_ins = tags_table.insert()
             self.engine.execute(tag_ins,tag_name = tag_name)
@@ -66,6 +68,7 @@ class DbTask(object):
 
     def get_tag_by_name (self, tag_name):
         tags_table = al.Table('tags', self.metadata, autoload=True)
+        tag_name = tag_name.decode('utf8') 
 
         where_clause = 'tag_name = "' + tag_name + '"'
         s = tags_table.select().where(where_clause)
@@ -82,6 +85,8 @@ class DbTask(object):
 
     def get_artist_by_name(self, artist_name):
         artist_table = al.Table('artists', self.metadata, autoload=True)
+        artist_name = artist_name.decode('utf8') 
+
 
         where_clause = 'artist_name = "' + artist_name + '"'
         s = artist_table.select().where(where_clause) #.limit(1)
