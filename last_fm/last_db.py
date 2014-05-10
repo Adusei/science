@@ -5,6 +5,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.exc import IntegrityError
+from sqlalchemy.exc import StatementError
 from sqlalchemy import desc
 
 import sqlalchemy as al
@@ -78,7 +79,9 @@ class DbTask(object):
         for r in rs:
             tag_id = r.tag_id
             print tag_id
-        
+            # Some tags are blank...     
+
+
         self.db_session.close()
         return tag_id
 

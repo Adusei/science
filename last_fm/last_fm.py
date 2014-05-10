@@ -2,7 +2,9 @@ import urllib, urllib2
 import pprint as pp
 import simplejson as json
 from last_db import DbTask
+from last_db import StatementError
  
+
 # SOURCE: http://snipplr.com/view/63161/
 
 class LastFM(DbTask):
@@ -69,13 +71,17 @@ class LastFM(DbTask):
         tags = response_data['toptags']['tag']
         for tag in tags:
             tag_name = tag['name'].encode('utf8')
-            self.add_tag(tag_name)
+          
+            try:
+                self.add_tag(tag_name)
 
-            artist_id = self.get_artist_by_name(artist_name) 
-            tag_id = self.get_tag_by_name(tag_name)
+                artist_id = self.get_artist_by_name(artist_name) 
+                tag_id = self.get_tag_by_name(tag_name)
 
-            self.add_artist_to_tag(artist_id, tag_id)
-            print tag_name
+                self.add_artist_to_tag(artist_id, tag_id)
+                print tag_name
+            except StatementError:
+                print 'that broke..'
 
     def get_artist_by_genre(self, genre, **kwargs):
         kwargs.update({

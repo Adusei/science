@@ -45,3 +45,20 @@ Is this something i could use K - nearest neighbors for?
 
 
 What would this process/schema look like in redis?... mongo?
+
+
+
+
+## To do Saturday 5/10
+
+Incorporate tag count into DB
+Tag Count Distro
+Use Tag Count Distro as scoring mechanism
+Dont Dupe tags in query
+
+
+
+
+
+
+
