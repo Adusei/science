@@ -13,6 +13,7 @@ class LastFM(DbTask):
         self.API_KEY = "834ca7240545d8fa587d43662c252773"
         # self.SECRET =  "44195d2012dd899f51af02c7861aad21" 
 
+    # Define all of the methods that I inherit from DB task
     def add_artist(self,artist_name):
         super(LastFM, self).add_artist(artist_name)
 
@@ -38,13 +39,17 @@ class LastFM(DbTask):
 
     def api_request(self, **kwargs):
       json_response = {}
+
+      ## Attribtues that are shared with all API requests
       kwargs.update({
           "api_key":  self.API_KEY,
           "format": "json",
           "limit": 1000
       })
-
+      
+      ## Encode the request into a
       url = self.API_URL + "?" + urllib.urlencode(kwargs)
+
       
       try:
           # Send Request and Collect it

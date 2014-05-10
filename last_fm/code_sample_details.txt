@@ -11,14 +11,16 @@ Resources:
 	• To get started with last fm api I used: http://snipplr.com/view/63161/
 
 
+### TO DOS ###
+
 Normalize Score
-save a file with artist to tags.. only relevant tags.. use tag_cnt pct
 output the related tags to txt
 Dont Dupe tags in query
 make table objects class variables ( only define them once )
 comments
 venv
-
+Run everything from the top leve... ensure output works properly
+Finish Write Up
 
 Steps:
 	1. Define a database schema where store, artists, tags, and their relations
