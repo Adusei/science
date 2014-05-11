@@ -13,12 +13,7 @@ Resources:
 
 ### TO DOS ###
 
-comments
 
-define database table objects once
-one insert, one select... pass in table as variable
-
-Run everything from the top leve... ensure output works properly
 Finish Write Up
 
 Steps:
@@ -40,22 +35,34 @@ Steps:
 	2.  Define two classes, a last FM task which inherits from a DB task
 			-  The DB task deals with all connections and interaction with the databae.
 			-  The last fm class inherits all of the database methods and calls them in order to insert and retreive data
-	2. Find Relevant Artists for a Particular Genere
+	3. Find Relevant Artists for a Particular Genere
 			-- > I chose minimal techno, which is had 999 artists... a nice number :D
 			-  The top level Method in my code is called get_artists_by_genre()
+					- get artists - add them to the DB
+					- for each artist get their tags
+					- add tags to db if it does not exists
+					- create a record in artist_to_tags to represent this relation
+		  - at this point the transitional data is accessable. 
+	4.  Write a Query to determine how closely related each tag is.
+			- join the artist to tags table on itself to find how often two tags co-occur for an artist
+			- group by both tag IDs ( one from each time we join the table)
+			- only show me tags that appear more than 10 times together ( for the sake of the resulting txt file )
+			- return the score as the sum of the tag pct counts of the two tags
+				  - > this not only gives me a feeling for how many times two tags appear together
+				  - > it also quantifies, for each co-occurance, how relevant each of those tags was to the artist.
+			- get the tag names by joining the tags table on the above results
+	5.  Write the related tags and their z-score to a file
+			- the score that we got from the above query isnt super helpful in understanding how strong the relationship between two ags is... z-score gives us a more relevant metric.
+					- > a negative score means that the score was below the mean, positive means it is above the mean
+					- > a score of 1.00 means that the tags were 1 standard deviation above the mean ( vise versa for -1.00 )
 
 
-Where i would go from here.
-	1.  I really am not happy with how i am finding the Tg
-	2.  Performance.  This code is pretty slow... if this was production code i would use redis
+Where I would go from here.
+	1.  Tune performance.  This code is pretty slow... if this was production code i would use redis
 			and create a dictionary for each tag, where the tag was the key, and the value was another
-			dictionary where the key was the tag, and the cooresponding score.. for example:
+			dictionary where the key was the tag, and the value cooresponding score.. for example:
 			[minimal techno] = { [techno] = .907, [electronica] = .824, [deep house] = .726 } etc.
 
-	3.  Craete teh score on a normal distribution.  I could figure this out today.. but its
-			really nice and i want to go outside!
-	4.  Instead of having an artist and a tag insert / select... create one method for "select"
-	    and "createa" and pass the table as a variable.
 
 
 

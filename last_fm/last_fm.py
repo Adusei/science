@@ -208,16 +208,17 @@ class LastFM(DbTask):
 
 
 def main():
-    ### INSTANTIATE THE LASTFM CLASS
+    ### INSTANTIATE THE LASTFM OBJECT ###
     last_task = LastFM()
 
-    ### GET ALL THE DATA FROM THE API ###
-    # last_task.get_artist_by_genre( "minimal techno" )
+    ### RUN TOP LEVEL METHOD - GET ALL ARTISTS AND THEN GET THEIR TAGS ###
+    ### THIS POPULATES TRANSITIONAL DATASET
+    last_task.get_artist_by_genre( "minimal techno" )
 
-    ### OUTPUT THE TRANSITIONAL DATA SET
-    # last_task.output_relevant_tags_by_artist()
+    ### OUTPUT THE TRANSITIONAL DATA SET ###
+    last_task.output_relevant_tags_by_artist()
 
-    ### OUTPUT THE FINAL RESULTS
+    ### OUTPUT THE FINAL RESULTS ###
     last_task.output_related_tags()
     
 

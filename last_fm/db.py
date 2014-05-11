@@ -123,7 +123,7 @@ class DbTask(object):
 
     def set_tag_pct(self, artist_id, total_tag_count):
         # update the tag percentage to the tag count / the total tag count
-        stmt = self.artist_to_tags_table.update().where(artist_to_tags_table.c.artist_id==artist_id).values(tag_count_pct = artist_to_tags_table.c.tag_count / total_tag_count )
+        stmt = self.artist_to_tags_table.update().where(self.artist_to_tags_table.c.artist_id==artist_id).values(tag_count_pct = self.artist_to_tags_table.c.tag_count / total_tag_count )
 
         stmt.execute()
 
