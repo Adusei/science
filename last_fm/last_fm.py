@@ -1,10 +1,9 @@
 import urllib, urllib2
 import pprint as pp
 import simplejson as json
-from last_db import DbTask
-from last_db import StatementError
-
-
+from db import DbTask
+from db import StatementError
+import numpy as np
 
 
 class LastFM(DbTask):
@@ -118,6 +117,7 @@ class LastFM(DbTask):
             self.get_tags_by_artist(artist_name)
 
     def output_relevant_tags_by_artist(self):
+        # open the output file
         f = open('tags_for_artists.txt', 'w+')
         f.write('artist_name, tag_name, tag_count_pct\n')
 
@@ -130,27 +130,20 @@ class LastFM(DbTask):
 
 
     def output_related_tags(self):
-        # get related tags from the database (see query in db method)
+        # get related tags from the database ( see query in db.py )
         db_results = self.get_related_tags()
 
-        # Create a tuple-dict for DISTINCT results
-        # this is more work, but the resulting data set is nicer
-
-        distinct_results = {}
+        # create a tuple dictionary to store the tag combo, and the score
+        # this data structure enables us to perform simple statistic analysis on the results
+        tuple_dict_result = {}
         for r in db_results:
+
+            # Create a tuple for each tag pair
             tpl = ( r.t1 , r.t2 ) 
-            inv_tpl = ( r.t2 , r.t1 ) 
 
-            try:
-                # Only add the tag combo if id doesnt exist already
-                distinct_results[inv_tpl]
-            except KeyError:
-                distinct_results[tpl] = r.score
+            # assign the score to that tuple in the dictionary
+            tuple_dict_result[tpl] = r.score
 
-        # Find the Max Score (to normalize btwn 0 and 1)
-        # JD:  There has gotta be a better way to do this :-/ 
-        max_key = max(distinct_results,key=distinct_results.get)
-        max_value = distinct_results[max_key]
 
         # open the output file
         f = open('related_tags.txt', 'w+')
@@ -158,29 +151,37 @@ class LastFM(DbTask):
         #write the header
         f.write('tag_1, tag_2, score')
 
-        # write each line sorted by 
-        for tag_combo,score in sorted(distinct_results.items()):
-            print tag_combo, score / max_value
+        # Calculate the standard deviation and the average of the data set
+        score_stdv = np.std(tuple_dict_result.values())
+        score_avg = np.average(tuple_dict_result.values())
 
-            # ensure the score is between 0 and 1
-            # FIX THISSSSSS!!! MAKE IT NORMAL  -- RESULTS WILL BE WAY NICER
-            score_normal = ( score / max_value ) 
+        # iterate through the tags in alphabetical order
+        for tag_combo,score in sorted(tuple_dict_result.items()):
+
+            # calculate the z-score for the distribution
+            zscore =  ( score - score_avg )  / score_stdv
+
             # write the output to a file
-            f.write(tag_combo[0] + ','  + tag_combo[1] + ',' +  str(score_normal) + '\n')
+            f.write(tag_combo[0] + ','  + tag_combo[1] + ',' +  str(zscore) + '\n')
 
+        #close the file
         f.close()
 
 
 
 def main():
+    ### INSTANTIATE THE LASTFM CLASS
     last_task = LastFM()
-    # last_task.get_artist_by_genre( "minimal techno" )
-    last_task.output_relevant_tags_by_artist()
-    # last_task.output_related_tags()
-    
-    
-    # last_request.get_tags_by_artist("raresh")
 
+    ### GET ALL THE DATA FROM THE API ###
+    # last_task.get_artist_by_genre( "minimal techno" )
+
+    ### OUTPUT THE TRANSITIONAL DATA SET
+    # last_task.output_relevant_tags_by_artist()
+
+    ### OUTPUT THE FINAL RESULTS
+    last_task.output_related_tags()
+    
 
 
 if __name__ == "__main__": main()
