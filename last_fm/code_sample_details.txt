@@ -13,11 +13,11 @@ Resources:
 
 ### TO DOS ###
 
-Normalize Score
-Order Results by SCORE descending.
-make table objects class variables ( only define them once )
 comments
-venv
+
+define database table objects once
+one insert, one select... pass in table as variable
+
 Run everything from the top leve... ensure output works properly
 Finish Write Up
 
@@ -54,8 +54,8 @@ Where i would go from here.
 
 	3.  Craete teh score on a normal distribution.  I could figure this out today.. but its
 			really nice and i want to go outside!
-
-
+	4.  Instead of having an artist and a tag insert / select... create one method for "select"
+	    and "createa" and pass the table as a variable.
 
 
 

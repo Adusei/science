@@ -361,7 +361,7 @@ All,electronica,1.0187156704
 All,electronica artists,-0.205072054764
 All,electropop,-0.17000663987
 All,elektro,-0.17431937808
-All,elektronic beats,-0.220704412002
+All,elektronic beats,-0.220704412001
 All,elektrrrrooo,-0.22968766654
 All,experimental,0.401581938988
 All,experimental electronic,-0.22979677125
@@ -1301,7 +1301,7 @@ Favorite,experimental,-0.135053295997
 Favorite,glitch,-0.212028308276
 Favorite,idm,-0.0961148103182
 Favorite,indie,-0.204918551534
-Favorite,minimal,0.0582596460779
+Favorite,minimal,0.0582596460778
 Favorite,minimal techno,-0.0896548921686
 Favorite,tech house,-0.190154721947
 Favorite,techno,-0.0595324969312
@@ -1981,7 +1981,7 @@ Library,electronic,-0.0512851747727
 Library,electronica,-0.218586455423
 Library,minimal,0.0428361267965
 Library,minimal techno,-0.079361049233
-Library,techno,-0.0914782574138
+Library,techno,-0.0914782574137
 Lo-Fi,00s,-0.236462100916
 Lo-Fi,All,-0.218586528637
 Lo-Fi,House,-0.183059105568
@@ -2870,7 +2870,7 @@ XYZ,tech-house,-0.225944750305
 XYZ,techno,0.179228616913
 Yay,House,-0.198784822927
 Yay,electronic,-0.0591823124263
-Yay,minimal,0.0996493826808
+Yay,minimal,0.0996493826807
 Yay,minimal techno,-0.0122532538877
 Yay,tech house,-0.155543084364
 Yay,techno,0.0670948290289
@@ -6319,7 +6319,7 @@ dub,soundscape,-0.192418483747
 dub,spotify,-0.0976590623272
 dub,synth,-0.164363908361
 dub,synthpop,-0.231800928777
-dub,t e c h n o,-0.217857017436
+dub,t e c h n o,-0.217857017435
 dub,taged artists,-0.213728617447
 dub,tagged artist,-0.217317965565
 dub,tech,-0.227386690911
@@ -7948,7 +7948,7 @@ electronica,love at first listen,-0.173979774049
 electronica,lowlands 2007,-0.188780500857
 electronica,male vocalists,-0.186101571765
 electronica,maschinenmusik,-0.022505797681
-electronica,melodic,-0.156032201792
+electronica,melodic,-0.156032201791
 electronica,melodic techno,-0.198029282799
 electronica,melt 2009,-0.190449789869
 electronica,melt 2010,-0.220318867819
@@ -8261,7 +8261,7 @@ elektro,tech-minimal techn0,-0.239315762456
 elektro,techno,1.13186501317
 elektro,trance,-0.192734722609
 elektro,vier viertel,-0.235680693598
-elektronic beats,All,-0.220704412002
+elektronic beats,All,-0.220704412001
 elektronic beats,Cologne,-0.228801350549
 elektronic beats,House,-0.140298689561
 elektronic beats,Kompakt,-0.074717546319
@@ -11068,7 +11068,7 @@ melodic,deep house,-0.199046237268
 melodic,deep techno,-0.232875945363
 melodic,electro,-0.139839267203
 melodic,electronic,0.158020022699
-melodic,electronica,-0.156032201792
+melodic,electronica,-0.156032201791
 melodic,experimental,-0.221671472241
 melodic,german,-0.214180554097
 melodic,idm,-0.188184261352
@@ -11352,7 +11352,7 @@ minimal,Electroclash,0.897139507111
 minimal,Electronic-World,0.00115116947664
 minimal,Elettronica,0.185055578085
 minimal,Fabric Saturdays venue,0.858028636418
-minimal,Favorite,0.0582596460779
+minimal,Favorite,0.0582596460778
 minimal,Filterdeck FM,0.528103589662
 minimal,Fox,0.29100643648
 minimal,Fusion,0.162726233439
@@ -11414,7 +11414,7 @@ minimal,Warp,-0.105527784343
 minimal,Women in Electronic Music,0.00102160500747
 minimal,Wualya stile,-0.0170683322476
 minimal,XYZ,0.399475992932
-minimal,Yay,0.0996493826808
+minimal,Yay,0.0996493826807
 minimal,Yvelsd,0.0885035884523
 minimal,Zyxax,-0.0925873148643
 minimal,abstract,1.00052411022
@@ -15218,7 +15218,7 @@ t e c h n o,detroit techno,-0.0212240316272
 t e c h n o,deutsch,-0.23074476437
 t e c h n o,dj,-0.229493308396
 t e c h n o,downtempo,-0.226110714474
-t e c h n o,dub,-0.217857017436
+t e c h n o,dub,-0.217857017435
 t e c h n o,dub techno,-0.21898909994
 t e c h n o,electro,0.0564065202872
 t e c h n o,electro house,-0.231882397171
@@ -16140,7 +16140,7 @@ techno,Industrial Techno,0.473220547872
 techno,Italy,-0.016637790843
 techno,Kompakt,1.8593983095
 techno,Kompakt label,0.143574377377
-techno,Library,-0.0914782574138
+techno,Library,-0.0914782574137
 techno,Lo-Fi,0.0932739598708
 techno,Love,-0.00731424077015
 techno,Love it,0.061769780779
