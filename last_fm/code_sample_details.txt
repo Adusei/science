@@ -11,11 +11,6 @@ Resources:
 	• To get started with last fm api I used: http://snipplr.com/view/63161/
 
 
-### TO DOS ###
-
-
-Finish Write Up
-
 Steps:
 	1. Define a database schema where store, artists, tags, and their relations
 			--> Why i chose this schema?
